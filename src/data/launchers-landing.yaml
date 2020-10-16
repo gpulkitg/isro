@@ -1,0 +1,79 @@
+- seo:
+    title: "Launchers"
+
+
+  jumbotronImg:
+    image: "../images/launchers/cus_test.jpg"
+    title:
+      - line: "High Performance"
+      - line: "Low Cost"
+
+  textContent1:
+    title: "Indian Launch Vehicles"
+    text: !markdown |
+        Launchers or Launch Vehicles are used to carry spacecraft to space. India has two operational launchers: [Polar Satellite Launch Vehicle (PSLV)](/launchers/pslv) and [Geosynchronous Satellite Launch Vehicle (GSLV)](/launchers/gslv-mk-ii)
+
+        GSLV with indigenous Cryogenic Upper Stage has enabled the launching up to 2 tonne class of communication satellites. The next variant of GSLV is GSLV Mk III, with indigenous high thrust cryogenic engine and stage, having the capability of launching 4 tonne class of communication satellites.
+
+  splitSections:
+    - image: "../images/launchers/pslv_c44.jpg"
+      content:
+        title: "PSLV"
+        text: "Polar Satellite Launch Vehicle was developed to launch Low Earth Orbit satellites into Polar and Sun Synchronous Orbits. It has since proved its versatility by launching Geosynchronous, Lunar and Interplanetary spacecraft successfully."
+        slug: "/launchers/pslv"
+        button: "MORE INFO"
+    - image: "../images/launchers/gslv_f11_gsat_7a.jpg"
+      content:
+        title: "GSLV"
+        text: "Geosynchronous Satellite Launch Vehicle was developed to launch the heavier INSAT class of Geosynchronous satellites into orbit. In its third and final stage, GSLV uses the indigenously developed Cryogenic Upper Stage."
+        slug: "/launchers/gslv-mk-ii"
+        button: "MORE INFO"
+    - image: "../images/launchers/sounding_rocket.jpg"
+      content:
+        title: "Sounding Rockets"
+        text: "ISRO launches smaller rockets from the Rohini series on suborbital and atmospheric flights for aeronomy and meteorological studies. ATV, ISRO's heaviest sounding rocket, can be used for microgravity experiments and for precursor experiments to characterise new technologies."
+        slug: "/launchers/sounding-rockets"
+        button: "MORE INFO"
+
+
+  launchersList:
+    - title: "Historic"
+      contents:
+        - slug: "/launchers/slv"
+          text: "SLV"
+        - slug: "/launchers/aslv"
+          text: "ASLV"
+
+    - title: "Operational"
+      contents:
+        - slug: "/launchers/pslv"
+          text: "PSLV"
+        - slug: "/launchers/gslv-mk-ii"
+          text: "GSLV MK II"
+        - slug: "/launchers/gslv-mk-iii"
+          text: "GSLV Mk III"
+        - slug: "/launchers/sounding-rockets"
+          text: "Sounding Rockets"
+
+    - title: "Future"
+      contents:
+        - slug: "/launchers/rlv-td"
+          text: "RLV-TD"
+        - slug: "/launchers/scramjet-engine-td"
+          text: "Scramjet Engine - TD"
+
+
+  figure:
+    image: "../images/launchers/Indian_carrier_rockets.svg"
+    caption: ""
+
+  textContent2:
+    title: "Launch Facilities"
+    text: !markdown |
+          In order to achieve high accuracy in placing satellites into their orbits, a combination of accuracy, efficiency, power and immaculate planning are required. ISRO's Launch Vehicle Programme spans numerous centres and employs over 5,000 people.
+
+          [Vikram Sarabhai Space Centre](http://www.vssc.gov.in), located in Thiruvananthapuram, is responsible for the design and development of launch vehicles.
+
+          [Liquid Propulsion Systems Centre](http://www.lpsc.gov.in) and [ISRO Propulsion Complex](/about/isro-propulsion-complex), located at Valiamala and Mahendragiri respectively, develop the liquid and cryogenic stages for these launch vehicles.
+
+          [Satish Dhawan Space Centre, SHAR](/about/satish-dhawan-space-centre-sdsc-shar), is the space port of India and is responsible for integration of launchers. It houses two operational launch pads from where all GSLV and PSLV flights take place.

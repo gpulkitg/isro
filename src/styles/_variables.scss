@@ -1,0 +1,224 @@
+// ================
+// Color system
+// ================
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary: $white;
+// $secondary: $gray-600;
+$light: $white;
+$dark: $black;
+
+
+$theme-colors: ();
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "light":  $light,
+    "dark": $dark,
+    "info": $gray-500,
+  ),
+  $theme-colors
+);
+
+
+
+// ================
+// Options
+// ================
+$enable-responsive-font-sizes: true;
+
+
+
+// ================
+// Spacing
+// ================
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * 1),
+    2: ($spacer * 2),
+    3: 3,
+    4: ($spacer * 4),
+    5: ($spacer * 5)
+  ),
+  $spacers
+);
+
+// ================
+// Sizes
+// ================
+// $sizes: (
+//   80: 80%
+// );
+
+// ================
+// Lnks
+// ================
+
+
+// ================
+// Body
+// ================
+$body-bg: $black;
+$body-color: $white;
+
+
+// ================
+// Links
+// ================
+$link-decoration: underline;
+
+
+// ================
+// Components
+// ================
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+$component-active-color:      $black;
+// $component-active-bg:         theme-color("primary");
+
+
+
+// ================
+// Typography
+// ================
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$h1-font-size:                $font-size-base * 3;
+$h2-font-size:                $font-size-base * 2.5;
+$h3-font-size:                $font-size-base * 2;
+$h4-font-size:                $font-size-base * 1.75;
+$h5-font-size:                $font-size-base * 1.5;
+$h6-font-size:                $font-size-base * 1.25;
+
+
+
+// ================
+// Tables
+// ================
+$table-dark-bg: $body-bg;
+$table-dark-border-color: $gray-200;
+
+// ================
+// Buttons+ Forms
+// ================
+
+
+// ================
+// Buttons
+// ================
+
+
+
+// ================
+// Forms
+// ================
+$input-bg: $black;
+
+$input-color: $white;
+// $input-box-shadow: inset 0 1px 1px rgba($white, .075) !default;
+
+// $input-focus-bg: $input-bg;
+// $input-focus-border-color: $white;
+// $input-focus-color: $input-color;
+$custom-select-indicator-color: $white;
+
+
+// ================
+// Navs
+// ================
+$nav-tabs-border-color: $white;
+// $nav-tabs-border-radius: 0;
+// $nav-tabs-link-hover-border-color: $white;
+$nav-tabs-link-active-color: $white;
+// $nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: $white;
+
+
+// ================
+// Navbar
+// ================
+$navbar-dark-color: $white;
+// $navbar-dark-toggler-border-color: $body-bg;
+
+
+// ================
+// Dropdowns
+// ================
+
+$dropdown-bg: $body-bg;
+$dropdown-link-color: $white;
+$dropdown-link-hover-color: $black;
+$dropdown-link-hover-bg: $white;
+
+// ================
+// Jumbotron
+// ================
+$jumbotron-padding: 0;
+$jumbotron-bg: $black;
+
+
+// ================
+// Cards
+// ================
+$card-bg: $body-bg;
+$card-color: $white;
+$card-border-color: $white;
+$card-border-radius: 0;
+
+
+// ================
+// Modals
+// ================
+$modal-inner-padding: 0;
+
+$modal-footer-margin-between: 0;
+$modal-dialog-margin: 0;
+
+$modal-content-color: $white;
+$modal-content-bg: $black;
+
+$modal-backdrop-opacity: 1;
+
+// $modal-fade-transform: 
+
+
+// ================
+// List group
+// ================
+$list-group-bg: $body-bg;
+$list-group-border-color: $white;
+// $list-group-hover-bg: $white;
+$list-group-action-color: $white;
+$list-group-action-hover-color: $black;
+
+
+
+
+// ================
+// Figures
+// ================
+$figure-caption-color: $gray-500;
+
+
+// ================
+// Carousel
+// ================
+$carousel-caption-color: $body-color;
+$carousel-control-opacity: .7;
+$carousel-control-hover-opacity: 1;
+
+$carousel-indicator-width: 15px;

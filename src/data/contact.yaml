@@ -1,0 +1,43 @@
+- title: "ISRO Centralised Recruitment Board (ICRB)"
+  # personInCharge: ""
+  address: ""
+  phone:
+    - number: "+91 80 22172465"
+    - number: "+91 80 22172264"
+    - number: "+91 80 22172260"
+  fax: []
+  email: "icrb@isro.gov.in"
+  website: ""
+
+
+- title: "Public Relations"
+  address: "Director Office of Media and Public Relations (OMPR) ISRO Hqs Antariksh Bhavan New BEL Road Bengaluru-560 231"
+  phone:
+    - number: "+91 80 23415275"
+    - number: "+91 80 22172296"
+  fax:
+    - number: "+91 80 23412253"
+  email: "isropr@isro.gov.in"
+  website: ""
+
+
+
+- title: "Public Grievance and Complaints"
+  address: "Joint Secretary DOS Public Grievances Officer & Chief Vigilance Officer Department of Space Antariksh Bhavan New BEL Road Bengaluru-560 231"
+  phone:
+    - number: "+91 23416393"
+    - number: "+91 22172303"
+  fax:
+    - number: "+91 80 23511829"
+  email: "jsoffice@isro.gov.in"
+  website: ""
+
+
+- title: "Satellite Sub-systems and Components"
+  address: "Chairman cum Managing Director ANTRIX Corporation Ltd. Antariksh Bhavan New BEL Road Bengaluru-560 231"
+  phone:
+    - number: "+91 80 22178302"
+  fax:
+    - number: "+91 80 22178337"
+  email: "cmd@antrix.gov.in"
+  website: "www.antrix.gov.in"

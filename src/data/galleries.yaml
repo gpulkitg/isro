@@ -1,0 +1,40 @@
+- title: "GSLV-F10 / GISAT-1"
+  cover: "../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_4.jpg"
+  slug: "/media/gslv-f10-gisat-1-gallery"
+  imagesDir: "gslv-f10-gisat-1-gallery"
+
+- title: "WSW-2017- VSSC, LPSC, IISU and IPRC"
+  cover: "../images/media/wsw-2017-vssc-lpsc-iisu-and-iprc/vssc2.jpg"
+  slug: "/media/wsw-2017-vssc-lpsc-iisu-and-iprc"
+  imagesDir: "wsw-2017-vssc-lpsc-iisu-and-iprc"
+
+- title: "National Meet"
+  cover: "../images/media/national-meet/special-session-9.jpg"
+  slug: "/media/national-meet"
+  imagesDir: "national-meet"
+
+- title: "GSAT-30 Gallery"
+  cover: "../images/media/gsat-30-gallery/image6.jpg"
+  slug: "/media/gsat-30-gallery"
+  imagesDir: "gsat-30-gallery"
+
+- title: "Photos WSW-2017 -SAC"
+  cover: "../images/media/photos-wsw-2017-sac/sac4.jpg"
+  slug: "/media/photos-wsw-2017-sac"
+  imagesDir: "photos-wsw-2017-sac"
+
+- title: "GSLV-D6 / GSAT-6 Gallery"
+  cover: "../images/media/gslv-d6-gsat-6-gallery/19gslv-d6-being-moved-vehicle-assembly-building-to-launch-pad.jpeg"
+  slug: "/media/gslv-d6-gsat-6-gallery"
+  imagesDir: "gslv-d6-gsat-6-gallery"
+
+
+- title: "High Resolution Panchromatic and Multi-spectral Images as observed from CARTOSAT-3"
+  cover: "../images/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of/qatarkhalifa.jpg"
+  slug: "/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
+  imagesDir: "high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
+
+- title: "GSLV-F11 / GSAT-7A Gallery"
+  cover: "../images/media/gslv-f11-gsat-7a-mission-gallery/22.jpg"
+  slug: "/media/gslv-f11-gsat-7a-mission-gallery"
+  imagesDir: "gslv-f11-gsat-7a-mission-gallery"

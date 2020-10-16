@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `ISRO`,
+    description: `Indian Space Research Organization, Government of India`,
+    author: `@isro`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,6 +13,42 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    // `gatsby-transformer-yaml`,
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `dataYaml`,
+    //     path: `${__dirname}/src/data`,
+    //   },
+    // },
+    {
+      resolve: 'gatsby-transformer-yaml-full',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-yaml-full-markdown',
+            options: {
+              unwrapSingleLine: true
+            }
+          }
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -21,14 +57,41 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        // background_color: `#663399`,
+        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/isro_icon_black.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              showCaptions: true,
+              markdownCaptions: true,
+            },
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-sass`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
+    // {
+    //     resolve: `gatsby-plugin-loadable-components-ssr`,
+    //     options: {
+    //         // Whether replaceHydrateFunction should call ReactDOM.hydrate or ReactDOM.render
+    //         // Defaults to ReactDOM.render on develop and ReactDOM.hydrate on build
+    //         useHydrate: false,
+    //     },
+    // },
+    // `gatsby-plugin-loadable-components-ssr`,
   ],
 }

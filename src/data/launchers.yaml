@@ -1,0 +1,227 @@
+- slug: "/launchers/gslv-mk-ii"
+
+  seo:
+    title: "GSLV MK II"
+
+  jumbotronImg:
+    image: "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_1.jpg"
+    title: "GSLV MK II"
+    subtitle: "India's largest launcher"
+
+  fixBgSection:
+    image: "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_3.jpg"
+    contents:
+      - title: "2500 kg"
+        subtitles:
+          # - line: "Payload"
+          - line: "Geosynchronous Transfer Orbit"
+      - title: "5000 kg"
+        subtitles:
+          # - line: "Payload"
+          - line: "Low Earth Orbit"
+
+  splitSection:
+    image: "../images/launchers/gslv-mk-ii/gslv_launcher.png"
+    title: "Vehicle Specifications"
+    table:
+      body:
+        - row:
+          - col: 'Height'
+          - col: '49.13 m'
+        - row:
+          - col: 'Number of Stages'
+          - col: '3'
+        - row:
+          - col: 'Lift Off Mass'
+          - col: '414.75 tonnes'
+        - row:
+          - col: 'First flight'
+          - col: 'April 18, 2001'
+
+
+
+  textContent1:
+    title: "About launcher"
+    text: !markdown |
+      Geosynchronous Satellite Launch Vehicle Mark II (GSLV Mk II is the largest launch vehicle developed by India, which is currently in operation. This fourth generation launch vehicle is a three stage vehicle with four liquid strap-ons.
+
+      The indigenously developed cryogenic Upper Stage (CUS, which is flight proven, forms the third stage of GSLV Mk II. From January 2014, the vehicle has achieved four consecutive successes.
+
+
+  carouselSections:
+    - image: "../images/launchers/gslv-mk-ii/cus_7.5.jpg"
+      title: "Third Stage: CUS"
+      description: "Developed under the Cryogenic Upper Stage Project (CUSP, the CE-7.5 is India's first cryogenic engine, developed by the Liquid Propulsion Systems Centre. CE-7.5 has a staged combustion operating cycle."
+      table:
+        body:
+          - row:
+            - col: "Fuel"
+            - col: "LOX + LH2"
+          - row:
+            - col: "Max thrust"
+            - col: "75 kN"
+          - row:
+            - col: "Burn time"
+            - col: "720 sec"
+
+
+    - image: "../images/launchers/gslv-mk-ii/vikas_engine_isro.jpeg"
+      title: "Second Stage: GS2"
+      description: "One Vikas engine is used in the second stage of GSLV. The stage was derived from the PS2 of PSLV where the Vikas engine has proved its reliability."
+      table:
+        body:
+          - row:
+            - col: "Engine"
+            - col: "Vikas"
+          - row:
+            - col: "Fuel"
+            - col: "UDMH + N204"
+          - row:
+            - col: "Max thrust"
+            - col: "800 kN"
+          - row:
+            - col: "Burn time"
+            - col: "150 sec"
+
+
+    - image: "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_6.jpg"
+      title: "First Stage: GS1"
+      description: "The first stage of GSLV was also derived from the PSLV's PS1. The 138 tonne solid rocket motor is augmented by 4 liquid strap-ons."
+      table:
+        body:
+          - row:
+            - col: "Engine"
+            - col: "S139"
+          - row:
+            - col: "Fuel"
+            - col: "HTPB"
+          - row:
+            - col: "Max thrust"
+            - col: "4700 kN"
+          - row:
+            - col: "Burn time"
+            - col: "100 sec"
+
+    - image: "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_6.jpg"
+      title: "Strap-on Motors"
+      description: "The four liquid engine strap-ons used in GSLV are heavier derivatives of PSLV's PS2, and use one Vikas engine each."
+      table:
+        body:
+          - row:
+            - col: "Fuel"
+            - col: "UDMH + N204"
+          - row:
+            - col: "Max thrust"
+            - col: "680 kN"
+          - row:
+            - col: "Burn time"
+            - col: "160 sec"
+
+
+  jumbotronVideo:
+    video: "../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_teaser_test.mp4"
+    poster: "../images/media/gslv-f11-gsat-7a-mission-gallery/23.jpg"
+    title: "GSLV-F11 / GSAT-7A LAUNCH"
+    videoFull: "../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_teaser.mp4"
+
+
+  textContent2:
+    title: "Launches till Date"
+    text: ""
+    table:
+      head:
+        - col: "Title"
+        - col: "Launch Date"
+        - col: "Orbit"
+        - col: "Payload"
+        - col: "Remarks"
+      body:
+        - row:
+          - col: "GSLV-F11 / GSAT-7A Mission"
+          - col: "Dec 19, 2018"
+          - col: ""
+          - col: "GSAT-7A"
+          - col: ""
+        - row:
+          - col: "GSLV-F08 / GSAT-6A Mission"
+          - col: "Mar 29, 2018"
+          - col: "GSO"
+          - col: "GSAT-6A"
+          - col: ""
+        - row:
+          - col: "GSLV-F09 / GSAT-9"
+          - col: "May 05, 2017"
+          - col: "GSO"
+          - col: "GSAT-9"
+          - col: ""
+        - row:
+          - col: "GSLV-F05 / INSAT-3DR"
+          - col: "Sep 08, 2016"
+          - col: "GTO"
+          - col: "INSAT-3DR"
+          - col: ""
+        - row:
+          - col: "GSLV-D6"
+          - col: "Aug 27, 2015"
+          - col: "GTO"
+          - col: "GSAT-6"
+          - col: ""
+        - row:
+          - col: "GSLV-D5 / GSAT-14"
+          - col: "Jan 05, 2014"
+          - col: "GTO"
+          - col: "GSAT-14"
+          - col: ""
+        - row:
+          - col: "GSLV-F06 / GSAT-5P"
+          - col: "Dec 25, 2010"
+          - col: "GTO"
+          - col: "GSAT-5P"
+          - col: "Mission Unsuccessful"
+        - row:
+          - col: "GSLV-D3 / GSAT-4"
+          - col: "Apr 15, 2010"
+          - col: ""
+          - col: "GSAT-4"
+          - col: "Mission Unsuccessful"
+        - row:
+          - col: "GSLV-F04 / INSAT-4CR"
+          - col: "Sep 02, 2007"
+          - col: "GTO"
+          - col: "INSAT-4CR"
+          - col: ""
+        - row:
+          - col: "GSLV-F02 / INSAT-4C"
+          - col: "Jul 10, 2006"
+          - col: "GTO"
+          - col: "INSAT-4C"
+          - col: "Mission Unsuccessful"
+        - row:
+          - col: "GSLV-F01 / EDUSAT(GSAT-3"
+          - col: "Sep 20, 2004"
+          - col: "GTO"
+          - col: "EDUSAT"
+          - col: ""
+        - row:
+          - col: "GSLV-D2 / GSAT-2"
+          - col: "May 08, 2003"
+          - col: "GTO"
+          - col: "GSAT-2"
+          - col: ""
+        - row:
+          - col: "GSLV-D1 / GSAT-1"
+          - col: "Apr 18, 2001"
+          - col: "GTO"
+          - col: "GSAT-1"
+          - col: ""
+
+
+  figure:
+    image: "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_4.jpg"
+    caption: "GSLV MK II being transported from Vehicle Assembly Building"
+
+
+# - slug: "/launchers/gslv-mk-iii"
+#
+#   seo:
+#     title: "GSLV MK III"
