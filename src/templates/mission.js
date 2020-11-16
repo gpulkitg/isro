@@ -9,7 +9,7 @@ import CardGlow from '../components/card-glow'
 import LightboxGallery from '../components/lightbox-gallery'
 import TextContent from '../components/text-content'
 import SplitSection from '../components/split-section'
-
+import Separator from '../components/separator'
 
 export default function Mission({ data }) {
 
@@ -80,9 +80,10 @@ export default function Mission({ data }) {
         </TextContent>
 
 
-        <div className="text-center mb-4">
+        {/* <div className="text-center mb-4">
           <h2>Mission components</h2>
-        </div>
+        </div> */}
+        <Separator title="Mission Components" />
 
         <CardDeck>
 
@@ -102,12 +103,8 @@ export default function Mission({ data }) {
 
       </Container>
 
-      <br />
-      <br />
 
-      <div className="text-center mb-4">
-        <h2>Image Gallery</h2>
-      </div>
+      <Separator title="Image Gallery" />
 
       <div className="px-1">
         <LightboxGallery photos={gallery.photos} columns={2} />

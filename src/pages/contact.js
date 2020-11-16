@@ -29,7 +29,7 @@ export const query = graphql`
         }
       }
     }
-    cover: file(relativePath: {regex: "/isro_hq.jpg/"}) {
+    cover: file(relativePath: {eq: "common/isro_hq.jpg"}) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -195,10 +195,10 @@ export default function ContactPage({ data }) {
 
             { dept.address.length > 0 &&
               <Row>
-                <Col className="p-2 my-auto text-center" xs={4}>
+                <Col className="p-1 my-auto text-center" xs={4}>
                   <Geo width="32" height="32" />
                 </Col>
-                <Col className="p-2 my-auto" xs={8}>
+                <Col className="p-1 my-auto" xs={8}>
                   <p>{dept.address}</p>
                 </Col>
               </Row>
@@ -206,10 +206,10 @@ export default function ContactPage({ data }) {
 
             { dept.phone.length > 0 &&
               <Row>
-                <Col className="p-2 my-auto text-center" xs={4}>
+                <Col className="p-1 my-auto text-center" xs={4}>
                   <Telephone width="32" height="32" />
                 </Col>
-                <Col className="p-2 my-auto" xs={8}>
+                <Col className="p-1 my-auto" xs={8}>
                   { dept.phone.map( (phone, ind) => (
                     <p key={`phone_${ind}`}>
                       <u><a href={`tel:${phone.number}`}>{phone.number}</a></u>
@@ -221,10 +221,10 @@ export default function ContactPage({ data }) {
 
             { dept.fax.length > 0 &&
               <Row>
-                <Col className="p-2 my-auto text-center" xs={4}>
+                <Col className="p-1 my-auto text-center" xs={4}>
                   <Newspaper width="32" height="32" />
                 </Col>
-                <Col className="p-2 my-auto" xs={8}>
+                <Col className="p-1 my-auto" xs={8}>
                   { dept.fax.map( (fax, ind) => (
                     <p key={`fax_${ind}`}>{fax.number}</p>
                   ))}
@@ -235,10 +235,10 @@ export default function ContactPage({ data }) {
 
             { dept.email.length > 0 &&
               <Row>
-                <Col className="p-2 my-auto text-center" xs={4}>
+                <Col className="p-1 my-auto text-center" xs={4}>
                   <Envelope width="32" height="32" />
                 </Col>
-                <Col className="p-2 my-auto" xs={8}>
+                <Col className="p-1 my-auto" xs={8}>
                   <u><a href={`mailto:${dept.email}`}>{dept.email}</a></u>
                 </Col>
               </Row>
@@ -246,10 +246,10 @@ export default function ContactPage({ data }) {
 
             { dept.website.length > 0 &&
               <Row>
-                <Col className="p-2 my-auto text-center" xs={4}>
+                <Col className="p-1 my-auto text-center" xs={4}>
                   <Globe width="32" height="32" />
                 </Col>
-                <Col className="p-2 my-auto" xs={8}>
+                <Col className="p-1 my-auto" xs={8}>
                   <Link to={dept.website}>{dept.website}</Link>
                 </Col>
               </Row>

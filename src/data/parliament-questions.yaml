@@ -1,0 +1,35 @@
+- seo:
+    title: "Parliament Questions"
+
+  content:
+    - text: "Link to Lok Sabha Questions"
+      link: "http://164.100.47.192/Loksabha/Questions/Qtextsearch.aspx"
+      doc: ""
+
+    - text: "Link to Rajya Sabha Questions"
+      link: "http://164.100.47.4/newrsquestion/Search_minwise.aspx"
+      doc: ""
+
+    - text: "Contact details of officials dealing with Parliament work in ISRO / DOS"
+      link: ""
+      doc: "../docs/parliament-questions/dos.pdf"
+
+    - text: "Winter Session in Parliament 2019 (November - December 2019)"
+      link: ""
+      doc: "../docs/parliament-questions/winter_session_in_parliament_2019.pdf"
+
+    - text: "Budget Session in Parliament 2019 (June - July 2019)"
+      link: ""
+      doc: "../docs/parliament-questions/budget_session_2019_-_english.pdf"
+
+    - text: "Interim Budget Session in Parliament 2019 (January - February 2019)"
+      link: ""
+      doc: "../docs/parliament-questions/interim_budget_session_2019_-_eng.pdf"
+
+    - text: "Winter Session in Parliament 2018 (December 2018 - January 2019)"
+      link: ""
+      doc: "../docs/parliament-questions/winter_session_2018-_eng.pdf"
+
+    - text: "Monsoon Session in Parliament 2018 (July - August 2018)"
+      link: ""
+      doc: "../docs/parliament-questions/monsoon_session_2018_-_eng.pdf"

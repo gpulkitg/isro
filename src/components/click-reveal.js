@@ -16,18 +16,18 @@ const CustomToggle = ({ children, eventKey }) => {
 }
 
 
-export default function ClickReveal({ contents }) {
+export default function ClickReveal({ content }) {
 
   return (
     <Accordion>
-      { contents.map((content, index) => (
+      { content.map((item, index) => (
         <Card key={index}>
           <CustomToggle eventKey={index}>
-            {content.header}
+            {item.title}
           </CustomToggle>
           <Accordion.Collapse eventKey={index}>
             <Card.Body>
-              {content.body}
+              <div dangerouslySetInnerHTML={{ __html: item.text }} />
             </Card.Body>
           </Accordion.Collapse>
         </Card>

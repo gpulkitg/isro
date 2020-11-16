@@ -1,157 +1,207 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import Img from 'gatsby-image'
+
 import { Container, Row, Col, Button } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
 import Counter from '../components/counter'
-import JumbotronImg from '../components/jumbotron-img'
+// import JumbotronImg from '../components/jumbotron-img'
 import ListItems from '../components/list-items'
 import TextContent from '../components/text-content'
+import Separator from '../components/separator'
+import TabSection from '../components/tab-section'
+import JumbotronImg from '../components/jumbotron-img'
+import SplitSection from '../components/split-section'
 
 
-const data = {
-  jumbotronImg: [
-    {
-      imgSrc: require("../images/missions/mom/mom1.jpg"),
-      alt: "",
-      horizontalPosition: "left",
-      verticalPosition: "bottom",
-      contentAlignment: "left",
-      title: "Mars Orbiter Mission",
-      subtitle: "Breathtaking pictures by Mars Color Camera",
-      button: "SEE MORE",
-      link: "/about",
-    },
-    {
-      imgSrc: require("../images/missions/astrosat/ngc_2336_uvit.png"),
-      alt: "",
-      horizontalPosition: "right",
-      verticalPosition: "bottom",
-      contentAlignment: "left",
-      title: "NGC 2336",
-      subtitle: "A Classic Spiral Galaxy Captured by UVIT",
-      button: "SEE MORE",
-      link: "/missions/astrosat",
-    },
-  ],
-
-  counters: [
-    {
-      count: "109",
-      text: "Spacecraft Missions",
-    },
-    {
-      count: "77",
-      text: "Launch Missions",
-    },
-    {
-      count: "10",
-      text: "Student Satellites",
-    },
-    {
-      count: "2",
-      text: "Re-entry Missions",
-    },
-    {
-      count: "319",
-      text: "Foreign Satellites",
-    },
-  ],
-
-  listMissions: [
-    {
-      title: "Trending",
-      contents: [
-        {
-          "link": "/missions/mars-orbiter-mission",
-          "text": "Mars Orbiter Mission",
-        },
-        {
-          "link": "/missions/lvm3-x",
-          "text": "LVM3-X (CARE)",
-        },
-        {
-          "link": "/missions/astrosat",
-          "text": "AstroSat",
-        },
-      ]
-    },
-    {
-      title: "Latest",
-      contents: [
-        {
-          "link": "/missions/gsat-30",
-          "text": "GSAT-30",
-        },
-        {
-          "link": "/missions/pslv-c48-risat-2br1",
-          "text": "PSLV-C48/RISAT-2BR1",
-        },
-        {
-          "link": "/missions/cartosat-3",
-          "text": "PSLV-C47/Cartosat-3 Mission",
-        },
-      ]
-    },
-    {
-      title: "Future",
-      contents: [
-      ]
-    },
-  ],
-
-
-}
+export const query = graphql`
+  query {
+    missionsYaml {
+      seo {
+        title
+      }
+      jumbotronImg {
+        title
+        subtitle
+        description
+        link
+        button
+        image {
+          name
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        verticalPosition
+        horizontalPosition
+        textAlignment
+      }
+      splitSection {
+        title
+        subtitle
+        description
+        button
+        link
+        textPosition
+        textAlignment
+        objectFit
+        image {
+          name
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+      listMissions {
+        title
+        contents {
+          link
+          text
+        }
+      }
+      tabSection {
+        title
+        content {
+          text
+          link
+        }
+      }
+    }
+  }
+`
 
 
 
+export default function MissionsPage({ data }) {
 
-export default function MissionsPage() {
-
-  const { jumbotronImg, counters, listMissions } = data
+  const {
+    seo,
+    jumbotronImg,
+    splitSection,
+    listMissions,
+    tabSection,
+  } = data.missionsYaml
 
   return (
 
     <Layout>
-      <SEO title="Missions" />
-
+      <SEO title={seo.title} />
 
       { jumbotronImg && jumbotronImg.map((item, ind) => (
-        <JumbotronImg
-          key={`jumbotronImg_${ind}`}
-          imgSrc={item.imgSrc}
-          horizontalPosition={item.horizontalPosition}
-          verticalPosition={item.verticalPosition}
-          contentAlignment={item.contentAlignment}
+          <JumbotronImg
+            key={`jumbotronImg_${ind}`}
+            title={item.title}
+            subtitle={item.subtitle}
+            description={item.description}
+            button={item.button}
+            link={item.link}
+            horizontalPosition={item.horizontalPosition}
+            verticalPosition={item.verticalPosition}
+            textAlignment={item.textAlignment}
           >
-            <h1 className="mb-4 display-4">{item.title}</h1>
-            <h3 className="mb-4">{item.subtitle}</h3>
-            <div className="mb-4">
-              <Button href={item.link} variant="outline-light" className="btn-jumbotron">{item.button}</Button>
-            </div>
+            <Img
+              fluid={item.image.childImageSharp.fluid}
+              alt={item.image.name}
+              style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
+              imgStyle={{ opacity: `0.7` }}
+            />
           </JumbotronImg>
-        )) }
+        ))}
 
-        <br />
-        <br />
 
+      {/* <div className="jumbotron jumbotron-container">
+        <Img
+          fluid={jumbotronImg.image.childImageSharp.fluid}
+          alt={jumbotronImg.image.name}
+          style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
+          imgStyle={{ opacity: `0.7` }}
+        />
+
+        <Container className="lead">
+          <Row className="vh-100 justify-content-start">
+            <Col lg={6} md={8} className="d-flex flex-column justify-content-center py-4">
+              <h1 className="mb-2 display-4">{jumbotronImg.title}</h1>
+              <h3 className="mb-2">{jumbotronImg.subtitle}</h3>
+              <div className="mb-2">
+                <Button href={jumbotronImg.link} variant="outline-light" className="btn-jumbotron">MORE INFO</Button>
+              </div>
+            </Col>
+          </Row>
+
+        </Container>
+      </div> */}
+
+
+      { splitSection && splitSection.map((item, ind) => (
+        <SplitSection
+          key={`splitSection_${ind}`}
+          title={item.title}
+          subtitle={item.subtitle}
+          description={item.description}
+          button={item.button}
+          link={item.link}
+          textPosition={item.textPosition}
+          textAlignment={item.textAlignment}
+        >
+          <Img
+            fluid={item.image.childImageSharp.fluid}
+            alt={item.image.name}
+            className="h-100 w-100"
+            imgStyle={{ objectFit: item.objectFit }}
+          />
+          </SplitSection>
+        ))}
+
+
+        <Separator />
+        <ListItems items={listMissions} />
+
+        <Separator title="Glossary" />
+        <TabSection items={tabSection} />
 
         <Container>
 
+          {/* { splitSection.map((item, ind) => (
+            <Row key={`splitSection_${ind}`}>
+              <Col className={`vh-100 d-flex order-md-${ind*2%4} py-2`} md>
+                <Img
+                  fluid={item.image.childImageSharp.fluid}
+                  alt={item.image.name}
+                  className="h-100 w-100"
+                />
+              </Col>
+              <Col className="d-flex flex-column justify-content-center order-md-1" md>
+                <h2 className="mb-2">{item.title}</h2>
+                <p className="mb-2">{item.description}</p>
+                <h4 className="mb-2">{item.subtitle}</h4>
+                <div>
+                  <Button href={item.link} variant="outline-light" className="btn-jumbotron">LEARN MORE</Button>
+                </div>
+              </Col>
+            </Row>
+          ))} */}
+
+
+          {/* <Separator />
+
           <Row>
-            { counters.map((item, ind) => (
-              <>
-                <Col key={`counter_${ind}`} md>
-                  <Counter count={item.count} text={item.text} />
-                </Col>
-              </>
+            { listMissions.map( (items, ind) => (
+              <Col key={`listMissions_${ind}`} sm>
+                <ListItems items={items} />
+              </Col>
             ))}
           </Row>
 
-          <br />
-          <br />
+
+          <Separator title="Glossary" />
+          <TabSection items={tabSection} /> */}
+
 
           {/* <h1 className="text-center my-5">
             All missions
@@ -190,17 +240,7 @@ export default function MissionsPage() {
           </Form> */}
 
 
-          <TextContent title="Missions directory">
 
-          </TextContent>
-
-          <Row>
-            { listMissions.map( (items, ind) => (
-              <Col key={ind} sm>
-                <ListItems items={items} />
-              </Col>
-            ))}
-          </Row>
         </Container>
 
       </Layout>

@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from "react"
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-
-import { Container, CardDeck, Card, Row, Col, Form, Spinner, Carousel } from 'react-bootstrap'
 import debounce from 'lodash/debounce'
+
+import { Container, CardDeck, Card, Row, Col, Form, Spinner, Carousel, Button } from 'react-bootstrap'
 
 import CarouselGallery from '../components/carousel-gallery'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import VideoPlayer from '../components/video-player'
+import Separator from '../components/separator'
+import CardVideo from '../components/card-video'
+import CardBrighten from '../components/card-brighten'
 // import TextContent from './text-content'
-// import CardGlow from './card-glow'
 
 
 export const query = graphql`
@@ -30,7 +33,7 @@ export const query = graphql`
         }
       }
     }
-    allGalleriesYaml {
+    allImageGalleriesYaml {
       edges {
         node {
           id
@@ -46,6 +49,24 @@ export const query = graphql`
         }
       }
     }
+    allVideoGalleriesYaml {
+      edges {
+        node {
+          id
+          title
+          poster {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          video {
+            publicURL
+          }
+        }
+      }
+    }
   }
 `
 
@@ -53,38 +74,76 @@ export const query = graphql`
 
 export default function MediaPage({ data }) {
 
-  const cardStyles = {
-    border: `none`,
-    boxShadow: `0 0 2px 2px white`,
-  }
+  // const cardStyles = {
+  //   border: `none`,
+  //   boxShadow: `0 0 1px 1px white`,
+  // }
+
+  const galleryTypes = [
+    "Images",
+    "Videos",
+  ]
 
   const [searchQuery, setSearchQuery] = useState("")
-  const [filter, setFilter] = useState(0)
-  const [searching, setSearching] = useState(false)
+  const [galleryType, setGalleryType] = useState(0)
+  // const [displayedGalleries, setDisplayedGalleries] = useState([])
+  // const [allGalleries, setAllGalleries] = useState([])
+  const [displayedImageGalleries, setDisplayedImageGalleries] = useState([])
+  const [displayedVideoGalleries, setDisplayedVideoGalleries] = useState([])
 
-  const filterOptions = [
-    "Most Recent",
-    "Alphabetical A-Z"
-  ]
+  const [showModalVideoPlayer, setShowModalVideoPlayer] = useState(false)
+  const [currentVideo, setCurrentVideo] = useState({
+    publicURL: "",
+    title: ""
+  })
+
+
+  // const imageGalleries = data.allImageGalleriesYaml.edges
+  // console.log("imageGalleries", imageGalleries);
+  // const videoGalleries = data.allVideoGalleriesYaml.edges
+  // console.log("videoGalleries", videoGalleries);
+
+  // useEffect(() => {
+  //   if (galleryType == 0) {
+  //     console.log("set images", data.allImageGalleriesYaml.edges);
+  //     setAllGalleries(imageGalleries)
+  //   } else if (galleryType == 1) {
+  //     console.log("set videos", data.allVideoGalleriesYaml.edges);
+  //     setAllGalleries(videoGalleries)
+  //   }
+  // }, [galleryType])
+
+  const showVideo = (n) => {
+    setCurrentVideo({
+      publicURL: n.video.publicURL,
+      title: n.title
+    })
+    setShowModalVideoPlayer(true)
+  }
 
 
 
   useEffect(() => {
 
-    console.log("useEffect", searchQuery)
+    const search = debounce(() => {
+      const imageMatches = data.allImageGalleriesYaml.edges.filter(({ node }) => (
+        node.title.toLowerCase().includes(searchQuery.toLowerCase())
+      ))
+      const videoMatches = data.allVideoGalleriesYaml.edges.filter(({ node }) => (
+        node.title.toLowerCase().includes(searchQuery.toLowerCase())
+      ))
+      setDisplayedImageGalleries(imageMatches)
+      setDisplayedVideoGalleries(videoMatches)
+    }, 500)
 
-    const searchDebounced = debounce(() => {
-      console.log("search", searchQuery)
-      if (searchQuery) {
-        setSearching(true)
-      } else {
-        setSearching(false)
-      }
-    }, 1000)
+    if (searchQuery) {
+      search()
+    } else {
+      setDisplayedImageGalleries(data.allImageGalleriesYaml.edges)
+      setDisplayedVideoGalleries(data.allVideoGalleriesYaml.edges)
+    }
 
-    searchDebounced()
-
-    return searchDebounced.cancel
+    return search.cancel
 
   }, [searchQuery])
 
@@ -93,8 +152,7 @@ export default function MediaPage({ data }) {
     <Layout>
       <SEO title="Media" />
 
-      {/* <CarouselGallery items={items} /> */}
-      <Carousel interval={null}>
+      <Carousel interval={null} className="carousel-fade">
         { data.allFeaturedYaml.edges.map(({node}) => (
           <Carousel.Item key={node.id} className="item-gradient">
             <Img
@@ -112,12 +170,8 @@ export default function MediaPage({ data }) {
       </Carousel>
 
 
+      <Separator title="All galleries" />
       <Container>
-        {/* <TextContent title="All galleries">
-        </TextContent> */}
-        <h1 className="text-center my-5">
-          All galleries
-        </h1>
 
         <Form className="mb-2">
           <Form.Row>
@@ -125,7 +179,7 @@ export default function MediaPage({ data }) {
             <Form.Group as={Col} controlId="formSearch" md={8}>
               <Form.Label>Search galleries</Form.Label>
               <Form.Control
-                placeholder="Type your search query here"
+                placeholder="Type to search"
                 // pattern="[a-zA-Z]{2,}"
                 name="searchQuery"
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -134,24 +188,24 @@ export default function MediaPage({ data }) {
             </Form.Group>
 
             <Form.Group as={Col} controlId="formSelect" md={4}>
-              <Form.Label>Filter</Form.Label>
+              <Form.Label>Gallery Type</Form.Label>
               <Form.Control
                 as="select"
-                onChange={(e) => setFilter(e.target.value)}
-                name="filter"
-                value={filter}
+                onChange={(e) => setGalleryType(e.target.value)}
+                name="galleryType"
+                value={galleryType}
                 custom
                 >
-                  { filterOptions.map( (filter, ind) => (
-                    <option value={ind} key={ind}>{filter}</option>
-                  ))}
-                </Form.Control>
-              </Form.Group>
+                { galleryTypes.map( (type, ind) => (
+                  <option value={ind} key={ind}>{type}</option>
+                ))}
+              </Form.Control>
+            </Form.Group>
 
           </Form.Row>
         </Form>
 
-        <br />
+        {/* <br />
         { searching && (
           <div className="text-center w-100">
             <Spinner animation="border" role="status" variant="primary">
@@ -159,18 +213,30 @@ export default function MediaPage({ data }) {
             </Spinner>
           </div>
         ) }
-        <br />
+        <br /> */}
 
 
 
         <Row>
-          {  data.allGalleriesYaml.edges.map(({node}) => (
 
-            <Col key={node.id} md={4} className="mb-4">
-              <Card text="white" className="h-100" style={cardStyles}>
+
+          { galleryType == 0 && displayedImageGalleries.length > 0 && displayedImageGalleries.map(({node}) => (
+
+            <Col key={node.id} md={4} className="mb-2">
+              <CardBrighten
+                title={node.title}
+                link={node.slug}
+              >
                 <Img
                   fluid={node.cover.childImageSharp.fluid}
-                  style={{ width: `100%`, height: `50vh`}}
+                  alt={node.cover.name}
+                  className="card-brighten-img"
+                />
+              </CardBrighten>
+              {/* <Card text="white" className="h-100" style={cardStyles}>
+                <Img
+                  fluid={node.cover.childImageSharp.fluid}
+                  style={{ width: `100%`, height: `300px`}}
                   imgStyle={{ objectFit: `cover` }}
                 />
                 <Card.Body className="text-center">
@@ -179,42 +245,42 @@ export default function MediaPage({ data }) {
                     </Card.Title>
                   </Card.Body>
                   <Link to={node.slug} className="stretched-link"></Link>
-                </Card>
+                </Card> */}
+              </Col>
+            ))
+          }
+
+          { galleryType == 1 && displayedVideoGalleries.length > 0 && displayedVideoGalleries.map(({node}) => (
+
+            <Col key={node.id} md={4} className="mb-2" >
+              <CardVideo
+                title={node.title}
+                onClick={() => showVideo(node)}
+                >
+                  <Img
+                    fluid={node.poster.childImageSharp.fluid}
+                    alt={node.poster.name}
+                    className="card-brighten-img"
+                  />
+                </CardVideo>
+              {/* )) : (
+                <Col>
+                  <h5 className="text-center">Sorry, no results found</h5>
+                </Col> */}
+
             </Col>
 
-          )) }
-
-          {/* {  galleries.map( (gallery, ind) => (
-
-            <Col key={ind} md={4} className="mb-4">
-              <Card text="white" className="h-100" style={cardStyles}>
-                <Card.Img
-                  variant="top"
-                  src={gallery.imgSrc}
-                  style={{ objectFit: `cover`, height: `50vh` }}
-                />
-                <Card.Body className="text-center">
-                  <Card.Title>
-                      {gallery.title}
-                    </Card.Title>
-                  </Card.Body>
-                  <Link to={gallery.link} className="stretched-link"></Link>
-                </Card>
-            </Col>
-
-          )) } */}
-        </Row>
-
-        {/* <CardDeck>
-          { galleries.map((gallery, ind) => (
-            <CardGlow
-              key={`cardDeck_${ind}`}
-              title={gallery.title}
-              imgSrc={gallery.imgSrc}
-              link={gallery.link}
-             />
           ))}
-        </CardDeck> */}
+
+
+          <VideoPlayer
+            srcUrl={currentVideo.publicURL}
+            title={currentVideo.title}
+            show={showModalVideoPlayer}
+            onHide={() => setShowModalVideoPlayer(false)}
+          />
+
+        </Row>
 
       </Container>
 

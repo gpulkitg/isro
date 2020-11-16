@@ -1,9 +1,10 @@
 import React from 'react'
 
-import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
+import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap'
 
 
-export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, verticalPosition, contentAlignment, children }) {
+// export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, verticalPosition, textAlignment, children }) {
+export default function JumbotronImg({ title, subtitle, description, button, link, horizontalPosition, verticalPosition, textAlignment, children }) {
 
 
   function getHorizontalPositionClasses() {
@@ -29,12 +30,12 @@ export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, ve
     return classes
   }
 
-  function getContentAlignmentClasses() {
+  function getTextAlignmentClasses() {
     let classes = ``
 
-    if (contentAlignment === "center") {
+    if (textAlignment === "center") {
       classes = `text-center`
-    } else if (contentAlignment === "right") {
+    } else if (textAlignment === "right") {
       classes = `text-right`
     }
     return classes
@@ -47,17 +48,37 @@ export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, ve
 
     <div className="jumbotron jumbotron-container">
 
-      <img src={imgSrc} alt={imgAlt} />
+      { children }
 
       <Container className="lead">
         <Row className={`vh-100 ${getHorizontalPositionClasses()}`}>
-          <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getContentAlignmentClasses()}`} style={{ paddingTop: `4rem`, paddingBottom: `4rem` }}>
-            {children}
+          <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getTextAlignmentClasses()} py-4`}>
+            { title && <h1 className="mb-2 display-4">{title}</h1> }
+            { subtitle && <h3 className="mb-2">{subtitle}</h3> }
+            { description && <p className="mb-2 text-justify">{description}</p> }
+            { button &&
+              <div>
+                <Button href={link} variant="outline-light" className="btn-jumbotron">{button}</Button>
+              </div>
+            }
           </Col>
         </Row>
       </Container>
-
     </div>
+
+    // <div className="jumbotron jumbotron-container">
+    //
+    //   <img src={imgSrc} alt={imgAlt} />
+    //
+    //   <Container className="lead">
+    //     <Row className={`vh-100 ${getHorizontalPositionClasses()}`}>
+    //       <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getTextAlignmentClasses()}`} style={{ paddingTop: `4rem`, paddingBottom: `4rem` }}>
+    //         {children}
+    //       </Col>
+    //     </Row>
+    //   </Container>
+    //
+    // </div>
 
 
     // <Jumbotron
@@ -66,7 +87,7 @@ export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, ve
     //
     //   <Container>
     //     <Row className={`vh-100 ${getHorizontalPositionClasses()}`}>
-    //       <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getContentAlignmentClasses()}`} style={{ paddingTop: `4rem`, paddingBottom: `4rem` }}>
+    //       <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getTextAlignmentClasses()}`} style={{ paddingTop: `4rem`, paddingBottom: `4rem` }}>
     //         {children}
     //       </Col>
     //     </Row>

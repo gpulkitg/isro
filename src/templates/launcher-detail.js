@@ -12,31 +12,60 @@ import JumbotronImg from '../components/jumbotron-img'
 import TextContent from '../components/text-content'
 // import CarouselSection from '../components/carousel-section'
 import TableList from '../components/table-list'
-// import SplitSection from '../components/split-section'
+import SplitSectionTable from '../components/split-section-table'
 // import FixBgSection from '../components/fix-bg-section'
 import VideoPlayer from '../components/video-player'
+import { Player, BigPlayButton, LoadingSpinner } from 'video-react'
 
-import ii from "../images/launchers/gslv-mk-ii/gslv_f11_gsat_7a_1.jpg";
 
 export const data = graphql`
   query($slug: String!) {
-    launchersYaml(slug: {eq: $slug}) {
+    launchersDetailYaml(slug: {eq: $slug}) {
       slug
       seo {
         title
       }
       jumbotronImg {
-          title
-          subtitle
-          image {
-            name
-            childImageSharp {
-              fluid(quality: 100, maxWidth: 1000) {
-                ...GatsbyImageSharpFluid
-              }
+        title
+        subtitle
+        description
+        link
+        button
+        image {
+          name
+          childImageSharp {
+            fluid(quality: 100, maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
+        verticalPosition
+        horizontalPosition
+        textAlignment
+      }
+      splitSectionTable {
+        title
+        subtitle
+        description
+        table {
+          body {
+            row {
+              col
+            }
+          }
+        }
+        textPosition
+        textAlignment
+        objectFit
+        image {
+          name
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
       fixBgSection {
         image {
           publicURL
@@ -51,24 +80,6 @@ export const data = graphql`
           title
           subtitles {
             line
-          }
-        }
-      }
-      splitSection {
-        image {
-          name
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        title
-        table {
-          body {
-            row {
-              col
-            }
           }
         }
       }
@@ -158,24 +169,45 @@ export default function Launcher({ data }) {
     seo,
     jumbotronImg,
     fixBgSection,
-    splitSection,
+    splitSectionTable,
     textContent1,
     carouselSections,
     jumbotronVideo,
     textContent2,
     figure
-  } = data.launchersYaml
+  } = data.launchersDetailYaml
+
 
   return (
     <Layout>
       <SEO title={seo.title} />
 
-      <div className="jumbotron jumbotron-container">
+      { jumbotronImg && jumbotronImg.map((item, ind) => (
+          <JumbotronImg
+            key={`jumbotronImg_${ind}`}
+            title={item.title}
+            subtitle={item.subtitle}
+            description={item.description}
+            button={item.button}
+            link={item.link}
+            horizontalPosition={item.horizontalPosition}
+            verticalPosition={item.verticalPosition}
+            textAlignment={item.textAlignment}
+          >
+            <Img
+              fluid={item.image.childImageSharp.fluid}
+              alt={item.image.name}
+              style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
+              imgStyle={{ opacity: `0.7` }}
+            />
+          </JumbotronImg>
+        ))}
+      {/* <div className="jumbotron jumbotron-container">
         <Img
           fluid={jumbotronImg.image.childImageSharp.fluid}
           alt={jumbotronImg.image.name}
           style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
-          imgStyle={{ opacity: `0.8` }}
+          imgStyle={{ opacity: `0.7` }}
         />
 
         <Container className="lead">
@@ -186,11 +218,8 @@ export default function Launcher({ data }) {
             </Col>
           </Row>
         </Container>
-      </div>
-      {/* <JumbotronImg imgSrc={ii} horizontalPosition="center" verticalPosition="center" contentAlignment="center">
-        <h1 className="mb-4 display-3">{jumbotronImg.title}</h1>
-        <h2>{jumbotronImg.subtitle}</h2>
-      </JumbotronImg> */}
+      </div> */}
+
 
 
 
@@ -207,7 +236,7 @@ export default function Launcher({ data }) {
                 <Col className="d-flex flex-column justify-content-start text-center py-2" md>
                   <h1>{content.title}</h1>
                   { content.subtitles.map( ({line}, ind) => (
-                    <h2 key={`subtitles_${ind}`}>{line}</h2>
+                    <h3 key={`subtitles_${ind}`}>{line}</h3>
                   ))}
                 </Col>
               </Row>
@@ -232,8 +261,25 @@ export default function Launcher({ data }) {
       {/* <FixBgSection imgSrc={fixBgSection.imgSrc} contents={fixBgSection.contents} /> */}
 
 
-
-      <Container>
+      { splitSectionTable && splitSectionTable.map((item, ind) => (
+        <SplitSectionTable
+          key={`splitSection_${ind}`}
+          title={item.title}
+          subtitle={item.subtitle}
+          description={item.description}
+          table={item.table}
+          textPosition={item.textPosition}
+          textAlignment={item.textAlignment}
+        >
+          <Img
+            fluid={item.image.childImageSharp.fluid}
+            alt={item.image.name}
+            className="h-100 w-100"
+            imgStyle={{ objectFit: item.objectFit }}
+          />
+        </SplitSectionTable>
+      ))}
+      {/* <Container>
         <Row>
           <Col className="vh-100 d-flex order-md-0 py-4" md>
             <Img
@@ -245,30 +291,20 @@ export default function Launcher({ data }) {
           </Col>
           <Col className="d-flex flex-column justify-content-center text-center order-md-1" md>
             <h1 className="mb-2">{splitSection.title}</h1>
-            {/* <p className="mb-2">{splitSection.text}</p> */}
             <div className="mb-2 text-left">
               <TableList data={splitSection.table} />
             </div>
           </Col>
         </Row>
-        {/* <SplitSection imgSrc={splitSection.imgSrc} imgObjectFit="contain">
-          <h1 className="text-center">{splitSection.title}</h1>
-          <div className="py-4">
-            <TableList data={splitSection.tableData} />
-          </div>
-        </SplitSection> */}
-      </Container>
+      </Container> */}
 
 
       <TextContent title={textContent1.title}>
         <div dangerouslySetInnerHTML={{ __html: textContent1.text }} />
-        {/* { textContent1.content.map((para, ind) => (
-          <p key={`textContent1_${ind}`}>{para}</p>
-        ))} */}
       </TextContent>
 
 
-      <Carousel interval={null}>
+      <Carousel interval={null} className="carousel-fade">
         { carouselSections.map((section, ind) => (
           <Carousel.Item key={`carouselSections_${ind}`}>
             <Container>
@@ -293,25 +329,10 @@ export default function Launcher({ data }) {
           </Carousel.Item>
         ))}
       </Carousel>
-      {/* <CarouselSection items={carouselSectionItems} /> */}
-
-      <div className="border vw-100">
-        <video poster={jumbotronVideo.poster.publicURL} className="w-100 h-100" loop muted autoPlay controls={true} playsInline>
-          <source src={jumbotronVideo.video.publicURL} type="video/mp4" />
-          Your browser does not support video tag
-        </video>
-      </div>
-
 
 
       <div className="jumbotron jumbotron-container">
-        {/* <Img
-          fluid={jumbotronVideo.poster.childImageSharp.fluid}
-          alt={jumbotronVideo.poster.name}
-          style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
-          imgStyle={{ opacity: `0.5` }}
-        /> */}
-        <video loop muted autoPlay playsInline>
+        <video poster={jumbotronVideo.poster.publicURL} loop muted autoPlay playsInline>
           <source src={jumbotronVideo.video.publicURL} type="video/mp4" />
           Your browser does not support video tag
         </video>
@@ -328,8 +349,8 @@ export default function Launcher({ data }) {
       </div>
 
       <VideoPlayer
-        videoSrcURL={jumbotronVideo.videoFull.publicURL}
-        videoTitle={jumbotronVideo.title}
+        srcUrl={jumbotronVideo.videoFull.publicURL}
+        title={jumbotronVideo.title}
         show={showModalVideoPlayer}
         onHide={() => setShowModalVideoPlayer(false)}
        />
@@ -346,9 +367,6 @@ export default function Launcher({ data }) {
         <TableList data={textContent2.table} />
         <br />
         <div dangerouslySetInnerHTML={{ __html: textContent2.text }} />
-        {/* { textContent2.content.map((para, ind) => (
-          <p key={`textContent1_${ind}`}>{para}</p>
-        ))} */}
       </TextContent>
 
 

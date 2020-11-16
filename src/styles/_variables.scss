@@ -14,18 +14,19 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 $primary: $white;
-// $secondary: $gray-600;
+$secondary: $gray-800;
 $light: $white;
 $dark: $black;
-
+$info: $gray-500;
 
 $theme-colors: ();
 $theme-colors: map-merge(
   (
-    "primary":    $primary,
-    "light":  $light,
+    "primary": $primary,
+    "light": $light,
     "dark": $dark,
-    "info": $gray-500,
+    "info": $info,
+    // "shade": $gray-800,
   ),
   $theme-colors
 );
@@ -49,7 +50,7 @@ $spacers: map-merge(
     0: 0,
     1: ($spacer * 1),
     2: ($spacer * 2),
-    3: 3,
+    3: ($spacer * 3),
     4: ($spacer * 4),
     5: ($spacer * 5)
   ),
@@ -63,9 +64,6 @@ $spacers: map-merge(
 //   80: 80%
 // );
 
-// ================
-// Lnks
-// ================
 
 
 // ================
@@ -78,6 +76,7 @@ $body-color: $white;
 // ================
 // Links
 // ================
+$link-color: $gray-400;
 $link-decoration: underline;
 
 
@@ -104,7 +103,7 @@ $h4-font-size:                $font-size-base * 1.75;
 $h5-font-size:                $font-size-base * 1.5;
 $h6-font-size:                $font-size-base * 1.25;
 
-
+$text-muted: $gray-500;
 
 // ================
 // Tables
@@ -132,8 +131,12 @@ $input-color: $white;
 // $input-box-shadow: inset 0 1px 1px rgba($white, .075) !default;
 
 // $input-focus-bg: $input-bg;
-// $input-focus-border-color: $white;
+$input-border-color: $gray-600;
+$input-focus-border-color: $gray-400;
 // $input-focus-color: $input-color;
+
+// $custom-select-border-color: $gray-600;
+// $custom-select-focus-border-color: $gray-400;
 $custom-select-indicator-color: $white;
 
 
@@ -193,7 +196,8 @@ $modal-content-bg: $black;
 
 $modal-backdrop-opacity: 1;
 
-// $modal-fade-transform: 
+// $modal-fade-transform:
+$modal-transition: transform 0.5s ease-out;
 
 
 // ================
@@ -222,3 +226,4 @@ $carousel-control-opacity: .7;
 $carousel-control-hover-opacity: 1;
 
 $carousel-indicator-width: 15px;
+// $carousel-transition-duration: 3s;

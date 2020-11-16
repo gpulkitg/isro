@@ -1,0 +1,468 @@
+
+- slug: "/missions/mars-orbiter-mission"
+
+  seo:
+    title: "Mars Orbiter Mission"
+
+
+  jumbotronImg:
+    - image: "../images/missions/mars-orbiter-mission/mom1.jpg"
+      title: "Mars Orbiter Mission"
+      subtitle: "Breathtaking pictures by Mars Color Camera"
+      description: ""
+      button: "SEE MORE"
+      link: "/images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+      horizontalPosition: "left"
+      verticalPosition: "bottom"
+      textAlignment: "left"
+
+    - image: "../images/missions/mars-orbiter-mission/mom2.jpg"
+      title: "Mars Orbiter Journey"
+      subtitle: "From launch to Martian orbit"
+      description: ""
+      button: "LEARN MORE"
+      link: "#"
+      horizontalPosition: "right"
+      verticalPosition: "center"
+      textAlignment: "left"
+
+
+  textContent1:
+    title: "India's First Interplanetary Mission"
+    text: !markdown |
+      Marking India's first venture into the interplanetary space MOM will explore and observe Mars surface features morphology mineralogy and the Martian atmosphere. Further a specific search for methane in the Martian atmosphere will provide information about the possibility or the past existence of life on the planet
+
+      The enormous distances involved in interplanetary missions present a demanding challenge; developing and mastering the technologies essential for these missions will open endless possibilities for space exploration. After leaving Earth the Orbiter will have to endure the Interplanetary space for 300 days before Mars capture. Apart from deep space communications and navigation-guidance-control capabilities the mission will require autonomy at the spacecraft end to handle contingencies.
+
+      Once India decided to go to Mars ISRO had no time to lose as the nearest launch window was only a few months away and it could not afford to lose the chance given the next launch would present itself after over 780 days in 2016. Thus mission planning manufacturing the spacecraft and the launch vehicle and readying the support systems took place swiftly.
+
+
+  cardSection:
+    - title: "Launch Vehicle"
+      image: "../images/missions/mars-orbiter-mission/mom_lv.png"
+      text: "PSLV C-25"
+      link: "/launchers/pslv"
+
+    - title: "Spacecraft"
+      image: "../images/missions/mars-orbiter-mission/mom_spacecraft.png"
+      text: "Mars Orbiter Mission (MOM)"
+      link: "/spacecraft/mars-orbiter-mission"
+
+    - title: "Ground Segment"
+      image: "../images/missions/mars-orbiter-mission/mom_ground_segment.png"
+      text: "Indian Deep Space Network (ISDN)"
+      link: "/missions/mars-orbiter-mission/ground-segment"
+
+    - title: "Mission Profile"
+      image: "../images/missions/mars-orbiter-mission/mom_mission_profile.png"
+      text: "Rendezvous problem"
+      link: "/missions/mars-orbiter-mission/profile"
+
+
+
+  gallery:
+    link: "/images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+    photos:
+      - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/26decmcc.png"
+        # width: 8
+        # height: 9
+        caption: "Caption"
+      - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/latestimagetakefrommcc.jpg"
+        # width: 3
+        # height: 2
+        caption: "Caption"
+      - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/marsmoonphobos.jpg"
+        # width: 1
+        # height: 1
+      - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/eoschaos.jpg"
+        # width: 7
+        # height: 5
+
+
+  cardSection2:
+    link: "/missions/mars-orbiter-mission/payloads"
+    cards:
+      - title: "Methane Sensor for Mars (MSM)"
+        image: "../images/missions/mars-orbiter-mission/msm.png"
+      - title: "Mars Color Camera (MCC)"
+        image: "../images/missions/mars-orbiter-mission/mcc.png"
+      - title: "Lyman Alpha Photometer (LAP)"
+        image: "../images/missions/mars-orbiter-mission/lap.png"
+      - title: "Mars Exospheric Neutral Composition Analyser (MENCA)"
+        image: "../images/missions/mars-orbiter-mission/menca.png"
+      # - title: "Thermal Infrared Imaging Spectrometer (TIS)"
+      #   image: "../images/missions/mars-orbiter-mission/tis.png"
+
+
+
+  verticalTimeline:
+    title: "Mission Timeline"
+    events:
+      - date: "Dec 1, 2013"
+        title: "Launch"
+      - date: "Sep 24, 2014"
+        title: "Mars Orbit Insertion"
+      - date: "Dec 1, 2013"
+        title: "Launch"
+      - date: "Sep 24, 2014"
+        title: "Mars Orbit Insertion"
+
+
+
+
+  relatedLinks:
+    - title: ""
+      contents:
+        - link: "/missions/mars-orbiter-mission/mission-objectives"
+          text: "Mission Objectives"
+        - link: "/missions/mars-orbiter-mission/mars-orbiter-mission-profile"
+          text: "Mission Profile"
+        - link: "/missions/mars-orbiter-mission/payloads"
+          text: "Payloads"
+        - link: "/missions/mars-orbiter-mission/spacecraft"
+          text: "Spacecraft"
+        - link: "/launchers/pslv-c25"
+          text: "Launcher PSLV-C25"
+        - link: "/missions/mars-orbiter-mission/ground-segment"
+          text: "Ground Segment"
+        - link: "/missions/mars-orbiter-mission/mars-orbiter-mission-brochure-0"
+          text: "Mars Orbiter Mission Brochure"
+        - link: "/media/pslv-c25-mars-orbiter-mission-gallery"
+          text: "PSLV-C25/Mars Orbiter Mission Gallery"
+
+    - title: ""
+      contents:
+        - link: "/missions/mars-orbiter-mission/first-year-data-of-mars-orbiter-mission-mom-released"
+          text: "First year data of Mars Orbiter Mission (MOM) released"
+        - link: "/missions/mars-orbiter-mission/announcement-of-opportunity-utilising-mars-orbiter-mission-data-mcc"
+          text: "Announcement of Opportunity for utilising Mars Orbiter Mission data from MCC, TIS, MSM, LAP and MENCA payloads (MOM-AO)"
+        - link: "/missions/mars-orbiter-mission/fishing-hamlet-to-red-planet-download-e-book"
+          text: "Fishing Hamlet to Red Planet-Download the E-book"
+        - link: "/missions/mars-orbiter-mission/celebrating-one-year-of-mars-orbiter-mission-orbit-release-of-mars"
+          text: "Celebrating one year of Mars Orbiter Mission in Orbit; Release of Mars Atlas"
+        - link: "/missions/mars-orbiter-mission/global-albedo-map-of-mars"
+          text: "Global Albedo Map of Mars"
+        - link: "/missions/mars-orbiter-mission/list-of-publications"
+          text: "List of Publications"
+
+
+
+################################################################################################################
+################################################################################################################
+
+
+- slug: "/missions/astrosat"
+
+  seo:
+    title: "AstroSat"
+
+  jumbotronImg:
+    - image: "../images/missions/astrosat/ngc_2336_uvit.png"
+      title: "NGC 2336"
+      subtitle: "A Classic Spiral Galaxy Captured by UVIT"
+      description: ""
+      button: "SEE MORE"
+      link: "/media/astrosat-gallery"
+      horizontalPosition: "left"
+      verticalPosition: "bottom"
+      textAlignment: "left"
+
+    # - image: "../images/missions/astrosat/aop_feb.png"
+    #   title: "AstroSat discovers Galaxy AUDFs01"
+    #   button: "LEARN MORE"
+    #   link: "/updates/astrosat-discovers-galaxy"
+    #   horizontalPosition: "left"
+    #   verticalPosition: "bottom"
+    #   textAlignment: "left"
+
+
+  splitSection:
+    - image: "../images/missions/astrosat/aop_feb.png"
+      title: "AstroSat discovers Galaxy AUDFs01"
+      subtitle: ""
+      description: ""
+      button: "LEARN MORE"
+      link: "/updates/astrosat-discovers-galaxy"
+      textPosition: "right"
+      textAlignment: "left"
+      objectFit: "cover"
+
+
+  textContent1:
+    title: "India's First Dedicated Astronomy Mission"
+    text: !markdown |
+      AstroSat is the first dedicated Indian astronomy mission aimed at studying celestial sources in X-ray, optical and UV spectral bands simultaneously. The payloads cover the energy bands of Ultraviolet (Near and Far), limited optical and X-ray regime (0.3 keV to 100keV). One of the unique features of AstroSat mission is that it enables the simultaneous multi-wavelength observations of various astronomical objects with a single satellite.
+
+      #### Mission Objectives
+      - To understand high energy processes in binary star systems containing neutron stars and black holes
+      - Estimate magnetic fields of neutron stars
+      - Study star birth regions and high energy processes in star systems lying beyond our galaxy
+      - Detect new briefly bright X-ray sources in the sky
+      - Perform a limited deep field survey of the Universe in the Ultraviolet region
+
+
+  cardSection:
+    - title: "Launch Vehicle"
+      image: "../images/missions/astrosat/astrosat_lv.jpg"
+      text: "PSLV C-30"
+      link: "/launchers/pslv"
+
+    - title: "Spacecraft"
+      image: "../images/missions/astrosat/astrosat_spacecraft.jpg"
+      text: "Multi-wavelength Astronomy Satellite"
+      link: "/missions/astrosat/spacecraft"
+
+    - title: "Ground Segment"
+      image: "../images/missions/astrosat/astrosat_ground_segment.jpeg"
+      text: "ISRO Telemetry Tracking and Command Network (ISTRAC)"
+      link: "/missions/astrosat/ground-segment"
+
+    - title: "Payloads"
+      image: "../images/missions/astrosat/astrosat_payloads.png"
+      text: "X-ray, optical and UV spectral bands"
+      link: "/missions/astrosat/payloads"
+
+
+
+  gallery:
+    link: "/media/astrosat-gallery"
+    photos:
+      - image: "../images/missions/astrosat/astrosat-image.jpg"
+        caption: "Caption 1"
+      - image: "../images/missions/astrosat/1851_2.jpg"
+        caption: "Caption 2"
+      - image: "../images/missions/astrosat/aspom_april2018_jellyfish_inthe_sky.png"
+      - image: "../images/missions/astrosat/apom_dec2017-pic.jpg"
+      - image: "../images/missions/astrosat/ast.png"
+
+
+  cardSection2:
+    link: "/missions/astrosat/payloads"
+    cards:
+      - title: "Ultra Violet Imaging Telescope (UVIT)"
+        image: "../images/missions/astrosat/uvit_3.jpg"
+      - title: "Cadmium-Zinc-Telluride Imager (CZTI)"
+        image: "../images/missions/astrosat/czti.jpg"
+      - title: "Scanning Sky Monitor (SSM)"
+        image: "../images/missions/astrosat/ssm.jpg"
+      - title: "Charged Particle Monitor (CPM)"
+        image: "../images/missions/astrosat/cpm.jpg"
+
+
+
+
+  verticalTimeline:
+    # title: ""
+    # events:
+    #   - date: "September 28, 2015"
+    #     title: "Launch"
+    #   - date: "October 18, 2015"
+    #     title: "First SSM observations released"
+
+
+  textContent2:
+    title: "Launch & Operation"
+    text: !markdown |
+      AstroSat with a lift-off mass of 1515 kg was launched on September 28, 2015 into a 650 km orbit inclined at an angle of 6 deg to the equator by PSLV-C30 from Satish Dhawan Space Centre, Sriharikota. The minimum useful life of the AstroSat mission is expected to be 5 years.
+
+      After injection into Orbit, the two solar panels of AstroSat were automatically deployed in quick succession. The spacecraft control centre at Mission Operations Complex (MOX) of ISRO Telemetry, Tracking and Command Network (ISTRAC), Bengaluru manages the satellite during its entire mission life.
+
+      The science data gathered by five payloads of AstroSat are telemetered to the ground station at MOX. The data is then processed, archived and distributed by Indian Space Science Data Centre (ISSDC) located at Bylalu, near Bengaluru.
+
+      At present, all the payloads are operational and are observing the cosmic sources. The spacecraft and payloads are healthy. The first six months was dedicated for performance verification and calibration of payloads. After that, the science observations by the payloads began.
+
+  relatedLinks:
+    - title: ""
+      contents:
+        - link: "/missions/astrosat/payloads"
+          text: "Payloads"
+        - link: "/missions/astrosat/spacecraft"
+          text: "Spacecraft"
+        - link: "/launchers/pslv-c30"
+          text: "Launcher PSLV-C30"
+        - link: "/missions/astrosat/ground-segment"
+          text: "Ground Segment"
+
+    - title: ""
+      contents:
+        - link: "/missions/astrosat/cadmium-zinc-telluride-imager-czti"
+          text: "Cadmium-Zinc-Telluride Imager (CZTI)"
+        - link: "/missions/astrosat/charged-particle-monitor-cpm"
+          text: "Charged Particle Monitor (CPM)"
+        - link: "/launcher/large-area-x-ray-proportional-counters-laxpc"
+          text: "Large Area X-ray Proportional Counters (LAXPC)"
+        - link: "/missions/astrosat/scanning-sky-monitor-ssm"
+          text: "Scanning Sky Monitor (SSM)"
+        - link: "/missions/astrosat/soft-x-ray-telescope-sxt"
+          text: "Soft X-ray Telescope (SXT)"
+        - link: "/missions/astrosat/ultra-violet-imaging-telescope-uvit"
+          text: "Ultra Violet Imaging Telescope (UVIT)"
+        - link: "/missions/astrosat/list-of-publications"
+          text: "List of Publications"
+
+
+
+
+################################################################################################################
+################################################################################################################
+
+
+- slug: "/missions/chandrayaan-2"
+
+  seo:
+    title: "Chandrayaan 2"
+
+  jumbotronImg:
+    - image: "../images/missions/chandrayaan-2/chandrayaan2_orbiter.jpg"
+      # image: "../images/media/chandrayaan-2-mission-gallery/slide3.png"
+      title: "Chandrayaan 2"
+      subtitle: "Expanding the boundaries of human knowledge"
+      description: ""
+      button: "LEARN MORE"
+      link: "/missions/chandrayaan-2"
+      horizontalPosition: "left"
+      verticalPosition: "center"
+      textAlignment: "left"
+
+    - image: "../images/missions/chandrayaan-2/historybg.png"
+      title: "Why moon?"
+      subtitle: ""
+      description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+      button: "LEARN MORE"
+      link: "/missions/chandrayaan-2"
+      horizontalPosition: "right"
+      verticalPosition: "center"
+      textAlignment: "left"
+
+
+  splitSection:
+    - image: "../images/missions/chandrayaan-2/rocket.jpg"
+      title: "Why moon?"
+      subtitle: ""
+      description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+      button: "LEARN MORE"
+      link: "/missions/chandrayaan-2"
+      textPosition: "right"
+      textAlignment: "left"
+      objectFit: "contain"
+
+
+  textContent1:
+    title: "Indian Ambitions, Universal Aspirations"
+    text: !markdown |
+      Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO, which brought together an Orbiter, Lander and Rover with the goal of exploring south pole of the Moon. This is a unique mission which aims at studying not just one area of the Moon but all the areas combining the exosphere, the surface as well as the sub-surface of the moon in a single mission.
+
+      Moon provides the best linkage to Earth’s early history. It offers an undisturbed historical record of the inner Solar system environment. Though there are a few mature models, further explanations were needed to understand the origin of the Moon. Extensive mapping of lunar surface to study variations in lunar surface were essential to trace back the origin and evolution of the Moon. Evidence for water molecules discovered by Chandrayaan-1, required further studies on the extent of water molecule distribution on the surface, below the surface and in the tenous lunar exosphere to address the origin of water on Moon.
+
+      #### Why was the Lunar South Pole targetted for exploration?
+
+      The Lunar South pole is especially interesting because of the lunar surface area that remains in shadow is much larger than that at the North Pole. There could be a possibility of presence of water in permanently shadowed areas around it. In addition, South Pole region has craters that are cold traps and contain a fossil record of the early Solar System.
+
+
+
+  cardSection:
+    - title: "Launch Vehicle"
+      image: "../images/missions/chandrayaan-2/spac-rocket.png"
+      text: "GSLV MK III, India's most powerful launcher"
+      link: "/launchers/gslv-mk-iii"
+
+    - title: "Orbiter"
+      image: "../images/missions/chandrayaan-2/c2spac-rocket1.png"
+      text: "Observes the lunar surface and relays communication between Earth and Vikram Lander"
+      link: "/missions/chandrayaan-2/spacecraft"
+
+    - title: "Vikram Lander"
+      image: "../images/missions/chandrayaan-2/spac-rocket3.png"
+      text: "Designed to execute India's first soft landing on the lunar surface"
+      link: "/missions/chandrayaan-2/lander-vikram"
+
+    - title: "Pragyan Rover"
+      image: "../images/missions/chandrayaan-2/spac-rocket4.png"
+      text: "6-wheeled, AI-powered vehicle"
+      link: "/missions/chandrayaan-2/rover-pragyan"
+
+
+  gallery:
+    link: "/media/chandrayaan-2-mission-gallery"
+    photos:
+      - image: "../images/media/chandrayaan-2-gallery/c2_dfsar_fig2.png"
+      # - image: "../images/media/chandrayaan-2-gallery/slide1.png"
+      - image: "../images/media/chandrayaan-2-gallery/slide3.png"
+      - image: "../images/media/chandrayaan-2-gallery/ohrc_image.png"
+      - image: "../images/media/chandrayaan-2-gallery/c2_dfsar_fig3.png"
+      # - image: "../images/media/chandrayaan-2-gallery/slide2_1.png"
+
+
+
+  cardSection2:
+    link: "/missions/chandrayaan-2/payloads"
+    cards:
+      # - title: "Chandra's Surface Thermo-physical Experiment (CHaSTE)"
+      #   image: "../images/missions/chandrayaan-2/Chandras-Surface-Thermo-Physical-Experiment-CHaSTE.jpg"
+      - title: "Synthetic Aperture Radar L & S Band (DFSAR)"
+        image: "../images/missions/chandrayaan-2/nisar.jpg"
+      - title: "Alpha Particle X-ray Spectrometer (APXS)"
+        image: "../images/missions/chandrayaan-2/alpha-particle-x-ray-spectrometer.jpg"
+      - title: "Chandrayaan 2 Large Area Soft X-ray Spectrometer (CLASS)"
+        image: "../images/missions/chandrayaan-2/Chandrayaan2-Large-Area-Soft-X-ray-Spectrometer.jpeg"
+      - title: "Terrain Mapping Camera (TMC-2)"
+        image: "../images/missions/chandrayaan-2/Terrain-Mapping-Camera-2-TMC-2.jpg"
+      # - title: "Solar X-Ray Monitor (XSM)"
+      #   image: "../images/missions/chandrayaan-2/xsm-mechanism.jpeg"
+
+
+
+  verticalTimeline:
+    title: ""
+    events:
+      - date: "18th September, 2008"
+        title: "Prime Minister Manmohan Singh approves the Chandrayaan2 lunar mission"
+      - date: "---"
+        title: "Mission Planning"
+      - date: "July 22, 2019"
+        title: "Launch Date"
+      - date: "Aug 20, 2019"
+        title: "Orbiter Lunar Orbit insertion"
+      - date: "Will be operational for 7 years"
+        title: "Orbital Experiments"
+
+
+  textContent2:
+    title: "Launch & Operation"
+    text: !markdown |
+      Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO. It comprised an Orbiter, Lander and Rover to explore the unexplored South Pole of the Moon. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.
+
+      After the injection of Chandrayaan-2, a series of maneuvers were carried out to raise its orbit and on August 14, 2019, following Trans Lunar Insertion (TLI) maneuver, the spacecraft escaped from orbiting the earth and followed a path that took it to the vicinity of the Moon. On August 20, 2019, Chandrayaan-2 was successfully inserted into lunar orbit. While orbiting the moon in a 100 km lunar polar orbit, on September 02, 2019, Vikram Lander was separated from the Orbiter in preparation for landing. Subsequently, two de-orbit maneuvers were performed on Vikram Lander so as to change its orbit and begin circling the moon in a 100 km x 35 km orbit. Vikram Lander descent was as planned and normal performance was observed upto an altitude of 2.1 km. Subsequently communication from lander to the ground stations was lost.
+
+      The Orbiter placed in its intended orbit around the Moon will enrich our understanding of the moon’s evolution and mapping of the minerals and water molecules in Polar regions, using its eight state-of-the-art scientific instruments. The Orbiter camera is the highest resolution camera (0.3 m) in any lunar mission so far and will provide high resolution images which will be immensely useful to the global scientific community. The precise launch and mission management has ensured a long life of almost seven years instead of the planned one year.
+
+      #### Science Experiments
+
+      Chandrayaan-2 has several science payloads to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.
+
+      The Orbiter payloads will conduct remote-sensing observations from a 100 km orbit while the Lander and Rover payloads will perform in-situ measurements near the landing site.
+
+      For understanding of the Lunar composition, it is planned to identify the elements and mapping its distribution on the lunar surface both at global and In-situ level. In addition detailed 3 dimensional mapping of the lunar regolith will be done. Measurements on the near surface plasma environment and electron density in the Lunar ionosphere will be studied. Thermo-physical property of the lunar surface and seismic activities will also be measured. Water molecule distribution will be studied using infra red spectroscopy, synthetic aperture radiometry & polarimetry as well as mass spectroscopy techniques.
+
+
+
+  relatedLinks:
+    - title: ""
+      contents:
+        - link: "/missions/chandrayaan-2/payloads"
+          text: "Payloads"
+        - link: "/missions/chandrayaan-2/spacecraft"
+          text: "Spacecraft"
+        - link: "/launchers/gslv-mk-iii"
+          text: "Launcher GSLV MK III"
+        - link: "/missions/chandrayaan-2/faq"
+          text: "FAQ"
+
+    - title: ""
+      contents:
+        - link: "/media/chandrayaan-2-mission-gallery"
+          text: "Chandrayaan 2 Mission Gallery"
+        - link: "/media/chandrayaan-2-launch-kit"
+          text: "Chandrayaan 2 Launch Kit"
+        - link: "/updates"
+          text: "Latest Updates"

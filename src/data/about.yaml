@@ -1,0 +1,176 @@
+- seo:
+    title: "About ISRO"
+
+  cover:
+    image: "../images/about/isro_earth.jpg"
+    # image: "../images/about/isro_sunrise.jpg"
+    title: "About ISRO"
+
+
+  sections:
+    - image: "../images/about/about_isro1.jpg"
+      caption: "Dr Sarabhai and Dr Kalam. A photograph from the early stages of the Indian space programme."
+      text: !markdown |
+        India decided to go to space when Indian National Committee for Space Research (INCOSPAR) was set up by the Government of India in 1962. With the visionary Dr Vikram Sarabhai at its helm, INCOSPAR set up the Thumba Equatorial Rocket Launching Station (TERLS) in Thiruvananthapuram for upper atmospheric research.
+
+        Indian Space Research Organisation, formed in 1969, superseded the erstwhile INCOSPAR. Vikram Sarabhai, having identified the role and importance of space technology in a Nation's development, provided ISRO the necessary direction to function as an agent of development. ISRO then embarked on its mission to provide the Nation space based services and to develop the technologies to achieve the same independently.
+
+    - image: "../images/about/about_isro2.jpg"
+      caption: "Telemedicine. Applications of space technology reaching far-flung corners of the country."
+      text: !markdown |
+        Throughout the years, ISRO has upheld its mission of bringing space to the service of the common man, to the service of the Nation. In the process, it has become one of the six largest space agencies in the world. ISRO maintains one of the largest fleet of communication satellites (INSAT) and remote sensing (IRS) satellites, that cater to the ever growing demand for fast and reliable communication and earth observation respectively. ISRO develops and delivers application specific satellite products and tools to the Nation: broadcasts, communications, weather forecasts, disaster management tools, Geographic Information Systems, cartography, navigation, telemedicine, dedicated distance education satellites being some of them.
+
+    - image: "../images/about/about_isro3.jpg"
+      caption: "Cryogenic Upper Stage of GSLV. Self reliance in critical technologies."
+      text: !markdown |
+        To achieve complete self reliance in terms of these applications, it was essential to develop cost efficient and reliable launch systems, which took shape in the form of the Polar Satellite Launch Vehicle (PSLV). The famed PSLV went on to become a favoured carrier for satellites of various countries due to its reliability and cost efficiency, promoting unprecedented international collaboration. The Geosynchronous Satellite Launch Vehicle (GSLV) was developed keeping in mind the heavier and more demanding Geosynchronous communication satellites.
+
+        Apart from technological capability, ISRO has also contributed to science and science education in the country. Various dedicated research centres and autonomous institutions for remote sensing, astronomy and astrophysics, atmospheric sciences and space sciences in general function under the aegis of Department of Space. ISRO's own Lunar and interplanetary missions along with other scientific projects encourage and promote science education, apart from providing valuable data to the scientific community which in turn enriches science.
+
+    - image: "../images/about/about_isro4.jpg"
+      caption: "Indian sub-continent as seen by Mars Orbiter Mission spacecraft during its geocentric phase."
+      text: !markdown |
+        Future readiness is the key to maintaining an edge in technology and ISRO endeavours to optimise and enhance its technologies as the needs and ambitions of the country evolve. Thus, ISRO is moving forward with the development of heavy lift launchers, human spaceflight projects, reusable launch vehicles, semi-cryogenic engines, single and two stage to orbit (SSTO and TSTO) vehicles, development and use of composite materials for space applications etc.
+
+        [Know more about ISRO's genesis](/about/genesis)
+
+
+  listLinks:
+    - title: "More about ISRO"
+      contents:
+        - link: "/about/vision-and-mission-statements"
+          text: "Vision and Mission statements"
+        - link: "/about/chairman-isro-secretary-dos"
+          text: "Chairman ISRO, Secretary DOS"
+        - link: "/about/genesis"
+          text: "Genesis"
+        - link: "/about/isros-timeline-1960s-to-today"
+          text: "ISRO's Timeline"
+        - link: "/about/organisation-structure"
+          text: "Organisation Structure"
+        - link: "/about/isro-centres"
+          text: "ISRO Centres"
+        - link: "/about/autonomous-bodies"
+          text: "Autonomous Bodies"
+
+    - title: "Business with ISRO"
+      contents:
+        - link: "/about/newspace-india-limited-nsil"
+          text: "New Space India Limited (NSIL)"
+        - link: "/about/antrix-corporation-limited"
+          text: "Antrix"
+        - link: "/isro-technology-transfer"
+          text: "Technology Transfer"
+        - link: "/tenders"
+          text: "Tenders"
+        - link: "https://eprocure.isro.gov.in/"
+          text: "E-Procurement"
+
+    - title: "Work with ISRO"
+      contents:
+        - link: "/careers"
+          text: "Careers"
+        - link: "/about/sponsored-research-respond"
+          text: "Sponsored Research"
+
+
+  visionAndMissionStatements:
+    - title: "Vision"
+      content: !markdown |
+        ##### Harness space technology for national development, while pursuing space science research and planetary exploration.
+
+    - title: "Mission"
+      content: !markdown |
+        - Design and development of launch vehicles and related technologies for providing access to space.
+        - Design and development of satellites and related technologies for earth observation, communication, navigation, meteorology and space science.
+        - Indian National Satellite (INSAT) programme for meeting telecommunication, television broadcasting and developmental applications.
+        - Indian Remote Sensing Satellite (IRS) programme for management of natural resources and monitoring of environment using space based imagery.
+        - Space based Applications for Societal development.
+        - Research and Development in space science and planetary exploration.
+
+    - title: "Objectives"
+      content: !markdown |
+        - Operational flights of Polar Satellite Launch Vehicle (PSLV).
+        - Developmental flight of Geo-synchronous Satellite Launch Vehicle (GSLV- Mk II).
+        - Development of heavy lift Geo-synchronous Satellite Launch Vehicle (GSLV-Mk III).
+        - Design, Development and Realization of Communication Satellites.
+        - Design, Development and Realization of Earth Observation Satellites.
+        - Development of Navigation Satellite Systems.
+        - Development of satellites for Space Science and Planetary Exploration.
+        - Earth Observation Applications.
+        - Space based systems for Societal Applications.
+        - Advanced Technologies and newer initiatives.
+        - Training, Capacity building and Education.
+        - Promotion of Space technology.
+        - Infrastructure / Facility Development for space research.
+        - International Cooperation.
+
+
+  genesis:
+    image: "../images/about/st.marry.jpg"
+    caption: ""
+    text: !markdown |
+      The space research activities were initiated in our country during the early 1960’s, when applications using satellites were in experimental stages even in the United States. With the live transmission of Tokyo Olympic Games across the Pacific by the American Satellite ‘Syncom-3’ demonstrating the power of communication satellites, **Dr. Vikram Sarabhai**, the founding father of Indian space programme, quickly recognized the benefits of space technologies for India.
+
+      Dr. Sarabhai was convinced and envisioned that the resources in space have the potential to address the real problems of man and society. As **Director, Physical Research Laboratory (PRL)** located in Ahmedabad, Dr. Sarabhai convened an army of able and brilliant scientists, anthropologists, communicators and social scientists from all corners of the country to spearhead the Indian space programme.
+
+      Since inception, the Indian space programme has been orchestrated well and had three distinct elements:
+        - Satellites for communication and remote sensing
+        - Space transportation system
+        - Application programmes.
+
+      The **INCOSPAR (Indian National Committee for Space Research)** was initiated under the leadership of Dr. Sarabhai and Dr. Ramanathan. In 1967, the first ‘Experimental Satellite Communication Earth Station (ESCES)’ located in Ahmedabad was operationalized, which also doubled as a training centre for the Indian as well as International scientists and engineers.
+
+      To establish that a satellite system can contribute to the national development, ISRO was clear that it need not wait for its own satellites to begin application development, while foreign satellites could be used in the initial stages. However, before trying out a full-fledged satellite system, some controlled experiment to prove the efficacy of television medium for national development was found necessary. Accordingly, a TV programme on agricultural information to farmers ‘Krishi Darshan’ was started, which received good response.
+
+      The next logical step was the **Satellite Instructional Television Experiment (SITE)**, hailed as *‘the largest sociological experiment in the world’* during 1975-76. This experiment benefited around 200,000 people, covering 2400 villages of six states and transmitted development oriented programmes using the American Technology Satellite (ATS-6). The credit of training 50,000 science teachers primary schools in one year goes to SITE.
+
+      SITE was followed by the **Satellite Telecommunication Experiments Project (STEP)**, a joint project of ISRO-and Post and Telegraphs Department (P&T) using the Franco-German Symphonie satellite during 1977-79. Conceived as a sequel to SITE which focused on Television, STEP was for telecommunication experiments. STEP was aimed to provide a system test of using geosynchronous satellites for domestic communications, enhance capabilities and experience in the design, manufacture, installation, operation and maintenance of various ground segment facilities and build up requisite indigenous competence for the proposed operational domestic satellite system, INSAT, for the country.
+
+      SITE was followed by the **‘Kheda Communications Project (KCP)’**, which worked as a field laboratory for need-based and locale specific programme transmission in the Kheda district of Gujarat State. KCP was awarded the **UNESCO-IPDC (International Programme for the Development of Communication) award** for rural communication efficiency in the 1984.
+
+      During this period, the first Indian spacecraft **‘Aryabhata’** was developed and was launched using a Soviet Launcher. Another major landmark was the development of the first launch vehicle SLV-3 with a capability to place 40 kg in Low Earth Orbit (LEO), which had its first successful flight in 1980. Through the SLV-3 programme, competence was built up for the overall vehicle design, mission design, material, hardware fabrication, solid propulsion technology, control power plants, avionics, vehicle integration checkout and launch operations. Development of multi-stage rocket systems with appropriate control and guidance systems to orbit a satellite was a major landmark in our space programme.
+
+      In the experimental phase during 80’s, end-to-end capability demonstration was done in the design, development and in-orbit management of space systems together with the associated ground systems for the users. **Bhaskara-I & II** missions were pioneering steps in the remote sensing area whereas **‘Ariane Passenger Payload Experiment (APPLE)’** became the forerunner for future communication satellite system. Development of the complex Augmented Satellite Launch Vehicle (ASLV), also demonstrated newer technologies like use of strap-on, bulbous heat shield, closed loop guidance and digital autopilot. This paved the way for learning many nuances of launch vehicle design for complex missions, leading the way for realisation of operational launch vehicles such as PSLV and GSLV.
+
+      During the operational phase in 90’s, major space infrastructure was created under two broad classes:
+        - One for the communication, broadcasting and meteorology through a multi-purpose **Indian National Satellite system (INSAT)**
+        - The other for **Indian Remote Sensing Satellite (IRS)** system.
+
+      The development and operationalisation of **Polar Satellite Launch Vehicle (PSLV)** and development of **Geo-synchronous Satellite Launch Vehicle (GSLV)** were significant achievements during this phase.
+
+
+  organisationStructure:
+    image: "../images/about/organisation_chart_2.jpg"
+    caption: ""
+
+
+  sponsoredResearch:
+    image: "../images/about/sponsored-research-respond.png"
+    caption: ""
+    text: !markdown |
+      ### Overview
+
+      ISRO started the RESPOND (Sponsored Research) programme in the 1970s, with the objective of   encouraging academia to participate and contribute in various Space related research activities. Under RESPOND, projects are taken up by Universities/Academic Institutions in the areas of relevance to Space Programme. ISRO has evolved the RESPOND programme through which necessary financial and technical support is provided to academia in India for conducting research and development activities related to Space Science, Space Technology and Space Applications. This is the flagship programme of ISRO to promote the extra-mural research in emerging areas of Space at Academia. To enable the faculty of Universities/ Institutes to prepare suitable proposals of relevance to space programme, a detailed list of R&D areas/sub areas /topics have been evolved as per major programmes of ISRO, by the various centres of ISRO and published annually. RESPOND programme is mutually beneficial to ISRO and Academia, wherein the rich talent of Academia/ faculty is being harnessed to support the Nation’s Space programme.
+
+      Apart from this, ISRO has also set up Space Technology Cells (STC) at premier institutions like Indian Institutes of Technology (IITs) - Bombay, Kanpur, Kharagpur and Madras, Indian Institute of Science (IISc), Bengaluru and Joint Research Programme with Savitribai Phule Pune University (SPPU, Pune) to carry out thematic research activities in the areas of Space technology and applications, in support of the space efforts.
+
+      In addition, conferences, workshops and publications, which are of relevance to Space programme, are also being supported. RESPOND is also participating in the National Missions like IMPRINT (IMPacting Research INnovation and Technology) programme and Uchhatar Avishkar Yojana (UAY).
+
+      ### General Rules
+
+        - ISRO Research Fellowships, Research Associateships and Research Scientists hereinafter referred to as Fellowships / Associateships / Scientists are awarded for specific projects or Education / Research Schemes approved by ISRO. Change of level of Research Fellow, subsequent to the approval of the project will not be permitted.
+
+        - The recipients of these Fellowships / Associateships / Scientists are expected to conduct research work whole time under the Principal Investigator of the ISRO sponsored project. In special cases of individual Research Fellows /Associates, the candidates could be governed by the conditions of Research work as specified by the projects / programmes / schemes for which the Fellowships have been offered by ISRO.
+
+        - ISRO may nominate a member in the committee(s) appointed by the institution in connection with the approved project.
+
+        - The Fellows / Associates / Scientists, appointed for ISRO project, shall not be transferred from one institution to another.
+
+        - The award of ISRO Fellowships / Associateships / Scientists does not imply any assurance or guarantee by or from ISRO or any kind of employment to the beneficiaries.
+
+        - Generally the upper limit for the period of Fellowships / Associateships / Scientists will be the same as that of the project. However, in exceptional cases, mainly to enable the Fellow to complete all formalities required for submission of doctoral thesis, ISRO may consider extension of the fellowship purely based on the merit on case by case basis. However, such extensions cannot be claimed as right by either fellow or PI.
+
+        - Monthly emoluments of the Fellowships / Associateships / Scientists will be paid by the concerned institution by utilizing the project grant.
+
+      *Note: The scales of pay, service benefits, terms and conditions, etc for appointment are subject to revision from time to time by the Department of Space/Government of India.*

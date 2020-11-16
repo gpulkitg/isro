@@ -1,0 +1,370 @@
+- seo:
+    title: "Spacecraft"
+
+  jumbotronImg:
+    - image: "../images/spacecraft/chandrayaan2.jpeg"
+      title: "Indian Spacecraft"
+      subtitle: ""
+      description: ""
+      button: ""
+      link: ""
+      horizontalPosition: "center"
+      verticalPosition: "center"
+      textAlignment: "center"
+
+  splitSection:
+    - title: "Communication Satellites"
+      subtitle: ""
+      description: "Supports telecommunication, television broadcasting, satellite news gathering, societal applications, weather forecasting, disaster warning and Search and Rescue operation services."
+      image: "../images/spacecraft/comm_sat.jpg"
+      button: "LEARN MORE"
+      link: "/spacecraft/communication-satellites"
+      textPosition: "left"
+      textAlignment: "center"
+      objectFit: "cover"
+
+
+    - title: "Earth Observation Satellites"
+      description: "The largest civilian remote sensing satellite constellation in the world - thematic series of satellites supporting multitude of applications in the areas of land and water resources; cartography; and ocean & atmosphere."
+      image: "../images/spacecraft/earth_obs_sat.jpg"
+      button: "LEARN MORE"
+      link: "/spacecraft/earth-observation-satellites"
+      textPosition: "right"
+      textAlignment: "center"
+      objectFit: "cover"
+
+    - title: "Scientific Spacecraft"
+      description: "Spacecraft for research in areas like astronomy, astrophysics, planetary and earth sciences, atmospheric sciences and theoretical physics."
+      image: "../images/spacecraft/scientific_spacecraft.jpg"
+      button: "LEARN MORE"
+      link: "/spacecraft/space-science-exploration"
+      textPosition: "left"
+      textAlignment: "center"
+      objectFit: "cover"
+
+    - title: "Navigation Satellites"
+      description: "Satellites for navigation services to meet the emerging demands of the Civil Aviation requirements and to meet the user requirements of the positioning, navigation and timing based on the independent satellite navigation system."
+      image: "../images/spacecraft/nav_sat.jpg"
+      button: "LEARN MORE"
+      link: "/spacecraft/satellite-navigation"
+      textPosition: "right"
+      textAlignment: "center"
+      objectFit: "cover"
+
+
+
+  cardSection:
+    - title: "Experimental Satellites"
+      subtitle: ""
+      text: "A host of small satellites mainly for the experimental purposes. These experiments include Remote Sensing, Atmospheric Studies, Payload Development, Orbit Controls, recovery technology etc."
+      image: "../images/spacecraft/experimental_sat1.jpg"
+      link: "/spacecraft/experimental-satellites"
+
+    - title: "Small Satellites"
+      subtitle: ""
+      text: "Sub 500 kg class satellites - a platform for stand-alone payloads for earth imaging and science missions within a quick turn around time."
+      image: "../images/spacecraft/small_sat.jpeg"
+      link: "/spacecraft/small-satellites"
+
+    - title: "Student Satellites"
+      subtitle: ""
+      text: "ISRO's Student Satellite programme is envisaged to encourage various Universities and Institutions for the development of Nano/Pico Satellites."
+      image: "../images/spacecraft/student_sat.jpeg"
+      link: "/spacecraft/university-academic-institute-satellites"
+
+
+  listSpacecrafts:
+    title: "List of Spacecrafts"
+    table:
+      head:
+        - col: "Name"
+        - col: "Launch Date"
+        - col: "Launch Vehicle"
+        - col: "Orbit"
+        - col: "Application"
+        - col: "Remarks"
+      body:
+        - row:
+          - col:
+              text: "GSAT-30"
+              link: "/spacecraft/gsat-30"
+          - col:
+              date: "2020-01-17"
+          - col:
+              text: "Ariane-5 VA-251"
+          - col:
+              text: "GSO"
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "RISAT-2BR1"
+              link: "/spacecraft/risat-2br1"
+          - col:
+              date: "2019-12-11"
+          - col:
+              text: "PSLV-C48/RISAT-2BR1"
+              link: "/launcher/pslv-c48-risat-2br1"
+          - col:
+              text: "LEO"
+          - col:
+              text: "Disaster Management System, Earth Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "Cartosat-3"
+              link: "/spacecraft/cartosat-3"
+          - col:
+              date: "2019-11-27"
+          - col:
+              text: "PSLV-C47 / Cartosat-3 Mission"
+              link: "/launcher/pslv-c47-cartosat-3-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: "Earth Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "Chandrayaan2"
+              link: "/spacecraft/chandrayaan2"
+          - col:
+              date: "2019-07-22"
+          - col:
+              text: "GSLV-Mk III - M1 / Chandrayaan-2 Mission"
+              link: "/launcher/gslv-mk-iii-m1-chandrayaan-2-mission"
+          - col:
+              text: "Lunar"
+          - col:
+              text: "Planetary Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "RISAT-2B"
+              link: "/spacecraft/risat-2b"
+          - col:
+              date: "2019-05-22"
+          - col:
+              text: "PSLV-C46 Mission"
+              link: "/launcher/pslv-c46-mission"
+          - col:
+              text: "LEO"
+          - col:
+              text: "Disaster Management System, Earth Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "EMISAT"
+              link: "/spacecraft/emisat"
+          - col:
+              date: "2019-04-01"
+          - col:
+              text: "PSLV-C45/EMISAT MISSION"
+              link: "/launcher/pslv-c45-emisat-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: ""
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "GSAT-31"
+              link: "/spacecraft/gsat-31"
+          - col:
+              date: "2019-02-06"
+          - col:
+              text: "Ariane-5 VA-247"
+          - col:
+              text: "GTO"
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "Microsat-R"
+              link: "/spacecraft/microsat-r"
+          - col:
+              date: "2019-01-24"
+          - col:
+              text: "PSLV-C44"
+              link: "/launcher/pslv-c44"
+          - col:
+              text: "SSPO"
+          - col:
+              text: ""
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "GSAT-7A"
+              link: "/spacecraft/gsat-7a"
+          - col:
+              date: "2018-12-19"
+          - col:
+              text: "GSLV-F11 / GSAT-7A Mission"
+              link: "/launcher/gslv-f11-gsat-7a-mission"
+          - col:
+              text: ""
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "GSAT-11 Mission"
+              link: "/spacecraft/gsat-11-mission"
+          - col:
+              date: "2018-12-05"
+          - col:
+              text: "Ariane-5 VA-246"
+          - col:
+              text: "GTO"
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "HysIS"
+              link: "/spacecraft/hysis"
+          - col:
+              date: "2018-11-29"
+          - col:
+              text: "PSLV-C43 / HysIS Mission"
+              link: "/launcher/pslv-c43-hysis-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: "Earth Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "GSAT-29"
+              link: "/spacecraft/gsat-29"
+          - col:
+              date: "2018-11-14"
+          - col:
+              text: "GSLV Mk III-D2 / GSAT-29 Mission"
+              link: "/launcher/gslv-mk-iii-d2-gsat-29-mission"
+          - col:
+              text: "GTO"
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "IRNSS-1I"
+              link: "/spacecraft/irnss-1i"
+          - col:
+              date: "2018-04-12"
+          - col:
+              text: "PSLV-C41/IRNSS-1I"
+              link: "/launcher/pslv-c41-irnss-1i"
+          - col:
+              text: "GSO"
+          - col:
+              text: "Navigation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "GSAT-6A"
+              link: "/spacecraft/gsat-6a"
+          - col:
+              date: "2018-03-29"
+          - col:
+              text: "GSLV-F08/GSAT-6A Mission"
+              link: "/launcher/gslv-f08-gsat-6a-mission"
+          - col:
+              text: "GSO"
+          - col:
+              text: "Communication"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "Microsat"
+              link: "/spacecraft/microsat"
+          - col:
+              date: "2018-01-12"
+          - col:
+              text: "PSLV-C40/Cartosat-2 Series Satellite Mission"
+              link: "/launcher/pslv-c40-cartosat-2-series-satellite-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: "Experimental"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "Cartosat-2 Series Satellite"
+              link: "/spacecraft/cartosat-2-series-satellite-2"
+          - col:
+              date: "2018-01-12"
+          - col:
+              text: "PSLV-C40/Cartosat-2 Series Satellite Mission"
+              link: "/launcher/pslv-c40-cartosat-2-series-satellite-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: "Earth Observation"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "INS-1C"
+              link: "/spacecraft/ins-1c"
+          - col:
+              date: "2018-01-12"
+          - col:
+              text: "PSLV-C40/Cartosat-2 Series Satellite Mission"
+              link: "/launcher/pslv-c40-cartosat-2-series-satellite-mission"
+          - col:
+              text: "SSPO"
+          - col:
+              text: "Experimental"
+          - col:
+              text: ""
+
+        - row:
+          - col:
+              text: "IRNSS-1H"
+              link: "/spacecraft/irnss-1h"
+          - col:
+              date: "2017-08-31"
+          - col:
+              text: "PSLV-C39/IRNSS-1H Mission"
+              link: "/launcher/pslv-c39-irnss-1h-mission"
+          - col:
+              text: ""
+          - col:
+              text: "Navigation"
+          - col:
+              text: "Launch Unsuccessful"

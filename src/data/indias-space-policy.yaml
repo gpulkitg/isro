@@ -1,0 +1,66 @@
+- seo:
+    title: "India's Space Policy"
+
+  sections:
+    - title: "Satellite Communication"
+      text: !markdown |
+        #### Policy
+
+        [Satcom Policy](../docs/indias-space-policy/satcom-policy.pdf)
+
+        [The norms, guidelines and procedures for implementation of the policy frame-work for satellite communications in India](../docs/indias-space-policy/satcom-ngp.pdf)
+
+        #### Registering an Indian Satellite System
+
+        [Application Format and Guidelines for Registering an Indian Satellite System](../docs/indias-space-policy/caiss-6_application_format_08-07-2016.pdf)
+
+
+    - title: "Remote Sensing"
+      text: !markdown |
+        **Recognising** that Remote Sensing data provides much essential and critical information - which is an input for developmental activities at different levels, and is also of benefit to society.
+
+        **Noting** that a large number of users - both within and outside government, use Remote Sensing data from Indian and foreign remote sensing satellites for various developmental applications.
+
+        **Taking into consideration** the recent availability of very high-resolution images, from foreign and commercial remote sensing satellites, and noting the need for proper and better management of the data acquisition/ distribution from these satellites in India.
+
+        **Recognising** that national interest is paramount, and that security consideration of the country needs to be given utmost importance.
+
+        **The Government of India** adopts the Remote Sensing Data Policy (RSDP) -
+        2011 containing modalities for managing and/ or permitting the acquisition / dissemination of remote sensing data in support of developmental activities.
+        Department of Space (DOS) of the Government of India shall be the nodal  agency for all actions under this policy, unless otherwise stated.
+
+          1. For operating a remote sensing satellite from India, license and/ or permission of the Government, through the nodal agency, shall be necessary:
+              - As a national commitment and as a “public good”, Government assures a continuous and improved observing/ imaging capability from its own Indian Remote Sensing Satellites (IRS) programme.
+
+              - The Government, through the nodal agency, shall be the sole and exclusive owner of all data collected/ received from IRS. All users will be provided with only a license to use the said data, and add value to the satellite data.
+
+              - Government reserves the right to impose control over imaging tasks and distribution of data from IRS or any other Indian remote sensing satellite, when it is of the opinion that national security and/ or international obligations and/ or foreign policies of the Government so require.
+
+
+          2. For acquisition/ distribution of remote sensing data within India, license/ permission from the Government of India, through the nodal agency, shall be necessary.
+              - Government reserves the right to select and permit agencies to acquire/ distribute satellite remote sensing data in India. DOS shall be competent to decide on the procedure for granting license/ permission for dissemination of such data, and for the levy of necessary fees.
+
+              - To cater to the developmental needs of the country, the National Remote Sensing Centre (NRSC) of the Indian Space Research Organisation (ISRO)/ DOS is vested with the authority to acquire and disseminate all satellite remote sensing data in India, both from Indian and foreign satellites.
+                - NRSC shall enter into appropriate arrangements with DOS for acquiring/ distributing data from IRS within the visibility circle of NRSC’s receiving station(s).
+                - NRSC and/ or Antrix Corporation Ltd., shall be competent to enter into agreements with foreign satellite operator(s) for acquisition/distribution of foreign satellite data in India. However, NRSC will distribute the data as per terms agreed to with Antrix Corporation Ltd.
+
+              - NRSC shall maintain a systematic National Remote Sensing Data Archive, and a log of all acquisitions/ sales of data for all satellites.
+
+          3. For acquisition and distribution of IRS data for use in countries other than India, the Government of India, through the nodal agency, shall grant license to such bodies/ agencies of those countries as are interested in the acquisition/ distribution of IRS data, as per specific procedures.
+              - The Antrix Corporation Ltd. (of DOS) is vested with the authority for receiving the applications for grant of license for acquisition/ distribution of IRS data outside of India; to consider and decide on the granting of license within the policy considerations of the Government, and to enter into licensing agreements with the prospective users on behalf of the Government. Antrix Corporation Ltd. shall also be competent to levy such fees for granting licenses as may be considered appropriate by it. It shall also be responsible, where necessary, for rendering any further help/ guidance needed by the license.
+
+              - The Government reserves right to impose restrictions over imaging tasks and distribution of IRS data in any country when it is of the opinion that national security and/ or international obligations and/ or foreign policies of the Government so require.
+
+
+          4. The Government prescribes the following guidelines to be adopted for dissemination of satellite remote sensing data in India:
+              - All data of resolutions up to 1 m shall be distributed on a non-discriminatory basis and on “as requested basis”
+
+              - With a view to protect national security interests, all data of better than 1 m resolution shall be screened and cleared by the appropriate agency prior to distribution; and the following procedure shall be followed:
+                1. Government users namely, Ministries/ Departments/ Public Sector/ Autonomous Bodies/ Government R&D institutions/ Government Educational/ Academic Institutions, can obtain the data without any further clearance.
+                2. Private sector agencies, recommended at least by one Government agency, for supporting development activities, can obtain the data without any further clearance.
+                3. Private sector agencies, recommended at least by one Government agency, for supporting development activities, can obtain the data without any further clearance.
+                4. Specific requests for data of sensitive areas, by any user, can be serviced only after obtaining clearance from the HRC.
+                5. Specific sale/ non-disclosure agreements to be concluded between NRSC and other users for data of better than 1 m resolution.
+
+
+          5. This Policy (RSDP-2011) comes into effect immediately, and may be reviewed from time-to-time-by Government.

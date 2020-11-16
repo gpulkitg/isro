@@ -1,33 +1,33 @@
+
+- title: "Dr B N Suresh and Dr. K Sivan awarded the prestigious IEEE Simon Ramo Medal"
+  image: "../images/updates/1.jpg"
+  description: ""
+  date: "2020-09-29"
+  slug: "#"
+
+- title: "Some great update"
+  # image: "../images/updates/1.jpg"
+  description: ""
+  date: "2020-09-28"
+  slug: "#"
+
+
 - title: "Empowering India's Startups to transform Space Sector with ISRO and AIM"
-  cover: "../images/updates/space_startups_2.jpg"
-  alt: ""
+  image: "../images/updates/space_startups_2.jpg"
   # date: "Sep 10, 2020"
   date: "2020-09-10"
-  slug: "/"
+  slug: "#"
 
 
 - title: "Webinar on Empowering India's Startups to transform Space Sector scheduled on September 10, 2020 @ 1400 hrs"
-  cover: "../images/updates/seed-10th-programme_page_1.jpg"
-  alt: ""
+  image: "../images/updates/seed-10th-programme_page_1.jpg"
   description: ""
-  # date: "Sep 9, 2020"
   date: "2020-09-09"
-  slug: "/"
+  slug: "#"
 
 
 - title: "70th Year adoption of the Constitution of India"
-  cover: "../images/updates/preamble.png"
-  alt: ""
+  image: "../images/updates/preamble.png"
   description: ""
-  # date: "Sep 8, 2020"
   date: "2020-09-08"
-  slug: "/"
-
-
-- title: "Dr B N Suresh and Dr. K Sivan awarded the prestigious IEEE Simon Ramo Medal"
-  cover: "../images/updates/1.jpg"
-  alt: ""
-  description: ""
-  # date: "Sep 29, 2020"
-  date: "2020-09-29"
-  slug: "/"
+  slug: "#"

@@ -11,12 +11,60 @@
 // After importing bootstrap sass
 // Your modifications to bootstrap classes
 
+
+.footer-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include media-breakpoint-down("md") {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 2s;
+  animation-name: animatebottom;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-50px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+@keyframes animatebottom {
+  from{ bottom:-50px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+.markdown-content {
+  > h1, h2, h3, h4, h5, h6, figure {
+    text-align: center;
+  }
+
+  > figure figcaption {
+    color: $text-muted;
+    font-size: $font-size-sm;
+  }
+
+  > p {
+    text-align: justify;
+  }
+
+}
+
+
 //================
 // Links
 //================
 .no-underline {
   text-decoration: none;
 }
+
+
+
 
 //================
 // Navbar
@@ -66,7 +114,7 @@
 // Counter
 //================
 .odometer, .counter {
-  font-size: $h1-font-size;
+  font-size: 5rem;
 }
 
 //================
@@ -149,7 +197,8 @@
 //================
 // Cards
 //================
-.card-glow {
+
+.card-grow {
   // box-shadow: 0 0 5px rgba(0,0,0,0.15);
   // transition: box-shadow 0.3s ease-in-out;
   // overflow: hidden;
@@ -171,12 +220,13 @@
   -ms-transition: all .5s ease;
 }
 
-.card-glow-img {
-  object-fit: cover;
-  border-radius: 0;
+.card-grow-img {
+  // object-fit: cover;
+  // border-radius: 0;
   // height: 50vh;
   height: 300px;
 }
+
 
 .card-brighten {
   border-color: $gray-500;
@@ -197,8 +247,8 @@
 }
 
 .card-brighten-img {
-  object-fit: cover;
-  border-radius: 0;
+  // object-fit: cover;
+  // border-radius: 0;
   // height: 50vh;
   height: 300px;
 }
@@ -228,11 +278,12 @@
 }
 
 .card-zoom-img {
-  width: 100%;
-  height: 100%;
+  // width: 100%;
+  // height: 100%;
   // max-height: 600px;
-  object-fit: cover;
+  // object-fit: cover;
   opacity: 0.7;
+  height: 300px;
 
 
   transition: all 0.5s ease;
@@ -261,6 +312,7 @@
   background-size: cover;
 
   @include media-breakpoint-down("lg") {
+    height: 100vh;
     background-attachment: scroll;
   }
 }
@@ -271,7 +323,7 @@
   justify-content: center;
 
   @include media-breakpoint-down("lg") {
-    height: 50vh;
+    height: 25vh;
   }
 }
 
@@ -304,10 +356,10 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 70%, rgba(0,0,0,1));
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%, rgba(0,0,0,1));
 
   @include media-breakpoint-down("md") {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 60%, rgba(0,0,0,1));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,1));
   }
 }
 
@@ -369,6 +421,7 @@
       transform: rotate(-180deg);
     }
   }
+  padding-bottom: 1rem;
 }
 
 

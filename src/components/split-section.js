@@ -1,8 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 
-export default function SplitSection({ imgSrc, imgObjectFit, textPosition, textAlignment, children }) {
+// export default function SplitSection({ imgSrc, imgObjectFit, textPosition, textAlignment, children }) {
+export default function SplitSection({  title, subtitle, description, button, link, textPosition, textAlignment, children }) {
 
   function getTextClasses() {
     let classes = "order-md-2"
@@ -21,26 +22,30 @@ export default function SplitSection({ imgSrc, imgObjectFit, textPosition, textA
 
 
   return (
-    <>
+    // <>
 
-    {/* <Container> */}
+    <Container>
       <Row>
 
-        <Col className="vh-100 d-flex justify-content-center p-2 order-md-1" md>
-          <img
-            src={imgSrc}
-            style={{ height: `100%`, width: `100%`, objectFit: imgObjectFit }}
-            alt="Section image" />
+        <Col className="vh-100 d-flex justify-content-center py-2 order-md-1" md>
+          { children }
         </Col>
 
         <Col className={`d-flex flex-column justify-content-center ${getTextClasses()}`} md>
-          {children}
+          { title && <h1 className="mb-2 display-4">{title}</h1> }
+          { subtitle && <h3 className="mb-2">{subtitle}</h3> }
+          { description && <p className="mb-2 text-justify">{description}</p> }
+          { button &&
+            <div>
+              <Button href={link} variant="outline-light" className="btn-jumbotron">{button}</Button>
+            </div>
+          }
         </Col>
 
       </Row>
-    {/* </Container> */}
+    </Container>
 
-    </>
+    // </>
 
 
   )

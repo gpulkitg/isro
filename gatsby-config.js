@@ -38,7 +38,7 @@ module.exports = {
             options: {
               unwrapSingleLine: true
             }
-          }
+          },
         ],
       },
     },
@@ -60,10 +60,10 @@ module.exports = {
         // background_color: `#663399`,
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/isro_icon_black.png`, // This path is relative to the root of the site.
+        icon: `src/images/common/isro_icon_black.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-transformer-remark`,
+    // `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -71,9 +71,13 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
-              showCaptions: true,
+              maxWidth: 600,
+              // showCaptions: true,
+              showCaptions: [`title`],
               markdownCaptions: true,
+              backgroundColor: `transparent`,
+              quality: 100,
+              // disableBgImageOnAlpha: true,
             },
           },
         ],

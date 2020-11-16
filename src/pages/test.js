@@ -5,18 +5,21 @@ import Img from 'gatsby-image'
 // import Counter from '../components/counter';
 // import CardGlow from '../components/card-glow';
 import { Container, Row, Col, Button, CardDeck, Card, Image } from 'react-bootstrap'
+import CountUp from 'react-countup';
 
 import Layout from "../components/layout"
-import CardZoom from '../components/card-zoom';
+import LineBreak from '../components/line-break';
+import VisibilitySensor from 'react-visibility-sensor'
+// import CardZoom from '../components/card-zoom';
 // import Parallax from '../components/parallax';
-import { ParallaxProvider } from 'react-scroll-parallax'
-import ParallaxSection from '../components/parallax-section'
+// import { ParallaxProvider } from 'react-scroll-parallax'
+// import ParallaxSection from '../components/parallax-section'
 // import ClickReveal from '../components/click-reveal';
-import { DynamicTabs, TabContent } from '../components/dynamic-tabs'
-import TableList from '../components/table-list'
-import CarouselSection from '../components/carousel-section'
-import TextContent from '../components/text-content'
-import SplitSection from '../components/split-section'
+// import { DynamicTabs, TabContent } from '../components/dynamic-tabs'
+// import TableList from '../components/table-list'
+// import CarouselSection from '../components/carousel-section'
+// import TextContent from '../components/text-content'
+// import SplitSection from '../components/split-section'
 import JumbotronImg from '../components/jumbotron-img'
 
 // import Image from '../components/image'
@@ -35,7 +38,9 @@ import JumbotronImg from '../components/jumbotron-img'
 // import mom1 from '../images/mom/mom1.jpg'
 // import mom2 from '../images/mom/mom2.jpg'
 
+import VerticalTimeline from '../components/vertical-timeline'
 
+import TabSection from '../components/tab-section';
 
 const data = {
   body: [
@@ -82,29 +87,89 @@ const data2 = {
 // `
 
 
-export const query = graphql`
-  query {
-    liftoffImg: file(relativePath: {eq: "liftoff.jpg"}) {
-      publicURL
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-          originalImg
-          src
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query {
+//     liftoffImg: file(relativePath: {eq: "liftoff.jpg"}) {
+//       publicURL
+//       childImageSharp {
+//         fluid {
+//           ...GatsbyImageSharpFluid
+//           originalImg
+//           src
+//         }
+//       }
+//     }
+//   }
+// `
 
-export default function Test({ data }) {
+const items = [
+  {
+    title: "A",
+    content: "c1"
+  },
+  {
+    title: "B",
+    content: "c2"
+  }
+
+]
+
+export default function Test() {
 
   // console.log(data.file);
+  const [animated, setAnimated] = useState(false);
+
+  const handleVisibilityChange = (isVisible) => {
+    if (isVisible && !animated) {
+      setAnimated(true)
+    }
+  }
+  console.log("animated", animated);
+
 
   return (
     <Layout>
 
       <Container>
+
+        <div className="vh-100">
+          some view height section
+        </div>
+
+        <div className="animate-bottom">
+          <h2>subtitle</h2>
+          <p>text</p>
+        </div>
+
+        {/* <div className="vh-100 w-100">
+          test
+        </div>
+        <div className="vh-100 w-100">
+          test
+        </div>
+
+
+        <div className="text-center">
+          <CountUp
+            start={animated ? 0 : null}
+            end={12}
+            duration={2}
+            decimal=","
+            className="countup counter"
+            // onEnd={() => setAnimated(true)}
+          >
+            {({ countUpRef }) => (
+              <VisibilitySensor active={!animated} onChange={handleVisibilityChange} delayedCall>
+                <span ref={countUpRef} className="countup counter"/>
+              </VisibilitySensor>
+            )}
+          </CountUp>
+          <h3>Number</h3>
+        </div> */}
+
+        {/* <TabSection items={items} /> */}
+
+
 
         {/* <Card className="card-glow">
           <Card.Img variant="top" src={imgSrc} className="card-glow-img"/>
@@ -116,19 +181,17 @@ export default function Test({ data }) {
           </Card.Body>
         </Card> */}
 
-        <CardDeck>
+        {/* <CardDeck>
 
           <Card className="card-glow">
             <Card.Img as={Image} variant="top" src={data.liftoffImg.childImageSharp.fluid.src} fluid={true} className="card-glow-img"/>
-            {/* <Img fluid={data.liftoffImg.childImageSharp.fluid} className="card-glow-img"/> */}
-            {/* <Image filename="liftoff.jpg" className="card-glow-img" /> */}
             <Card.Body>
               <Card.Title>Liftoff</Card.Title>
             </Card.Body>
           </Card>
 
 
-        </CardDeck>
+        </CardDeck> */}
 
 
 

@@ -1,0 +1,164 @@
+# - centre: "केंद्रीकृत भर्ती (आई.सी.आर.बी.) / Centralised Recruitment (ICRB)"
+#   locations:
+#     - name: "बेंगलूर / Bengaluru"
+#       positions:
+#         - post: "Scientist/Engineer 'SC' (Electronics, Mechanical and Computer Science)"
+#           link: "#"
+#           deadline: ""
+#           remarks: !markdown |
+#             1. In Electronics, as sufficient number of candidates have not qualified the written test, candidates who secured atleast 60% of the marks scored by the topper have been short-listed additionally for interview, as per extant norms.
+#
+#             2. In Mechanical stream, considering the number of vacancies and the number of candidates who qualified the written test, candidates have been short-listed for interview in the ratio of 1:5.
+#
+#         - post: "Scientist/Engineer 'SC' in the disciplines of Civil, Electrical, Ref & Air-Conditioning and Architecture"
+#           link: "#"
+#           deadline: ""
+#           remarks: !markdown |
+#             In compliance of Government of India instructions, with a view to contain the spread of Novel Coronavirus (COVID-19), the Interviews for the post of Scientist/Engineer 'SC'in the disciplines of Civil(BE004), Electrical (BE005), Refrigeration & Air-Conditioning (BE006) and Architecture (BE007) have been postponed. The fresh dates of Interview will be intimated later through e-mail / ISRO Website
+#
+#
+# - centre: "अंतरिक्ष विभाग (अं.वि.) / Department of Space (DOS)"
+#   locations:
+#     - name: "श्रीहरिकोटा / Sriharikota"
+#       positions:
+#         - post: "Controller in Satish Dhawan Space Centre, SHAR, (SDSC SHAR)"
+#           link: "#"
+#           deadline: ""
+#           remarks: !markdown |
+#             [View Advertisement](../images/common/career-2.jpg)
+#
+#     - name: "हैदराबाद / Hyderabad"
+#       positions:
+#         - post: "Some post"
+#           link: "#"
+#           deadline: ""
+#           remarks: !markdown |
+#             Some text and image ![View Image](../images/common/career-2.jpg)
+#
+#         - post: "Some other post"
+#           link: "#"
+#           deadline: ""
+#           remarks: !markdown |
+#             Some other text and link [View Advertisement](/careers)
+#
+#
+
+
+
+- centre: "केंद्रीकृत भर्ती (आई.सी.आर.बी.) / Centralised Recruitment (ICRB)"
+  location: "बेंगलूर / Bengaluru"
+  post: "Scientist/Engineer 'SC' (Electronics, Mechanical and Computer Science)"
+  link: "#"
+  deadline: ""
+  remarks: !markdown |
+    1. In Electronics, as sufficient number of candidates have not qualified the written test, candidates who secured atleast 60% of the marks scored by the topper have been short-listed additionally for interview, as per extant norms.
+
+    2. In Mechanical stream, considering the number of vacancies and the number of candidates who qualified the written test, candidates have been short-listed for interview in the ratio of 1:5.
+
+
+- centre: "केंद्रीकृत भर्ती (आई.सी.आर.बी.) / Centralised Recruitment (ICRB)"
+  location: "बेंगलूर / Bengaluru"
+  post: "Scientist/Engineer 'SC' in the disciplines of Civil, Electrical, Ref & Air-Conditioning and Architecture"
+  link: "#"
+  deadline: ""
+  remarks: !markdown |
+    In compliance of Government of India instructions, with a view to contain the spread of Novel Coronavirus (COVID-19), the Interviews for the post of Scientist/Engineer 'SC'in the disciplines of Civil(BE004), Electrical (BE005), Refrigeration & Air-Conditioning (BE006) and Architecture (BE007) have been postponed. The fresh dates of Interview will be intimated later through e-mail / ISRO Website
+
+
+- centre: "अंतरिक्ष विभाग (अं.वि.) / Department of Space (DOS)"
+  location: "श्रीहरिकोटा / Sriharikota"
+  post: "Controller in Satish Dhawan Space Centre, SHAR, (SDSC SHAR)"
+  link: "#"
+  deadline: ""
+  remarks: !markdown |
+    [View Advertisement](../images/common/career-2.jpg)
+
+
+- centre: "समानव अंतरिक्ष उड़ान केंद्र (एच.एस.एफ.सी) / Human Space Flight Centre (HSFC)"
+  location: "हैदराबाद / Hyderabad"
+  post: "Some post"
+  link: "#"
+  deadline: ""
+  remarks: !markdown |
+    Some text and link [View Advertisement](../images/common/career-2.jpg)
+
+- centre: "समानव अंतरिक्ष उड़ान केंद्र (एच.एस.एफ.सी) / Human Space Flight Centre (HSFC)"
+  location: "बेंगलूर / Bengaluru"
+  post: "Some post"
+  link: "#"
+  deadline: ""
+  remarks: !markdown |
+    Some text and link [View Advertisement](../images/common/career-2.jpg)
+
+#
+#
+# - cover:
+#     image: "../images/common/careers-2.jpg"
+#     title: "Available Positions"
+#
+#
+#   locations:
+#     - name: "सभी स्‍थान / All Locations"
+#     - name: "बेंगलूर / Bengaluru"
+#     - name: "तिरुवनंतपुरम / Thiruvananthapuram"
+#     - name: "महेंद्रगिरि / Mahendragiri"
+#     - name: "हासन / Hassan"
+#     - name: "गादंकी / Gadanki"
+#     - name: "हैदराबाद / Hyderabad"
+#     - name: "(उ.पू.-सैक) / Shillong"
+#     - name: "अहमदाबाद / Ahmedabad"
+#     - name: "श्रीहरिकोटा / Sriharikota"
+#     - name: "चंडीगढ़ / Chandigarh"
+#
+#
+#   centres:
+#     - name: "केंद्रीकृत भर्ती (आई.सी.आर.बी.) / Centralised Recruitment (ICRB)"
+#       locations:
+#         - name: "बेंगलूर / Bengaluru"
+#           listings:
+#             - post: "p1"
+#               link: "#"
+#               deadline: "d1"
+#               remarks: "r1"
+#             - post: "p2"
+#               link: "#"
+#               deadline: "d2"
+#               remarks: "r2"
+#
+#     - name: "अंतरिक्ष विभाग (अं.वि.) / Department of Space (DOS)"
+#
+#     - name: "एंट्रिक्‍स कॉर्पोरेशन लिमिटेड / Antrix Corporation Limited"
+#
+#     - name: "इसरो मुख्‍यालय (इसरो मु.) / ISRO Headquarters (ISRO HQ)"
+#
+#     - name: "समानव अंतरिक्ष उड़ान केंद्र (एच.एस.एफ.सी) / Human Space Flight Centre (HSFC)"
+#
+#     - name: "भारतीय अंतरिक्ष विज्ञान एवं प्रौद्योगिकी संस्‍थान (आई.आई.एस.टी.) / Indian Institute of Space Science and Technology (IIST)"
+#
+#     - name: "इसरो नोदन कॉम्‍प्‍लेक्‍स (आई.पी.आर.सी.) / ISRO Propulsion Complex (IPRC)"
+#
+#     - name: "इसरो दूरमिति अनुवर्तन तथा आदेश नेटवर्क (इस्ट्रैक) / ISRO Telemetry, Tracking and Command Network (ISTRAC)"
+#
+#     - name: "यू.आर. राव उपग्रह केंद्र, (यू.आर.एस.सी.) / U R Rao Satellite Centre (URSC)"
+#
+#     - name: "द्रव नोदन प्रणाली केंद्र (एल.पी.एस.सी.) / Liquid Propulsion Systems Centre (LPSC)"
+#     - name: "मुख्‍य नियंत्रण सुविधा (एम.सी.एफ.) / Master Control Facility (MCF)"
+#     - name: "राष्‍ट्रीय वायुमंडलीय अनुसंधान प्रयोगशाला (एन.ए.आर.एल.) / National Atmospheric Research Laboratory (NARL)"
+#     - name: "राष्‍ट्रीय सुदूर संवेदन केंद्र (एन.आर.एस.सी.) / National Remote Sensing Centre (NRSC)"
+#     - name: "उत्‍तर पूर्वी अंतरिक्ष उपयोग केंद्र / North Eastern-Space Applications Centre (NE-SAC)"
+#     - name: "भौतिक अनुसंधान प्रयोगशाला (पी.आर.एल.) / Physical Research Laboratory (PRL)"
+#     - name: "सतीश धवन अंतरिक्ष केंद्र (एस.डी.एस.सी.) शार / SatishDhawan Space Centre (SDSC) SHAR"
+#     - name: "सेमी-कण्‍डक्‍टर लेबोरेटरी (एस.सी.एल.) / Semi-Conductor Laboratory (SCL)"
+#     - name: "अंतरिक्ष उपयोग केंद्र (सैक) / Space Applications Centre (SAC)"
+#     - name: "विक्रम साराभाई अंतरिक्ष केंद्र (वी.एस.एस.सी.) / Vikram Sarabhai Space Centre (VSSC)"
+#
+#
+#
+#
+#   listings:
+#     - centre: "केंद्रीकृत भर्ती (आई.सी.आर.बी.) / Centralised Recruitment (ICRB)"
+#       location: ""
+#       post: ""
+#       link: "/"
+#       deadline: ""
+#       remarks: ""

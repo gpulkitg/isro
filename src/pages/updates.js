@@ -1,49 +1,28 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
+import debounce from 'lodash/debounce'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Form } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import UpdatePost from '../templates/update-post'
+// import UpdatePost from '../templates/update-post'
 
 
-// const posts = [
-//   {
-//     imgSrc: require("../images/updates/space_startups_2.jpg"),
-//     alt: "",
-//     title: "Empowering India's Startups to transform Space Sector with ISRO and AIM",
-//     date: "Sep 10, 2020",
-//   },
-//   {
-//     imgSrc: require("../images/updates/seed-10th-programme_page_1.jpg"),
-//     alt: "",
-//     title: "Webinar on Empowering India's Startups to transform Space Sector scheduled on September 10, 2020 @ 1400 hrs",
-//     description: "",
-//     date: "Sep 9, 2020"
-//   },
-//   {
-//     imgSrc: require("../images/updates/preamble.png"),
-//     alt: "",
-//     title: "70th Year adoption of the Constitution of India",
-//     description: "",
-//     date: "Sep 8, 2020",
-//   },
-// ]
 
 export const query = graphql`
   query {
-    updates: allUpdatesYaml(sort: {fields: date, order: DESC}) {
+    allUpdatesYaml(sort: {fields: date, order: DESC}) {
       edges {
         node {
           id
           title
           slug
-          alt
           description
           date(formatString: "D MMM YYYY")
-          cover {
+          image {
+            name
             childImageSharp {
               fluid {
                 ...GatsbyImageSharpFluid
@@ -53,36 +32,120 @@ export const query = graphql`
         }
       }
     }
+    cover: file(relativePath: {eq: "updates/isro_moon.jpg"}) {
+      name
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
 
 export default function Updates({ data }) {
 
+  const [searchQuery, setSearchQuery] = useState("")
+  const [displayedUpdates, setDisplayedUpdates] = useState([])
+
+
+  useEffect(() => {
+
+    const search = debounce(() => {
+      const matches = data.allUpdatesYaml.edges.filter(({ node }) => (
+        node.title.toLowerCase().includes(searchQuery.toLowerCase())
+      ))
+      setDisplayedUpdates(matches)
+    }, 500)
+
+    if (searchQuery) {
+      search()
+    } else {
+      setDisplayedUpdates(data.allUpdatesYaml.edges)
+    }
+
+    return search.cancel
+
+  }, [searchQuery])
+
+
+
+
   return (
     <Layout>
+
       <SEO title="Updates" />
 
+      <div className="w-100" style={{ height: `50vh`, position: `relative`}}>
+        <Img
+          fluid={data.cover.childImageSharp.fluid}
+          alt={data.cover.name}
+          className="w-100 h-100"
+          imgStyle={{ opacity: `0.5` }}
+        />
+        <h1 className="text-center" style={{ position: `absolute`, top: `50%`, left: `50%`, transform: `translate(-50%, -50%)` }}>
+          Archive of Updates
+        </h1>
+      </div>
+
+      <div className="my-2"></div>
 
       <Container>
-        { data.updates.edges.map(({node}) => (
-        // <UpdatePost key={`posts_${ind}`} post={post} />
-          <Row className="mb-4" key={node.id}>
+
+        <Form className="mb-2">
+          <Form.Row className="d-flex justify-content-center">
+            <Form.Group as={Col} controlId="formSearch" sm={6}>
+              {/* <Form.Label>Search galleries</Form.Label> */}
+              <Form.Control
+                placeholder="Type to search"
+                name="searchQuery"
+                onChange={(e) => setSearchQuery(e.target.value)}
+                value={searchQuery}
+              />
+            </Form.Group>
+          </Form.Row>
+        </Form>
+
+
+        {/* { displayedUpdates.map(({node}) => (
+          <Row className="py-2" key={node.id}>
             <Col md>
-              <Img
-                fluid={node.cover.childImageSharp.fluid}
-                style={{ height: `100%`, width: `100%`, objectFit: "contain" }}
-                alt={node.alt} />
+              { node.image &&
+                <Img
+                  fluid={node.image.childImageSharp.fluid}
+                  alt={node.image.name}
+                  style={{ height: `100%`, width: `100%`, objectFit: "contain" }}
+                />
+              }
               </Col>
 
-              <Col className="py-4" md>
+              <Col className="py-2" md>
                 <p className="text-info">{node.date}</p>
                 <h3>{node.title}</h3>
-                {/* <p className="text-info"><em>Posted on {date}</em></p> */}
               </Col>
 
             </Row>
-          ))}
+          ))} */}
+          <Row>
+          { displayedUpdates.map(({node}) => (
+              <Col key={node.id} md={6} className="d-flex flex-column py-1">
+                { node.image &&
+                  <Img
+                    fluid={node.image.childImageSharp.fluid}
+                    alt={node.image.name}
+                    style={{ height: `50vh`, width: `100%`, objectFit: "contain" }}
+                  />
+                }
+
+                <div className="py-1">
+                  <p className="text-info">{node.date}</p>
+                  <h3>{node.title}</h3>
+                </div>
+              </Col>
+            ))}
+          </Row>
+
       </Container>
 
     </Layout>

@@ -5,15 +5,14 @@ import Footer from './footer';
 
 const Layout = ({ children }) => {
   return (
-    <>
-    <Header />
-    {/* <br /> */}
-    <main>
-      { children }
-    </main>
-    <br />
-    <Footer />
-    </>
+    <div className="d-flex flex-column min-vh-100">
+      <Header />
+      <main className="flex-grow-1">
+        { children }
+      </main>
+      <Footer />
+    </div>
+
   )
 }
 

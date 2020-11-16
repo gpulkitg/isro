@@ -1,0 +1,75 @@
+
+- seo:
+    title: "Media"
+
+  carouselSection:
+    - title: "ISRO and IAF sign MoU for Gaganyaan Crew Selection and Training"
+      image: "../images/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project/iafmou4.jpg"
+      link: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
+
+    - title: "First set of earth images by Vikram Lander"
+      image: "../images/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2/slide1.png"
+      link: "/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
+
+    - title: "GSLV-F10 / GISAT-1 Gallery"
+      image: "../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_4.jpg"
+      link: "/media/gslv-f10-gisat-1-gallery"
+
+    - title: "GSAT-30 Gallery"
+      image: "../images/media/gsat-30-gallery/image6.jpg"
+      link: "/media/gsat-30-gallery"
+
+
+
+
+
+  # cardSection:
+  #   - title: "GSLV-F10 / GISAT-1"
+  #     image: "../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_4.jpg"
+  #     link: "/media/gslv-f10-gisat-1-gallery"
+  #     imagesDir: "gslv-f10-gisat-1-gallery"
+  #
+  #   - title: "WSW-2017- VSSC, LPSC, IISU and IPRC"
+  #     image: "../images/media/wsw-2017-vssc-lpsc-iisu-and-iprc/vssc2.jpg"
+  #     link: "/media/wsw-2017-vssc-lpsc-iisu-and-iprc"
+  #     imagesDir: "wsw-2017-vssc-lpsc-iisu-and-iprc"
+  #
+  #   - title: "National Meet"
+  #     image: "../images/media/national-meet/special-session-9.jpg"
+  #     link: "/media/national-meet"
+  #     imagesDir: "national-meet"
+  #
+  #   - title: "GSAT-30 Gallery"
+  #     image: "../images/media/gsat-30-gallery/image6.jpg"
+  #     link: "/media/gsat-30-gallery"
+  #     imagesDir: "gsat-30-gallery"
+  #
+  #   - title: "GSLV-D6 / GSAT-6 Gallery"
+  #     image: "../images/media/gslv-d6-gsat-6-gallery/19gslv-d6-being-moved-vehicle-assembly-building-to-launch-pad.jpeg"
+  #     link: "/media/gslv-d6-gsat-6-gallery"
+  #     imagesDir: "gslv-d6-gsat-6-gallery"
+  #
+  #   - title: "Photos WSW-2017 -SAC"
+  #     image: "../images/media/photos-wsw-2017-sac/sac4.jpg"
+  #     link: "/media/photos-wsw-2017-sac"
+  #     imagesDir: "photos-wsw-2017-sac"
+  #
+  #   - title: "High Resolution Panchromatic and Multi-spectral Images as observed from CARTOSAT-3"
+  #     image: "../images/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of/qatarkhalifa.jpg"
+  #     link: "/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
+  #     imagesDir: "high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
+  #
+  #   - title: "GSLV-F11 / GSAT-7A Gallery"
+  #     image: "../images/media/gslv-f11-gsat-7a-mission-gallery/22.jpg"
+  #     link: "/media/gslv-f11-gsat-7a-mission-gallery"
+  #     imagesDir: "gslv-f11-gsat-7a-mission-gallery"
+  #
+  #   - title: "Chandrayaan 2 Mission Gallery"
+  #     image: "../images/media/chandrayaan-2-mission-gallery/liftoffimage12.jpg"
+  #     link: "/media/chandrayaan-2-mission-gallery"
+  #     imagesDir: "chandrayaan-2-mission-gallery"
+  #
+  #   - title: "PSLV-C11/ Chandrayaan-1 Gallery"
+  #     image: "../images/media/pslv-c11-chandrayaan-1-gallery/7-chandrayan-1.jpg"
+  #     link: "/media/pslv-c11-chandrayaan-1-gallery"
+  #     imagesDir: "pslv-c11-chandrayaan-1-gallery"

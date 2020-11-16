@@ -57,7 +57,7 @@ export default function LightboxGallery({ photos, columns }) {
             views={photos.map(x => ({
               ...x,
               srcset: x.srcSet,
-              caption: x.title
+              // caption: x.title
             }))}
           />
         </Modal>

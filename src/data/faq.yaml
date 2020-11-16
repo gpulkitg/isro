@@ -1,0 +1,133 @@
+- cover:
+    title: "Frequently Asked Questions"
+    image: "../images/about/isro_earth.jpg"
+
+  content:
+    - title: "What is the full form of ISRO ?"
+      text: "ISRO Stands for Indian Space Research Organisation"
+
+    - title: "Who is considered as the 'founding father' of Indian Space Programme?"
+      text: "Dr Vikram A Sarabhai is considered as the founding father of space programmes in India."
+
+    - title: "When was ISRO formed?"
+      text: "ISRO was formed on August 15, 1969."
+
+    - title: "When was Department of Space constituted?"
+      text: "Department of Space (DOS) and the Space Commission were set up in 1972. ISRO was brought under DOS on June 1, 1972."
+
+    - title: "What is the main objective of ISRO?"
+      text: "The prime objective of ISRO is to develop space technology and its application to various national needs."
+
+    - title: "How these Objectives are met?"
+      text: "ISRO has established two major space systems, INSAT for communication, television broadcasting and meteorological services, and Indian Remote Sensing Satellites (IRS) system for resources monitoring and management. ISRO has developed two satellite launch vehicles, PSLV and GSLV, to place INSAT and IRS satellites in the required orbits."
+
+    - title: "Where the Satellites are made?"
+      text: "Satellites are made at ISRO Satellite Centre (ISAC), Bangalore."
+
+    - title: "Where the Rockets / Launch vehicles are made?"
+      text: "Rockets / Launch Vehicles are made at Vikram Sarabhai Space Centre (VSSC), Thiruvanathapuram."
+
+    - title: "From where are the rockets launched?"
+      text: "ISRO's Launch facility is located at SDSC SHAR from where Launch Vehicles and Sounding Rockets are launched. Sounding rockets are also launched from TERLS at Thiruvananthapuram."
+
+    - title: "How can I order for Satellite data?"
+      text: "You can get data from National Remote Sensing Centre (NRSC), Hyderabad. Visit the website: www.nrsc.gov.in for more details."
+
+    - title: "Where did the Space Programme begin in India?"
+      text: "Indian Space Programme began at Thumba Equatorial Rocket Launching Station (TERLS) located at Thumba near Thiruvanathapuram."
+
+    - title: "Why was Thumba selected for being rocket launching station?"
+      text: "The geomagnetic equator of the earth passes over Thumba."
+
+    - title: "What is a sounding rocket?"
+      text: "A sounding rocket is a rocket, which is intended for assessing the physical parameters of the upper atmosphere."
+
+    - title: "What does the letter 'RH' and the numerals on an Indian sounding rocket signify?"
+      text: "RH stands for 'Rohini' sounding rocket and the numeral indicate the diameter of the rocket in mm."
+
+    - title: "When was the first rocket launched in India? Which was the rocket?"
+      text: "The first rocket, a Nike-Apache, procured from the US, was launched on November 21, 1963."
+
+    - title: "When did India begin developing its own rockets?"
+      text: "India’s first indigenous sounding rocket, RH-75, was launched on November 20, 1967."
+
+    - title: "What is the exptextion of VSSC and when it was formed?"
+      text: "Space Science and Technology Centre (SSTC) was renamed as Vikram Sarabhai Space Centre (VSSC) in 1972 in honor of Dr Vikram Sarabahi who met with his untimely demise on December 30, 1971."
+
+    - title: "How many Centres are there in ISRO?"
+      text: "There are six major Centres and several other Units, Agencies, Facilities and Laboratories spread across the country."
+
+    - title: "Where are these Centres located?"
+      text: "Vikram Sarabhai Space Centre (VSSC), Thiruvananthapuram; ISRO Satellite Centre (ISAC), Bangalore; Satish Dhawan Space Centre (SDSC – SHAR) at Sriharikota; Liquid Propulsion Systems Centre (LPSC) at Thiruvananthapuram, Bangalore and Mahendragiri, Space Application Centre (SAC), Ahmedabad and National Remote Sensing Centre (NRSC), Hyderabad."
+
+    - title: "What is the major function of these Centres?"
+      text: "Launch Vehicles are build at VSSC, Thiruvananthapuram; Satellites are designed and developed at ISAC, Bangalore; Integration and launching of satellites and launch vehicles are carried out from SDSC, Shriharikota; Development of liquid stages including cryogenic stage is carried out at LPSC, Sensors for Communication and Remote Sensing satellites and application aspects of the space technology are taken up at SAC, Ahmedabad and Remote Sensing satellite data reception processing and dissemination by NRSC, Hyderabad."
+
+    - title: "Which is the first launch vehicle of India?"
+      text: "Satellite Launch Vehicle-3 (SLV-3) is the first launch vehicle of India."
+
+    - title: "When was it launched?"
+      text: "The first successful launch of SLV-3 took place on July 18, 1980 from SDSC SHAR."
+
+    - title: "What are the other launch vehicles developed by India?"
+      text: "Apart from SLV-3, India developed Augmented Satellite Launch Vehicle (ASLV), Polar Satellite Launch Vehicle (PSLV) and Geosynchronous Satellite Launch Vehicle (GSLV)."
+
+    - title: "How satellites are broadly classified?"
+      text: "Satellites are broadly classified into two, viz., Communication satellites and Remote Sensing satellites."
+
+    - title: "What is a communication satellite?"
+      text: "A communication satellite usually operates from the Geosynchronous orbit catering to requirements in communication, television broadcasting, meteorology, disaster warning etc."
+
+    - title: "What is a Remote Sensing satellite?"
+      text: "A Remote Sensing satellite is intended for natural resource monitoring and management and operates from a Sun Synchronous Polar Orbit (SSPO)."
+
+    - title: "What is NNRMS?"
+      text: "NNRMS is the acronym for National Natural Resources Management System. NNRMS is an integrated resources management system aimed at optimal utilisation of the natural resources of the country by proper and systematic inventory of resource availability using Remote Sensing data in conjunction with conventional technititle."
+
+    - title: "Which is the first Indian satellite?"
+      text: "Aryabhata is the first Indian satellite"
+
+    - title: "From where was it launched?"
+      text: "It was launched from the former Soviet Union on April 19, 1975."
+
+    - title: "Which is the heaviest satellite launched by India from Indian soil?"
+      text: "INSAT-4CR weighing 2130 kg and launched by GSLV-F04 on September 2, 2007 is the heaviest satellite launched from India."
+
+    - title: "How many launches of launch vehicles were carried out so far?"
+      text: "38 launch vehicle missions were carried from India so far (till March 2013)."
+
+    - title: "How many satellites have been launched by India?"
+      text: "68 + 35 (foreign) satellites were put into orbit so far (till March 2013)."
+
+    - title: "Which is the first operational launch vehicle of India?"
+      text: "PSLV is the first operational launch vehicle of India. It had so far three developmental flights and nineteen operational flights - 21 continuously successful flights."
+
+    - title: "What is Chandrayaan-1?"
+      text: "Chandrayaan-1 is a scientific investigation – by spacecraft – of the Moon. The name Chandrayaan metext “Chandra- Moon, Yaan-vehicle”, –in Indian languages (Stextkrit and Hindi) , – the lunar spacecraft. Chandrayaan-1 is the first Indian planetary science and exploration mission."
+
+    - title: "When, and from where, Chandrayaan-1 was launched?"
+      text: "Chandrayaan-1 was launched on October 22, 2008 from Satish Dhawan Space Centre at Sriharikota (SHAR), India."
+
+    - title: "How long Chandrayaan-1 was operational?"
+      text: "Chandrayaan-1 was operational for 312 days till August 28, 2009."
+
+    - title: "What are Chandrayaan's scientific goals?"
+      text: "The Chandrayaan-1 mission is aimed at high-resolution Remote Sensing of the Lunar surface in visible, near Infrared, low energy X-rays and high-energy X-ray regions. Specific scientific goals are: To prepare a three-dimensional atlas (with a high spatial and altitude resolution of 5-10 m) of both near and far side of the moon. To conduct chemical and mineralogical mapping of the entire lunar surface for distribution of mineral and chemical elements such as Magnesium, Aluminium, Silicon, Calcium, Iron and Titanium as well as high atomic number elements such as Radon, Uranium & Thorium with high spatial resolution. By simultaneous photo geological and chemical mapping, we will be able to identify different geological units, which will test the hypothesis for the origin and early evolutionary history of the moon and help in determining the nature of the lunar crust."
+
+    - title: "What are the scientific instruments onboard Chandrayaan-1?"
+      text: "There are eleven scientific instruments onboard Chandrayaan-1 spacecraft. Five of them are Indian and other six are from ESA (3), NASA (2) and Bulgarian Academy of Sciences (1) selected through ISRO Announcement of Opportunity (AO). Two of the ESA instruments have Indian collaboration."
+
+    - title: "What is the temperature on the moon?"
+      text: "The moon undergoes extremes in temperature - the side of the Moon receiving sunlight becomes scorching hot at about 130 ºC, and freezing cold at -180 ºC during night."
+
+    - title: "Is there any Life on moon?"
+      text: "So far none of the lunar missions have detected any signature of presence of life on the Moon."
+
+    - title: "Why do we see only one side of the Moon?"
+      text: "As the Moon orbits, it always presents the same side towards the Earth. This is so because Earth's gravity has slowed the Moon's rotation so that it just matches the time it takes to go around the Earth. So the Moon takes the same amount of time to revolve around the Earth as it takes to rotate around its spin axis."
+
+    - title: "What is the total budget for realising Chandrayaan-1 mission?"
+      text: "The budgetary estimate for realising the proposed Indian lunar mission Chandrayaan-1 stands at Rs. 386.00 crores (about $76 million). This includes Rs. 53.00 crores (about $11 million) for Payload development, Rs. 83.00 crores (about $17 million) for Spacecraft Bus, Rs. 100.00 crores ($20 million) towards establishment of Deep Space Network, Rs. 100.00 crores ($20 million) for PSLV launch vehicle and Rs. 50.00 crores ($10 million) for scientific data centre, external network support and programme management expenses."
+
+    - title: "What is Antrix?"
+      text: "Antrix is the commercial wing of ISRO, a single window agency for marketing Indian space capabilities both products and services to the world."

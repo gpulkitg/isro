@@ -1,12 +1,28 @@
 import React, { useState, useEffect } from "react"
-import { Navbar, Nav, NavDropdown, Dropdown } from 'react-bootstrap'
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
+import Img from 'gatsby-image'
 // import throttle from "lodash.throttle"
+import { Navbar, Nav, NavDropdown, Dropdown } from 'react-bootstrap'
 import debounce from "lodash/debounce"
 
-import isro_logo from '../images/isro_icon_black.png'
+// import isro_logo from '../images/isro_icon_black.png'
+
 
 export default function Header() {
+
+  const data = useStaticQuery(graphql`
+    query {
+      logo: file(relativePath: {eq: "common/isro_icon_black.png"}) {
+        name
+        childImageSharp {
+          fixed(width: 30, height: 30) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
+
 
   const [lastScrollY, setLastScrollY] = useState(0);
   const [show, setShow] = useState(true)
@@ -60,7 +76,12 @@ export default function Header() {
       >
 
       <Navbar.Brand href="/">
-        <img src={isro_logo} width="30" height="30" className="d-inline-block align-top" alt="ISRO logo" />
+        {/* <img src={isro_logo} width="30" height="30" className="d-inline-block align-top" alt="ISRO logo" /> */}
+        <Img
+          fixed={data.logo.childImageSharp.fixed}
+          className="d-inline-block align-top"
+          alt={data.logo.name}
+        />
       </Navbar.Brand>
       <Navbar.Brand href="/" className="no-underline">ISRO</Navbar.Brand>
 
@@ -68,14 +89,15 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mx-auto">
           {/* <Nav.Link href="/missions" className="mx-4 text-white">Missions</Nav.Link> */}
-          <Navbar.Text className="mx-4"><Link to="/home" className="no-underline">Home</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/missions" className="no-underline">Missions</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/spacecrafts" className="no-underline">Spacecrafts</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/launchers" className="no-underline">Launchers</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/media" className="no-underline">Media</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/about" className="no-underline">About</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/contact" className="no-underline">Contact</Link></Navbar.Text>
-          <Navbar.Text className="mx-4"><Link to="/test" className="no-underline">Test</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/home" className="no-underline">Home</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/missions" className="no-underline">Missions</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/spacecraft" className="no-underline">Spacecraft</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/launchers" className="no-underline">Launchers</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/media" className="no-underline">Media</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/about" className="no-underline">About</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/contact" className="no-underline">Contact</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/updates" className="no-underline">Updates</Link></Navbar.Text>
+          <Navbar.Text className="mx-2"><Link to="/test" className="no-underline">Test</Link></Navbar.Text>
 
           {/* <Dropdown
             as={Nav.Item}
