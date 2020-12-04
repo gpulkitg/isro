@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from 'gatsby-image'
 // import throttle from "lodash.throttle"
-import { Navbar, Nav, NavDropdown, Dropdown } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import debounce from "lodash/debounce"
 
 // import isro_logo from '../images/isro_icon_black.png'
@@ -28,7 +28,7 @@ export default function Header() {
   const [show, setShow] = useState(true)
   const [positionTop, setPositionTop] = useState(true)
 
-  const [showLauncherDropdown, setShowLauncherDropdown] = useState(false)
+  // const [showLauncherDropdown, setShowLauncherDropdown] = useState(false)
 
 
   useEffect(() => {
@@ -63,7 +63,7 @@ export default function Header() {
       document.removeEventListener('scroll', handleScrollDebounched)
     }
 
-  }, [lastScrollY])
+  }, [lastScrollY, show])
 
 
   return (

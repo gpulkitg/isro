@@ -8,8 +8,8 @@
       description: ""
       button: "LEARN MORE"
       link: "/missions/chandrayaan-2"
-      horizontalPosition: "left"
-      verticalPosition: "bottom"
+      horizontalPosition: "right"
+      verticalPosition: "center"
       textAlignment: "left"
 
     - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/mccsnap3dview03.jpg"
@@ -19,7 +19,7 @@
       button: "MORE INFO"
       link: "/missions/mars-orbiter-mission"
       horizontalPosition: "left"
-      verticalPosition: "center"
+      verticalPosition: "top"
       textAlignment: "left"
 
     - image: "../images/missions/astrosat/astrosat-image.jpg"

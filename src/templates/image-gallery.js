@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
+// import Img from 'gatsby-image'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import LightboxGallery from '../components/lightbox-gallery'
@@ -12,14 +12,14 @@ export const query = graphql`
   query ($slug: String!, $imagesDir: String!) {
     imageGalleriesYaml(slug: { eq: $slug }) {
       title
-      slug
-      image {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
+      # slug
+      # image {
+      #   childImageSharp {
+      #     fluid {
+      #       ...GatsbyImageSharpFluid
+      #     }
+      #   }
+      # }
     }
     images: allFile(filter: { relativePath: { regex: $imagesDir } }) {
       edges {
@@ -41,7 +41,7 @@ export const query = graphql`
 
 export default function ImageGallery({ data }) {
 
-  const { title, slug, cover } = data.imageGalleriesYaml
+  const { title } = data.imageGalleriesYaml
 
   const photos = data.images.edges.map(({ node }) => {
     return (

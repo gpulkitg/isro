@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import debounce from 'lodash/debounce'
 
-import { Container, CardDeck, Card, Row, Col, Form, Spinner, Carousel, Button } from 'react-bootstrap'
+import { Container, Row, Col, Form, Carousel } from 'react-bootstrap'
 
 // import CarouselGallery from '../components/carousel-gallery'
 import Layout from "../components/layout"

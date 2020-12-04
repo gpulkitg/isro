@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
-import { Container, Table } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import TextContent from '../components/text-content'
 import Separator from '../components/separator'
-import LinkVersatile from '../components/link-versatile'
 
 
 export const query = graphql`
@@ -57,7 +55,7 @@ export default function MonthlySummaryOfDos({ data }) {
       <Container>
         { data.monthlySummaryOfDosYaml.content.map((item, ind) => (
           <div key={`content_${ind}`} className="mb-2 text-center">
-            <a href={item.doc.publicURL} target="_blank"><h4>{item.year} {item.month}</h4></a>
+            <a href={item.doc.publicURL} target="_blank" rel="noreferrer"><h4>{item.year} {item.month}</h4></a>
           </div>
         ))}
         {/* <Table variant="dark" className="table-custom-border" responsive>

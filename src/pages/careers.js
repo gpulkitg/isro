@@ -179,7 +179,7 @@ export default function Careers({ data }) {
         </Form>
 
         <div className="mb-2">
-          <a href={data.file.publicURL} className="no-underline" target="_blank">
+          <a href={data.file.publicURL} className="no-underline" target="_blank" rel="noreferrer">
             <h2 className="text-center text-danger">
               ATTENTION JOB APPLICANTS
             </h2>

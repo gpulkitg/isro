@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import { Container, Button } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import TextContent from '../components/text-content'
 import Separator from '../components/separator'
-import LinkVersatile from '../components/link-versatile'
 
 
 export const query = graphql`
@@ -51,7 +49,7 @@ export default function ParliamentQuestions({ data }) {
 
         { data.parliamentQuestionsYaml.content.map((item, ind) => (
           <div className="mb-2" key={`content_${ind}`}>
-            <a href={item.doc.publicURL} target="_blank">{item.text}</a>
+            <a href={item.doc.publicURL} target="_blank" rel="noreferrer">{item.text}</a>
           </div>
         ))}
       </Container>

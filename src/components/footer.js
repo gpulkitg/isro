@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 // import Img from "gatsby-image"
-import { Navbar, Nav, Button, Container, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 import Separator from '../components/separator'
 import LinkVersatile from '../components/link-versatile'

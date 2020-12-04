@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Container, CardDeck, Button, Row, Col, Card } from 'react-bootstrap'

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Table from 'react-bootstrap/Table'
 import LinkVersatile from './link-versatile'
 import { FileEarmark } from 'react-bootstrap-icons'
@@ -14,7 +14,7 @@ const ColVersatile = ({ col }) => {
     )
   } else if (col.doc) {
     return (
-      <a href={col.doc.publicURL} className="no-underline" target="_blank">
+      <a href={col.doc.publicURL} className="no-underline" target="_blank" rel="noreferrer">
         { col.text ? col.text : col.doc.name+col.doc.ext }{" "}<FileEarmark />
       </a>
     )

@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import { Container } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import TextContent from '../components/text-content'
 import Separator from '../components/separator'
 import ClickReveal from '../components/click-reveal'
 

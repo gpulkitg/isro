@@ -7,7 +7,6 @@ import { Phone, Telephone, Geo, Envelope, Globe, Printer, Newspaper } from 'reac
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import JumbotronImg from '../components/jumbotron-img'
 
 
 export const query = graphql`

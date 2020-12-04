@@ -39,7 +39,7 @@ export const query = graphql`
 export default function SponsoredResearch({ data }) {
 
   const {
-    cover,
+    // cover,
     sponsoredResearch,
   } = data.aboutYaml
 

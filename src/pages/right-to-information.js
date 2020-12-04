@@ -1,10 +1,9 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import { Container } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import TextContent from '../components/text-content'
 import Separator from '../components/separator'
 import LinkVersatile from '../components/link-versatile'
 import { FileEarmark } from 'react-bootstrap-icons'
@@ -46,7 +45,7 @@ export default function InternationalCooperation({ data }) {
               <LinkVersatile url={item.link}>{item.text}</LinkVersatile>
             }
             { item.doc &&
-              <a href={item.doc.publicURL} target="_blank"><FileEarmark /> {item.text}</a>
+              <a href={item.doc.publicURL} target="_blank" rel="noreferrer"><FileEarmark /> {item.text}</a>
             }
           </div>
         ))}

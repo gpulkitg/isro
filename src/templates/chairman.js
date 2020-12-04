@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Container, Row, Col, Button, Tabs, Tab } from 'react-bootstrap'
+import { Container, Row, Col, Tabs, Tab } from 'react-bootstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Separator from '../components/separator'

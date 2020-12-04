@@ -23,7 +23,7 @@ export default function LinkVersatile({ url, children, ...rest }) {
 
   return (
     isExternalLink() ? (
-      <a href={url} target="_blank" rel="external" {...rest}>{children}</a>
+      <a href={url} target="_blank" rel="noreferrer external" {...rest}>{children}</a>
     ) : (
       <Link to={url} {...rest}>{children}</Link>
     )

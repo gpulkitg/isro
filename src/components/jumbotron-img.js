@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 
 // export default function JumbotronImg({ imgSrc, imgAlt="", horizontalPosition, verticalPosition, textAlignment, children }) {

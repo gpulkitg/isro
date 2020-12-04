@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+// import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -48,12 +48,12 @@ export default function IndiasSpacePolicy({ data }) {
         <div className="mb-2">
           <h4 className="mb-1">Policy</h4>
           <div className="mb-1">
-            <a href={satcomPolicy} target="_blank">
+            <a href={satcomPolicy} target="_blank" rel="noreferrer">
               Satcom Policy
             </a>
           </div>
           <div>
-            <a href={satcomNGP} target="_blank">
+            <a href={satcomNGP} target="_blank" rel="noreferrer">
               The norms, guidelines and procedures for implementation of the policy frame-work for satellite communications in India
             </a>
           </div>
@@ -62,7 +62,7 @@ export default function IndiasSpacePolicy({ data }) {
         <div>
           <h4  className="mb-1">Registering an Indian Satellite System</h4>
           <div>
-            <a href={applicationFormat} target="_blank">
+            <a href={applicationFormat} target="_blank" rel="noreferrer">
               Application Format and Guidelines for Registering an Indian Satellite System
             </a>
           </div>

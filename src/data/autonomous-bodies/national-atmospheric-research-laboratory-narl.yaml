@@ -1,0 +1,16 @@
+title: "National Atmospheric Research Laboratory (NARL)"
+slug: "/about/national-atmospheric-research-laboratory-narl"
+image: "../../images/about/autonomous-bodies/narl_img.jpg"
+description: ""
+locations:
+  - name: ""
+    image: "../../images/about/autonomous-bodies/narl_img.jpg"
+    headPosition: ""
+    head: ""
+    address: "National Atmospheric Research Laboratory, PB No. 123, SVU Campus, Tirupathi - 517 502, Andhra Pradesh"
+    email: "director@narl.gov.in"
+    link: "http://www.narl.gov.in/"
+    description: !markdown |
+      National Atmospheric Research Laboratory (NARL) at Gadanki near Tirupati, an autonomous society supported by DOS, is a centre for atmospheric research. NARL is involved in technology development, observations, data archival, dissemination, assimilation and modeling.
+
+      NARL carries out its research activities under seven major groups, namely, Radar Application and Development Group, Ionospheric and Space Research Group, Atmospheric Structure and Dynamics Group, Cloud and Convective Systems Group, Aerosols, Radiation and Trace Gases Group, Weather and Climate Research Group and Computers and Data Management Group. Apart from these groups, there are also specific projects such as the LiDAR project and Advanced Space-borne Instrument Development project.

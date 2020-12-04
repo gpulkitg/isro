@@ -16,7 +16,7 @@ export default function CardVideo({ children, title, onClick }) {
       <Card.Body>
         <Card.Title className="text-center">{title}</Card.Title>
         {/* <Button onClick={() => setShowModalVideoPlayer(true)} className="stretched-link"/> */}
-        <a style={{ cursor: 'pointer' }} onClick={onClick} className="stretched-link" />
+        <a style={{ cursor: 'pointer' }} onClick={onClick} className="stretched-link" alt="pointer"/>
       </Card.Body>
     </Card>
   )

@@ -50,7 +50,7 @@ export default function FooterMore() {
                     <LinkVersatile url={item.link} className="no-underline">{item.text}</LinkVersatile>
                   }
                   { item.doc &&
-                    <a href={item.doc.publicURL} className="no-underline" target="_blank" rel="noreferrer enclosure">{item.text}</a>
+                    <a href={item.doc.publicURL} className="no-underline" target="_blank" rel="noreferrer">{item.text}</a>
                   }
                 </div>
               ))}
