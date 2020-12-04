@@ -27,7 +27,7 @@ export const query = graphql`
   }
 `
 
-export default function Genesis({ data }) {
+export default function MdPage({ data }) {
 
   const {
     title,

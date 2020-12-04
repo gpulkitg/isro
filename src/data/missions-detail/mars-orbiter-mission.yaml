@@ -1,0 +1,145 @@
+slug: "/missions/mars-orbiter-mission"
+
+seo:
+  title: "Mars Orbiter Mission"
+
+
+jumbotronImg:
+  - image: "../../images/missions/mars-orbiter-mission/mom1.jpg"
+    title: "Mars Orbiter Mission"
+    subtitle: "Breathtaking pictures by Mars Color Camera"
+    description: ""
+    button: "SEE MORE"
+    link: "/images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+    horizontalPosition: "left"
+    verticalPosition: "bottom"
+    textAlignment: "left"
+
+  - image: "../../images/missions/mars-orbiter-mission/mom2.jpg"
+    title: "Mars Orbiter Journey"
+    subtitle: "From launch to Martian orbit"
+    description: ""
+    button: "LEARN MORE"
+    link: "#"
+    horizontalPosition: "right"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+
+textContent1:
+  title: "India's First Interplanetary Mission"
+  text: !markdown |
+    Marking India's first venture into the interplanetary space MOM will explore and observe Mars surface features morphology mineralogy and the Martian atmosphere. Further a specific search for methane in the Martian atmosphere will provide information about the possibility or the past existence of life on the planet
+
+    The enormous distances involved in interplanetary missions present a demanding challenge; developing and mastering the technologies essential for these missions will open endless possibilities for space exploration. After leaving Earth the Orbiter will have to endure the Interplanetary space for 300 days before Mars capture. Apart from deep space communications and navigation-guidance-control capabilities the mission will require autonomy at the spacecraft end to handle contingencies.
+
+    Once India decided to go to Mars ISRO had no time to lose as the nearest launch window was only a few months away and it could not afford to lose the chance given the next launch would present itself after over 780 days in 2016. Thus mission planning manufacturing the spacecraft and the launch vehicle and readying the support systems took place swiftly.
+
+
+cardSection:
+  - title: "Launch Vehicle"
+    image: "../../images/missions/mars-orbiter-mission/mom_lv.png"
+    text: "PSLV C-25"
+    link: "/launchers/pslv"
+
+  - title: "Spacecraft"
+    image: "../../images/missions/mars-orbiter-mission/mom_spacecraft.png"
+    text: "Mars Orbiter Mission (MOM)"
+    link: "/spacecraft/mars-orbiter-mission"
+
+  - title: "Ground Segment"
+    image: "../../images/missions/mars-orbiter-mission/mom_ground_segment.png"
+    text: "Indian Deep Space Network (ISDN)"
+    link: "/missions/mars-orbiter-mission/ground-segment"
+
+  - title: "Mission Profile"
+    image: "../../images/missions/mars-orbiter-mission/mom_mission_profile.png"
+    text: "Rendezvous problem"
+    link: "/missions/mars-orbiter-mission/profile"
+
+
+
+gallery:
+  link: "/images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+  photos:
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/26decmcc.png"
+      # width: 8
+      # height: 9
+      caption: "Caption"
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/latestimagetakefrommcc.jpg"
+      # width: 3
+      # height: 2
+      caption: "Caption"
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/marsmoonphobos.jpg"
+      # width: 1
+      # height: 1
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/eoschaos.jpg"
+      # width: 7
+      # height: 5
+
+
+cardSection2:
+  link: "/missions/mars-orbiter-mission/payloads"
+  cards:
+    - title: "Methane Sensor for Mars (MSM)"
+      image: "../../images/missions/mars-orbiter-mission/msm.png"
+    - title: "Mars Color Camera (MCC)"
+      image: "../../images/missions/mars-orbiter-mission/mcc.png"
+    - title: "Lyman Alpha Photometer (LAP)"
+      image: "../../images/missions/mars-orbiter-mission/lap.png"
+    - title: "Mars Exospheric Neutral Composition Analyser (MENCA)"
+      image: "../../images/missions/mars-orbiter-mission/menca.png"
+    # - title: "Thermal Infrared Imaging Spectrometer (TIS)"
+    #   image: "../../images/missions/mars-orbiter-mission/tis.png"
+
+
+
+verticalTimeline:
+  title: "Mission Timeline"
+  events:
+    - date: "Dec 1, 2013"
+      title: "Launch"
+    - date: "Sep 24, 2014"
+      title: "Mars Orbit Insertion"
+    - date: "Dec 1, 2013"
+      title: "Launch"
+    - date: "Sep 24, 2014"
+      title: "Mars Orbit Insertion"
+
+
+
+
+relatedLinks:
+  - title: ""
+    content:
+      - link: "/missions/mars-orbiter-mission/mission-objectives"
+        text: "Mission Objectives"
+      - link: "/missions/mars-orbiter-mission/mars-orbiter-mission-profile"
+        text: "Mission Profile"
+      - link: "/missions/mars-orbiter-mission/payloads"
+        text: "Payloads"
+      - link: "/missions/mars-orbiter-mission/spacecraft"
+        text: "Spacecraft"
+      - link: "/launchers/pslv-c25"
+        text: "Launcher PSLV-C25"
+      - link: "/missions/mars-orbiter-mission/ground-segment"
+        text: "Ground Segment"
+      - link: "/missions/mars-orbiter-mission/mars-orbiter-mission-brochure-0"
+        text: "Mars Orbiter Mission Brochure"
+      - link: "/media/pslv-c25-mars-orbiter-mission-gallery"
+        text: "PSLV-C25/Mars Orbiter Mission Gallery"
+
+  - title: ""
+    content:
+      - link: "/missions/mars-orbiter-mission/first-year-data-of-mars-orbiter-mission-mom-released"
+        text: "First year data of Mars Orbiter Mission (MOM) released"
+      - link: "/missions/mars-orbiter-mission/announcement-of-opportunity-utilising-mars-orbiter-mission-data-mcc"
+        text: "Announcement of Opportunity for utilising Mars Orbiter Mission data from MCC, TIS, MSM, LAP and MENCA payloads (MOM-AO)"
+      - link: "/missions/mars-orbiter-mission/fishing-hamlet-to-red-planet-download-e-book"
+        text: "Fishing Hamlet to Red Planet-Download the E-book"
+      - link: "/missions/mars-orbiter-mission/celebrating-one-year-of-mars-orbiter-mission-orbit-release-of-mars"
+        text: "Celebrating one year of Mars Orbiter Mission in Orbit; Release of Mars Atlas"
+      - link: "/missions/mars-orbiter-mission/global-albedo-map-of-mars"
+        text: "Global Albedo Map of Mars"
+      - link: "/missions/mars-orbiter-mission/list-of-publications"
+        text: "List of Publications"

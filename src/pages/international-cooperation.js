@@ -34,7 +34,7 @@ export default function InternationalCooperation({ data }) {
       <h1 className="text-center mb-2">{data.internationalCooperationYaml.seo.title}</h1>
 
       <Container>
-        <div dangerouslySetInnerHTML={{ __html: data.internationalCooperationYaml.content.text }} />
+        <div dangerouslySetInnerHTML={{ __html: data.internationalCooperationYaml.content.text }} className="text-justify" />
       </Container>
 
 

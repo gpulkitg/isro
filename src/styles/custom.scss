@@ -12,6 +12,21 @@
 // Your modifications to bootstrap classes
 
 
+.media-icon {
+  @include hover-focus() {
+    filter: invert(0.75);
+  }
+}
+
+.img-bg {
+  background-image: url("../images/bg/viktor-forgacs-Bvo2-SNi0rw-unsplash.jpg");
+  // background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  background-color: #000; // fallback in case image is not available
+  // height: 600px;
+}
+
 .footer-item {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -77,6 +92,18 @@
   }
 }
 
+.navbar-bg {
+  background-color: $black;
+}
+
+.navbar-bg-top {
+  background-color: none;
+
+  @include media-breakpoint-down("lg") {
+    background-color: $black;
+  }
+}
+
 
 // ================
 // Dropdowns
@@ -134,7 +161,7 @@
 }
 
 .btn-jumbotron {
-  font-size: $h5-font-size;
+  font-size: $h6-font-size;
   border-width: 2 * $btn-border-width;
 
     @include hover-focus() {

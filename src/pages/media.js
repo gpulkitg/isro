@@ -5,7 +5,7 @@ import debounce from 'lodash/debounce'
 
 import { Container, CardDeck, Card, Row, Col, Form, Spinner, Carousel, Button } from 'react-bootstrap'
 
-import CarouselGallery from '../components/carousel-gallery'
+// import CarouselGallery from '../components/carousel-gallery'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import VideoPlayer from '../components/video-player'
@@ -17,20 +17,21 @@ import CardBrighten from '../components/card-brighten'
 
 export const query = graphql`
   query {
-    allFeaturedYaml {
-      edges {
-        node {
-          id
-          title
-          slug
-          cover {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
+    mediaYaml {
+      seo {
+        title
+      }
+      carouselSection {
+        title
+        image {
+          name
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
         }
+        slug
       }
     }
     allImageGalleriesYaml {
@@ -39,7 +40,7 @@ export const query = graphql`
           id
           title
           slug
-          cover {
+          image {
             childImageSharp {
               fluid {
                 ...GatsbyImageSharpFluid
@@ -150,13 +151,13 @@ export default function MediaPage({ data }) {
 
   return (
     <Layout>
-      <SEO title="Media" />
+      <SEO title={data.mediaYaml.seo.title} />
 
-      <Carousel interval={null} className="carousel-fade">
+      {/* <Carousel interval={null} className="carousel-fade">
         { data.allFeaturedYaml.edges.map(({node}) => (
           <Carousel.Item key={node.id} className="item-gradient">
             <Img
-              fluid={node.cover.childImageSharp.fluid}
+              fluid={node.image.childImageSharp.fluid}
               style={{ width: `100%`, height: `100vh`}}
               imgStyle={{ opacity: `0.8` }}
             />
@@ -165,6 +166,22 @@ export default function MediaPage({ data }) {
               <br />
             </Carousel.Caption>
             <Link to={node.slug} className="stretched-link" />
+          </Carousel.Item>
+        ))}
+      </Carousel> */}
+      <Carousel interval={null} className="carousel-fade">
+        { data.mediaYaml.carouselSection.map((item, ind) => (
+          <Carousel.Item key={`carouselSection_${ind}`} className="item-gradient">
+            <Img
+              fluid={item.image.childImageSharp.fluid}
+              style={{ width: `100%`, height: `100vh`}}
+              imgStyle={{ opacity: `0.8` }}
+            />
+            <Carousel.Caption>
+              <h3>{item.title}</h3>
+              <br />
+            </Carousel.Caption>
+            <Link to={item.slug} className="stretched-link" />
           </Carousel.Item>
         ))}
       </Carousel>
@@ -228,16 +245,16 @@ export default function MediaPage({ data }) {
                 link={node.slug}
               >
                 <Img
-                  fluid={node.cover.childImageSharp.fluid}
-                  alt={node.cover.name}
+                  fluid={node.image.childImageSharp.fluid}
+                  alt={node.image.name}
                   className="card-brighten-img"
                 />
               </CardBrighten>
               {/* <Card text="white" className="h-100" style={cardStyles}>
                 <Img
-                  fluid={node.cover.childImageSharp.fluid}
+                  fluid={node.image.childImageSharp.fluid}
                   style={{ width: `100%`, height: `300px`}}
-                  imgStyle={{ objectFit: `cover` }}
+                  imgStyle={{ objectFit: `image` }}
                 />
                 <Card.Body className="text-center">
                   <Card.Title>

@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import TextContent from '../components/text-content'
 import Separator from '../components/separator'
-import FlexibleLink from '../components/flexible-link'
+import LinkVersatile from '../components/link-versatile'
 
 
 export const query = graphql`
@@ -15,9 +15,12 @@ export const query = graphql`
       seo {
         title
       }
-      content {
+      externalLinks {
         text
         link
+      }
+      content {
+        text
         doc {
           name
           publicURL
@@ -40,16 +43,15 @@ export default function ParliamentQuestions({ data }) {
       <h1 className="text-center mb-2">{data.parliamentQuestionsYaml.seo.title}</h1>
 
       <Container>
-        {data.parliamentQuestionsYaml.content.map((item, ind) => (
+        { data.parliamentQuestionsYaml.externalLinks.map((item, ind) => (
+          <div className="mb-2" key={`externalLinks_${ind}`}>
+            <Button href={item.link} variant="outline-light" className="btn-jumbotron">{item.text}</Button>
+          </div>
+        )) }
+
+        { data.parliamentQuestionsYaml.content.map((item, ind) => (
           <div className="mb-2" key={`content_${ind}`}>
-            { item.link &&
-              <div>
-                <Button href={item.link} variant="outline-light" className="btn-jumbotron">{item.text}</Button>
-              </div>
-            }
-            { item.doc &&
-              <a href={item.doc.publicURL} target="_blank">{item.text}</a>
-            }
+            <a href={item.doc.publicURL} target="_blank">{item.text}</a>
           </div>
         ))}
       </Container>

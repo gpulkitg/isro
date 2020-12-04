@@ -10,7 +10,7 @@ import CardBrighten from '../../components/card-brighten'
 
 export const query = graphql`
   query {
-    allChairmenYaml(filter: {slug: {ne: "/about/chairman-isro-secretary-dos"}}) {
+    allChairmenYaml(sort: {order: DESC, fields: tenure}, filter: {slug: {ne: "/about/chairman-isro-secretary-dos"}}) {
       edges {
         node {
           id

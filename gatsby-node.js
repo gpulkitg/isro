@@ -16,9 +16,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const missionDetailTemplate = require.resolve("./src/templates/mission-detail.js")
   const isroCentreTemplate = require.resolve("./src/templates/isro-centre.js")
   const autonomousBodyTemplate = require.resolve("./src/templates/autonomous-body.js")
-  const profileTemplate = require.resolve("./src/templates/profile.js")
-  const markdownPageTemplate = require.resolve("./src/templates/markdown-page.js")
-
+  const chairmanTemplate = require.resolve("./src/templates/chairman.js")
+  // const markdownPageTemplate = require.resolve("./src/templates/markdown-page.js")
+  const mdLauncherTemplate = require.resolve("./src/templates/md-launcher.js")
+  const mdSpacecraftTemplate = require.resolve("./src/templates/md-spacecraft.js")
 
   const result = await graphql(`
     query {
@@ -65,12 +66,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-      allMarkdownRemark {
+      allMdLauncherYaml {
         edges {
           node {
-            frontmatter {
-              slug
-            }
+            slug
+          }
+        }
+      }
+      allMdSpacecraftYaml {
+        edges {
+          node {
+            slug
           }
         }
       }
@@ -140,22 +146,42 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   result.data.allChairmenYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
-      component: profileTemplate,
+      component: chairmanTemplate,
       context: {
         slug: node.slug,
       }
     })
   })
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  result.data.allMdLauncherYaml.edges.forEach(({ node }) => {
     createPage({
-      path: node.frontmatter.slug,
-      component: markdownPageTemplate,
+      path: node.slug,
+      component: mdLauncherTemplate,
       context: {
-        slug: node.frontmatter.slug,
+        slug: node.slug,
       }
     })
   })
+
+  result.data.allMdSpacecraftYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: mdSpacecraftTemplate,
+      context: {
+        slug: node.slug,
+      }
+    })
+  })
+
+  // result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  //   createPage({
+  //     path: node.frontmatter.slug,
+  //     component: markdownPageTemplate,
+  //     context: {
+  //       slug: node.frontmatter.slug,
+  //     }
+  //   })
+  // })
 
 
 }

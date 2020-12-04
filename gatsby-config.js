@@ -13,22 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/src/data`,
-      },
-    },
-    // `gatsby-transformer-yaml`,
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `dataYaml`,
-    //     path: `${__dirname}/src/data`,
-    //   },
-    // },
+    // `gatsby-transformer-json`,
     {
       resolve: 'gatsby-transformer-yaml-full',
       options: {
@@ -40,6 +25,20 @@ module.exports = {
             }
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `docs`,
+        path: `${__dirname}/src/docs`,
       },
     },
     {

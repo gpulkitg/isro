@@ -4,7 +4,7 @@
 
   jumbotronImg:
     - image: "../images/launchers/cus_test.jpg"
-      title: "Low cost powerful launch vehicles"
+      title: "Low cost, powerful launch vehicles"
       subtitle: ""
       description: ""
       button: ""
@@ -56,14 +56,14 @@
 
   listLaunchers:
     - title: "Historic"
-      contents:
+      content:
         - link: "/launchers/slv"
           text: "SLV"
         - link: "/launchers/aslv"
           text: "ASLV"
 
     - title: "Operational"
-      contents:
+      content:
         - link: "/launchers/pslv"
           text: "PSLV"
         - link: "/launchers/gslv-mk-ii"
@@ -74,7 +74,7 @@
           text: "Sounding Rockets"
 
     - title: "Future"
-      contents:
+      content:
         - link: "/launchers/rlv-td"
           text: "RLV-TD"
         - link: "/launchers/scramjet-engine-td"

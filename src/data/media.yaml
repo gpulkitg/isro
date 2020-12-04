@@ -1,23 +1,22 @@
-
 - seo:
     title: "Media"
 
   carouselSection:
     - title: "ISRO and IAF sign MoU for Gaganyaan Crew Selection and Training"
       image: "../images/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project/iafmou4.jpg"
-      link: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
+      slug: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
 
     - title: "First set of earth images by Vikram Lander"
       image: "../images/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2/slide1.png"
-      link: "/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
+      slug: "/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
 
     - title: "GSLV-F10 / GISAT-1 Gallery"
       image: "../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_4.jpg"
-      link: "/media/gslv-f10-gisat-1-gallery"
+      slug: "/media/gslv-f10-gisat-1-gallery"
 
     - title: "GSAT-30 Gallery"
       image: "../images/media/gsat-30-gallery/image6.jpg"
-      link: "/media/gsat-30-gallery"
+      slug: "/media/gsat-30-gallery"
 
 
 

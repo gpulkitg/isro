@@ -6,7 +6,7 @@ import { Container, Row, Col, Button, Tabs, Tab } from 'react-bootstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Separator from '../components/separator'
-import FlexibleLink from '../components/flexible-link'
+import LinkVersatile from '../components/link-versatile'
 
 export const query = graphql`
   query ($slug: String) {
@@ -14,7 +14,7 @@ export const query = graphql`
       name
       tenure
       # position
-      slug
+      # slug
       image {
         name
         childImageSharp {
@@ -39,13 +39,13 @@ export const query = graphql`
 `
 
 
-export default function IsroCentre({ data }) {
+export default function Chairman({ data }) {
 
   const {
     name,
     tenure,
     // position,
-    slug,
+    // slug,
     image,
     about,
     biodata,
@@ -78,7 +78,7 @@ export default function IsroCentre({ data }) {
           </Col>
 
           <Col className="p-2 my-auto" md={8}>
-            <h1 className="display-4 mb-2">{name}</h1>
+            <h1 className="mb-2">{name}</h1>
             <h3>{tenure}</h3>
           </Col>
 
@@ -138,7 +138,7 @@ export default function IsroCentre({ data }) {
                 <ul>
                   { links.map((item, ind) => (
                     <li key={`links_${ind}`}>
-                      <FlexibleLink url={item.link}>{item.name}</FlexibleLink>
+                      <LinkVersatile url={item.link}>{item.name}</LinkVersatile>
                     </li>
                   ))}
                 </ul>

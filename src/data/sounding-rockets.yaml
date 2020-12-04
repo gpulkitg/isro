@@ -29,30 +29,51 @@
     - title: "Operational Sounding Rockets"
       table:
         head:
-          - col: "Vehicle"
-          - col: "Payload (in kg)"
-          - col: "Altitude (in km)"
-          - col: "Purpose"
-          - col: "Launch Pad"
+          - col:
+              text: "Vehicle"
+          - col:
+              text: "Payload (in kg)"
+          - col:
+              text: "Altitude (in km)"
+          - col:
+              text: "Purpose"
+          - col:
+              text: "Launch Pad"
         body:
           - row:
-            - col: "RH-200"
-            - col: "10"
-            - col: "80"
-            - col: "Meterology"
-            - col: "Thumba Balasore"
+            - col:
+                text: "RH-200"
+            - col:
+                text: "10"
+            - col:
+                text: "80"
+            - col:
+                text: "Meterology"
+            - col:
+                text: "Thumba Balasore"
           - row:
-            - col: "RH-300-Mk-II"
-            - col: "60"
-            - col: "160"
-            - col: "Aeronomy"
-            - col: "SDSC-SHAR"
+            - col:
+                text: "RH-300-Mk-II"
+            - col:
+                text: "60"
+            - col:
+                text: "160"
+            - col:
+                text: "Aeronomy"
+            - col:
+                text: "SDSC-SHAR"
           - row:
-            - col: "RH-560-MK-II"
-            - col: "100"
-            - col: "470"
-            - col: "Aeronomy"
-            - col: "SDSC-SHAR"
+            - col:
+                text: "RH-560-MK-II"
+            - col:
+                text: "100"
+            - col:
+                text: "470"
+            - col:
+                text: "Aeronomy"
+            - col:
+                text: "SDSC-SHAR"
+
       text: !markdown |
         Currently, three versions are offered as operational sounding rockets, which cover a payload range of 8-100 Kg and an apogee range of 80-475 km.
 

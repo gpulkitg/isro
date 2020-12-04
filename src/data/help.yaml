@@ -1,0 +1,131 @@
+- seo:
+    title: "Help"
+
+  section1:
+    title: "Accessibility"
+    text: !markdown |
+      ### Accessibility
+
+      Know about the accessibility statement, accessibility features, and accessibility options. We are committed to ensure that the Indian Space Research of India is accessible to all users irrespective of device in use, technology or ability. It has been built, with an aim, to provide maximum accessibility and usability to its visitors. We have put in our best efforts to ensure that all information on this Portal is accessible to people with disabilities. For example, a user with visual disability can access this Portal using assistive technologies, such as screen readers and magnifiers. We also aim to be standards compliant and follow principles of usability and universal design, which should help all visitors of this Portal. This Portal is designed using XHTML 1.0 Transitional and meets priority 1 (level A) of the Web Content Accessibility Guidelines (WCAG) 2.0 laid down by the World Wide Web Consortium (W3C). Part of the information in the Portal is also made available through links to external Web sites. External Web sites are maintained by the respective departments who are responsible for making these sites accessible.
+
+      ##### Viewing Information in Various File Formats
+
+      Provides information on how to access different file formats for viewing the required information.
+
+      The information provided by this Web site is available in various file formats, such as Portable Document Format (PDF), Word, Excel and PowerPoint. To view the information properly, your browser need to have the required plug-ins or software. For example, the Adobe Flash software is required to view the Flash files. In case your system does not have this software, you can download it from the Internet for free. The table lists the required plug-ins needed to view the information in various file formats.
+
+
+  pluginsTable:
+    head:
+      - col:
+          text: "Document Type"
+      - col:
+          text: "Plug-in for Download"
+
+    body:
+      - documentType: "Portable Document Format (PDF) files"
+        downloads:
+          - text: "Adobe Acrobat Reader"
+            link: "http://www.adobe.com/products/acrobat/access_onlinetools.html"
+
+      - documentType: "Word files"
+        downloads:
+          - text: "Word Viewer (in any version till 2003)"
+            link: "http://www.microsoft.com/Downloads/details.aspx?familyid=3657CE88-7CFA-457A-9AEC-F4F827F20CAC"
+          - text: "Microsoft Office Compatibility Pack for Word (for 2007 version)"
+            link: "http://www.microsoft.com/downloads/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466"
+
+      - documentType: "Excel files"
+        downloads:
+          - text: "Excel Viewer 2003 (in any version till 2003)"
+            link: "http://www.microsoft.com/downloads/details.aspx?FamilyID=c8378bf4-996c-4569-b547-75edbd03aaf0"
+          - text: "Microsoft Office Compatibility Pack for Excel (for 2007 version)"
+            link: "http://www.microsoft.com/downloads/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466"
+
+      - documentType: "PowerPoint presentations"
+        downloads:
+          - text: "PowerPoint Viewer 2003 (in any version till 2003)"
+            link: "http://www.microsoft.com/downloads/details.aspx?FamilyId=428D5727-43AB-4F24-90B7-A94784AF71A4"
+          - text: "Microsoft Office Compatibility Pack for PowerPoint (for 2007 version)"
+            link: "http://www.microsoft.com/downloads/details.aspx?familyid=941b3470-3ae9-4aee-8f43-c6bb74cd1466"
+
+      - documentType: "Flash content"
+        downloads:
+          - text: "Adobe Flash Player"
+            link: "http://get.adobe.com/flashplayer/"
+
+
+
+  section2:
+    title: ""
+    text: !markdown |
+      ### Screen Reader Access
+
+      Provides information regarding access to different Screen Readers.
+
+      ISRO fully complies with [Guidelines for Indian Government Websites](http://web.guidelines.gov.in/). Our visitors with visual impairments can access the Portal using Assistive Technologies, such as screen readers.
+
+      The information of the Portal is accessible with different screen readers, such as JAWS, NVDA, SAFA, Supernova and Window-Eyes.
+
+      Following table lists the information about different screen readers:
+
+
+  screenReadersTable:
+    head:
+      - col:
+          text: "Screen Reader"
+      - col:
+          text: "Website"
+      - col:
+          text: "Free / Commercial"
+
+    body:
+      - row:
+          - col:
+              text: "Non Visual Desktop Access (NVDA)"
+          - col:
+              link: "http://www.nvda-project.org/"
+          - col:
+              text: "Free"
+      - row:
+          - col:
+              text: "Thunder"
+          - col:
+              link: "http://www.screenreader.net"
+          - col:
+              text: "Free"
+      - row:
+          - col:
+              text: "WebAnywhere"
+          - col:
+              link: "https://webanywhere.cs.cmu.edu/wa/webanywhere/"
+          - col:
+              text: "Free"
+      - row:
+          - col:
+              text: "Hal"
+          - col:
+              link: "http://www.yourdolphin.co.uk/productdetail.asp?id=5"
+          - col:
+              text: "Commercial"
+      - row:
+          - col:
+              text: "JAWS"
+          - col:
+              link: "http://www.freedomscientific.com/jaws-hq.asp"
+          - col:
+              text: "Commercial"
+      - row:
+          - col:
+              text: "Supernova"
+          - col:
+              link: "http://www.yourdolphin.co.uk/productdetail.asp?id=1"
+          - col:
+              text: "Commercial"
+      - row:
+          - col:
+              text: "Window-Eyes"
+          - col:
+              link: "http://www.gwmicro.com/Window-Eyes/"
+          - col:
+              text: "Commercial"

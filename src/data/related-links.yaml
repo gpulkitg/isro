@@ -1,0 +1,54 @@
+- seo:
+    title: "Related Links"
+
+  content:
+    - text: "Antrix Corporation Limited"
+      link: "http://www.antrix.co.in/"
+
+    - text: "Bhuvan Portal"
+      link: "http://bhuvan.nrsc.gov.in/"
+
+    - text: "Centre for Space Science and Technology Education in the Asia Pacific region (CSSTE-AP)"
+      link: "http://www.cssteap.org/"
+
+    - text: "Indian Institute of Remote Sensing (IIRS)"
+      link: "http://www.iirs.gov.in/"
+
+    - text: "Indian Institute of Space Science and Technology (IIST)"
+      link: "https://www.iist.ac.in/"
+
+    - text: "Indian Space Science Data Center (ISSDC)"
+      link: "http://www.issdc.gov.in/"
+
+    - text: "International Charter:Space and Major Disaster"
+      link: "http://www.disasterscharter.org/web/charter/home"
+
+    - text: "U R Rao Satellite Centre"
+      link: "http://www.isac.gov.in/"
+
+    - text: "Meteorological and Oceanographic Satellite Data Analysis Center (MOSDAC)"
+      link: "http://www.mosdac.gov.in/"
+
+    - text: "National Atmospheric Research Laboratory (NARL)"
+      link: "http://www.narl.gov.in/"
+
+    - text: "National Remote Sensing Centre (NRSC)"
+      link: "http://www.nrsc.gov.in/"
+
+    - text: "North Eastern-Space Applications Center (NE-SAC)"
+      link: "http://www.nesac.gov.in/"
+
+    - text: "NRSC Open EO Data Archive - NOEDA"
+      link: "http://bhuvan-noeda.nrsc.gov.in/"
+
+    - text: "Physical Research Laboratory (PRL)"
+      link: "http://www.prl.res.in/"
+
+    - text: "Semi-Conductor Laboratory (SCL)"
+      link: "http://www.scl.gov.in/"
+
+    - text: "Space Applications Centre (SAC)"
+      link: "http://www.sac.gov.in/"
+
+    - text: "Vikram Sarabhai Space Centre (VSSC)"
+      link: "http://www.vssc.gov.in/"

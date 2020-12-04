@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default function FlexibleLink({ url, children, ...rest }) {
+export default function LinkVersatile({ url, children, ...rest }) {
 
   function isExternalLink() {
     return url.startsWith("http")
@@ -23,7 +23,7 @@ export default function FlexibleLink({ url, children, ...rest }) {
 
   return (
     isExternalLink() ? (
-      <a href={url} target="_blank" {...rest}>{children}</a>
+      <a href={url} target="_blank" rel="external" {...rest}>{children}</a>
     ) : (
       <Link to={url} {...rest}>{children}</Link>
     )

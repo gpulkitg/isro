@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
-import TableList from './table-list'
+import TableVersatile from './table-versatile'
 
 export default function SplitSectionTable({  title, subtitle, description, table, textPosition, textAlignment, children }) {
 
@@ -33,7 +33,7 @@ export default function SplitSectionTable({  title, subtitle, description, table
           { title && <h1 className="mb-2 display-4">{title}</h1> }
           { subtitle && <h3 className="mb-2">{subtitle}</h3> }
           { description && <p className="mb-2">{description}</p> }
-          { table && <TableList data={table} /> }
+          { table && <TableVersatile data={table} /> }
         </Col>
 
       </Row>

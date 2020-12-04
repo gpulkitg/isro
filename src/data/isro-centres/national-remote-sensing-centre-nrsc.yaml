@@ -1,0 +1,18 @@
+title: "National Remote Sensing Centre (NRSC)"
+slug: "/about/national-remote-sensing-centre-nrsc"
+image: "../../images/about/centres/nrscbuilding.jpg"
+description: ""
+locations:
+  - name: ""
+    image: "../../images/about/centres/nrscbuilding.jpg"
+    headPosition: "Director"
+    head: "Shri Santanu Chowdhury"
+    address: "National Remote Sensing Centre, Dept. of Space, Govt. Of India, Hyderabad - 500 037, Andhra Pradesh"
+    email: "director@nrsc.isro.gov.in"
+    link: "http://www.nrsc.gov.in/"
+    description: !markdown |
+      National Remote Sensing Centre (NRSC) at Hyderabad is responsible for remote sensing satellite data acquisition and processing, data dissemination, aerial remote sensing and decision support for disaster management. NRSC has a data reception station at Shadnagar near Hyderabad for acquiring data from Indian remote sensing satellites as well as others.
+
+      NRSC Ground station at Shadnagar acquires Earth Observation data from Indian remote-sensing satellites as well as from different foreign satellites. NRSC is also engaged in executing remote sensing application projects in collaboration with the users. The Aerial Services and Digital Mapping (ASDM) Area provides end-to-end Aerial Remote Sensing services and value-added solutions for various large scale applications like aerial photography and digital mapping, infrastructure planning, scanner surveys, aeromagnetic surveys, large scale base map, topographic and cadastral level mapping, etc.
+
+      Regional Remote Sensing Centres (RRSCs) support various remote sensing tasks specific to their regions as well as at the national level. RRSCs are carrying out application projects encompassing all the fields of natural resources. RRSCs are also, involved in software development, customisation and packaging specific to user requirements and conducting regular training programmes for users in geo-spatial technology, particularly digital image processing and Geographical Information System (GIS) applications.

@@ -11,7 +11,7 @@ import SEO from "../components/seo"
 import JumbotronImg from '../components/jumbotron-img'
 import TextContent from '../components/text-content'
 // import CarouselSection from '../components/carousel-section'
-import TableList from '../components/table-list'
+import TableVersatile from '../components/table-versatile'
 import SplitSectionTable from '../components/split-section-table'
 // import FixBgSection from '../components/fix-bg-section'
 import VideoPlayer from '../components/video-player'
@@ -50,7 +50,9 @@ export const data = graphql`
         table {
           body {
             row {
-              col
+              col {
+                text
+              }
             }
           }
         }
@@ -101,7 +103,9 @@ export const data = graphql`
         table {
           body {
             row {
-              col
+              col {
+                text
+              }
             }
           }
         }
@@ -129,11 +133,15 @@ export const data = graphql`
         text
         table {
           head {
-            col
+            col {
+              text
+            }
           }
           body {
             row {
-              col
+              col {
+                text
+              }
             }
           }
         }
@@ -226,23 +234,23 @@ export default function Launcher({ data }) {
       <BackgroundImage
         fluid={fixBgSection.image.childImageSharp.fluid}
         className="fix-bg"
-        >
-          <Container fluid>
-            <Row className="vh-100 w-100 empty-view">
-            </Row>
+      >
+        <Container fluid>
+          <Row className="vh-100 w-100 empty-view">
+          </Row>
 
-            { fixBgSection.contents.map( (content, ind) => (
-              <Row className="fix-bg-overlay" key={`fixBgSection_${ind}`}>
-                <Col className="d-flex flex-column justify-content-start text-center py-2" md>
-                  <h1>{content.title}</h1>
-                  { content.subtitles.map( ({line}, ind) => (
-                    <h3 key={`subtitles_${ind}`}>{line}</h3>
-                  ))}
-                </Col>
-              </Row>
-            ))}
-          </Container>
-        </BackgroundImage>
+          { fixBgSection.contents.map( (content, ind) => (
+            <Row className="fix-bg-overlay" key={`fixBgSection_${ind}`}>
+              <Col className="d-flex flex-column justify-content-start text-center py-2" md>
+                <h1>{content.title}</h1>
+                { content.subtitles.map( ({line}, ind) => (
+                  <h3 key={`subtitles_${ind}`}>{line}</h3>
+                ))}
+              </Col>
+            </Row>
+          ))}
+        </Container>
+      </BackgroundImage>
         {/* <Container fluid className="fix-bg" style={{ backgroundImage: `url(${fixBgSection.image.publicURL})` }}>
           <Row className="vh-100 w-100 empty-view">
           </Row>
@@ -292,7 +300,7 @@ export default function Launcher({ data }) {
           <Col className="d-flex flex-column justify-content-center text-center order-md-1" md>
             <h1 className="mb-2">{splitSection.title}</h1>
             <div className="mb-2 text-left">
-              <TableList data={splitSection.table} />
+              <TableVersatile data={splitSection.table} />
             </div>
           </Col>
         </Row>
@@ -321,7 +329,7 @@ export default function Launcher({ data }) {
                   <h2 className="mb-2">{section.title}</h2>
                   <p>{section.description}</p>
                   <div className="text-left">
-                    <TableList data={section.table} />
+                    <TableVersatile data={section.table} />
                   </div>
                 </Col>
               </Row>
@@ -364,7 +372,7 @@ export default function Launcher({ data }) {
 
 
       <TextContent title={textContent2.title}>
-        <TableList data={textContent2.table} />
+        <TableVersatile data={textContent2.table} />
         <br />
         <div dangerouslySetInnerHTML={{ __html: textContent2.text }} />
       </TextContent>

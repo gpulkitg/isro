@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 
-import TableList from '../components/table-list'
+import TableVersatile from '../components/table-versatile'
 
 
 export default function CarouselSection({ items }) {
@@ -28,7 +28,7 @@ export default function CarouselSection({ items }) {
                 <h2 className="mb-4">{item.title}</h2>
                 <p>{item.description}</p>
                 <div className="text-left">
-                  <TableList data={item.specs} />
+                  <TableVersatile data={item.specs} />
                 </div>
               </Col>
             </Row>

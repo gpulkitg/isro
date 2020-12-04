@@ -135,10 +135,10 @@ export default function Tenders({ data }) {
               { displayedTenders.map(({ node }, ind) => (
                 <tr key={node.id}>
                   <td>{node.advertiser}</td>
-                  <td><a href={node.doc.publicURL} className="no-underline">{node.advertisementNo}</a></td>
+                  <td><a href={node.doc.publicURL} className="no-underline" target="_blank">{node.advertisementNo}</a></td>
                   <td>{node.startDate}</td>
                   <td>{node.endDate}</td>
-                  <td><a href={node.doc.publicURL} className="no-underline">{node.doc.name}{node.doc.ext} <FileEarmark /></a></td>
+                  <td><a href={node.doc.publicURL} className="no-underline" target="_blank">{node.doc.name}{node.doc.ext} <FileEarmark /></a></td>
                 </tr>
               ))}
             </tbody>

@@ -1,17 +1,18 @@
 import React from "react"
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Container, Row, Col, Card, Button, CardDeck } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import TextContent from '../components/text-content'
+// import TextContent from '../components/text-content'
 import Separator from '../components/separator'
 import JumbotronImg from '../components/jumbotron-img'
 import SplitSection from '../components/split-section'
 import CardBrighten from '../components/card-brighten'
-import TableLinks from '../components/table-links'
+import TableVersatile from '../components/table-versatile'
+
 
 export const query = graphql`
   query {
@@ -73,7 +74,9 @@ export const query = graphql`
         title
         table {
           head {
-            col
+            col {
+              text
+            }
           }
           body {
             row {
@@ -108,7 +111,7 @@ export default function SpacecraftsPage({ data }) {
   return (
 
     <Layout>
-      <SEO title="Spacecrafts" />
+      <SEO title={seo.title} />
 
       { jumbotronImg && jumbotronImg.map((item, ind) => (
           <JumbotronImg
@@ -221,7 +224,7 @@ export default function SpacecraftsPage({ data }) {
         </Row>
 
         <Separator title={listSpacecrafts.title} />
-        <TableLinks data={listSpacecrafts.table} />
+        <TableVersatile data={listSpacecrafts.table} />
 
         {/* <CardDeck>
           {cardSection.map((item, ind) => (

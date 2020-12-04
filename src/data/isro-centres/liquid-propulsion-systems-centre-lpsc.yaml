@@ -1,0 +1,25 @@
+title: "Liquid Propulsion Systems Center (LPSC)"
+slug: "/about/liquid-propulsion-systems-centre-lpsc"
+image: "../../images/about/centres/LPSC-new.jpg"
+description: !markdown |
+  Liquid Propulsion Systems Centre (LPSC) is the centre for design, development and realisation of liquid propulsion stages for ISRO's Launch Vehicles. Development of fluid control valves, transducers, propellant management devices for vacuum conditions and other key components of liquid propulsion systems are also under the purview of this centre. LPSC activities and facilities are spread across its two campuses namely, LPSC, Valiamala, Thriruvananthapuram and LPSC, Bengaluru, Karnataka.
+locations:
+  - name: "LPSC, Valiamala"
+    image: "../../images/about/centres/LPSC-new.jpg"
+    headPosition: "Director"
+    head: "Dr. V. Narayanan"
+    address: "Liquid Propulsion Systems Centre (LPSC), ISRO, Department of Space, Valiamala PO, Thiruvanthapuram - 695 547"
+    email: "director@lpsc.gov.in"
+    link: "http://www.lpsc.gov.in/"
+    description: !markdown |
+      LPSC, Valaimala is responsible for R&D, System Design I Engineering and Project Management functions. The Fluid Control Components Entity and the Materials and Manufacturing Entities are located here apart  from the Earth Storable and Cryogenic  Propulsion Entities, handling  the core  tasks of the Centre.
+
+  - name: "LPSC, Bengaluru"
+    image: "../../images/about/centres/lpsc_image1.jpg"
+    headPosition: ""
+    head: ""
+    address: "Liquid Propulsion Systems Centre (LPSC), ISRO, Department of Space, 80 Ft. Road, HAL 2nd Stage, H.P.O., Bengaluru - 560 008"
+    email: ""
+    link: ""
+    description: !markdown |
+      LPSC, Bengaluru is responsible for design and realisation of propulsion systems for remote sensing and communication satellites and other scientific missions. Development and production of transducers and sensors are all undertaken here.

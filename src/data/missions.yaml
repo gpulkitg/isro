@@ -2,44 +2,66 @@
     title: "Missions"
 
   jumbotronImg:
-    - image: "../images/missions/chandrayaan-2/chandrayaan2_orbiter.jpg"
-      # image: "../images/media/chandrayaan-2-mission-gallery/slide3.png"
+    - image: "../images/missions/chandrayaan-2/ISRO-Chandrayaan-2-mission-moon.jpeg"
       title: "Chandrayaan 2"
-      subtitle: "Expanding the boundaries of human knowledge"
+      subtitle: "Engineering the Future of Lunar Exploration"
       description: ""
       button: "LEARN MORE"
       link: "/missions/chandrayaan-2"
       horizontalPosition: "left"
-      verticalPosition: "center"
+      verticalPosition: "bottom"
       textAlignment: "left"
 
-
-  splitSection:
     - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/mccsnap3dview03.jpg"
       title: "Mars Orbiter Mission"
       subtitle: "Marking India's first venture into interplanetary space"
       description: ""
       button: "MORE INFO"
       link: "/missions/mars-orbiter-mission"
-      textPosition: "right"
+      horizontalPosition: "left"
+      verticalPosition: "center"
       textAlignment: "left"
-      objectFit: "cover"
 
-    - image: "../images/missions/astrosat/astrosat_payload.png"
+    - image: "../images/missions/astrosat/astrosat-image.jpg"
+      # image: "../images/missions/astrosat/aspom_april2018_jellyfish_inthe_sky.png"
       title: "AstroSat"
       subtitle: "India's first dedicated astronomy mission"
       description: ""
       button: "LEARN MORE"
       link: "/missions/astrosat"
-      textPosition: "left"
+      horizontalPosition: "left"
+      verticalPosition: "center"
       textAlignment: "left"
-      objectFit: "contain"
+
+
+  splitSection:
+    # - image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/arisamons3dportrayal.jpg"
+    #   # image: "../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/mccsnap3dview03.jpg"
+    #   title: "Mars Orbiter Mission"
+    #   subtitle: "Marking India's first venture into interplanetary space"
+    #   description: ""
+    #   button: "MORE INFO"
+    #   link: "/missions/mars-orbiter-mission"
+    #   textPosition: "right"
+    #   textAlignment: "left"
+    #   objectFit: "cover"
+
+    # - image: "../images/missions/astrosat/astrosat-image.jpg"
+    #   # image: "../images/missions/astrosat/astrosat_payload.png"
+    #   title: "AstroSat"
+    #   subtitle: "India's first dedicated astronomy mission"
+    #   description: ""
+    #   button: "LEARN MORE"
+    #   link: "/missions/astrosat"
+    #   textPosition: "left"
+    #   textAlignment: "left"
+    #   objectFit: "contain"
 
 
 
   listMissions:
     - title: "Trending"
-      contents:
+      content:
         - link: "/missions/chandrayaan-2"
           text: "Chandrayaan 2"
         - link: "/missions/mars-orbiter-mission"
@@ -50,7 +72,7 @@
           text: "AstroSat"
 
     - title: "Latest"
-      contents:
+      content:
         - link: "/missions/gsat-30"
           text: "GSAT-30"
         - link: "/missions/pslv-c48-risat-2br1"

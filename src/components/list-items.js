@@ -13,7 +13,7 @@ export default function ListItems({ items }) {
             <div className="py-1">
               { item.title && <h3 className="mb-2">{item.title}</h3> }
               <ListGroup variant="flush">
-                { item.contents.map( (el, i) => (
+                { item.content.map( (el, i) => (
                   <ListGroup.Item action href={el.link} key={`${item.title}_${i}`}>
                     {el.text}
                     <ChevronRight style={{ float: `right`}}/>

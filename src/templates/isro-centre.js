@@ -53,7 +53,7 @@ export default function IsroCentre({ data }) {
 
       <Container>
 
-        <h1 className="mb-2 text-center display-4">{data.isroCentresYaml.title}</h1>
+        <h1 className="mb-2 text-center">{data.isroCentresYaml.title}</h1>
         { data.isroCentresYaml.description &&
           <div dangerouslySetInnerHTML={{ __html: data.isroCentresYaml.description }} className="mb-2"/>
         }

@@ -4,12 +4,12 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 // import Counter from '../components/counter';
 // import CardGlow from '../components/card-glow';
-import { Container, Row, Col, Button, CardDeck, Card, Image } from 'react-bootstrap'
-import CountUp from 'react-countup';
+import { Container, Row, Col, Button, CardDeck, Card, Image, Table } from 'react-bootstrap'
+// import CountUp from 'react-countup';
 
 import Layout from "../components/layout"
-import LineBreak from '../components/line-break';
-import VisibilitySensor from 'react-visibility-sensor'
+// import LineBreak from '../components/line-break';
+// import VisibilitySensor from 'react-visibility-sensor'
 // import CardZoom from '../components/card-zoom';
 // import Parallax from '../components/parallax';
 // import { ParallaxProvider } from 'react-scroll-parallax'
@@ -20,126 +20,132 @@ import VisibilitySensor from 'react-visibility-sensor'
 // import CarouselSection from '../components/carousel-section'
 // import TextContent from '../components/text-content'
 // import SplitSection from '../components/split-section'
-import JumbotronImg from '../components/jumbotron-img'
-
+// import JumbotronImg from '../components/jumbotron-img'
 // import Image from '../components/image'
+// import VerticalTimeline from '../components/vertical-timeline'
+// import TabSection from '../components/tab-section';
+import Separator from '../components/separator'
+import LinkVersatile from '../components/link-versatile'
 
-// import gslv_mk_iii_launcher from '../images/gslv_mk_iii/gslv_mk_iii_launcher.png'
-// import cryo from '../images/cryo.png'
-// import cus from '../images/cus.jpg'
-// import s200 from '../images/s200.jpg'
-// import l110 from '../images/l110.jpg'
-// import l110_hoisting from '../images/l110_hoisting.jpg'
-//
-// import mom_gallery1 from '../images/mom/mom_gallery1.jpg'
-// import mom_gallery2 from '../images/mom/mom_gallery2.jpg'
-// import mom_gallery3 from '../images/mom/mom_gallery3.png'
-// import mom_gallery4 from '../images/mom/mom_gallery4.jpg'
-// import mom1 from '../images/mom/mom1.jpg'
-// import mom2 from '../images/mom/mom2.jpg'
-
-import VerticalTimeline from '../components/vertical-timeline'
-
-import TabSection from '../components/tab-section';
-
-const data = {
-  body: [
-    ["Cryo Stage Height", "13.5 m"],
-    ["Cryo Stage Diameter", "4.0 m"],
-    ["Engine", "CE-20"],
-    ["Fuel", "28 tonnes of LOX + LH2"]
-  ]
-}
-
-const data1 = {
-  body: [
-    ["Booster Height", "25 m"],
-    ["Booster Diameter", "3.2 m"],
-    ["Fuel", "205 tonnes of HTPB (nominal)"],
-  ]
-}
-
-const data2 = {
-  body: [
-    ["Stage Height", "21 m"],
-    ["Stage Diameter", "4 m"],
-    ["Engine", "2 x Vikas"],
-    ["Fuel", "110 tonnes of UDMH + N2O4"]
-  ]
-}
+// import liftoff from "../images/liftoff.jpg"
 
 
-// export const query = graphql`
-//   query {
-//     allFile(filter: { sourceInstanceName: {eq: "images"}, relativeDirectory: {eq: "spacecraft"}, extension: {regex: "/(jpg)|(jpeg)|(png)/"}}) {
-//       edges {
-//         node {
-//           name,
-//           childImageSharp {
-//             fluid {
-//               ...GatsbyImageSharpFluid
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
-
-
-// export const query = graphql`
-//   query {
-//     liftoffImg: file(relativePath: {eq: "liftoff.jpg"}) {
-//       publicURL
-//       childImageSharp {
-//         fluid {
-//           ...GatsbyImageSharpFluid
-//           originalImg
-//           src
-//         }
-//       }
-//     }
-//   }
-// `
-
-const items = [
-  {
-    title: "A",
-    content: "c1"
-  },
-  {
-    title: "B",
-    content: "c2"
+const ColVersatile = ({ col }) => {
+  if (col.link) {
+    return (
+      <LinkVersatile url={col.link} className="no-underline">
+        { col.text ? col.text : col.link }
+      </LinkVersatile>
+    )
+  } else if (col.doc) {
+    return (
+      <a href={col.doc.publicURL} className="no-underline" target="_blank">
+        { col.text ? col.text : col.doc.name+col.doc.ext }{" "}
+      </a>
+    )
+  } else if (col.date) {
+    return col.date
+  } else {
+    return col.text
   }
 
-]
+}
 
-export default function Test() {
 
-  // console.log(data.file);
-  const [animated, setAnimated] = useState(false);
-
-  const handleVisibilityChange = (isVisible) => {
-    if (isVisible && !animated) {
-      setAnimated(true)
+export const query = graphql`
+  query {
+    soundingRocketsYaml {
+      sections {
+        title
+        text
+        caption
+        image {
+          name
+          childImageSharp {
+            # fixed {
+            #   ...GatsbyImageSharpFixed
+            # }
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        table {
+          head {
+            col {
+              text
+            }
+          }
+          body {
+            row {
+              col {
+                text
+              }
+            }
+          }
+        }
+      }
     }
   }
-  console.log("animated", animated);
+`
 
+
+
+export default function Test({ data }) {
+
+  const table = data.soundingRocketsYaml.sections[2].table
 
   return (
     <Layout>
 
+
       <Container>
 
-        <div className="vh-100">
+        <Separator />
+
+
+        <Table variant="dark" className="table-custom-border" responsive>
+          { table.hasOwnProperty('head') &&
+            <thead>
+              <tr>
+                { table.head.map( ({col},i) =>
+                  <th key={`head_th_${i}`}>
+                    <ColVersatile col={col} />
+                  </th>
+                )}
+              </tr>
+            </thead>
+          }
+
+          <tbody>
+            { table.hasOwnProperty('body') &&
+                table.body.map( ({row},i) =>
+                  <tr key={`body_tr_${i}`}>
+                    {row.map( ({col},j) => (
+                      <td key={`body_td_${j}`}>
+                        <ColVersatile col={col} />
+                      </td>
+                    ))}
+                  </tr>
+                )
+            }
+          </tbody>
+
+        </Table>
+
+
+
+        {/* <div className="vh-100">
           some view height section
         </div>
 
+        <VisibilitySensor active={!animated} onChange={handleVisibilityChange} delayedCall>
+          <span ref={countUpRef} className="countup counter"/>
+        </VisibilitySensor>
         <div className="animate-bottom">
           <h2>subtitle</h2>
           <p>text</p>
-        </div>
+        </div> */}
 
         {/* <div className="vh-100 w-100">
           test

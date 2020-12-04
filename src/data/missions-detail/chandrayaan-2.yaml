@@ -1,0 +1,159 @@
+slug: "/missions/chandrayaan-2"
+
+seo:
+  title: "Chandrayaan 2"
+
+
+jumbotronImg:
+  - image: "../../images/missions/chandrayaan-2/chandrayaan2_orbiter.jpg"
+    title: "Chandrayaan 2"
+    subtitle: "Expanding the boundaries of human knowledge"
+    description: ""
+    button: "LEARN MORE"
+    link: "/missions/chandrayaan-2"
+    horizontalPosition: "left"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+  - image: "../../images/missions/chandrayaan-2/historybg.png"
+    title: "Why moon?"
+    subtitle: ""
+    description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+    button: "LEARN MORE"
+    link: "/missions/chandrayaan-2"
+    horizontalPosition: "right"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+
+splitSection:
+  - image: "../../images/missions/chandrayaan-2/rocket.jpg"
+    title: "Why moon?"
+    subtitle: ""
+    description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+    button: "LEARN MORE"
+    link: "/missions/chandrayaan-2"
+    textPosition: "right"
+    textAlignment: "left"
+    objectFit: "contain"
+
+
+textContent1:
+  title: "Indian Ambitions, Universal Aspirations"
+  text: !markdown |
+    Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO, which brought together an Orbiter, Lander and Rover with the goal of exploring south pole of the Moon. This is a unique mission which aims at studying not just one area of the Moon but all the areas combining the exosphere, the surface as well as the sub-surface of the moon in a single mission.
+
+    Moon provides the best linkage to Earth’s early history. It offers an undisturbed historical record of the inner Solar system environment. Though there are a few mature models, further explanations were needed to understand the origin of the Moon. Extensive mapping of lunar surface to study variations in lunar surface were essential to trace back the origin and evolution of the Moon. Evidence for water molecules discovered by Chandrayaan-1, required further studies on the extent of water molecule distribution on the surface, below the surface and in the tenous lunar exosphere to address the origin of water on Moon.
+
+    #### Why was the Lunar South Pole targetted for exploration?
+
+    The Lunar South pole is especially interesting because of the lunar surface area that remains in shadow is much larger than that at the North Pole. There could be a possibility of presence of water in permanently shadowed areas around it. In addition, South Pole region has craters that are cold traps and contain a fossil record of the early Solar System.
+
+
+
+cardSection:
+  - title: "Launch Vehicle"
+    image: "../../images/missions/chandrayaan-2/spac-rocket.png"
+    text: "GSLV MK III, India's most powerful launcher"
+    link: "/launchers/gslv-mk-iii"
+
+  - title: "Orbiter"
+    image: "../../images/missions/chandrayaan-2/c2spac-rocket1.png"
+    text: "Observes the lunar surface and relays communication between Earth and Vikram Lander"
+    link: "/missions/chandrayaan-2/spacecraft"
+
+  - title: "Vikram Lander"
+    image: "../../images/missions/chandrayaan-2/spac-rocket3.png"
+    text: "Designed to execute India's first soft landing on the lunar surface"
+    link: "/missions/chandrayaan-2/lander-vikram"
+
+  - title: "Pragyan Rover"
+    image: "../../images/missions/chandrayaan-2/spac-rocket4.png"
+    text: "6-wheeled, AI-powered vehicle"
+    link: "/missions/chandrayaan-2/rover-pragyan"
+
+
+gallery:
+  link: "/media/chandrayaan-2-mission-gallery"
+  photos:
+    - image: "../../images/media/chandrayaan-2-gallery/c2_dfsar_fig2.png"
+    # - image: "../../images/media/chandrayaan-2-gallery/slide1.png"
+    - image: "../../images/media/chandrayaan-2-gallery/slide3.png"
+    - image: "../../images/media/chandrayaan-2-gallery/ohrc_image.png"
+    - image: "../../images/media/chandrayaan-2-gallery/c2_dfsar_fig3.png"
+    # - image: "../../images/media/chandrayaan-2-gallery/slide2_1.png"
+
+
+
+cardSection2:
+  link: "/missions/chandrayaan-2/payloads"
+  cards:
+    # - title: "Chandra's Surface Thermo-physical Experiment (CHaSTE)"
+    #   image: "../../images/missions/chandrayaan-2/Chandras-Surface-Thermo-Physical-Experiment-CHaSTE.jpg"
+    - title: "Synthetic Aperture Radar L & S Band (DFSAR)"
+      image: "../../images/missions/chandrayaan-2/nisar.jpg"
+    - title: "Alpha Particle X-ray Spectrometer (APXS)"
+      image: "../../images/missions/chandrayaan-2/alpha-particle-x-ray-spectrometer.jpg"
+    - title: "Chandrayaan 2 Large Area Soft X-ray Spectrometer (CLASS)"
+      image: "../../images/missions/chandrayaan-2/Chandrayaan2-Large-Area-Soft-X-ray-Spectrometer.jpeg"
+    - title: "Terrain Mapping Camera (TMC-2)"
+      image: "../../images/missions/chandrayaan-2/Terrain-Mapping-Camera-2-TMC-2.jpg"
+    # - title: "Solar X-Ray Monitor (XSM)"
+    #   image: "../../images/missions/chandrayaan-2/xsm-mechanism.jpeg"
+
+
+
+verticalTimeline:
+  title: ""
+  events:
+    - date: "18th September, 2008"
+      title: "Prime Minister Manmohan Singh approves the Chandrayaan2 lunar mission"
+    - date: "---"
+      title: "Mission Planning"
+    - date: "July 22, 2019"
+      title: "Launch Date"
+    - date: "Aug 20, 2019"
+      title: "Orbiter Lunar Orbit insertion"
+    - date: "Will be operational for 7 years"
+      title: "Orbital Experiments"
+
+
+textContent2:
+  title: "Launch & Operation"
+  text: !markdown |
+    Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO. It comprised an Orbiter, Lander and Rover to explore the unexplored South Pole of the Moon. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.
+
+    After the injection of Chandrayaan-2, a series of maneuvers were carried out to raise its orbit and on August 14, 2019, following Trans Lunar Insertion (TLI) maneuver, the spacecraft escaped from orbiting the earth and followed a path that took it to the vicinity of the Moon. On August 20, 2019, Chandrayaan-2 was successfully inserted into lunar orbit. While orbiting the moon in a 100 km lunar polar orbit, on September 02, 2019, Vikram Lander was separated from the Orbiter in preparation for landing. Subsequently, two de-orbit maneuvers were performed on Vikram Lander so as to change its orbit and begin circling the moon in a 100 km x 35 km orbit. Vikram Lander descent was as planned and normal performance was observed upto an altitude of 2.1 km. Subsequently communication from lander to the ground stations was lost.
+
+    The Orbiter placed in its intended orbit around the Moon will enrich our understanding of the moon’s evolution and mapping of the minerals and water molecules in Polar regions, using its eight state-of-the-art scientific instruments. The Orbiter camera is the highest resolution camera (0.3 m) in any lunar mission so far and will provide high resolution images which will be immensely useful to the global scientific community. The precise launch and mission management has ensured a long life of almost seven years instead of the planned one year.
+
+    #### Science Experiments
+
+    Chandrayaan-2 has several science payloads to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.
+
+    The Orbiter payloads will conduct remote-sensing observations from a 100 km orbit while the Lander and Rover payloads will perform in-situ measurements near the landing site.
+
+    For understanding of the Lunar composition, it is planned to identify the elements and mapping its distribution on the lunar surface both at global and In-situ level. In addition detailed 3 dimensional mapping of the lunar regolith will be done. Measurements on the near surface plasma environment and electron density in the Lunar ionosphere will be studied. Thermo-physical property of the lunar surface and seismic activities will also be measured. Water molecule distribution will be studied using infra red spectroscopy, synthetic aperture radiometry & polarimetry as well as mass spectroscopy techniques.
+
+
+
+relatedLinks:
+  - title: ""
+    content:
+      - link: "/missions/chandrayaan-2/payloads"
+        text: "Payloads"
+      - link: "/missions/chandrayaan-2/spacecraft"
+        text: "Spacecraft"
+      - link: "/launchers/gslv-mk-iii"
+        text: "Launcher GSLV MK III"
+      - link: "/missions/chandrayaan-2/faq"
+        text: "FAQ"
+
+  - title: ""
+    content:
+      - link: "/media/chandrayaan-2-mission-gallery"
+        text: "Chandrayaan 2 Mission Gallery"
+      - link: "/media/chandrayaan-2-launch-kit"
+        text: "Chandrayaan 2 Launch Kit"
+      - link: "/updates"
+        text: "Latest Updates"

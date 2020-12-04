@@ -44,7 +44,7 @@ export const query = graphql`
       }
       listLinks {
         title
-        contents {
+        content {
           link
           text
         }

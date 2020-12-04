@@ -31,7 +31,7 @@ export const query = graphql`
         }
       }
     }
-    file(relativePath: {eq: "docs/caution_regarding_fake_offers_of_appointment_.pdf"}) {
+    file(relativePath: {eq: "general/caution_regarding_fake_offers_of_appointment_.pdf"}) {
       publicURL
     }
   }
@@ -39,6 +39,7 @@ export const query = graphql`
 
 
 export default function Careers({ data }) {
+  console.log(data.file);
 
 
   const [selectedCentre, setSelectedCentre] = useState(0)

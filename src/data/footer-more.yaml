@@ -1,0 +1,90 @@
+- listLinks:
+    - col:
+      - text: "Tender Notices"
+        link: "/tenders"
+
+      - text: "E-Procurement"
+        link: "https://eprocure.isro.gov.in/"
+
+      - text: "Right to Information"
+        link: "/right-to-information"
+
+      - text: "Parliament Questions"
+        link: "/parliament-questions"
+
+      - text: "Publications"
+        link: "/publications"
+
+      - text: "Annual Report (English)"
+        link: ""
+        doc: "../docs/general/AnnualReport2019-20(English).pdf"
+
+      - text: "Annual Report (Hindi)"
+        link: ""
+        doc: "../docs/general/AnnualReport2019-20(Hindi).pdf"
+
+      - text: "Monthly Summary of DOS"
+        link: "/monthly-summary-of-department-of-space"
+
+      - text: "e-Saral Hindi Vakyakosh"
+        link: ""
+        doc: "../docs/general/bilingual_100_sentences.pdf"
+
+
+    - col:
+      - text: "International Cooperation"
+        link: "/international-cooperation"
+
+      - text: "Citizen's Charter"
+        link: "/citizens-charter"
+
+      - text: "India's Space Policy"
+        link: "/indias-space-policy"
+
+      - text: "Autonomous Bodies under DoS"
+        link: "/about/autonomous-bodies"
+
+      - text: "Related Links"
+        link: "/related-links"
+
+      - text: "Hyperlinking Policy"
+        link: "/hyperlinking-policy"
+
+      - text: "DOS/ISRO Swachhata Action Plan"
+        link: "https://sa-plan.isro.gov.in/"
+
+      - text: "CSSTEAP"
+        link: "https://www.cssteap.org/"
+
+      - text: "ISM Data Sheets"
+        link: "/indigenisation-of-space-materials-ism-data-sheet"
+
+
+    - col:
+      - text: "National Voter's Service Portal"
+        link: "http://www.nvsp.in/"
+
+      - text: "PIB"
+        link: "http://www.pib.gov.in/"
+
+      - text: "National Government Services Portal(NGSP)"
+        link: "https://services.india.gov.in/"
+
+      - text: "Check Your 7th CPC Pension Revision Status"
+        link: "http://cpao.nic.in/Pensioner/ppo_status.php"
+
+      - text: "India Code (Digital Repository of all Central and State Acts)"
+        link: "https://indiacode.nic.in/"
+
+      - text: "National Portal of India"
+        link: "https://india.gov.in/"
+
+
+  socialMediaLinks:
+    - text: "TWITTER"
+      icon: "../images/common/icons8-twitter-circled.svg"
+      link: "https://www.twitter.com/isro"
+
+    - text: "FACEBOOK"
+      icon: "../images/common/icons8-facebook-circled.svg"
+      link: "https://www.facebook.com/isro"

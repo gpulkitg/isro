@@ -1,0 +1,229 @@
+slug: "/launchers/gslv-mk-iii"
+
+seo:
+  title: "GSLV MK III"
+
+
+jumbotronImg:
+  - image: "../../images/launchers/gslv-mk-iii/gslv_mk_iii_d2_2.jpg"
+    title: "GSLV MK III"
+    subtitle: "India's most powerful launcher"
+    description: ""
+    button: ""
+    link: ""
+    horizontalPosition: "center"
+    verticalPosition: "center"
+    textAlignment: "center"
+
+
+fixBgSection:
+  image: "../../images/launchers/gslv-mk-iii/gslv_mk_iii_d2_3.jpg"
+  contents:
+    - title: "4000 kg"
+      subtitles:
+        # - line: "Payload"
+        - line: "Geosynchronous Transfer Orbit"
+
+    - title: "8000 kg"
+      subtitles:
+        # - line: "Payload"
+        - line: "Low Earth Orbit"
+
+
+splitSectionTable:
+  - image: "../../images/launchers/gslv-mk-iii/gslv_mk_iii_launcher.png"
+    title: "Vehicle Specifications"
+    subtitle: ""
+    description: ""
+    textPosition: "right"
+    textAlignment: "left"
+    objectFit: "contain"
+    table:
+      body:
+        - row:
+          - col:
+              text: 'Height'
+          - col:
+              text: '43.43 m'
+        - row:
+          - col:
+              text: 'Vehicle Diameter'
+          - col:
+              text: '4.0 m'
+        - row:
+          - col:
+              text: 'Heat Shield (Payload Fairing) Diameter'
+          - col:
+              text: '5.0 m'
+        - row:
+          - col:
+              text: 'Number of Stages'
+          - col:
+              text: '3'
+        - row:
+          - col:
+              text: 'Lift Off Mass'
+          - col:
+              text: '640 tonnes'
+
+
+
+textContent1:
+  title: "About launcher"
+  text: !markdown |
+    GSLV MkIII, chosen to launch Chandrayaan-2 spacecraft, is a three-stage heavy lift launch vehicle developed by ISRO. The vehicle has two solid strap-ons, a core liquid booster and a cryogenic upper stage.
+
+    GSLV Mk III is designed to carry 4 ton class of satellites into Geosynchronous Transfer Orbit (GTO) or about 10 tons to Low Earth Orbit (LEO), which is about twice the capability of the GSLV Mk II.
+
+    The two strap-on motors of GSLV Mk III are located on either side of its core liquid booster. Designated as ‘S200’, each carries 205 tons of composite solid propellant and their ignition results in vehicle lift-off. S200s function for 140 seconds. During strap-ons functioning phase, the two clustered Vikas liquid Engines of L110 liquid core booster will ignite 114 sec after lift -off to further augment the thrust of the vehicle. These two engines continue to function after the separation of the strap-ons at about 140 seconds after lift -off.
+
+
+carouselSections:
+  - image: "../../images/launchers/gslv-mk-iii/cus.jpg"
+    title: "Cryogenic Upper Stage : C25"
+    description: "The C25 is powered by CE-20, India's largest cryogenic engine, designed and developed by the Liquid Propulsion Systems Centre."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Cryo Stage Height"
+          - col:
+              text: "13.5 m"
+        - row:
+          - col:
+              text: "Cryo Stage Diameter"
+          - col:
+              text: "4.0 m"
+        - row:
+          - col:
+              text: "Engine"
+          - col:
+              text: "CE-20"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "28 tonnes of LOX + LH2"
+
+
+  - image: "../../images/launchers/gslv-mk-iii/s200.jpg"
+    title: "Solid Rocket Boosters : S200"
+    description: "GSLV Mk III uses two S200 solid rocket boosters to provide the huge amount of thrust required for lift off. The S200 was developed at Vikram Sarabhai Space Centre."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Booster Height"
+          - col:
+              text: "25 m"
+        - row:
+          - col:
+              text: "Booster Diameter"
+          - col:
+              text: "3.2 m"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "205 tonnes of HTPB (nominal)"
+
+
+  - image: "../../images/launchers/gslv-mk-iii/l110_hoisting.jpg"
+    title: "Core Stage : L110 Liquid Stage"
+    description: "The L110 liquid stage is powered by two Vikas engines designed and developed at the Liquid Propulsion Systems Centre."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Stage Height"
+          - col:
+              text: "21 m"
+        - row:
+          - col:
+              text: "Stage Diameter"
+          - col:
+              text: "4 m"
+        - row:
+          - col:
+              text: "Engine"
+          - col:
+              text: "2 x Vikas"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "110 tonnes of UDMH + N2O4"
+
+
+
+
+jumbotronVideo:
+  video: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_clip.mp4"
+  poster: "../../images/media/chandrayaan-2-mission-gallery/liftoffimage11.jpg"
+  title: "CHANDRAYAAN 2 LAUNCH"
+  videoFull: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_full.mp4"
+
+
+textContent2:
+  title: "Launches till Date"
+  text: !markdown |
+    The first experimental flight of LVM3, the [LVM3-X/CARE](/launchers/lvm3-x-care) mission lifted off from Sriharikota on December 18, 2014 and successfully tested the atmospheric phase of flight. Crew module Atmospheric Reentry Experiment was also carried out in this flight. The module reentered, deployed its parachutes as planned and splashed down in the Bay of Bengal.
+
+    The first developmental flight of GSLV Mk III, the [GSLV-Mk III-D1](launcher/gslv-mk-iii-d1-gsat-19-mission) successfully placed GSAT-19 satellite to a Geosynchronous Transfer Orbit (GTO) on June 05, 2017 from SDSC SHAR, Sriharikota.
+
+    [GSLV MkIII-D2](/launcher/gslv-mk-iii-d2-gsat-29-mission), the second developmental flight of GSLV MkIII successfully launched GSAT-29, a high throughput communication satellite on November 14, 2018 from Satish Dhawan Space Centre SHAR, Sriharikota
+
+    [GSLV MkIII-M1](/launcher/gslv-mk-iii-m1-chandrayaan-2-mission), successfully injected Chandrayaan-2, India’s second Lunar Mission, in to Earth Parking Orbit on July 22, 2019 from Satish Dhawan Space Centre SHAR, Sriharikota
+
+  table:
+    head:
+      - col:
+          text: "Title"
+      - col:
+          text: "Launch Date"
+      - col:
+          text: "Payload"
+      - col:
+          text: "Remarks"
+    body:
+      - row:
+        - col:
+            text: "GSLV-Mk III - M1 / Chandrayaan-2 Mission"
+        - col:
+            text: "Jul 22, 2019"
+        - col:
+            text: "Chandrayaan2"
+        - col:
+            text: ""
+      - row:
+        - col:
+            text: "GSLV Mk III-D2 / GSAT-29 Mission"
+        - col:
+            text: "Nov 14, 2018"
+        - col:
+            text: "GSAT-29"
+        - col:
+            text: ""
+      - row:
+        - col:
+            text: "GSLV Mk III-D1/GSAT-19 Mission"
+        - col:
+            text: "Jun 05, 2017"
+        - col:
+            text: "GSAT-19"
+        - col:
+            text: ""
+      - row:
+        - col:
+            text: "LVM-3/CARE Mission"
+        - col:
+            text: "Dec 18, 2014"
+        - col:
+            text: "Crew module Atmospheric Re-entry Experiment (CARE)"
+        - col:
+            text: ""
+
+
+figure:
+  image: "../../images/launchers/gslv-mk-iii/gslv_mk_iii_m1_2.jpg"
+  caption: "GSLV MK III coming out of Vehicle Assembly Building"

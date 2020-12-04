@@ -77,12 +77,18 @@
     title: "List of Spacecrafts"
     table:
       head:
-        - col: "Name"
-        - col: "Launch Date"
-        - col: "Launch Vehicle"
-        - col: "Orbit"
-        - col: "Application"
-        - col: "Remarks"
+        - col:
+            text: "Name"
+        - col:
+            text: "Launch Date"
+        - col:
+            text: "Launch Vehicle"
+        - col:
+            text: "Orbit"
+        - col:
+            text: "Application"
+        - col:
+            text: "Remarks"
       body:
         - row:
           - col:

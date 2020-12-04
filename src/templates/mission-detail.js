@@ -121,7 +121,7 @@ export const query = graphql`
       }
       relatedLinks {
         title
-        contents {
+        content {
           link
           text
         }

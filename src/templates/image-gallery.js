@@ -13,7 +13,7 @@ export const query = graphql`
     imageGalleriesYaml(slug: { eq: $slug }) {
       title
       slug
-      cover {
+      image {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid
@@ -39,7 +39,7 @@ export const query = graphql`
   }
 `
 
-export default function MediaGallery({ data }) {
+export default function ImageGallery({ data }) {
 
   const { title, slug, cover } = data.imageGalleriesYaml
 

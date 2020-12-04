@@ -2,18 +2,15 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from 'gatsby-image'
 
-import { Container, Row, Col, Button } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Counter from '../components/counter'
-// import JumbotronImg from '../components/jumbotron-img'
 import ListItems from '../components/list-items'
-import TextContent from '../components/text-content'
 import Separator from '../components/separator'
 import TabSection from '../components/tab-section'
 import JumbotronImg from '../components/jumbotron-img'
-import SplitSection from '../components/split-section'
+// import SplitSection from '../components/split-section'
 
 
 export const query = graphql`
@@ -40,27 +37,27 @@ export const query = graphql`
         horizontalPosition
         textAlignment
       }
-      splitSection {
-        title
-        subtitle
-        description
-        button
-        link
-        textPosition
-        textAlignment
-        objectFit
-        image {
-          name
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      }
+      # splitSection {
+      #   title
+      #   subtitle
+      #   description
+      #   button
+      #   link
+      #   textPosition
+      #   textAlignment
+      #   objectFit
+      #   image {
+      #     name
+      #     childImageSharp {
+      #       fluid {
+      #         ...GatsbyImageSharpFluid
+      #       }
+      #     }
+      #   }
+      # }
       listMissions {
         title
-        contents {
+        content {
           link
           text
         }
@@ -83,7 +80,7 @@ export default function MissionsPage({ data }) {
   const {
     seo,
     jumbotronImg,
-    splitSection,
+    // splitSection,
     listMissions,
     tabSection,
   } = data.missionsYaml
@@ -93,7 +90,7 @@ export default function MissionsPage({ data }) {
     <Layout>
       <SEO title={seo.title} />
 
-      { jumbotronImg && jumbotronImg.map((item, ind) => (
+      { jumbotronImg.map((item, ind) => (
           <JumbotronImg
             key={`jumbotronImg_${ind}`}
             title={item.title}
@@ -138,7 +135,7 @@ export default function MissionsPage({ data }) {
       </div> */}
 
 
-      { splitSection && splitSection.map((item, ind) => (
+      {/* { splitSection.map((item, ind) => (
         <SplitSection
           key={`splitSection_${ind}`}
           title={item.title}
@@ -156,7 +153,7 @@ export default function MissionsPage({ data }) {
             imgStyle={{ objectFit: item.objectFit }}
           />
           </SplitSection>
-        ))}
+        ))} */}
 
 
         <Separator />

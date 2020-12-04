@@ -37,7 +37,7 @@
 
   listLinks:
     - title: "More about ISRO"
-      contents:
+      content:
         - link: "/about/vision-and-mission-statements"
           text: "Vision and Mission statements"
         - link: "/about/chairman-isro-secretary-dos"
@@ -54,7 +54,7 @@
           text: "Autonomous Bodies"
 
     - title: "Business with ISRO"
-      contents:
+      content:
         - link: "/about/newspace-india-limited-nsil"
           text: "New Space India Limited (NSIL)"
         - link: "/about/antrix-corporation-limited"
@@ -67,7 +67,7 @@
           text: "E-Procurement"
 
     - title: "Work with ISRO"
-      contents:
+      content:
         - link: "/careers"
           text: "Careers"
         - link: "/about/sponsored-research-respond"

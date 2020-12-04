@@ -1,0 +1,14 @@
+title: "Indian Institute of Remote Sensing (IIRS)"
+slug: "/about/indian-institute-of-remote-sensing-iirs"
+image: "../../images/about/centres/IIRS.jpg"
+description: ""
+locations:
+  - name: ""
+    image: "../../images/about/centres/IIRS.jpg"
+    headPosition: "Director"
+    head: "Dr. Prakash Chauhan"
+    address: "Indian Institute of Remote Sensing (IIRS), 4, Kalidas Road, PB No. 135, Dehra Dun 248 001, Uttarakhand"
+    email: "director@iirs.gov.in"
+    link: "http://www.iirs.gov.in/"
+    description: !markdown |
+      Indian Institute of Remote Sensing (IIRS) at Dehradun is a premier institute with the objective of capacity building in Remote Sensing and Geo-informatics and their applications through education and training programmes at postgraduate level. The Institute also hosts and provides support to the Centre for Space Science and Technology Education in Asia and the Pacific (CSSTE-AP), affiliated to the United Nations. The training and education programmes of the Institute are designed to meet the requirements of various target / user groups, i.e., for professionals at working, middle and supervisory levels, fresh graduates, researchers, academia, and decision makers. The duration of courses ranges from one week to two years.

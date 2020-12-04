@@ -61,7 +61,7 @@ export const query = graphql`
       }
       listLaunchers {
         title
-        contents {
+        content {
           link
           text
         }
@@ -143,6 +143,30 @@ export default function LaunchersPage({ data }) {
         </Container>
       </div> */}
 
+
+      <TextContent title={textContent1.title}>
+        <div dangerouslySetInnerHTML={{__html: textContent1.text}} />
+      </TextContent>
+
+
+      <Separator title="All launchers" />
+      <ListItems items={listLaunchers} />
+
+
+      <Figure className="vh-100 w-100">
+        { figure.image.extension === "svg" ? (
+          <Figure.Image className="h-100 w-100" src={figure.image.publicURL} alt={figure.image.name} style={{ objectFit: `contain`, opacity: `0.8` }} />
+        ) : (
+          <Img
+            fluid={figure.image.childImageSharp.fluid}
+            className="h-100 w-100"
+            imgStyle={{ opacity: `0.8` }}
+          />
+        )}
+        <Figure.Caption className="text-center">{figure.caption}</Figure.Caption>
+      </Figure>
+
+
       { splitSection && splitSection.map((item, ind) => (
         <SplitSection
           key={`splitSection_${ind}`}
@@ -182,27 +206,6 @@ export default function LaunchersPage({ data }) {
         ))}
       </Container> */}
 
-      <TextContent title={textContent1.title}>
-        <div dangerouslySetInnerHTML={{__html: textContent1.text}} />
-      </TextContent>
-
-
-      <Separator title="All launchers" />
-      <ListItems items={listLaunchers} />
-
-
-      <Figure className="vh-100 w-100">
-        { figure.image.extension === "svg" ? (
-          <Figure.Image className="h-100 w-100" src={figure.image.publicURL} alt={figure.image.name} style={{ objectFit: `contain`, opacity: `0.8` }} />
-        ) : (
-          <Img
-            fluid={figure.image.childImageSharp.fluid}
-            className="h-100 w-100"
-            imgStyle={{ opacity: `0.8` }}
-          />
-        )}
-        <Figure.Caption className="text-center">{figure.caption}</Figure.Caption>
-      </Figure>
 
 
       <TextContent title={textContent2.title}>

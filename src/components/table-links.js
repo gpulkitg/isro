@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Table from 'react-bootstrap/Table'
-import FlexibleLink from './flexible-link'
+import LinkVersatile from './link-versatile'
 import { ChevronRight, FileEarmark } from 'react-bootstrap-icons'
 
 
@@ -24,9 +24,9 @@ export default function TableLinks({ data }) {
                   {row.map( ({col},j) => (
                     <td key={`body_td_${j}`}>
                       { col.link ? (
-                        <FlexibleLink url={col.link}>
+                        <LinkVersatile url={col.link} className="no-underline">
                           {col.text}
-                        </FlexibleLink>
+                        </LinkVersatile>
                       ) : (
                         col.text
                       )}

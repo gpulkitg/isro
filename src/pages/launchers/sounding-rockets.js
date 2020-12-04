@@ -6,14 +6,10 @@ import { Container, Figure, Row, Col } from 'react-bootstrap'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
 // import TextContent from '../../components/text-content'
-import TableList from '../../components/table-list'
+import TableVersatile from '../../components/table-versatile'
 // import SplitSection from '../../components/split-section'
-import FigureCaption from '../../components/figure-caption'
 import Separator from '../../components/separator'
 
-// import vyom from '../../images/launchers/sounding-rockets/vyom.jpg'
-// import fl06_tss_rocket from '../../images/launchers/sounding-rockets/fl06_tss_rocket_edited.jpeg'
-// import sr7 from '../../images/launchers/sounding-rockets/sr7.jpg'
 
 
 export const query = graphql`
@@ -51,11 +47,15 @@ export const query = graphql`
         }
         table {
           head {
-            col
+            col {
+              text
+            }
           }
           body {
             row {
-              col
+              col {
+                text
+              }
             }
           }
         }
@@ -71,7 +71,7 @@ export default function SoundingRockets({ data }) {
     seo,
     splitSection,
     sections,
-    table,
+    // table,
   } = data.soundingRocketsYaml
 
   return (
@@ -122,7 +122,7 @@ export default function SoundingRockets({ data }) {
               </Figure>
             }
             { section.table &&
-              <TableList data={section.table} />
+              <TableVersatile data={section.table} />
             }
           </div>
         ))}
