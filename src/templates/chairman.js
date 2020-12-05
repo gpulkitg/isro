@@ -7,6 +7,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Separator from '../components/separator'
 import LinkVersatile from '../components/link-versatile'
+import ListItems from '../components/list-items'
+
+
 
 export const query = graphql`
   query ($slug: String) {
@@ -33,6 +36,15 @@ export const query = graphql`
       links {
         name
         link
+      }
+    }
+    aboutYaml {
+      listLinks {
+        title
+        content {
+          link
+          text
+        }
       }
     }
   }
@@ -146,9 +158,11 @@ export default function Chairman({ data }) {
             </Tab>
           }
 
-
         </Tabs>
 
+
+        <Separator />
+        <ListItems items={data.aboutYaml.listLinks} />
 
       </Container>
 

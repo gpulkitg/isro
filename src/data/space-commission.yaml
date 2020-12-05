@@ -1,0 +1,54 @@
+- name: "Dr. K. Sivan"
+  designation: "Secretary, Department of Space"
+  position: "Chairman"
+  image: "../images/about/chairmen/dr_k_sivan_bg.jpg"
+
+- name: "Dr. P K  Mishra"
+  designation: "Pr.Secretary to PM"
+  position: "Member"
+  image: "../images/about/space-commission/mishra.jpg"
+
+- name: "Shri. Ajit Doval"
+  designation: "National Security Advisor to PM"
+  position: "Member"
+  image: "../images/about/space-commission/doval.jpg"
+
+- name: "Shri. Rajiv Gauba"
+  designation: "Cabinet Secretary"
+  position: "Member"
+  image: "../images/about/space-commission/shri_rajiv_gauba.jpg"
+
+- name: "Shri. Harsh Vardhan Shringla"
+  designation: "Foreign Secretary"
+  position: "Member"
+  image: "../images/about/space-commission/ambassador_shringla_tricolor.jpg"
+
+- name: "Shri T.V.Somanathan"
+  designation: "Expenditure Secretary"
+  position: "Member"
+  image: "../images/about/space-commission/thavdsomanathan.jpg"
+
+- name: "Shri. A. S. Kiran Kumar"
+  designation: "Vikram Sarabhai Distinguished Professor"
+  position: "Member"
+  image: "../images/about/chairmen/shri-s-kiran-kumar.jpg"
+
+- name: "Ms. Sudha Krishnan"
+  designation: "Secretary to GOI & Member (Finance)"
+  position: "Member"
+  image: "../images/about/space-commission/sudha_krishnan.jpg"
+
+- name: "Prof. Goverdhan Mehta"
+  designation: "National Research Professor"
+  position: "Member"
+  image: "../images/about/space-commission/mehta.jpg"
+
+- name: "Shri P.Kunhikrishnan"
+  designation: "Director,U R Rao Satellite Centre"
+  position: "Member"
+  image: "../images/about/space-commission/kunnikrishnan.jpg"
+
+- name: "Shri. Anoop Srivastava"
+  designation: "Joint Secretary & FA,DOS"
+  position: "Secretary"
+  image: "../images/about/space-commission/shri_anoop_srivastava.jpg"

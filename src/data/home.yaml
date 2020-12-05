@@ -29,15 +29,15 @@
   coverImg: "../images/home/isro_scientists.jpg"
 
   counters:
-    - count: 109
+    - count: 110
       text: "Spacecraft Missions"
-    - count: 77
+    - count: 78
       text: "Launch Missions"
     - count: 10
       text: "Student Satellites"
     - count: 2
       text: "Re-entry Missions"
-    - count: 319
+    - count: 328
       text: "Foreign Satellites"
 
 

@@ -41,7 +41,9 @@ export default function VerticalTimeline({ data }) {
                 contentStyle={{
                   backgroundColor: `dodgerblue`,
                   fontSize: `1rem`,
-                  fontWeight: `bold`,
+                  // fontWeight: `bold`,
+                  paddingTop: `1rem`,
+                  paddingBottom: `1rem`,
                 }}
                 container="card"
               >
