@@ -104,18 +104,19 @@ cardSection2:
 
 
 verticalTimeline:
-  title: ""
+  title: "Mission Timeline"
   events:
     - date: "18th September, 2008"
       title: "Prime Minister Manmohan Singh approves the Chandrayaan2 lunar mission"
-    - date: "---"
+    - date: ""
       title: "Mission Planning"
     - date: "July 22, 2019"
       title: "Launch Date"
     - date: "Aug 20, 2019"
       title: "Orbiter Lunar Orbit insertion"
-    - date: "Will be operational for 7 years"
-      title: "Orbital Experiments"
+    - date: ""
+      title: "Orbital Experiments, Will be operational for 7 years"
+      # subtitle: "Will be operational for 7 years"
 
 
 textContent2:

@@ -64,9 +64,11 @@ export default function ImageGallery({ data }) {
     <Layout>
       <SEO title={title} />
 
+      <Container>
+
       <Separator />
       <h2 className="text-center mb-2">{title}</h2>
-      <Container>
+
         <LightboxGallery photos={photos} columns={3} />
         {/* <Row>
           { data.images.edges.map(({node}) => (

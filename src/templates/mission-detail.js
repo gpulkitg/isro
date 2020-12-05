@@ -329,20 +329,23 @@ export default function Mission({ data }) {
 
 
       { verticalTimeline &&
-        <>
-        <Separator />
-        <Container>
-          <Row>
-            <Col className="my-auto text-center py-2" md>
-              <h2>{verticalTimeline.title}</h2>
-            </Col>
-            <Col className="text-center" md>
-              <VerticalTimeline events={verticalTimeline.events} />
-            </Col>
-          </Row>
-        </Container>
-        </>
+        <VerticalTimeline data={verticalTimeline} />
+        // <>
+        // <Separator />
+        // <Container>
+        //   <h2 className="pt-3"></h2>
+        //   <Row>
+        //     <Col className="my-auto text-center" md={4}>
+        //       <h2>{verticalTimeline.title}</h2>
+        //     </Col>
+        //     <Col className="text-center py-2" md={8}>
+        //       <VerticalTimeline events={verticalTimeline.events} />
+        //     </Col>
+        //   </Row>
+        // </Container>
+        // </>
       }
+
 
 
       { textContent2 &&
