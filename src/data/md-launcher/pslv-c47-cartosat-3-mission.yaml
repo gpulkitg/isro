@@ -1,9 +1,9 @@
 slug: "/launcher/pslv-c47-cartosat-3-mission"
 
-seo:
-  title: "PSLV-C47 / Cartosat-3 Mission"
-
-date: "2019-11-27"
+# seo:
+#   title: "PSLV-C47 / Cartosat-3 Mission"
+#
+# date: "2019-11-27"
 
 
 sections:
@@ -20,10 +20,3 @@ sections:
       Cartosat-3 satellite is a third generation agile advanced satellite having high resolution imaging capability.
 
       13 Commercial Nanosatellites from USA were also successfully injected into designated orbit. These satellites were launched under commercial arrangement with NewSpace India Limited (NSIL), the commercial arm of Indian Space Research Organisation (ISRO).
-
-
-# relatedLinks:
-#   - title: "Mission"
-#     content:
-#       - text: ""
-#         link: ""

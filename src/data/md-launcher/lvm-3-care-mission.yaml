@@ -1,0 +1,35 @@
+slug: "/launcher/lvm-3-care-mission"
+
+sections:
+  - title: ""
+    image: ""
+    caption: ""
+    text: !markdown |
+      The experimental flight of GSLV MK-III designated as GSLV MK-III X, carried Crew module Atmospheric Reentry Experiment (CARE) as its payload. In the GSLV MK-III-X flight active S200 and L110 propulsive stages, and a passive C25 stage with dummy engine are used. The C25 stage uses all flight identical structures and interfaces. The LOX and LH2 tank are filled with Liquid Nitrogen (LN2) and Gaseous Nitrogen (GN2) respectively. The external vehicle configuration is identical to that of GSLV MK-III-D1 which is the generic vehicle configuration. The Payload Fairing and Spacecraft separation systems are also functional. The mission is designed to provide a suitable altitude, velocity and flight path angle to CARE at separation.
+
+      [GSLV MK-III X Stages](/launchers/gslv-mk-iii)
+
+
+    table:
+      title: "Salient Features"
+      body:
+        - row:
+            - col:
+                text: "Overall Height"
+            - col:
+                text: "43.43 m"
+        - row:
+            - col:
+                text: "Lift-off Mass"
+            - col:
+                text: "630.58 tonne"
+        - row:
+            - col:
+                text: "No. of Stages"
+            - col:
+                text: "3"
+        - row:
+            - col:
+                text: "Payload"
+            - col:
+                text: "CARE"

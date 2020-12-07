@@ -1,9 +1,9 @@
 slug: "/spacecraft/crew-module-atmospheric-re-entry-experiment-care"
 
-seo:
-  title: "Crew module Atmospheric Re-entry Experiment (CARE)"
-
-date: "2014-12-18"
+# seo:
+#   title: "Crew module Atmospheric Re-entry Experiment (CARE)"
+#
+# date: "2014-12-18"
 
 
 sections:
@@ -46,17 +46,3 @@ sections:
                 text: "अनुप्रयोग / Application:"
             - col:
                 text: "Experimental"
-
-
-relatedLinks:
-  - title: "Mission"
-    content:
-      - text: "LVM-3/CARE Brochure"
-        link: "/media/lvm-3-care-brochure-0"
-      - text: "LVM-3/CARE Gallery"
-        link: "/media/lvm-3-care-gallery"
-
-  - title: "Updates"
-    content:
-      - text: "First Experimental Flight of India's Next Generation Launch Vehicle GSLV Mk-III Successful"
-        link: "/updates/first-experimental-flight-of-indias-next-generation-launch-vehicle-gslv-mk-iii"

@@ -12,11 +12,15 @@ import ListItems from '../components/list-items'
 
 export const query = graphql`
   query ($slug: String) {
+    masterListYaml(spacecraftLink: {eq: $slug}) {
+      spacecraftName
+      launchDate(formatString: "D MMM YYYY")
+    }
     mdSpacecraftYaml(slug: {eq: $slug}) {
-      seo {
-        title
-      }
-      date(formatString: "D MMM YYYY")
+      # seo {
+      #   title
+      # }
+      # date(formatString: "D MMM YYYY")
       sections {
         title
         caption
@@ -40,13 +44,13 @@ export const query = graphql`
           }
         }
       }
-      relatedLinks {
-        title
-        content {
-          text
-          link
-        }
-      }
+      # relatedLinks {
+      #   title
+      #   content {
+      #     text
+      #     link
+      #   }
+      # }
     }
   }
 `
@@ -54,27 +58,32 @@ export const query = graphql`
 export default function MdSpacecraft({ data }) {
 
   const {
-    seo,
-    date,
+    // seo,
+    // date,
     sections,
-    relatedLinks,
+    // relatedLinks,
   } = data.mdSpacecraftYaml
+
+  const {
+    spacecraftName,
+    launchDate,
+  } = data.masterListYaml
 
 
   return (
     <Layout>
 
-      <SEO title={seo.title} />
+      <SEO title={spacecraftName} />
 
       <Separator />
 
       <Container>
 
-        { date &&
-          <h5 className="text-muted">{date}</h5>
+        { launchDate &&
+          <h5 className="text-muted">{launchDate}</h5>
         }
-        { seo.title &&
-          <h2 className="mb-2 text-center">{seo.title}</h2>
+        { spacecraftName &&
+          <h2 className="mb-2 text-center">{spacecraftName}</h2>
         }
 
         {/* { cover &&
@@ -108,6 +117,7 @@ export default function MdSpacecraft({ data }) {
             }
             { section.table &&
               <div className="mb-2">
+                {section.table.title && <h4 className="text-center mb-1">{section.table.title}</h4>}
                 <TableVersatile data={section.table} />
               </div>
             }
@@ -139,12 +149,12 @@ export default function MdSpacecraft({ data }) {
           </div>
         ))} */}
 
-        { relatedLinks &&
+        {/* { relatedLinks &&
           <>
           <Separator title="Related" />
           <ListItems items={relatedLinks} />
           </>
-        }
+        } */}
 
 
       </Container>

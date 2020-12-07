@@ -1,8 +1,8 @@
 import React from "react"
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -70,26 +70,41 @@ export const query = graphql`
           }
         }
       }
-      listSpacecrafts {
-        title
-        table {
-          head {
-            col {
-              text
-            }
-          }
-          body {
-            row {
-              col {
-                text
-                date(formatString: "MMM D, YYYY")
-                link
-              }
-            }
-          }
-        }
-      }
+      # listSpacecrafts {
+      #   title
+      #   table {
+      #     head {
+      #       col {
+      #         text
+      #       }
+      #     }
+      #     body {
+      #       row {
+      #         col {
+      #           text
+      #           date(formatString: "MMM D, YYYY")
+      #           link
+      #         }
+      #       }
+      #     }
+      #   }
+      # }
     }
+    allMasterListYaml {
+  	  edges {
+  	    node {
+          id
+  	      launcherName
+          launcherLink
+          spacecraftName
+          spacecraftLink
+          launchDate(formatString: "MMM D, YYYY")
+          orbitType
+          application
+          remarks
+  	    }
+  	  }
+  	}
   }
 `
 
@@ -104,7 +119,7 @@ export default function SpacecraftsPage({ data }) {
     jumbotronImg,
     splitSection,
     cardSection,
-    listSpacecrafts,
+    // listSpacecrafts,
   } = data.spacecraftYaml
 
 
@@ -223,8 +238,47 @@ export default function SpacecraftsPage({ data }) {
           ))}
         </Row>
 
-        <Separator title={listSpacecrafts.title} />
-        <TableVersatile data={listSpacecrafts.table} />
+        {/* <Separator title={listSpacecrafts.title} /> */}
+        {/* <TableVersatile data={listSpacecrafts.table} /> */}
+        <Separator title="List of Spacecrafts" />
+        <Table variant="dark" className="table-custom-border" responsive>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Launch Date</th>
+              <th>Launch Vehicle</th>
+              <th>Orbit Type</th>
+              <th>Application</th>
+              <th>Remarks</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            { data.allMasterListYaml.edges.map(({ node }) => (
+              <tr key={node.id}>
+                <td>
+                  { node.spacecraftLink ? (
+                    <Link to={node.spacecraftLink} className="no-underline">{node.spacecraftName}</Link>
+                  ) : (
+                    node.spacecraftName
+                  )}
+                </td>
+                <td>{node.launchDate}</td>
+                <td>
+                  { node.launcherLink ? (
+                    <Link to={node.launcherLink} className="no-underline">{node.launcherName}</Link>
+                  ) : (
+                    node.launcherName
+                  )}
+                </td>
+                <td>{node.orbitType}</td>
+                <td>{node.application}</td>
+                <td>{node.remarks}</td>
+              </tr>
+            ))}
+          </tbody>
+
+        </Table>
 
         {/* <CardDeck>
           {cardSection.map((item, ind) => (

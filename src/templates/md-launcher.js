@@ -8,15 +8,20 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Separator from '../components/separator'
 import ListItems from '../components/list-items'
+import TableVersatile from '../components/table-versatile'
 
 
 export const query = graphql`
   query ($slug: String) {
+    masterListYaml(launcherLink: {eq: $slug}) {
+      launcherName
+      launchDate(formatString: "D MMM YYYY")
+    }
     mdLauncherYaml(slug: {eq: $slug}) {
-      seo {
-        title
-      }
-      date(formatString: "D MMM YYYY")
+      # seo {
+      #   title
+      # }
+      # date(formatString: "D MMM YYYY")
       sections {
         title
         caption
@@ -29,14 +34,24 @@ export const query = graphql`
             }
           }
         }
-      }
-      relatedLinks {
-        title
-        content {
-          text
-          link
+        table {
+          title
+          body {
+            row {
+              col {
+                text
+              }
+            }
+          }
         }
       }
+      # relatedLinks {
+      #   title
+      #   content {
+      #     text
+      #     link
+      #   }
+      # }
     }
   }
 `
@@ -44,28 +59,33 @@ export const query = graphql`
 export default function MdLauncher({ data }) {
 
   const {
-    seo,
-    date,
+    // seo,
+    // date,
     sections,
-    relatedLinks,
+    // relatedLinks,
   } = data.mdLauncherYaml
+
+  const {
+    launcherName,
+    launchDate,
+  } = data.masterListYaml
 
 
   return (
     <Layout>
 
-      <SEO title={seo.title} />
+      <SEO title={launcherName} />
 
       <Separator />
 
       <Container>
 
-        { date &&
-          <h5 className="text-muted">{date}</h5>
+        { launchDate &&
+          <h5 className="text-muted">{launchDate}</h5>
         }
 
-        { seo.title &&
-          <h2 className="mb-2 text-center">{seo.title}</h2>
+        { launcherName &&
+          <h2 className="mb-2 text-center">{launcherName}</h2>
         }
 
         {/* { cover &&
@@ -105,15 +125,21 @@ export default function MdLauncher({ data }) {
                 <div dangerouslySetInnerHTML={{ __html: section.text }} className="markdown-content" />
               </div>
             }
+            { section.table &&
+              <div className="mb-2">
+                {section.table.title && <h4 className="text-center mb-1">{section.table.title}</h4>}
+                <TableVersatile data={section.table} />
+              </div>
+            }
           </div>
         ))}
 
-        { relatedLinks &&
+        {/* { relatedLinks &&
           <>
           <Separator title="Related" />
           <ListItems items={relatedLinks} />
           </>
-        }
+        } */}
 
 
       </Container>

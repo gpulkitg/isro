@@ -68,6 +68,15 @@
     text-align: justify;
   }
 
+  table {
+    background-color: 'blue';
+    width: 75%;
+
+    @include media-breakpoint-down("md") {
+      width: 100%;
+    }
+  }
+
 }
 
 
