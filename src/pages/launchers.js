@@ -1,8 +1,8 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Img from 'gatsby-image'
 
-import { Container, Figure, Table } from 'react-bootstrap'
+import { Container, Figure, Button } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -84,20 +84,6 @@ export const query = graphql`
         text
       }
     }
-    allMasterListYaml(filter: {launcherLink: {ne: ""}}) {
-  	  edges {
-  	    node {
-          id
-  	      launcherName
-          launcherLink
-          spacecraftName
-          spacecraftLink
-          launchDate(formatString: "MMM D, YYYY")
-          launcherType
-          remarks
-  	    }
-  	  }
-  	}
   }
 `
 
@@ -226,48 +212,11 @@ export default function LaunchersPage({ data }) {
         <div dangerouslySetInnerHTML={{ __html: textContent2.text }} />
       </TextContent>
 
-
-      <Container>
-
-        <Separator title="Launches from SDSC SHAR, Sriharikota, India" />
-        <Table variant="dark" className="table-custom-border" responsive>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Launch Date</th>
-              <th>Launcher Type</th>
-              <th>Payload</th>
-              <th>Remarks</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            { data.allMasterListYaml.edges.map(({ node }) => (
-              <tr key={node.id}>
-                <td>
-                  { node.launcherLink ? (
-                    <Link to={node.launcherLink} className="no-underline">{node.launcherName}</Link>
-                  ) : (
-                    node.launcherName
-                  )}
-                </td>
-                <td>{node.launchDate}</td>
-                <td>{node.launcherType}</td>
-                <td>
-                  { node.spacecraftLink ? (
-                    <Link to={node.spacecraftLink} className="no-underline">{node.spacecraftName}</Link>
-                  ) : (
-                    node.spacecraftName
-                  )}
-                </td>
-                <td>{node.remarks}</td>
-              </tr>
-            ))}
-          </tbody>
-
-        </Table>
-
-      </Container>
+      <div className="text-center my-1">
+        <Button href="/launches-sdsc-shar-sriharikota-india" variant="outline-light" className="btn-jumbotron">
+          LIST OF ALL LAUNCHES
+        </Button>
+      </div>
 
 
     </Layout>

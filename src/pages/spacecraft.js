@@ -1,17 +1,16 @@
 import React from "react"
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Container, Row, Col, Table } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import TextContent from '../components/text-content'
 import Separator from '../components/separator'
 import JumbotronImg from '../components/jumbotron-img'
 import SplitSection from '../components/split-section'
 import CardBrighten from '../components/card-brighten'
-import TableVersatile from '../components/table-versatile'
+// import TableVersatile from '../components/table-versatile'
 
 
 export const query = graphql`
@@ -90,21 +89,6 @@ export const query = graphql`
       #   }
       # }
     }
-    allMasterListYaml {
-  	  edges {
-  	    node {
-          id
-  	      launcherName
-          launcherLink
-          spacecraftName
-          spacecraftLink
-          launchDate(formatString: "MMM D, YYYY")
-          orbitType
-          application
-          remarks
-  	    }
-  	  }
-  	}
   }
 `
 
@@ -240,45 +224,15 @@ export default function SpacecraftsPage({ data }) {
 
         {/* <Separator title={listSpacecrafts.title} /> */}
         {/* <TableVersatile data={listSpacecrafts.table} /> */}
-        <Separator title="List of Spacecrafts" />
-        <Table variant="dark" className="table-custom-border" responsive>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Launch Date</th>
-              <th>Launch Vehicle</th>
-              <th>Orbit Type</th>
-              <th>Application</th>
-              <th>Remarks</th>
-            </tr>
-          </thead>
 
-          <tbody>
-            { data.allMasterListYaml.edges.map(({ node }) => (
-              <tr key={node.id}>
-                <td>
-                  { node.spacecraftLink ? (
-                    <Link to={node.spacecraftLink} className="no-underline">{node.spacecraftName}</Link>
-                  ) : (
-                    node.spacecraftName
-                  )}
-                </td>
-                <td>{node.launchDate}</td>
-                <td>
-                  { node.launcherLink ? (
-                    <Link to={node.launcherLink} className="no-underline">{node.launcherName}</Link>
-                  ) : (
-                    node.launcherName
-                  )}
-                </td>
-                <td>{node.orbitType}</td>
-                <td>{node.application}</td>
-                <td>{node.remarks}</td>
-              </tr>
-            ))}
-          </tbody>
-
-        </Table>
+        {/* <div className="text-center">
+          <Link to="/list-of-spacecrafts"><h4>List of all spacecrafts</h4></Link>
+        </div> */}
+        <div className="text-center my-1">
+          <Button href="/list-of-spacecrafts" variant="outline-light" className="btn-jumbotron">
+            LIST OF ALL SPACECRAFTS
+          </Button>
+        </div>
 
         {/* <CardDeck>
           {cardSection.map((item, ind) => (
