@@ -34,7 +34,7 @@ export const query = graphql`
         slug
       }
     }
-    allImageGalleriesYaml {
+    allGalleriesImageYaml {
       edges {
         node {
           id
@@ -50,7 +50,7 @@ export const query = graphql`
         }
       }
     }
-    allVideoGalleriesYaml {
+    allGalleriesVideoYaml {
       edges {
         node {
           id
@@ -99,17 +99,17 @@ export default function MediaPage({ data }) {
   })
 
 
-  // const imageGalleries = data.allImageGalleriesYaml.edges
+  // const imageGalleries = data.allGalleriesImageYaml.edges
   // console.log("imageGalleries", imageGalleries);
-  // const videoGalleries = data.allVideoGalleriesYaml.edges
+  // const videoGalleries = data.allGalleriesVideoYaml.edges
   // console.log("videoGalleries", videoGalleries);
 
   // useEffect(() => {
   //   if (galleryType == 0) {
-  //     console.log("set images", data.allImageGalleriesYaml.edges);
+  //     console.log("set images", data.allGalleriesImageYaml.edges);
   //     setAllGalleries(imageGalleries)
   //   } else if (galleryType == 1) {
-  //     console.log("set videos", data.allVideoGalleriesYaml.edges);
+  //     console.log("set videos", data.allGalleriesVideoYaml.edges);
   //     setAllGalleries(videoGalleries)
   //   }
   // }, [galleryType])
@@ -127,10 +127,10 @@ export default function MediaPage({ data }) {
   useEffect(() => {
 
     const search = debounce(() => {
-      const imageMatches = data.allImageGalleriesYaml.edges.filter(({ node }) => (
+      const imageMatches = data.allGalleriesImageYaml.edges.filter(({ node }) => (
         node.title.toLowerCase().includes(searchQuery.toLowerCase())
       ))
-      const videoMatches = data.allVideoGalleriesYaml.edges.filter(({ node }) => (
+      const videoMatches = data.allGalleriesVideoYaml.edges.filter(({ node }) => (
         node.title.toLowerCase().includes(searchQuery.toLowerCase())
       ))
       setDisplayedImageGalleries(imageMatches)
@@ -140,8 +140,8 @@ export default function MediaPage({ data }) {
     if (searchQuery) {
       search()
     } else {
-      setDisplayedImageGalleries(data.allImageGalleriesYaml.edges)
-      setDisplayedVideoGalleries(data.allVideoGalleriesYaml.edges)
+      setDisplayedImageGalleries(data.allGalleriesImageYaml.edges)
+      setDisplayedVideoGalleries(data.allGalleriesVideoYaml.edges)
     }
 
     return search.cancel

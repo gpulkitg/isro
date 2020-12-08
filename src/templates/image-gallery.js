@@ -10,7 +10,7 @@ import Separator from '../components/separator'
 
 export const query = graphql`
   query ($slug: String!, $imagesDir: String!) {
-    imageGalleriesYaml(slug: { eq: $slug }) {
+    galleriesImageYaml(slug: { eq: $slug }) {
       title
       # slug
       # image {
@@ -41,7 +41,7 @@ export const query = graphql`
 
 export default function ImageGallery({ data }) {
 
-  const { title } = data.imageGalleriesYaml
+  const { title } = data.galleriesImageYaml
 
   const photos = data.images.edges.map(({ node }) => {
     return (

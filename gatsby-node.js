@@ -23,7 +23,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const result = await graphql(`
     query {
-      allImageGalleriesYaml {
+      allGalleriesImageYaml {
         edges {
           node {
             slug
@@ -90,7 +90,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
 
-  result.data.allImageGalleriesYaml.edges.forEach(({ node }) => {
+  result.data.allGalleriesImageYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
       component: imageGalleryTemplate,
