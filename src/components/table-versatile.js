@@ -31,35 +31,35 @@ const ColVersatile = ({ col }) => {
 export default function TableVersatile({ data }) {
 
   return (
-      <Table variant="dark" className="table-custom-border" responsive>
-        { data.hasOwnProperty('head') &&
-          <thead>
-            <tr>
-              { data.head.map( ({col},i) =>
-                <th key={`head_th_${i}`}>
-                  <ColVersatile col={col} />
-                </th>
-              )}
-            </tr>
-          </thead>
+    <Table className="table-custom-border" responsive>
+      {/* <Table variant="dark" className="table-custom-border" responsive> */}
+      { data.hasOwnProperty('head') &&
+        <thead>
+          <tr>
+            { data.head.map( ({col},i) =>
+              <th key={`head_th_${i}`}>
+                <ColVersatile col={col} />
+              </th>
+            )}
+          </tr>
+        </thead>
+      }
+
+      <tbody>
+        { data.hasOwnProperty('body') &&
+            data.body.map( ({row},i) =>
+              <tr key={`body_tr_${i}`}>
+                {row.map( ({col},j) => (
+                  <td key={`body_td_${j}`}>
+                    <ColVersatile col={col} />
+                  </td>
+                ))}
+              </tr>
+            )
         }
+      </tbody>
 
-        <tbody>
-          { data.hasOwnProperty('body') &&
-              data.body.map( ({row},i) =>
-                <tr key={`body_tr_${i}`}>
-                  {row.map( ({col},j) => (
-                    <td key={`body_td_${j}`}>
-                      <ColVersatile col={col} />
-                    </td>
-                  ))}
-                </tr>
-              )
-          }
-        </tbody>
-
-      </Table>
-
+    </Table>
   )
 
 }

@@ -32,11 +32,11 @@ export default function InternationalCooperation({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.rightToInformationYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.rightToInformationYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.rightToInformationYaml.seo.title}</h1>
 
       <Container>
         {data.rightToInformationYaml.content.map((item, ind) => (

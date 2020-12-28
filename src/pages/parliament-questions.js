@@ -34,11 +34,11 @@ export default function ParliamentQuestions({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.parliamentQuestionsYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.parliamentQuestionsYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.parliamentQuestionsYaml.seo.title}</h1>
 
       <Container>
         { data.parliamentQuestionsYaml.externalLinks.map((item, ind) => (

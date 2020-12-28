@@ -27,11 +27,11 @@ export default function CitizensCharter({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.citizensCharterYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.citizensCharterYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.citizensCharterYaml.seo.title}</h1>
 
       <Container>
         <ClickReveal content={data.citizensCharterYaml.content} />

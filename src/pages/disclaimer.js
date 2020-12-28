@@ -11,12 +11,12 @@ export default function Disclaimer() {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
 
       <SEO title="Disclaimer" />
 
       <Separator />
-      <h2 className="text-center mb-2">Disclaimer</h2>
+      <h2 className="text-center mb-3">Disclaimer</h2>
 
       <Container>
         <p>

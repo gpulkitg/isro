@@ -1,42 +1,24 @@
 import React from "react"
-import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import JumbotronImg from '../components/jumbotron-img'
 
-export const query = graphql`
-  query {
-    cover: file(relativePath: {eq: "common/universe.png"}) {
-      name
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
 
 const NotFoundPage = ({ data }) => (
-  <Layout>
-    <SEO title="404: Not found" />
+  <Layout withBgImg={true}>
+    {/* <SEO title="404: Not found" /> */}
 
-    <JumbotronImg
-      title="Oops!"
-      subtitle="Page Not Found"
-      horizontalPosition="center"
-      verticalPosition="center"
-      textAlignment="center"
-    >
-      <Img
-        fluid={data.cover.childImageSharp.fluid}
-        alt={data.cover.name}
-        style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
-        imgStyle={{ opacity: `0.7` }}
-      />
-    </JumbotronImg>
+    <div style={{
+      position: `absolute`,
+      top: `40%`,
+      left: `50%`,
+      transform: `translate(-50%, -50%)`,
+      textAlign: `center`,
+      width: `100%`,
+    }}>
+      <h1 className="display-4 mb-1">Oops!</h1>
+      <h2>Page Not Found</h2>
+    </div>
 
     {/* <div className="vh-100 d-flex justify-content-center align-items-center text-center">
       <div>

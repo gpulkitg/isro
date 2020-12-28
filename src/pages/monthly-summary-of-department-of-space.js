@@ -46,11 +46,11 @@ export default function MonthlySummaryOfDos({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.monthlySummaryOfDosYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.monthlySummaryOfDosYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.monthlySummaryOfDosYaml.seo.title}</h1>
 
       <Container>
         { data.monthlySummaryOfDosYaml.content.map((item, ind) => (

@@ -57,7 +57,8 @@
         link: "https://www.cssteap.org/"
 
       - text: "ISM Data Sheets"
-        link: "/indigenisation-of-space-materials-ism-data-sheet"
+        # link: "/indigenisation-of-space-materials-ism-data-sheet"
+        doc: "../docs/general/ism-data-sheets.pdf"
 
 
     - col:

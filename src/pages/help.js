@@ -73,18 +73,18 @@ export default function Help({ data }) {
 
 
   return (
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{seo.title}</h1>
+      <h1 className="text-center mb-3">{seo.title}</h1>
 
       <Container>
 
         <div dangerouslySetInnerHTML={{ __html: section1.text }} className="text-justify" />
 
         <Separator title="Plug-ins for alternate document types" />
-        <Table variant="dark" className="table-custom-border mb-2" responsive>
+        <Table className="table-custom-border mb-2" responsive>
           <thead>
             <tr>
               { pluginsTable.head.map(({ col }, ind) => (

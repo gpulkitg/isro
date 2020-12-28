@@ -7,7 +7,21 @@
   orbitType: ""
   application: "Disaster Management System, Earth Observation"
   remarks: ""
-
+  imageGalleries:
+    - title: "PSLV-C49 / EOS-01 Gallery"
+      link: "/media/pslv-c49-eos-01-gallery"
+  videoGalleries:
+    - title: "Lift off and Onboard Camera View of PSLV-C49/EOS-01 Launch"
+      tag: "pslv-c49-eos-01"
+    - title: "Launch of PSLV-C49/EOS-01"
+      link: "https://www.youtube.com/watch?v=ct-zBHCA2jc&feature=youtu.be&ab_channel=ISROOfficial"
+  docs:
+    - title: "PSLV-C49/EOS-01 Brochure"
+      doc: "../docs/pslv-c49-eos-01-brochure/PSLV-C49 EOS-01 Mission.pdf"
+  featuredPosts:
+    - link: "/updates"
+  relatedNews:
+    - link: "#"
 
 - launcherName: "Ariane-5 VA-251"
   launcherLink: ""

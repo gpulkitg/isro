@@ -4,7 +4,7 @@ import Table from 'react-bootstrap/Table'
 export default function TableList({ data }) {
 
   return (
-      <Table variant="dark" className="table-custom-border" responsive>
+      <Table className="table-custom-border" responsive>
         { data.hasOwnProperty('head') &&
           <thead>
             <tr>

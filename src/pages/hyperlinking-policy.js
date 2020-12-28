@@ -26,11 +26,11 @@ export default function HyperlinkingPolicy({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.hyperlinkingPolicyYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.hyperlinkingPolicyYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.hyperlinkingPolicyYaml.seo.title}</h1>
 
       <Container>
         <div dangerouslySetInnerHTML={{ __html: data.hyperlinkingPolicyYaml.content.text }} className="text-justify" />

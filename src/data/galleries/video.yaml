@@ -1,3 +1,12 @@
+# - title: ""
+#   poster: "../../images/media/"
+#   video: "../../videos/"
+
+- title: "Lift off and Onboard Camera View of PSLV-C49/EOS-01 Launch"
+  poster: "../../images/media/pslv-c49-eos-01-gallery/5.jpg"
+  video: "../../videos/media/lift-and-onboard-camera-view-of-pslv-c49-eos-01-launch/pslv_c49_onboard_video.mp4"
+  tag: "pslv-c49-eos-01"
+
 - title: "GSLV-F11 / GSAT-7A LAUNCH"
   poster: "../../images/media/gslv-f11-gsat-7a-mission-gallery/23.jpg"
   video: "../../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_full.mp4"

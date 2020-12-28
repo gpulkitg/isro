@@ -24,11 +24,11 @@ export const query = graphql`
 export default function PrivacyPolicy({ data }) {
 
   return (
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.relatedLinksYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.relatedLinksYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.relatedLinksYaml.seo.title}</h1>
 
       <Container>
         <ul>

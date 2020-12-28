@@ -29,12 +29,12 @@ export default function IndiasSpacePolicy({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
 
       <SEO title="India's Space Policy" />
 
       <Separator />
-      <h1 className="text-center mb-2">India's Space Policy</h1>
+      <h1 className="text-center mb-3">India's Space Policy</h1>
 
 
       {/* { data.indiasSpacePolicyYaml.sections.map((section, ind) => (

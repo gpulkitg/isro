@@ -28,7 +28,7 @@ export default function Footer() {
     <Container>
       <Separator />
 
-      <Navbar variant="dark" bg="dark">
+      <Navbar variant="dark">
         <Nav className="d-flex justify-content-center align-items-center flex-wrap w-100">
           { data.footerYaml.navbarLinks.map((item, ind) => (
             <Navbar.Text className="footer-item" key={`navbarLinks_${ind}`}>

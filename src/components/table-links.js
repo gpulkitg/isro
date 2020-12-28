@@ -8,7 +8,7 @@ import { ChevronRight, FileEarmark } from 'react-bootstrap-icons'
 export default function TableLinks({ data }) {
 
   return (
-      <Table variant="dark" className="table-custom-border" responsive>
+      <Table className="table-custom-border" responsive>
         { data.hasOwnProperty('head') &&
           <thead>
             <tr>

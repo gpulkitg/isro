@@ -24,11 +24,11 @@ export default function TermsOfUse({ data }) {
 
   return (
 
-    <Layout>
+    <Layout withBgImg={true}>
       <SEO title={data.termsOfUseYaml.seo.title} />
 
       <Separator />
-      <h1 className="text-center mb-2">{data.termsOfUseYaml.seo.title}</h1>
+      <h1 className="text-center mb-3">{data.termsOfUseYaml.seo.title}</h1>
 
       <Container>
         <div dangerouslySetInnerHTML={{ __html: data.termsOfUseYaml.content.text }} className="text-justify" />

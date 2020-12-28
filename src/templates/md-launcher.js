@@ -2,7 +2,9 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-import { Container, Figure } from 'react-bootstrap'
+import { Container, Figure, Row, Col, ListGroup } from 'react-bootstrap'
+import { ChevronRight } from 'react-bootstrap-icons'
+
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -16,6 +18,24 @@ export const query = graphql`
     masterListYaml(launcherLink: {eq: $slug}) {
       launcherName
       launchDate(formatString: "D MMM YYYY")
+      spacecraftName
+      spacecraftLink
+      imageGalleries {
+        title
+        link
+      }
+      videoGalleries {
+        title
+        tag
+        link
+      }
+      docs {
+        title
+        doc {
+          id
+          publicURL
+        }
+      }
     }
     mdLauncherYaml(slug: {eq: $slug}) {
       # seo {
@@ -68,6 +88,11 @@ export default function MdLauncher({ data }) {
   const {
     launcherName,
     launchDate,
+    spacecraftName,
+    spacecraftLink,
+    imageGalleries,
+    videoGalleries,
+    docs,
   } = data.masterListYaml
 
 
@@ -140,6 +165,63 @@ export default function MdLauncher({ data }) {
           <ListItems items={relatedLinks} />
           </>
         } */}
+
+        <Row>
+          <Col md>
+            <div className="py-1">
+              <ListGroup variant="flush">
+                { imageGalleries.map( (el, i) => (
+                  <ListGroup.Item action href={el.link} key={`${el.title}_${i}`}>
+                    {el.title}
+                    <ChevronRight style={{ float: `right`}}/>
+                  </ListGroup.Item>
+                ))}
+                {/* { videoGalleries.map( (el, i) => (
+                  <ListGroup.Item action href={el.link} key={`${el.title}_${i}`}>
+                    {el.title}
+                    <ChevronRight style={{ float: `right`}}/>
+                  </ListGroup.Item>
+                ))} */}
+                { docs.map( (el, i) => (
+                  <ListGroup.Item action href={el.doc.publicURL} key={`${el.title}_${i}`}>
+                    {el.title}
+                    <ChevronRight style={{ float: `right`}}/>
+                  </ListGroup.Item>
+                ))}
+                <ListGroup.Item></ListGroup.Item>
+              </ListGroup>
+            </div>
+          </Col>
+          <Col md>
+            <div className="py-1">
+              <ListGroup variant="flush">
+                { docs.map( (el, i) => (
+                  <ListGroup.Item action href={el.doc.publicURL} key={`${el.title}_${i}`}>
+                    {el.title}
+                    <ChevronRight style={{ float: `right`}}/>
+                  </ListGroup.Item>
+                ))}
+                <ListGroup.Item></ListGroup.Item>
+              </ListGroup>
+            </div>
+          </Col>
+          {/* { items.map( (item, ind) => (
+            <Col key={`listItems_${ind}`} sm>
+              <div className="py-1">
+                { item.title && <h3 className="mb-2">{item.title}</h3> }
+                <ListGroup variant="flush">
+                  { item.content.map( (el, i) => (
+                    <ListGroup.Item action href={el.link} key={`${item.title}_${i}`}>
+                      {el.text}
+                      <ChevronRight style={{ float: `right`}}/>
+                    </ListGroup.Item>
+                  ))}
+                  <ListGroup.Item></ListGroup.Item>
+                </ListGroup>
+              </div>
+            </Col>
+          ))} */}
+        </Row>
 
 
       </Container>

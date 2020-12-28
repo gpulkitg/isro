@@ -18,11 +18,13 @@
   }
 }
 
-.img-bg {
-  background-image: url("../images/bg/viktor-forgacs-Bvo2-SNi0rw-unsplash.jpg");
-  // background-repeat: repeat-y;
+.layout-bg-img {
+  background-image: url("../images/bg/prayer-x-AAxYvBisZ_E-unsplash.jpg");
+  // background-image: url("../images/bg/milica-spasojevic-8NYDK56hQhM-unsplash.jpg");
+  // background-image: url("../images/bg/dennis-schweizer-D63U4TH-V3U-unsplash.jpg");
+  // background-repeat: repeat-y; // default repeat x,y
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-color: #000; // fallback in case image is not available
   // height: 600px;
 }

@@ -1,3 +1,14 @@
+# - title: ""
+#   image: "../../images/media/"
+#   slug: "/media/"
+#   imagesDir: ""
+
+- title: "PSLV-C49 / EOS-01 Gallery"
+  image: "../../images/media/pslv-c49-eos-01-gallery/5.jpg"
+  slug: "/media/pslv-c49-eos-01-gallery"
+  imagesDir: "pslv-c49-eos-01-gallery"
+
+
 - title: "ISRO and IAF sign MoU for Gaganyaan Crew Selection and Training"
   image: "../../images/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project/iafmou4.jpg"
   slug: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
