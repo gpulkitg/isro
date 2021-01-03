@@ -168,10 +168,10 @@ carouselSections:
 
 
 jumbotronVideo:
-  video: "../../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_clip.mp4"
+  videoClip: "../../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_clip.mp4"
   poster: "../../images/media/gslv-f11-gsat-7a-mission-gallery/23.jpg"
   title: "GSLV-F11 / GSAT-7A LAUNCH"
-  videoFull: "../../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_full.mp4"
+  video: "../../videos/media/gslv-f11-lift-and-onboard-camera-view/gslv_f11_gsat_7a_mission_full.mp4"
 
 
 textContent2:

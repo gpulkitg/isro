@@ -1,18 +1,17 @@
-slug: "/spacecraft/eos-01"
-tag: "pslv-c49-eos-01"
+slug: "/spacecraft/gsat-7a"
+
+tag: "gslv-f11-gsat-7a"
 
 # seo:
-#   title: "EOS-01"
-#
-# date: "2020-11-07"
+#   title: "GSAT-30"
 
 
 sections:
   - title: ""
-    image: ""
+    image: "../../images/md-spacecraft/gsat-7a.png"
     caption: ""
     text: !markdown |
-      EOS-01 is an earth observation satellite, intended for applications in agriculture, forestry and disaster management support.
+      GSAT-7A is the 35th Indian Communication satellite built by ISRO. GSAT-7A Spacecraft is configured on ISRO’s standard I-2000 Kg (I-2K) Bus. The Satellite is built to provide communication capability to the users in Ku-band over the Indian region.
 
     table:
       title: ""
@@ -21,12 +20,12 @@ sections:
             - col:
                 text: "प्रमोचक राकेट / Launch Vehicle:"
             - col:
-                text: "PSLV-C49/EOS-01"
+                text: "GSLV-F11 / GSAT-7A Mission"
         - row:
             - col:
-                text: "पउपग्रह का प्रकार / Type of Satellite:"
+                text: "उपग्रह का प्रकार / Type of Satellite: "
             - col:
-                text: "Earth Observation"
+                text: "Communication"
         - row:
             - col:
                 text: "निर्माता / Manufacturer: "
@@ -41,4 +40,4 @@ sections:
             - col:
                 text: "अनुप्रयोग / Application:"
             - col:
-                text: "Disaster Management System, Earth Observation"
+                text: "Communication"

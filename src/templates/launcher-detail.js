@@ -111,7 +111,7 @@ export const data = graphql`
         }
       }
       jumbotronVideo {
-        video {
+        videoClip {
           publicURL
         }
         poster {
@@ -124,7 +124,7 @@ export const data = graphql`
           }
         }
         title
-        videoFull {
+        video {
           publicURL
         }
       }
@@ -341,7 +341,7 @@ export default function Launcher({ data }) {
 
       <div className="jumbotron jumbotron-container">
         <video poster={jumbotronVideo.poster.publicURL} loop muted autoPlay playsInline>
-          <source src={jumbotronVideo.video.publicURL} type="video/mp4" />
+          <source src={jumbotronVideo.videoClip.publicURL} type="video/mp4" />
           Your browser does not support video tag
         </video>
         <Container>
@@ -357,7 +357,7 @@ export default function Launcher({ data }) {
       </div>
 
       <VideoPlayer
-        srcUrl={jumbotronVideo.videoFull.publicURL}
+        srcUrl={jumbotronVideo.video.publicURL}
         title={jumbotronVideo.title}
         show={showModalVideoPlayer}
         onHide={() => setShowModalVideoPlayer(false)}

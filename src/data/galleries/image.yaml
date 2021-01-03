@@ -1,12 +1,8 @@
-# - title: ""
-#   image: "../../images/media/"
-#   slug: "/media/"
-#   imagesDir: ""
-
 - title: "PSLV-C49 / EOS-01 Gallery"
   image: "../../images/media/pslv-c49-eos-01-gallery/5.jpg"
   slug: "/media/pslv-c49-eos-01-gallery"
   imagesDir: "pslv-c49-eos-01-gallery"
+  tag: "pslv-c49-eos-01"
 
 
 - title: "ISRO and IAF sign MoU for Gaganyaan Crew Selection and Training"
@@ -14,67 +10,89 @@
   slug: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
   imagesDir: "mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
 
+
 - title: "First set of earth images by Vikram Lander"
   image: "../../images/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2/slide1.png"
   slug: "/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
   imagesDir: "first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
 
+
 - title: "GSLV-F10 / GISAT-1"
   image: "../../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_4.jpg"
   slug: "/media/gslv-f10-gisat-1-gallery"
   imagesDir: "gslv-f10-gisat-1-gallery"
+  tag: "gslv-f10-gisat-1"
+
 
 - title: "WSW-2017- VSSC, LPSC, IISU and IPRC"
   image: "../../images/media/wsw-2017-vssc-lpsc-iisu-and-iprc/vssc2.jpg"
   slug: "/media/wsw-2017-vssc-lpsc-iisu-and-iprc"
   imagesDir: "wsw-2017-vssc-lpsc-iisu-and-iprc"
 
+
 - title: "National Meet"
   image: "../../images/media/national-meet/special-session-9.jpg"
   slug: "/media/national-meet"
   imagesDir: "national-meet"
 
+
 - title: "GSAT-30 Gallery"
   image: "../../images/media/gsat-30-gallery/image6.jpg"
   slug: "/media/gsat-30-gallery"
   imagesDir: "gsat-30-gallery"
+  tag: "ariane-5-va-251-gsat-30"
+
 
 - title: "GSLV-D6 / GSAT-6 Gallery"
   image: "../../images/media/gslv-d6-gsat-6-gallery/19gslv-d6-being-moved-vehicle-assembly-building-to-launch-pad.jpeg"
   slug: "/media/gslv-d6-gsat-6-gallery"
   imagesDir: "gslv-d6-gsat-6-gallery"
+  tag: "gslv-d6-gsat-6"
+
 
 - title: "Photos WSW-2017 -SAC"
   image: "../../images/media/photos-wsw-2017-sac/sac4.jpg"
   slug: "/media/photos-wsw-2017-sac"
   imagesDir: "photos-wsw-2017-sac"
 
+
 - title: "High Resolution Panchromatic and Multi-spectral Images as observed from CARTOSAT-3"
   image: "../../images/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of/qatarkhalifa.jpg"
   slug: "/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
   imagesDir: "high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
+  tag: "pslv-c47-cartosat-3"
+
 
 - title: "GSLV-F11 / GSAT-7A Gallery"
   image: "../../images/media/gslv-f11-gsat-7a-mission-gallery/22.jpg"
   slug: "/media/gslv-f11-gsat-7a-mission-gallery"
   imagesDir: "gslv-f11-gsat-7a-mission-gallery"
+  tag: "gslv-f11-gsat-7a"
+
 
 - title: "Chandrayaan 2 Mission Gallery"
   image: "../../images/media/chandrayaan-2-mission-gallery/liftoffimage12.jpg"
   slug: "/media/chandrayaan-2-mission-gallery"
   imagesDir: "chandrayaan-2-mission-gallery"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
 
 - title: "PSLV-C11/ Chandrayaan-1 Gallery"
   image: "../../images/media/pslv-c11-chandrayaan-1-gallery/7-chandrayan-1.jpg"
   slug: "/media/pslv-c11-chandrayaan-1-gallery"
   imagesDir: "pslv-c11-chandrayaan-1-gallery"
+  tag: "pslv-c11-chandrayaan-1"
+
 
 - title: "PSLV-C25/Mars Orbiter Mission Gallery"
   image: "../../images/media/pslv-c25-mars-orbiter-mission-gallery/pslv-c25-22.jpg"
   slug: "/media/pslv-c25-mars-orbiter-mission-gallery"
   imagesDir: "pslv-c25-mars-orbiter-mission-gallery"
+  tag: "pslv-c25-mars-orbiter-mission"
+
 
 - title: "Pictures from Mars Colour Camera (MCC) onboard India’s Mars Orbiter Spacecraft"
   image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/mccsnap3dview01.jpg"
   slug: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
   imagesDir: "pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+  tag: "pslv-c25-mars-orbiter-mission"

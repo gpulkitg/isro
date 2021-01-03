@@ -11,7 +11,7 @@ import Separator from '../components/separator'
 import TabSection from '../components/tab-section'
 import JumbotronImg from '../components/jumbotron-img'
 // import SplitSection from '../components/split-section'
-
+// import VisibilitySensor from 'react-visibility-sensor'
 
 export const query = graphql`
   query {
@@ -91,24 +91,30 @@ export default function MissionsPage({ data }) {
       <SEO title={seo.title} />
 
       { jumbotronImg.map((item, ind) => (
-          <JumbotronImg
-            key={`jumbotronImg_${ind}`}
-            title={item.title}
-            subtitle={item.subtitle}
-            description={item.description}
-            button={item.button}
-            link={item.link}
-            horizontalPosition={item.horizontalPosition}
-            verticalPosition={item.verticalPosition}
-            textAlignment={item.textAlignment}
-          >
-            <Img
-              fluid={item.image.childImageSharp.fluid}
-              alt={item.image.name}
-              style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
-              imgStyle={{ opacity: `0.7` }}
-            />
-          </JumbotronImg>
+        // <VisibilitySensor key={`jumbotronImg_${ind}`}>
+        //   {({isVisible}) =>
+            <JumbotronImg
+              key={`jumbotronImg_${ind}`}
+              title={item.title}
+              subtitle={item.subtitle}
+              description={item.description}
+              button={item.button}
+              link={item.link}
+              horizontalPosition={item.horizontalPosition}
+              verticalPosition={item.verticalPosition}
+              textAlignment={item.textAlignment}
+              // isVisible={isVisible}
+              >
+                <Img
+                  fluid={item.image.childImageSharp.fluid}
+                  alt={item.image.name}
+                  style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
+                  imgStyle={{ opacity: `0.7` }}
+                />
+            </JumbotronImg>
+        //   }
+        //
+        // </VisibilitySensor>
         ))}
 
 

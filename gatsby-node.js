@@ -70,6 +70,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             slug
+            tag
           }
         }
       }
@@ -77,6 +78,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             slug
+            tag
           }
         }
       }
@@ -159,6 +161,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: mdLauncherTemplate,
       context: {
         slug: node.slug,
+        tag: node.tag,
       }
     })
   })
@@ -169,6 +172,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: mdSpacecraftTemplate,
       context: {
         slug: node.slug,
+        tag: node.tag,
       }
     })
   })

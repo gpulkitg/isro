@@ -158,10 +158,10 @@ carouselSections:
 
 
 jumbotronVideo:
-  video: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_clip.mp4"
+  videoClip: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_clip.mp4"
   poster: "../../images/media/chandrayaan-2-mission-gallery/liftoffimage11.jpg"
   title: "CHANDRAYAAN 2 LAUNCH"
-  videoFull: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_full.mp4"
+  video: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_full.mp4"
 
 
 textContent2:

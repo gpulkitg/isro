@@ -2,15 +2,34 @@
 #   poster: "../../images/media/"
 #   video: "../../videos/"
 
-- title: "Lift off and Onboard Camera View of PSLV-C49/EOS-01 Launch"
-  poster: "../../images/media/pslv-c49-eos-01-gallery/5.jpg"
+- title: "Lift off and Onboard Camera View of PSLV-C49 / EOS-01 Launch"
+  poster: "../../videos/media/lift-and-onboard-camera-view-of-pslv-c49-eos-01-launch/cover300.jpg"
   video: "../../videos/media/lift-and-onboard-camera-view-of-pslv-c49-eos-01-launch/pslv_c49_onboard_video.mp4"
   tag: "pslv-c49-eos-01"
 
-- title: "GSLV-F11 / GSAT-7A LAUNCH"
-  poster: "../../images/media/gslv-f11-gsat-7a-mission-gallery/23.jpg"
-  video: "../../videos/launchers/gslv-mk-ii/gslv_f11_gsat_7a_mission_full.mp4"
+- title: "Radial Rib Antena deployment of Earth Observation Satellite (EOS-01) as observed by onboard cameras"
+  poster: "../../videos/media/radial-rib-antena-deployment-of-earth-observation-satellite-eos-01-observed-onboard/eos_antenna_deployment.png"
+  video: "../../videos/media/radial-rib-antena-deployment-of-earth-observation-satellite-eos-01-observed-onboard/rra_deployment_eos_01_2020.mp4"
+  tag: "pslv-c49-eos-01"
+
+
+- title: "GSLV-F11 Lift-off and Onboard Camera View"
+  poster: "../../videos/media/gslv-f11-lift-and-onboard-camera-view/21.jpg"
+  video: "../../videos/media/gslv-f11-lift-and-onboard-camera-view/gslv_f11_gsat_7a_mission_full.mp4"
+  tag: "gslv-f11-gsat-7a"
+
+- title: "GSLV-F11 Curtain Raiser Video (English)"
+  poster: "../../videos/media/gslv-f11-curtain-raiser-video-english/vt.jpg"
+  video: "../../videos/media/gslv-f11-curtain-raiser-video-english/gslv-f11-gsat-7a-english.mp4"
+  tag: "gslv-f11-gsat-7a"
+
+- title: "GSLV-F11 Curtain Raiser Video (Hindi)"
+  poster: "../../videos/media/gslv-f11-curtain-raiser-video-hindi/vt.jpg"
+  video: "../../videos/media/gslv-f11-curtain-raiser-video-hindi/gslv-f11-gsat-7a-hindi.mp4"
+  tag: "gslv-f11-gsat-7a"
+
 
 - title: "CHANDRAYAAN 2 LAUNCH"
   poster: "../../images/media/chandrayaan-2-mission-gallery/liftoffimage11_compressed.jpg"
   video: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_full.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"

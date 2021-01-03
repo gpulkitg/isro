@@ -7,21 +7,22 @@
   orbitType: ""
   application: "Disaster Management System, Earth Observation"
   remarks: ""
-  imageGalleries:
-    - title: "PSLV-C49 / EOS-01 Gallery"
-      link: "/media/pslv-c49-eos-01-gallery"
-  videoGalleries:
-    - title: "Lift off and Onboard Camera View of PSLV-C49/EOS-01 Launch"
-      tag: "pslv-c49-eos-01"
-    - title: "Launch of PSLV-C49/EOS-01"
-      link: "https://www.youtube.com/watch?v=ct-zBHCA2jc&feature=youtu.be&ab_channel=ISROOfficial"
+  # tag: "pslv-c49-eos-01"
   docs:
-    - title: "PSLV-C49/EOS-01 Brochure"
+    - title: "PSLV-C49 / EOS-01 Brochure"
       doc: "../docs/pslv-c49-eos-01-brochure/PSLV-C49 EOS-01 Mission.pdf"
   featuredPosts:
-    - link: "/updates"
-  relatedNews:
-    - link: "#"
+    - title: "Launch of PSLV-C49 / EOS-01 (Live)"
+      link: "https://www.youtube.com/watch?v=ct-zBHCA2jc&feature=youtu.be&ab_channel=ISROOfficial"
+  # imageGalleries:
+  #   - title: "PSLV-C49 / EOS-01 Gallery"
+  #     link: "/media/pslv-c49-eos-01-gallery"
+  # videoGalleries:
+  #   - title: "Lift off and Onboard Camera View of PSLV-C49/EOS-01 Launch"
+  #     tag: "pslv-c49-eos-01"
+  #   - title: "Launch of PSLV-C49/EOS-01"
+  #     link: "https://www.youtube.com/watch?v=ct-zBHCA2jc&feature=youtu.be&ab_channel=ISROOfficial"
+
 
 - launcherName: "Ariane-5 VA-251"
   launcherLink: ""
@@ -32,6 +33,7 @@
   orbitType: "GSO"
   application: "Communication"
   remarks: ""
+  # tag: "ariane-5-va-251-gsat-30"
 
 
 - launcherName: "PSLV-C48 / RISAT-2BR1"
@@ -65,6 +67,23 @@
   orbitType: "Lunar"
   application: "Planetary Observation"
   remarks: ""
+
+
+- launcherName: "GSLV-F11 / GSAT-7A Mission"
+  launcherLink: "/launcher/gslv-f11-gsat-7a-mission"
+  spacecraftName: "GSAT-7A"
+  spacecraftLink: "/spacecraft/gsat-7a"
+  launchDate: "2018-12-19"
+  launcherType: "GSLV-F11"
+  orbitType: ""
+  application: "Communication"
+  remarks: ""
+  # tag: "gslv-f11-gsat-7a"
+  docs:
+    - title: "GSLV-F11 / GSAT-7A Brochure"
+      doc: "../docs/gslv-f11-gsat-7a-brochure/GSLV-F11-GSAT-7A-Brochure-A5 Size.cdr.pdf"
+    - title: "Launch Kit"
+      doc: "../docs/gslv-f11-gsat-7a-launch-kit/GSLV-F11-GSAT-7A-Launch-Kit.pdf"
 
 
 - launcherName: "LVM-3/CARE Mission"

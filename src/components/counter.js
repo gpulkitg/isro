@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 // import Odometer from 'react-odometerjs'
 import CountUp from 'react-countup';
 // import "../../node_modules/odometer/themes/odometer-theme-minimal.css";
