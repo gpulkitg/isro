@@ -1,0 +1,72 @@
+- cover:
+    title: "Chandrayaan 2"
+    image: "../../images/missions/chandrayaan-2/ch2.jpg"
+
+  title: "Frequently Asked Questions"
+
+  clickReveal:
+    - title: "1. What is Chandrayaan-1?"
+      text: "Chandrayaan-1 was India’s first mission to the moon. The name Chandrayaan metext “Chandra- Moon, Yaan-vehicle”, –in Indian languages (Stextkrit and Hindi), – the lunar spacecraft."
+
+    - title: "2. When, and from where, Chandrayaan-1 was launched?"
+      text: "Chandrayaan-1 was launched by India’s Polar Satellite launch Vehicle, PSLV-C11 on October 22, 2008 from Satish Dhawan Space Centre SHAR, Sriharikota, India."
+
+    - title: "3. How long Chandrayaan-1 was operational?"
+      text: "The spacecraft made more than 3400 orbits around the moon. Chandrayaan-1 was operational for 312 days till August 29, 2009."
+
+    - title: "4. What were the scientific instruments onboard Chandrayaan-1?"
+      text: "There were eleven scientific instruments onboard Chandrayaan-1 spacecraft. Five of them were Indian and other six were from ESA (3), NASA (2) and Bulgarian Academy of Sciences (1) selected through ISRO Announcement of Opportunity (AO). Two of the ESA instruments had Indian collaboration."
+
+    - title: "5. What are the achievements of Chandrayaan-1?"
+      text: "Chandrayaan-1 conclusively discovered traces of water on the moon. This was a pathbreaking discovery. Chandrayaan-1 also discovered water ice in the North polar region of the Moon. It also detected Magnesium, Aluminium and Silicon on the lunar surface. Global imaging of the moon is another achievement of this mission."
+
+    - title: "6. Why is the study of Moon important?"
+      text: "Understanding the way in which Moon was formed and evolved (gradually changed over a period of time) helps us to understand the history of the solar system including that of earth."
+
+    - title: "7. What is the temperature on the moon?"
+      text: "The moon undergoes extremes in temperature - the side of the Moon receiving sunlight becomes scorching hot at about 130 ºC, and freezing cold at -180 ºC during night."
+
+    - title: "8. Is there any Life on moon?"
+      text: "So far, none of the lunar missions have detected any signature of presence of life on the Moon."
+
+    - title: "9. Why do we see only one side of the Moon?"
+      text: "As the Moon orbits, it always presents the same side towards the Earth. This is so because Earth's gravity has slowed the Moon's rotation in such a way that it matches the time it takes to go around the Earth. So the Moon takes the same amount of time (27.3 days) to revolve around the Earth as it takes to rotate around its spin axis."
+
+    - title: "10. How far is the Moon from Earth?"
+      text: "The average distance between the Earth and Moon is 3,84,000 km."
+
+    - title: "11. How different is the Moon from The Earth?"
+      text: "The moon’s diameter is about 3,476 km, which is about one fourth (1/4th) of Earth. The mass of the Moon is only 1/81 of the mass of Earth. The gravity on the surface of the Moon is only 1/6th of that on Earth. Unlike Earth, Moon does not have an atmosphere, and therefore, liquid water does not exist on the Moon."
+
+    - title: "12. What is Chandryaan-2?"
+      text: "Chandrayaan-2 is a follow-on mission to the Chandrayaan-1 Mission. Chandryaan-2 comprises of an Orbiter, Lander (Vikram) and Rover (Pragyaan)."
+
+    - title: "13. In what way is Chandryaan-2 different from Chandrayaan-1?"
+      text: "Unlike Chandrayaan-1, Chandrayaan-2 will attempt to soft land its Vikram module on the lunar surface and deploy a six-wheeled Rover, Pragyaan on the Moon to carry out several scientific experiments. The lift-off mass of Chandrayaan-1 was 1380 kg while Chandrayaan-2 weighs 3850 kg."
+
+    - title: "14. What are the goals of Chandrayaan-2?"
+      text: "Chandrayaan-2 aims to widen the scientific objectives of Chandrayaan-1 by way of soft landing on the Moon and deploying a rover to study the lunar surface."
+
+    - title: "15. How many instruments are carried onboard Chandrayaan-2?"
+      text: "The Orbiter carries eight scientific payloads for mapping the lunar surface and study the exosphere (outer atmosphere) of the Moon. The Lander carries three scientific payloads to conduct surface and subsurface science experiments. The Rover carries two payloads to enhance our understanding of the lunar surface. A passive experiment from NASA will also be carried onboard Chandrayaan-2."
+
+    - title: "16. What is the mission life of the Orbiter, Lander and Rover?"
+      text: "The mission life of Orbiter will be one year whereas the mission life of lander (Vikram) and rover (Pragyan) will be one Lunar day which is equal to fourteen earth days."
+
+    - title: "17. Which launch vehicle will be used to launch Chandrayaan-2?"
+      text: "Chandrayaan-2 will be launched by GSLV MK-III M1 launch vehicle."
+
+    - title: "18. When will Chandrayaan-2 be launched?"
+      text: "The launch of Chandrayaan-2 onboard GSLV MkIII-M1 is planned on July 22, 2019 at 14.43 Hrs from Sriharikota"
+
+    - title: "19. After launch, when will Vikram land on the lunar surface?"
+      text: "The soft landing of the Vikram lander on the Moon’s surface is likely to be on September 06, 2019"
+
+    - title: "20. How far is the Rover expected to travel on the moon?"
+      text: "The Rover can travel up to 500 meter (half a kilometer) from the landing spot on moon"
+
+    - title: "21. What are the challenging aspects of the Chandrayaan-2 mission?"
+      text: "Some of the technological challenges of this mission are: 1) The propulsion system consisting of throttleable engines to ensure landing at low touch down velocity 2) Mission management - propellant management at various stages, engine burns, orbit and trajectory design 3) Lander Development - Navigation, guidance and control, sensors for navigation and hazard avoidance, communication systems and lander leg mechanism for soft landing 4) Rover Development - Roll down (from the lander) mechanism, roving mechanism (on the lunar surface), development and testing of power systems, thermal systems, communication and mobility systems."
+
+    - title: "22. How many attempts have been made by space agencies in the world to soft land on the moon? What has been the success rate of these missions?"
+      text: "A total number of 38 soft landing attempts have been made, so far. The success rate is 52%."

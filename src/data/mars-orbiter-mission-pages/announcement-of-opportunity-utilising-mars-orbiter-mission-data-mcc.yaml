@@ -1,0 +1,305 @@
+slug: "/missions/mars-orbiter-mission/announcement-of-opportunity-utilising-mars-orbiter-mission-data-mcc"
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "Announcement of Opportunity for utilising Mars Orbiter Mission data from MCC, TIS, MSM, LAP and MENCA payloads (MOM-AO)"
+
+sections:
+  - title: ""
+    # images:
+    #    - image: ""
+    #      caption: ""
+    text: !markdown |
+      ##### Start date : August 10, 2015
+      ##### Last Date of Submission : September 10, 2015
+
+      ### Overview
+      Indian Space Research Organization (ISRO), Department of Space (DOS), Government of India, announces an opportunity (AO) to carry out scientific research using data from Mars Orbiter Mission (MOM). MOM is ISRO’s first interplanetary space probe dedicated for the Mars research. This AO is targeted towards utilizing the data from five payloads of MOM, namely Mars Colour Camera (MCC), Thermal Infrared Imaging Spectrometer (TIS), Methane Sensor for Mars (MSM), Lyman Alpha Photometer (LAP) and Mars Exospheric Neutral Composition Analyser (MENCA). MOM was launched from Sriharikota, India using a Polar Satellite Launch Vehicle (PSLV) rocket on 5th November 2013.  The science objectives include exploration of the surface of Mars and its atmosphere. This requires observations on geologic and atmospheric processes acting on Mars. Considering these requirements, the above five scientific payloads have been flown onboard MOM.
+
+      The five scientific instruments (MCC, TIS, MSM, LAP and MENCA) on-board MOM are being used to study the atmosphere, surface mineralogy and topography of the planet. The data from the satellite will be made available to the national scientific community through inviting research proposal as part of this AO for the five instruments. This Announcement of Opportunity (AO) is open to national scientific community for submitting research proposals towards utilisation of data from Payloads in the following broad categories:
+
+      #### MCC, TIS and MSM
+        - Understanding the Martian Atmospheric processes including dust storms and cloud formation
+        - Surface Geology, composition and Morphology of Mars
+        - Fluvial & Aeolian Process Studies
+        - Integrated studies of MOM payload data with other international missions e.g. MRO, Mars Express, Mars Odyssey etc.
+        - Studies related to Trace gases on Mars including Methane
+        - Future Science Themes Subsurface Water on Mars
+
+      #### LAP
+        - Assessment of Martian atmospheric escape process, especially water escape rate using the
+            measured Hydrogen, deuterium fluxes and estimated D/H ratio from LAP instrument.
+
+      #### MENCA
+        - Derive information on the radial distribution and composition of the Martian neutral exosphere
+
+      It should be noted that the selected project proposals through this AO will be provided limited financial support towards meeting the salary of a research student,, contingencies and limited travel to attend Project meeting and workshops. The project duration will be for a period of three years. Principal Investigators (PI) will be provided with relevant data sets, if available from Mars Orbiter Mission free of cost
+
+      **Who can submit a Proposal?**
+
+      Proposals could be submitted by individuals or a group of scientists, academicians belonging to recognized institutions, universities and government organizations of India. Only those having at least a minimum remaining service of four years before superannuation are eligible to lead the project as PI/Co-PI. The proposals must be forwarded through the Head of the Institution, with appropriate assurance for providing necessary facilities for carrying out the AO project.
+
+
+
+  - title: "Overview of Mars Orbiter Mission (MOM)"
+    text: !markdown |
+      Mars Orbiter Mission (MOM) spacecraft is orbiting Mars in a highly elliptical orbit characterized by nearest point to Mars (periapsis) at around 300 km and farthest point (apoapsis) at ~71,000 km. The inclination of orbit with respect to the equatorial plane of Mars is ~150 degree, as intended. In this orbit, the spacecraft takes ~73 hrs to go round the Mars once. A brief description of the instruments is given below.
+
+      **Mars Colour Camera (MCC)**
+
+      Mars Colour Camera (MCC) is an electro-optical sensor imaging surface of Mars in three colours, varying spatial resolution between ~20 m to ~4 km in 16 different exposure modes, depending on its position in orbital plane and illumination conditions. The MCC payload provides data in true colors of Mars covering Red, Green and Blue  as Bayer pattern. Important science objectives of MCC include studying morphology of landforms, wind streaks, dynamic processes such as dust storms in different seasons. Technical specifications of MCC are provided in **Annexure-1**.
+
+      **Thermal Infrared Imaging Spectrometer (TIS)**
+
+      Thermal Infrared Imaging Spectrometer (TIS) instrument is aimed to observe thermal emission from Mars surface to detect its temperature and hot spot regions or hydrothermal vents on Martian surface. The TIS is designed to observe emitted infrared radiation from Martian environment in 7–13 µm region of electromagnetic spectrum using a micro bolometer device. Brief specifications of the TIS are provided in **Annexure 2**.
+
+      **Methane Sensor for Mars (MSM)**
+
+      Methane Sensor for Mars (MSM) is a differential radiometer based on Fabry–Perot Etalon filters to measure columnar methane (CH4) in the Martian atmosphere at several parts per billion (ppb) levels. This differential signal gives a measure of columnar amount of CH4. The possible finding of methane in Martian atmosphere will provide clues about the presence of life on Mars. A brief specification of the MSM instrument is provided in **Annexure 3**.
+
+      **Lyman Alpha Photometer (LAP)**
+
+      Lyman Alpha Photometer (LAP) is essentially a compact far-ultraviolet photometer capable of providing deuterium to hydrogen (D/H) abundance ratio of Martian exosphere from spacecraft observations. Comparison of the present and initial D/H ratio, estimated from observations of the D/H ratio in comets and asteroids, which are believed to be sources of Martian water should allow us to calculate the amount of hydrogen and, therefore, the water that has been lost over planet’s lifetime. Primary scientific objective of the LAP instrument is to determine D/H isotope ratio of Martian upper atmosphere from the ratio of the measured Lyman-alpha intensities. The observations would enable us to i) generate spatial and temporal profiles of hydrogen and deuterium Lyman-alpha intensities, ii) study of deuterium-enrichment in the upper atmosphere and iii) estimate of the water escape/loss rate. Brief specifications of the LAP instrument are provided in **Annexure 4**.
+
+      **Mars Exospheric Neutral Composition Analyser (MENCA)**
+
+      The MENCA instrument is meant for in situ study of the composition of the Martian neutral exosphere. Taking advantage of the highly elliptical orbit of the MOM spacecraft, MENCA data can be used to derive information on the radial distribution and composition of the Martian neutral exosphere. Brief specifications of the MENCA instrument are provided in **Annexure 5**.
+
+
+
+  - title: "Data Availability"
+    text: !markdown |
+      Data will be made available to the Principal Investigators (PIs) of selected proposals after evaluation of the proposal under this AO after the completion of one year lock-in period from the date on which MOM was put in Mars orbit. The term ‘data’ refers to the data products produced and archived at the data processing facility of each payload and distributed as listed data products described in **Annexure 6**. PIs should emphasize maximum utilisation of data from Mars Orbiter Mission. However, they can also utilise data from other international missions to complement their research. PIs  may indicate in the proposal whether they would like to analyse the data independently, or  would like  to do it with the payload teams.
+
+
+
+  - title: "Evaluation of Proposals"
+    text: !markdown |
+      This AO for potential Principal Investigators is aimed towards stimulating newer research in geological and atmospheric domain of Mars and for encouraging development of specific techniques utilising the MOM data at regional as well as local scales. Towards this, the proposals received in response to this AO will be evaluated considering primarily the scientific/technical merits. The principal elements considered in selecting the proposals, among other things, would be:
+        - The overall, scientific or technical merit of the proposal, uniqueness and innovative methods, approaches or concepts planned to be demonstrated.
+        - Potential for contributing to innovative science by making synergistic use of MOM and other international data sets.
+        - The competence and relevant experience of the PIs and/or co-investigators for achieving the proposed objectives.
+
+      It is generally not envisaged to select multiple projects addressing the same geographical area or science theme or multiple proposals from the same institution.
+
+
+
+  - title: "Specific areas of interest"
+    text: !markdown |
+      The major areas of interest are listed against each instrument. The below-mentioned topics are only indicative and PIs are free to suggest other potential topics of direct relevance. The proposals can also be a combination of several of those areas mentioned in the topics of interest.
+
+      ##### Mars Colour Camera (MCC)
+
+      - Geomorphology and morphometric analysis of martian volcanoe
+      - Geomorphology and morphometric analysis of fluvial landforms
+      - Aeolian processes on Mars
+      - Dust storms
+      - Dust devils
+      - Wind streaks
+          - Study of genesis and direction of wind streaks on Mars
+          - Dark streaks
+          - Bright streaks
+          - Other streaks
+      - Dunes
+          - Dune movement
+          - Modeling Wind speeds and directions
+      - Combined analysis of MCC and MSM data to study dust storms, dust devils, cloud heights etc.
+      - Understanding the process geomorphology of canyons, gullies and outflow channels present on Mars
+      - Photometric correction of MCC
+      - Crater Size Frequency Distribution (CSFD) for surface age detection and geological mapping
+      - Surface change detection by comparative analysis of MCC data with international datasets
+      - International sensor data comparison and data merging for geomorphological and mineralogical studies
+      - Study of geomorphology of Mars with terrestrial analogues
+
+      ##### Thermal Infrared Imaging Spectrometer (TIS)
+
+      - Algorithm development for analysis of TIS data
+      - Inversion of surface temperature of Mars using TIS data
+
+      ##### Methane Sensor for Mars (MSM)
+
+      - Algorithm development for Methane detection in atmosphere of Mars
+      - Mars reflectance changes due to dynamic atmosphere using MSM
+      - Radiative transfer modeling in VNIR part of EM spectrum
+
+      ##### Lyman Alpha Photometer (LAP)
+
+      - Atmospheric escape process addressing especially water loss mechanisms in Martian exosphere.
+      - Algorithm realization, code development and construction of a Far Ultra-violet wavelength model of radiative transfer for the Mars exosphere from 250 km onwards.
+      - Models addressing isotopic fractionation and enrichment of deuterium.
+      - Assessment of Martian atmospheric escape process, especially water escape rate using the measured Hydrogen, deuterium fluxes and estimated D/H ratio.
+      - Combined analysis of LAP and MENCA data to assess the hydrogen atomic density and distribution in Martian exosphere.
+      - Integrated studies of LAP payload data with other international Mars missions.
+
+      ##### Mars Exospheric Neutral Composition Analyser (MENCA)
+
+      - Exopsheric composition of Mars
+      - Atmospheric escape from Mars
+
+
+
+  - title: "Guidelines for Proposal Preparation"
+    text: !markdown |
+      The potential PI should submit the proposal in a format described in the following sections. The format for the cover page is given in *Annexure - 7*. The format for the detailed proposal is given in **Annexure - 8**.
+
+      **The format for proposal includes a Declaration to be signed by the Principal Investigator and Head of the Institution.**
+
+      ##### Instructions for Submission of Proposal
+
+      Proposals along with scanned  copy of the signed declaration to be submitted both electronically as well as through speed post  on or before the submission date indicated in the beginning of this AO.  The proposal should be limited to around 10 pages in length on standard A4 size paper, typed double-spaced and in the prescribed format. Two copies of the proposal prepared in the formats given in **Annexure - 7** and **Annexure - 8** should be mailed to the following address as the case may be.
+
+    table:
+      head:
+        - col:
+            text: "Proposals related to"
+        - col:
+            text: "Address"
+      body:
+        - row:
+            - col:
+                text: "MCC, TIS and MSM"
+            - col:
+                text: "Shri Satadru Bhattacharya, MOM-AO Coordinator, Planetary Sciences Division, BPSG/EPSA, Space Applications Centre, Jodhpur-Tekra,Ambawadi Vistar P.O.Ahmedabad-380 015, India; [Telephone] +91-79–2691-4361; [Fax] +91-79–2691-5823; [E-mail] satadru@sac.isro.gov.in"
+        - row:
+            - col:
+                text: "LAP"
+            - col:
+                text: "Mr. M. Viswanathan, Principal Investigator,  Lyman Alpha Photometer-MOM, Laboratory for Electro-Optics Systems (LEOS), Indian Space Research Organization, 1st Cross, 1st Stage,Industrial Estate, Peenya, Bengaluru-560058, Karnataka, India; [Telephone] +91-80-28392624; [Fax] +91-80-28390265; [E-mail] mvis@leos.gov.in"
+        - row:
+            - col:
+                text: "MENCA"
+            - col:
+                text: "Dr. Anil Bhardwaj, Principal Investigator, MENCA-MOM, Director, Space Physics Laboratory, Vikram Sarabhai Space Research Centre, Thiruvananthapuram P.O- 695 022, Kerala, India; [Telephone] +91-471-2563663; [Fax] +91-471-2706535; [Emails] anil_bhardwaj@vssc.gov.in, Bhardwaj_SPL@yahoo.com"
+
+
+  - title: ""
+    text: !markdown |
+      ##### Description of the Proposal
+
+      The main part of the proposal should contain a summary (briefing the objectives, methodology, expected results/deliverables of the project and the time schedule), followed by a detailed description of the objectives and the scientific rationale being addressed. The data requirement and the analysis methods should be highlighted. The methodology or approach to be followed, the expected results of the project must be presented. Targeted quarterly schedule for various stages of the project must be indicated including the completion date.
+
+      The proposers may seek clarifications if any through contact e-mail, given above.  Subject may be ‘Clarifications AO – MOM’ these clarifications to be sought at least 1 week before submission date.
+
+      **Project Duration and deliverables**
+
+      It is expected that the project will be completed within 3 years. PIs are expected to present the results in MOM-AO workshops / meetings. PIs of the project need to submit the following deliverables to the concerned PI of the payload team.
+
+        - *Project Report: 6-monthly and Annual Progress Report, Project completion report clearly highlighting the salient results.*
+        - *Published papers in peer-reviewed journals of national/international repute.*
+        - *Papers/Abstracts presented in national/international symposia/conferences*
+
+      **Data Requirements**
+
+      As described in section 6.2, the proposal should identify the data for the study. Space Applications Centre (SAC), Data Centre situated at Ahmedabad will make the MCC, TIS and MSM data available to the PIs. SPL, Thiruvananthapuram and LEOS, Bangalore will be the data centres for MENCA and LAP respectively. Only limited and available data sets fulfilling the project requirement will be supplied. The project should clearly indicate the type of data product, geographical area on Mars and period of coverage. The data coverage acquired by MCC payload as on April 20, 2015 is shown in Figure 1.
+
+      Fig 1: Red boxes show availability of MOM-MCC data till April 2015 on the surface of Mars. TIS and MSM data is also nominally available around same regions. Red dots show centre of Global data disc acquired by MCC.
+
+      **Personnel**
+
+      The project may involve joint efforts involving many individuals from the concerned institution(s). However, only one PI will be recognized. Other participants could be designated as "Co- Investigators" or coPIs. PI/Co-Investigator shall provide Curriculum Vitae referring to educational qualifications, the work carried out in the related areas and list of recent publications. The PI is responsible for ensuring timely completion of the project. The assurance of necessary administrative and financial spending support to PI and Co-Investigators from Head of the Institution(s) is a must.
+
+      **Facilities and Equipment**
+
+      Describe available computer facilities, softwares and other equipments in the home institution or in sister concerns and is accessible for the project.
+
+      **Project Evaluation**
+
+      It is proposed that a workshop will be conducted every year for the purpose of reviewing the progress of the AO projects and sharing the results with Mars scientific community. PIs of each project are expected to attend these workshops and brief about the progress of the respective project.
+
+
+
+  - title: "Terms and Conditions"
+    text: !markdown |
+      - Selection of the proposals are based on critical review process by experts in the concerned area by considering the overall merit of the proposal
+      - ISRO reserves the right to revoke in part or in whole its support for a project at any time without assigning any reason.
+      - The data sets provided must be used only for the purpose specified in the proposal. The project personnel do not have the right to lease or loan the MOM data without the prior permission of ISRO/DOS. Ownership and copyright of the data lies with ISRO .Also, this data is supplied free of cost purely for scientific research and it should not be used for any commercial purposes. Commercial use is defined as that involving the sale or resale of data, as well as data derived there from, for more than the cost of reproduction.
+      - The user will make available to the scientific community the salient results of the AO projects through publication in appropriate journals or other established channels. Acknowledgement of ISRO support must be made in all reports and publications arising out of the AO projects. Copies of all publications resulting from these research projects must be submitted to SAC / SPL / LEOS, ISRO. ISRO reserves the right to use the published results in its reports and publications with due reference to the publication.
+      - The PI is requested to submit progress report every 6 months during the length of the project. A detailed report is to be submitted during the mid-term and final reviews in soft copy form.
+      - The PI must maintain an inventory of data products received/ obtained under the AO project(s) and the data products must be deposited with the home institution/ISRO after the end of the project.
+      - General rules and guidelines of RESPOND will be followed.
+
+      **The declaration contained in the proposal format must be signed by the PI and Head of the Institution (Annexure 7). Otherwise the proposal will not be considered valid and is liable to be rejected.**
+
+
+
+  - title: "Annexures"
+    text: !markdown |
+      ##### Annexure - 1
+
+      ***Specifications of MOM-MCC***
+
+      **MCC: Payload Features**
+
+      Mars Colour Camera (MCC) is a medium resolution Camera, with RGB Bayer pattern detector. It is a `true colour’ camera flown onboard Mars Orbiter Mission. MCC will return images of Mars, its Moons (Phobos & Deimos) and other celestial objects in natural colour.   MCC is designed to meet the following scientific objectives:
+
+      1. To map various morphological features on Mars with varying resolution and scales using the unique elliptical orbit.
+      2. To map the geological setting around sites of Methane emission source, if any.
+      3. To provide context information for other science payloads.
+
+      It is aimed to image the complete Mars disk in very short time. From the proposed orbit of ~300 km x 71,000 km around Mars, the camera will image localized scenes at high spatial resolution as well as provide a synoptic view of the full globe.
+
+    table:
+      title: ""
+      head:
+        - col:
+            text: "Parameter"
+        - col:
+            text: "Value"
+      body:
+        - row:
+            - col:
+                text: "Resolution (m)"
+            - col:
+                text: "19.5 @ Periareion"
+        - row:
+            - col:
+                text: "Frame Size (km)"
+            - col:
+                text: "40 x 40 @ Periareion, Full Mars disc from 63000 km to Apoareion"
+        - row:
+            - col:
+                text: "Spectral region"
+            - col:
+                text: "0.4 µm – 0.7 µm R-G-B (Bayer Pattern)"
+        - row:
+            - col:
+                text: "Frame rate"
+            - col:
+                text: "1s (frame selection at 1s, 8s or 15s period by BDH through ground commanding)"
+        - row:
+            - col:
+                text: "Exposure time"
+            - col:
+                text: "Total 16 ground programmable exposures ranging from 34µs to 490ms"
+        - row:
+            - col:
+                text: "Data volume/frame"
+            - col:
+                text: "40 Mb"
+        - row:
+            - col:
+                text: "System MTF"
+            - col:
+                text: "> 22% (@ 46 LP/mm)"
+        - row:
+            - col:
+                text: "SNR"
+            - col:
+                text: "> 97 (@ Near Saturation)"
+        - row:
+            - col:
+                text: "Size (mm)"
+            - col:
+                text: "346(L) x 128(W) x 113(H)"
+        - row:
+            - col:
+                text: "Mass (kg)"
+            - col:
+                text: "1.3"
+        - row:
+            - col:
+                text: "Power (W)"
+            - col:
+                text: "3"

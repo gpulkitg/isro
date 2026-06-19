@@ -8,7 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TextContent from '../components/text-content'
 import ListItems from '../components/list-items'
-import Separator from '../components/separator'
+// import Separator from '../components/separator'
 import JumbotronImg from '../components/jumbotron-img'
 import SplitSection from '../components/split-section'
 
@@ -29,7 +29,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -50,7 +50,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -69,13 +69,13 @@ export const query = graphql`
       figure {
         image {
           name
-          extension
+          # extension
           publicURL
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
+          # childImageSharp {
+          #   fluid {
+          #     ...GatsbyImageSharpFluid_withWebp
+          #   }
+          # }
         }
         caption
       }
@@ -105,7 +105,7 @@ export default function LaunchersPage({ data }) {
       <SEO title={seo.title} />
 
 
-      { jumbotronImg && jumbotronImg.map((item, ind) => (
+      { jumbotronImg && jumbotronImg.map((item, ind) =>
           <JumbotronImg
             key={`jumbotronImg_${ind}`}
             title={item.title}
@@ -120,11 +120,12 @@ export default function LaunchersPage({ data }) {
             <Img
               fluid={item.image.childImageSharp.fluid}
               alt={item.image.name}
+              // className="animate-appear-fast"
               style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
               imgStyle={{ opacity: `0.7` }}
             />
           </JumbotronImg>
-        ))}
+        )}
       {/* <div className="jumbotron jumbotron-container">
         <Img
           fluid={jumbotronImg.image.childImageSharp.fluid}
@@ -150,10 +151,14 @@ export default function LaunchersPage({ data }) {
 
 
       {/* <Separator title="All launchers" /> */}
-      <ListItems items={listLaunchers} />
+      <ListItems list={listLaunchers} />
 
 
       <Figure className="vh-100 w-100">
+        <Figure.Image src={figure.image.publicURL} alt={figure.image.name} style={{ width: `100%`, height: `100%`, objectFit: `contain`, opacity: `0.8` }} />
+        <Figure.Caption className="text-center">{figure.caption}</Figure.Caption>
+      </Figure>
+      {/* <Figure className="vh-100 w-100">
         { figure.image.extension === "svg" ? (
           <Figure.Image className="h-100 w-100" src={figure.image.publicURL} alt={figure.image.name} style={{ objectFit: `contain`, opacity: `0.8` }} />
         ) : (
@@ -164,10 +169,10 @@ export default function LaunchersPage({ data }) {
           />
         )}
         <Figure.Caption className="text-center">{figure.caption}</Figure.Caption>
-      </Figure>
+      </Figure> */}
 
 
-      { splitSection && splitSection.map((item, ind) => (
+      { splitSection && splitSection.map((item, ind) =>
         <SplitSection
           key={`splitSection_${ind}`}
           title={item.title}
@@ -185,7 +190,7 @@ export default function LaunchersPage({ data }) {
             imgStyle={{ objectFit: item.objectFit }}
           />
           </SplitSection>
-      ))}
+      )}
       {/* <Container>
         { splitSection.map((item, ind) => (
           <Row key={`splitSection_${ind}`}>

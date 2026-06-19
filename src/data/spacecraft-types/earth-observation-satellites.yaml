@@ -1,0 +1,15 @@
+slug: "/spacecraft/earth-observation-satellites"
+
+spacecraftType: "Earth Observation"
+
+
+title: "Earth Observation Satellites"
+
+
+sections:
+  - title: ""
+    # images:
+    #   - image: "../../images/spacecraft-types/comm.jpg"
+    #     caption: ""
+    text: !markdown |
+      Starting with IRS-1A in 1988, ISRO has launched many operational remote sensing satellites. Today, India has one of the largest constellations of remote sensing satellites in operation. Currently, *thirteen* operational satellites are in Sun-synchronous orbit – RESOURCESAT-1, 2, 2A CARTOSAT-1, 2, 2A, 2B, RISAT-1 and 2, OCEANSAT-2, Megha-Tropiques, SARAL and SCATSAT-1, and *four* in Geostationary orbit- INSAT-3D, Kalpana & INSAT 3A, INSAT -3DR. Varieties of instruments have been flown onboard these satellites to provide necessary data in a diversified spatial, spectral and temporal resolutions to cater to different user requirements in the country and for global usage. The data from these satellites are used for several applications covering agriculture, water resources, urban planning, rural development, mineral prospecting, environment, forestry, ocean resources and disaster management.

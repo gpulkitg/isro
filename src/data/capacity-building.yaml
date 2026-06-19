@@ -1,0 +1,39 @@
+- title: "Capacity Building"
+
+  sections:
+    - title: "Vision"
+      images:
+      text: !markdown |
+        Systematically carry forward capacity enhancement plans of organization, related to infrastructure, human resources and interfaces with academia & industry to ensure implementation of short term and long term programmatic goals in seamless manner through progressive policies and procedures.
+
+    - title: "Mission"
+      images:
+      text: !markdown |
+        Responsible for new initiatives in formulating policies, procedures & guidelines in the following areas and carry out objective analysis to ensure the implementation of the same by facilitating ISRO Centres.
+
+    - title: ""
+      images:
+        - image: "../images/capacity-building/academia.png"
+          link: "/capacity-building/academia"
+          text: "Academia"
+        - image: "../images/capacity-building/industry.png"
+          link: "/capacity-building/industry"
+          text: "Industry"
+        - image: "../images/capacity-building/globe.jpg"
+          link: "/capacity-building/outreach"
+          text: "Outreach"
+        - image: "../images/capacity-building/human_resource.png"
+          link: "/capacity-building/human-resources"
+          text: "Human Resources"
+        - image: "../images/capacity-building/ipr_1.png"
+          link: "/capacity-building/intellectual-property-rights"
+          text: "Intellectual Property"
+        - image: "../images/capacity-building/infrastructure.png"
+          link: "/capacity-building/technical-infrastructure"
+          text: "Technical Infrastructure"
+        # - image: "../images/capacity-building/"
+        #   link: "/capacity-building/"
+        #   text: ""
+        # - image: "../images/capacity-building/"
+        #   link: "/capacity-building/"
+        #   text: ""

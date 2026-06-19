@@ -1,0 +1,60 @@
+slug: "/missions/mars-orbiter-mission/payloads"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "All Payloads"
+
+sections:
+  - title: ""
+    # image: ""
+    caption: ""
+    text: !markdown |
+      The Mars Orbiter Mission carries five payloads to accomplish its scientific objectives. Three electro-optical payloads operating in the visible and thermal infra-red spectral ranges and a photometer to sense the Mars atmosphere & surface. One additional backup payload is planned in case of non-availability of the identified payloads.
+
+
+  - title: "Methane Sensor for Mars (MSM)"
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/msm.png"
+        caption: ""
+    text: !markdown |
+      MSM is designed to measure Methane (CH4) in the Martian atmosphere with PPB accuracy and map its sources. Data is acquired only over illuminated scene as the sensor measures reflected solar radiation. Methane concentration in the Martian atmosphere undergoes spatial and temporal variations. Hence global data is collected during every orbit.
+
+
+  - title: "Mars Color Camera (MCC)"
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/mcc.png"
+        caption: ""
+    text: !markdown |
+      This tri-color Mars Color camera gives images & information about the surface features and composition of Martian surface. They are useful to monitor the dynamic events and weather of Mars. MCC will also be used for probing the two satellites of Mars – Phobos & Deimos. It also provides the context information for other science payloads.
+
+
+  - title: "Lyman Alpha Photometer (LAP)"
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/lap.png"
+        caption: ""
+    text: !markdown |
+      Lyman Alpha Photometer (LAP) is an absorption cell photometer. It measures the relative abundance of deuterium and hydrogen from Lyman-alpha emission in the Martian upper atmosphere (typically Exosphere and exobase). Measurement of D/H (Deuterium to Hydrogen abundance Ratio) allows us to understand especially the loss process of water from the planet.
+
+      The objectives of this instrument are as follows:
+        - Estimation of D/H ratio
+        - Estimation of escape flux of H2 corona
+        - Generation of Hydrogen and Deuterium coronal profiles
+
+
+  - title: "Mars Exospheric Neutral Composition Analyser (MENCA)"
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/menca.png"
+        caption: ""
+    text: !markdown |
+      MENCA is a quadruple mass spectrometer capable of analysing the neutral composition in the range of 1 to 300 amu with unit mass resolution. The heritage of this payload is from Chandra’s Altitudinal Composition Explorer (CHANCE) payload aboard the Moon Impact Probe (MIP) in Chandrayan-1 mission.
+
+
+  - title: "Thermal Infrared Imaging Spectrometer (TIS)"
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/tis.png"
+        caption: ""
+    text: !markdown |
+      TIS measure the thermal emission and can be operated during both day and night. Temperature and emissivity are the two basic physical parameters estimated from thermal emission measurement. Many minerals and soil types have characteristic spectra in TIR region. TIS can map surface composition and mineralogy of Mars.

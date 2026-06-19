@@ -1,0 +1,43 @@
+slug: "/spacecraft/gsat-7a"
+
+tag: "gslv-f11-gsat-7a"
+
+# seo:
+#   title: "GSAT-30"
+
+
+sections:
+  - title: ""
+    image: "../../images/spacecraft-pages/gsat-7a.png"
+    caption: ""
+    text: !markdown |
+      GSAT-7A is the 35th Indian Communication satellite built by ISRO. GSAT-7A Spacecraft is configured on ISRO’s standard I-2000 Kg (I-2K) Bus. The Satellite is built to provide communication capability to the users in Ku-band over the Indian region.
+
+    table:
+      title: "About spacecraft"
+      body:
+        - row:
+            - col:
+                text: "प्रमोचक राकेट / Launch Vehicle:"
+            - col:
+                text: "GSLV-F11 / GSAT-7A Mission"
+        - row:
+            - col:
+                text: "उपग्रह का प्रकार / Type of Satellite: "
+            - col:
+                text: "Communication"
+        - row:
+            - col:
+                text: "निर्माता / Manufacturer: "
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "स्‍वामी / Owner: "
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "अनुप्रयोग / Application:"
+            - col:
+                text: "Communication"

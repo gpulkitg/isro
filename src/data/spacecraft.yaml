@@ -12,6 +12,18 @@
       verticalPosition: "center"
       textAlignment: "center"
 
+
+  listTrendingSpacecrafts:
+    title: "Trending"
+    content:
+      - link: "/spacecraft/chandrayaan-2"
+        text: "Chandrayaan 2"
+      - link: "/spacecraft/mars-orbiter-mission-spacecraft"
+        text: "Mars Orbiter Mission"
+      - link: "/spacecraft/astrosat"
+        text: "AstroSat"
+
+
   splitSection:
     - title: "Communication Satellites"
       subtitle: ""
@@ -20,7 +32,7 @@
       button: "LEARN MORE"
       link: "/spacecraft/communication-satellites"
       textPosition: "left"
-      textAlignment: "center"
+      textAlignment: "left"
       objectFit: "cover"
 
 
@@ -30,7 +42,7 @@
       button: "LEARN MORE"
       link: "/spacecraft/earth-observation-satellites"
       textPosition: "right"
-      textAlignment: "center"
+      textAlignment: "left"
       objectFit: "cover"
 
     - title: "Scientific Spacecraft"
@@ -39,7 +51,7 @@
       button: "LEARN MORE"
       link: "/spacecraft/space-science-exploration"
       textPosition: "left"
-      textAlignment: "center"
+      textAlignment: "left"
       objectFit: "cover"
 
     - title: "Navigation Satellites"
@@ -48,7 +60,7 @@
       button: "LEARN MORE"
       link: "/spacecraft/satellite-navigation"
       textPosition: "right"
-      textAlignment: "center"
+      textAlignment: "left"
       objectFit: "cover"
 
 
@@ -358,7 +370,7 @@
   #             text: "Experimental"
   #         - col:
   #             text: ""
-  # 
+  #
   #       - row:
   #         - col:
   #             text: "IRNSS-1H"

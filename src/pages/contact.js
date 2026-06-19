@@ -7,6 +7,7 @@ import { Phone, Telephone, Geo, Envelope, Globe, Printer, Newspaper } from 'reac
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import Sensor from '../components/sensor'
 
 
 export const query = graphql`
@@ -28,10 +29,10 @@ export const query = graphql`
         }
       }
     }
-    cover: file(relativePath: {eq: "common/isro_hq.jpg"}) {
+    cover: file(relativePath: {eq: "common/isro_hq1.jpeg"}) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -68,13 +69,13 @@ export default function ContactPage({ data }) {
     <Layout>
       <SEO title="Contact" />
 
-      <div className="w-100" style={{ height: `50vh`, position: `relative`}}>
+      <div className="w-100" className="cover-img-wrapper">
         <Img
           fluid={data.cover.childImageSharp.fluid}
-          style={{ width: `100%`, height: `100%`}}
+          className="h-100 w-100"
           imgStyle={{ opacity: `0.7` }}
         />
-        <h1 className="text-center" style={{ position: `absolute`, top: `50%`, left: `50%`, transform: `translate(-50%, -50%)` }}>
+        <h1 className="text-center display-4" style={{ position: `absolute`, top: `50%`, left: `50%`, transform: `translate(-50%, -50%)` }}>
           Get in touch
         </h1>
       </div>
@@ -83,8 +84,14 @@ export default function ContactPage({ data }) {
 
       <Container>
 
-        <Row>
-          <Col lg={8}>
+        <Row
+          data-sal="fade"
+          data-sal-duration="1000"
+          data-sal-easing="easeOutCirc"
+          >
+
+          <Col className="py-1" lg={8}>
+
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
 
               <Form.Group controlId="formSelect">
@@ -184,16 +191,16 @@ export default function ContactPage({ data }) {
 
             </Form>
 
+
           </Col>
 
 
 
-          <Col lg={4}>
-            <br />
-            <h3 className="text-center">Contact Information</h3>
+          <Col className="py-1" lg={4}>
+            <h3 className="text-center my-1">Contact Information</h3>
 
             { dept.address.length > 0 &&
-              <Row>
+              <Row className="m-1" style={{ border: `1px solid gray` }}>
                 <Col className="p-1 my-auto text-center" xs={4}>
                   <Geo width="32" height="32" />
                 </Col>
@@ -204,7 +211,7 @@ export default function ContactPage({ data }) {
             }
 
             { dept.phone.length > 0 &&
-              <Row>
+              <Row className="m-1" style={{ border: `1px solid gray` }}>
                 <Col className="p-1 my-auto text-center" xs={4}>
                   <Telephone width="32" height="32" />
                 </Col>
@@ -219,7 +226,7 @@ export default function ContactPage({ data }) {
             }
 
             { dept.fax.length > 0 &&
-              <Row>
+              <Row className="m-1" style={{ border: `1px solid gray` }}>
                 <Col className="p-1 my-auto text-center" xs={4}>
                   <Newspaper width="32" height="32" />
                 </Col>
@@ -233,7 +240,7 @@ export default function ContactPage({ data }) {
 
 
             { dept.email.length > 0 &&
-              <Row>
+              <Row className="m-1" style={{ border: `1px solid gray` }}>
                 <Col className="p-1 my-auto text-center" xs={4}>
                   <Envelope width="32" height="32" />
                 </Col>
@@ -244,7 +251,7 @@ export default function ContactPage({ data }) {
             }
 
             { dept.website.length > 0 &&
-              <Row>
+              <Row className="m-1" style={{ border: `1px solid gray` }}>
                 <Col className="p-1 my-auto text-center" xs={4}>
                   <Globe width="32" height="32" />
                 </Col>
@@ -253,8 +260,6 @@ export default function ContactPage({ data }) {
                 </Col>
               </Row>
             }
-
-
 
           </Col>
         </Row>

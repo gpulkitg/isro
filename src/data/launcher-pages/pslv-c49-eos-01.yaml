@@ -1,0 +1,27 @@
+slug: "/launcher/pslv-c49-eos-01"
+tag: "pslv-c49-eos-01"
+
+# seo:
+#   title: "PSLV-C49 / EOS-01"
+#
+# date: "2020-11-07"
+
+
+sections:
+  - title: "PSLV successfully launches EOS-01 and nine customer satellite from Sriharikota"
+    image: "../../images/launcher-pages/pslv-c49.jpg"
+    caption: ""
+    text: !markdown |
+      India’s Polar Satellite Launch Vehicle, in its fifty first flight (PSLV-C49), successfully launched EOS-01 along with nine international customer satellites from Satish Dhawan Space Centre (SDSC) SHAR, Sriharikota on November 07, 2020. PSLV-C49 is the 2nd flight of PSLV in 'DL' configuration (with 2 solid strap-on motors).
+
+      PSLV-C49 lifted-off at 1511 Hrs (IST) from the First Launch Pad of SDSC SHAR, Sriharikota. After 15 minutes and 20 seconds, EOS-01 was successfully injected into its orbit. Subsequently, nine commercial satellites were injected into their intended orbits. After separation, the two solar arrays of EOS-01 were deployed automatically and the ISRO Telemetry Tracking and Command Network at Bengaluru assumed control of the satellite. In the coming days, the satellite will be brought to its final operational configuration.
+
+
+
+  - title: ""
+    # image: ""
+    # caption: ""
+    text: !markdown |
+      EOS-01 is an earth observation satellite, intended for applications in agriculture, forestry and disaster management support.
+
+      The nine customer satellites from Lithuania (1), Luxembourg (4) and USA (4) were launched under a commercial arrangement with NewSpace India Limited (NSIL).

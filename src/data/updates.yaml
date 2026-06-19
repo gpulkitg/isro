@@ -1,5 +1,6 @@
 
 
+
 - title: "PSLV successfully launches EOS-01 and nine customer satellites from Sriharikota"
   # image: "../images/updates/1.jpg"
   description: ""
@@ -12,14 +13,14 @@
   description: ""
   date: "2020-09-29"
   slug: "#"
-
+  tag: ""
 
 - title: "Empowering India's Startups to transform Space Sector with ISRO and AIM"
   image: "../images/updates/space_startups_2.jpg"
   description: ""
   date: "2020-09-10"
   slug: "#"
-
+  tag: ""
 
 - title: "Webinar on Empowering India's Startups to transform Space Sector scheduled on September 10, 2020 @ 1400 hrs"
   image: "../images/updates/seed-10th-programme_page_1.jpg"
@@ -28,8 +29,22 @@
   slug: "#"
 
 
+- title: "Empowering India's Startups to transform Space Sector with ISRO and AIM"
+  image: "../images/updates/space_startups_2.jpg"
+  description: ""
+  date: "2019-09-10"
+  slug: "#"
+  tag: ""
+
+- title: "Webinar on Empowering India's Startups to transform Space Sector scheduled on September 10, 2020 @ 1400 hrs"
+  image: "../images/updates/seed-10th-programme_page_1.jpg"
+  description: ""
+  date: "2019-09-09"
+  slug: "#"
+
+
 - title: "70th Year adoption of the Constitution of India"
   image: "../images/updates/preamble.png"
   description: ""
-  date: "2020-09-08"
+  date: "2018-09-08"
   slug: "#"

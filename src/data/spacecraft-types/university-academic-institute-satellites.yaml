@@ -1,0 +1,35 @@
+slug: "/spacecraft/university-academic-institute-satellites"
+
+spacecraftType: "Student"
+
+
+title: "University / Academic Institute Satellites"
+
+
+sections:
+  - title: ""
+    # images:
+    #   - image: "../../images/spacecraft-types/small-scs.jpg"
+    #     caption: ""
+    text: !markdown |
+      ISRO has influenced educational institutions by its activities like making satellites for communication, remote sensing and astronomy. The launch of Chandrayaan-1 increased the interest of universities and institutions towards making experimental student satellites. Capable Universities and institution can venture into space technology on-orbit with guidance and support from ISRO in following ways.
+
+
+      ##### Development of Payload (by Universities/Institutions)
+
+      Every satellite carries a payload that performs the intended function to achieve the mission goal and the main bus that supports the payload function. The Development of payloads may comprise of detectors, electronics and associated algorithms, which can be an experimental piggy back payload on the ISRO’s on-going (Small or operational) satellite projects.
+
+      Design and development of detectors, payload electronics, and associated algorithm  / experiments that enhance the application of space services to mankind is a continuing R&D  activity in several educational institutions all over the world. Educational institutions can propose the payloads developed by them to be flown on ISRO’s small satellites.
+
+      Under this option, payload only is developed by the Universities or Institutions and launched with ISROs satellite missions which has other ISRO’s payloads. Data Handing and data transmission is done by ISRO as the part of satellite bus.
+
+      After launch ISRO will acquire payload data and disseminate it to Universities/ institutions further processing and analysis.
+
+
+      ##### Satellite Design & Fabrication by Universities/Institutions
+
+      Under this option Universities have to design, fabricate, test the satellite Bus & Payload and deliver the integrated spacecraft for launch. Technical guidance in designing,  fabrication and testing will be provided by ISRO. Some critical materials for the space mission also will be provided by ISRO.
+
+      The designs and test results will be reviewed by ISRO team.
+
+      Under this option more than one University/Institution may participate. One among them will be the focal point for the ISRO. After launch, the collected data will be archived and disseminated by university/Institution(s).

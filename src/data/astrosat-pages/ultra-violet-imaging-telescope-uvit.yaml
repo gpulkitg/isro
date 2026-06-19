@@ -1,0 +1,33 @@
+slug: "/missions/astrosat/ultra-violet-imaging-telescope-uvit"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Ultra Violet Imaging Telescope (UVIT)"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/uvit_3.jpg"
+        caption: ""
+    text: !markdown |
+      To image the sky simultaneously in  three wavelengths, one covering the far UV band (130 – 180 nm) and the second sensitive in near UV (200 – 300nm) and Visible (320 – 550 nm) bands.  The detector in each channel is a photon counting device. Multiple choices of filters are available in each channel.
+
+      The Ultra-Violet Imaging Telescope, or the UVIT, is a remarkable 3-in-1 imaging telescope. Weighing all of 230 kg, the UVIT can simultaneously observe in the visible, the near-ultraviolet (NUV) and the far-ultraviolet (FUV). UVIT comprises of two separate telescopes. One of them works in the visible (320-550 nm) and the NUV (200-300 nm). The second works only in the FUV (130-180 nm). Remember that the famous Lyman-α line of Hydrogen is at 121.6 nm, at the far end of the FUV, and even beyond that is the X-ray band for which AstroSat has four different telescopes.
+
+      UVIT has a spatial resolution of 1.8 arcseconds and a field of view of 0.5 degree. In comparison, GALEX, an ultraviolet telescope that was launched by NASA had a larger field of view of 1.2 degrees but a resolution of about 5 arcseconds.
+
+      Each of the two Ritchey-Chretien type telescopes of UVIT have a primary mirror of 37.5 cm diameter, specially coated with material that very efficiently reflects ultraviolet photons. These mirrors, hyperbolic in shape in order to minimise optical errors, reflect the incoming light to a secondary mirror, which in turn focuses the light onto a filter wheel and the detector.
+
+      Just as optical telescopes have filters to image the sky in the red or blue or green range of wavelengths, so also the UVIT has filters to image the NUV and FUV (and the visible) in different narrow wavelength bands. These filters are mounted on wheels which can be spun to bring whichever filter the astronomer wants into the light path.
+
+      After the filters, the actual detectors are mounted. These are photon counting detectors and can measure the location and time of incidence of each photon individually.  They can also operate in the integration mode (like a CCD camera) and the visible channel will mostly be operated in this mode. These photons are then read out using 'intensified CMOS’ readout cameras. Objects are far fainter in the ultraviolet than in the visible and hence each photon is first hugely amplified before it is allowed to fall on the 0.25 Megapixel camera. The UVIT is now sensitive enough to detect a single ultraviolet photon and time of its arrival to within 5 millisecond accuracy! The UVIT can image the field of view 30 times a second (and in special cases, even 200 times a second).
+
+      UVIT was a challenging instrument to design and build. It had to deal with the unique problems of ultraviolet astronomy, incorporate modern technology and also withstand the intense mechanical vibrations during launch and the thermal and radiative extremes of outer space.
+
+      The intensified CMOS detector works by converting incoming photons to electric charges. Hence, the UVIT can be permanently damaged if it is exposed to very bright light. Sunlight scattered from the satellite, the light reflected from the Earth's surface, emission from molecules (like O2) in Earth's outer atmosphere when excited by the Sun and even sunlight scattered off the dust in the solar system can threaten the safety of UVIT. Hence, the telescope will observe only at night, and has a number of electronic and mechanical features to safeguard its sensitive insides, to ensure that it produces pathbreaking science.
+
+      The geometric area and mass of UVIT are 1250 cm2 and 231.8 kg.
+
+      Indian Institute of Astrophysics (IIA), Bangalore and Inter University Centre for Astronomy & Astrophysics (IUCAA), Pune in collaboration with Canadian Space Agency (CSA) has developed this payload.

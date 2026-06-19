@@ -1,0 +1,83 @@
+slug: "/irnss-programme"
+
+title: "Indian Regional Navigation Satellite System (IRNSS) : NavIC"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/general-posts/navic/banner_1.jpg"
+        caption: ""
+    docs:
+      - doc: "../../docs/general-posts/navic/irnss_sps_icd_version1.1-2017.pdf"
+        text: "ICD Ver 1.1 for SPS"
+    text: !markdown |
+      **ATTENTION:** [Tender for NavIC Receiver Module Development](https://sac.eprocure.isro.gov.in/viewpages/tendernoticedisplay.asp?6F583E5643D62CFC5AA5622F4A)
+
+      IRNSS is an independent regional navigation satellite system being developed by India. It is designed to provide accurate position information service to users in India as well as the region extending up to 1500 km from its boundary, which is its primary service area. An Extended Service Area lies between primary service area and area enclosed by the rectangle from Latitude 30 deg South to 50 deg North, Longitude 30 deg East to 130 deg East.
+
+      IRNSS will provide two types of services, namely, **Standard Positioning Service (SPS)** which is provided to all the users and **Restricted Service (RS)**, which is an encrypted service provided only to the authorised users. The IRNSS System is expected to provide a position accuracy of better than 20 m in the primary service area.
+
+      Some applications of IRNSS are:
+
+      - Terrestrial, Aerial and Marine Navigation
+      - Disaster Management
+      - Vehicle tracking and fleet management
+      - Integration with mobile phones
+      - Precise Timing
+      - Mapping and Geodetic data capture
+      - Terrestrial navigation aid for hikers and travellers
+      - Visual and voice navigation for drivers
+
+      The IRNSS Signal-in-Space Interface Control Document (ICD Ver. 1.1) for Standard Positioning Service (SPS) is released to the public to provide the essential information on the IRNSS signal-in-space, to facilitate research & development and aid the commercial use of the IRNSS signals for navigation-based applications.
+
+
+  - title: "IRNSS-1A"
+    docs:
+      - doc: "../../docs/general-posts/navic/sis_icd_irnss1a_incois_isro_v1.1_19jul2019.pdf"
+        text: "ICD Ver 1.1 - July 2019"
+      - doc: "../../docs/general-posts/navic/sis_icd_irnss1a_messaging_app_developer_29032019.pdf"
+        text: "ICD Ver 1.0 - March 2019"
+      - doc: "../../docs/general-posts/navic/sis_icd_irnss1a_messaging_v1.0_june2018.pdf"
+        text: "ICD Ver 1.0 - June 2018"
+    text: !markdown |
+      IRNSS-1A spacecraft provides messaging service to users in the Indian region. The Signal-in-Space Interface Control Document (ICD Ver. 1.0) for Messaging services (IRNSS 1A) is released to the public to provide the essential information to facilitate the use of IRNSS1A Signal-in-space for development of receiver and associated application.
+
+      **Download Signal in Space Interface Control Document for NavIC messaging service:**
+
+
+  - title: "Performance Reports"
+    docs:
+      - doc: "../../docs/general-posts/navic/pe_report_q3.pdf"
+        text: "Q3-2020"
+      - doc: "../../docs/general-posts/navic/navicperformancereport-q2-2020.pdf"
+        text: "Q2-2020"
+      - doc: "../../docs/general-posts/navic/pe_report_q1_2020_1.pdf"
+        text: "Q1-2020"
+      - doc: "../../docs/general-posts/navic/pe_report_q4_2019.pdf"
+        text: "Q4-2019"
+      - doc: "../../docs/general-posts/navic/pe_report_q3_2019.pdf"
+        text: "Q3-2019"
+      - doc: "../../docs/general-posts/navic/pe_report_q2_2019.pdf"
+        text: "Q2-2019"
+    text: !markdown |
+      [NavIC (IRNSS) System Week Number (WN) Rollover Event](/updates/upcoming-navic-irnss-system-week-number-wn-rollover-event) - April 06, 2019
+
+      **NavIC Standard Positioning Service - Download Performance Reports: **
+
+
+
+  - title: "Launch of Mobile Chipset compatible to NavIC"
+    text: !markdown |
+      The space segment consists of the IRNSS constellation of eight satellites, NavIC. Three satellites are located in suitable orbital slots in the geostationary orbit and the remaining four are located in geosynchronous orbits with the required inclination and equatorial crossings in two different planes. All the satellites of the constellation are configured identically. The satellites are configured with I-1K Bus to be compatible for launch on-board PSLV.
+
+      Links to the spacecrafts:
+
+      [IRNSS-1I](/spacecraft/irnss-1i)  ,
+      [IRNSS-1H](/spacecraft/irnss-1h)  ,
+      [IRNSS-1G](/spacecraft/irnss-1g)  ,
+      [IRNSS-1F](/spacecraft/irnss-1f)  ,
+      [IRNSS-1E](/spacecraft/irnss-1e)  ,
+      [IRNSS-1D](/spacecraft/irnss-1d)  ,
+      [IRNSS-1C](/spacecraft/irnss-1c)  ,
+      [IRNSS-1B](/spacecraft/irnss-1b)  ,
+      [IRNSS-1A](/spacecraft/irnss-1a)

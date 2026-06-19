@@ -1,15 +1,8 @@
 import React, { useState } from 'react'
-// import Odometer from 'react-odometerjs'
 import CountUp from 'react-countup';
-// import "../../node_modules/odometer/themes/odometer-theme-minimal.css";
 import VisibilitySensor from 'react-visibility-sensor'
 
 function Counter({ count, text }) {
-  // const [value, setValue] = useState(0)
-
-  // useEffect(() => {
-  //   setValue(count)
-  // }, []);
 
   const [animated, setAnimated] = useState(false)
 
@@ -21,7 +14,20 @@ function Counter({ count, text }) {
 
   return (
     <div className="text-center">
-      <CountUp
+      <VisibilitySensor active={!animated} onChange={handleVisibilityChange} delayedCall>
+        <CountUp
+          start={0}
+          end={animated ? count : 0}
+          duration={2}
+          decimal=","
+          className="counter"
+          // data-sal="fade"
+          // data-sal-duration="1000"
+          // data-sal-easing="easeOutCirc"
+        />
+      </VisibilitySensor>
+      <h3>{text}</h3>
+      {/* <CountUp
         start={animated ? 0 : null}
         end={count}
         duration={2}
@@ -34,14 +40,7 @@ function Counter({ count, text }) {
             <span ref={countUpRef} className="countup counter"/>
           </VisibilitySensor>
         )}
-      </CountUp>
-      {/* <Odometer
-        value={value}
-        format="(,ddd)"
-        duration={2000}
-        theme="minimal"
-      /> */}
-      <h3>{text}</h3>
+      </CountUp> */}
     </div>
   )
 

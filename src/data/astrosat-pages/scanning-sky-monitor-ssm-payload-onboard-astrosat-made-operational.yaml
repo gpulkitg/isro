@@ -1,0 +1,84 @@
+slug: "/missions/astrosat/scanning-sky-monitor-ssm-payload-onboard-astrosat-made-operational"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Scanning Sky Monitor (SSM) Payload onboard AstroSat made Operational – October 12th, 2015"
+
+sections:
+  - title: ""
+    # image: "../../images/missions/astrosat/"
+    # caption: ""
+    text: !markdown |
+      The Scanning Sky Monitor (SSM) will monitor the transient X-ray sky to detect and locate X-ray sources in its large Field Of View (FOV).  It comprises three almost identical detector units each with a 1D coded-mask and the respective electronics. All the three modules of SSM are mounted on a single platform capable of rotation.  A photograph of the SSM payload on is shown here below in figure 1. The Processing Electronics and the Platform motor drive electronics are placed inside the spacecraft body.
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/ppp1.png"
+        caption: "Figure 1: SSM with three cameras and associated front end electronics"
+    text: !markdown |
+      SSM platform deployment was done on the day of launch after spacecraft injection into the intended orbit, soon after solar panel deployment.
+
+      On Day 2 and Day 3 (September 29 & September 30, 2015) operations related to SSM platform rotation were carried out successfully, as planned.  All the modes of rotation were checked and the parameters were verified.
+
+      **Scanning Sky Monitor (SSM) onboard AstroSat has been operational since October 12th 2015, on the 15th day after the successful launch of AstroSat on 28th September 2015.**
+
+      The temperatures of all the packages of the payload have been within the expected limits.  Spacecraft was oriented in such a way that the well-known X-ray source “Crab” was positioned at the centre of Field Of View (FOV) of two of the SSM units, SSM1 and SSM2, which have a crossed FOV.
+
+      SSM1 was powered ON first and all the health parameters of the unit were monitored and found satisfactory. High Voltage (HV) to the anodes was increased step by step to the required value with constant monitoring of telemetry parameter.  Once the required HV step was attained in the SSM1 unit, the counts detected by the unit were indicated in the telemetry.  It was exciting to observe the expected count rates in the telemetry as soon as the HV was raised to the required step.
+
+      The data from SSM1 unit was played back in the subsequent orbit and analysed for the light curves and spectra from all anodes in that unit.
+
+      The SAA entry and exit operations to lower the HV of the unit for safe operations were handled with macros on-board.  The prompt execution of these macros during the non-visibility period during the passage through SAA region can be seen in the later part of the light curve.
+
+      Following the successful power ON of SSM1 unit the other two units – SSM2 and SSM3 were also powered ON, two orbits later during the visibility period. All the health checks were found satisfactory.  The units were powered ON one after the other.  The data play back was done in the subsequent orbits.  Performances of these two units were also as expected.
+
+
+
+      ##### SSM First light of Crab - a Neutron Star  - on 12th October 2015
+
+      The sky image observed by SSM with its first observation with Crab at the centre of its FOV is shown here in figure 2.  “Crab” was detected at the centre of the FOV as expected.
+
+
+      ##### SSM First light of GRS 1915+105 - a Black Hole  - on 14th October 2015
+      Following this, SSM was maneuvered to a field that contains the enigmatic Galactic Black Hole source GRS 1915+105. Even with many challenges on mission operations, AstroSat was oriented to the required field with GRS 1915+105 in the FOV of SSM on October 14th, 2015. THANKS to mission operations team!
+
+      The particular field was crowded with few other bright sources (eg. Cyg X-1, Cyg X-2, Ser X-1), while GRS 1915+105 was the strongest source with intensity ~2 Crab. GRS 1915+05 also displays very peculiar, but ‘structured’ X-ray variability known as ‘class’.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/ppp3.png"
+        caption: "Figure 3: AstroSat – SSM First light of the enigmatic Black Hole GRS 1915 + 105"
+    text: !markdown |
+      AstroSat-first light from Galactic Black Hole GRS 1915+105 as observed by SSM is shown in figure 3.  A quick look of the variability profile of the light curve matches well with one of the earlier observations of the source with NASA's Rossi X-ray Timing Explorer (RXTE) satellite as shown in the figure. More detailed analysis results will follow.
+
+      This observation is reported as a “Astronomers' Telegram” ATel #8185.  The link for the ATel is:
+
+      http://www.astronomerstelegram.org/?read=8185
+
+      SSM – Indication of a M - class Solar Flare  - on 16th October 2015
+
+      During a scheduled flux calibration observation with SSM pointed to Crab, during a specific part of the orbit, at ~6:12 UT, October 16th 2015, SSM (all three detectors) recorded a sudden upsurge in counts – with a rise time of ~2 minutes and a decay time of ~18 minutes as shown in figure 4.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/ppp4.png"
+        caption: "Figure 4: SSM observations with Earth in its FOV on October 16, 2015 during a M-class Solar Flare at 6:10 UT"
+    # text: ""
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/ppp5.png"
+        caption: "Figure 5: GOES observations of M-class Solar flare at 6:10 UT on 16th October, 2015"
+    text: !markdown |
+      This occurred when the pointing of the SSM cameras was facing the Earth such that the FOVs of all the three cameras had Earth within.  The Sun was almost 180 degrees away. .  The upsurge in counts was understood to be X-rays due to a M-class Solar flare, which was confirmed with the time of occurrence, type of flare etc. from the US satellite “GOES” data.  The correlation of the time of detection of upsurge of counts in SSM and the time of occurrence of the flare can be observed from both the figures - 4 and 5.
+
+      ##### Looking ahead..
+
+      With all the above exciting events within the very first week of switch ON of SSM, we look forward to many more interesting observations in the years to come.
+
+      The SSM team acknowledges the dedicated support and efforts of many other colleagues at ISRO Satellite Centre from various groups including Controls, Mechanisms, Thermal, Integration, Check-out, Facilities, Mission, Project Office and others. Also we acknowledge CMSE/VSSC, RRI, IUCAA and ISRO-HQ for their support and contribution.

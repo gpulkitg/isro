@@ -1,0 +1,114 @@
+slug: "/missions/lvm-3-x-care"
+
+tag: "lvm-3-x-care"
+
+
+seo:
+  title: "LVM3-X / CARE Mission"
+
+jumbotronImg:
+  - image: "../../images/media/lvm-3-x-care-gallery/gslv-mkiii-x17.jpg"
+    title: "LVM3-X / CARE"
+    subtitle: "Testing re-entry technologies for crew module"
+    description: ""
+    button: "LEARN MORE"
+    link: "/spacecraft/crew-module-atmospheric-re-entry-experiment-care"
+    horizontalPosition: "left"
+    verticalPosition: "bottom"
+    textAlignment: "left"
+
+  # - image: "../../images/missions/lvm-3-x-care/lvm3flightprofile.jpg"
+  #   title: "Flight Profile"
+  #   subtitle: ""
+  #   description: ""
+  #   # button: "LEARN MORE"
+  #   # link: "/spacecraft/crew-module-atmospheric-re-entry-experiment-care"
+  #   horizontalPosition: "center"
+  #   verticalPosition: "bottom"
+  #   textAlignment: "center"
+
+
+# splitSection:
+#   - image: "../../images/missions/lvm-3-x-care/lvm3flightprofile.jpg"
+#     title: "Flight Profile"
+#     subtitle: ""
+#     description: ""
+#     # button: "READ MORE"
+#     # link: "/missions/lvm-3-x-care/"
+#     textPosition: "right"
+#     textAlignment: "left"
+#     objectFit: "contain"
+
+
+textContent1:
+  title: "India's First Experimental Re-entry Mission"
+  text: !markdown |
+    LVM3-X/CARE Mission, the first experimental suborbital flight of India's latest generation Launch Vehicle- LVM3, lifted off from Satish Dhawan Space Centre SHAR, Sriharikota, on December 18, 2014 and injected the Crew Module CARE at an altitude of 126km. The Crew Module splashed down near Andaman and Nicobar Islands in the Bay of Bengal about twenty minutes after lift off. The Crew Module was recovered by the Indian Coast Guard. This flight of LVM3 had a passive cryogenic stage.
+
+    ##### Objectives
+    - Flight validation of the complex atmospheric flight regime of LVM3
+    - Validation of new design features
+    - Overall integrity of the mission design, simulation and software implementation
+    - Study the re-entry characteristics of Crew Module CARE
+
+
+
+cardSection:
+  - title: "Launch Vehicle"
+    # image: "../../images/missions/lvm-3-x-care/"
+    image: "../../images/media/lvm-3-x-care-gallery/avp4123.jpg"
+    text: "GSLV MK III"
+    link: "/launchers/gslv-mk-iii"
+
+  - title: "Spacecraft"
+    # image: "../../images/missions/lvm-3-x-care/"
+    image: "../../images/spacecraft-pages/lvm-3-q.jpg"
+    text: "Crew Module Atmospheric Re-entry Experiment (CARE)"
+    link: "/spacecraft/crew-module-atmospheric-re-entry-experiment-care"
+
+
+
+gallery:
+  link: "/media/lvm-3-x-care-gallery"
+  photos:
+    - image: "../../images/media/lvm-3-x-care-gallery/gslv-mkiii-x-13.jpg"
+      caption: ""
+    # - image: "../../images/media/lvm-3-x-care-gallery/gslv-mkiii-x-4.jpg"
+    #   caption: ""
+    - image: "../../images/media/lvm-3-x-care-gallery/gslv-mkiii-x16.jpg"
+    - image: "../../images/media/lvm-3-x-care-gallery/mrm1151.jpg"
+      caption: ""
+    # - image: "../../images/media/lvm-3-x-care-gallery/heatshieldcaremodule.jpg"
+    #   caption: ""
+
+
+
+# cardSection2:
+#   link: "/missions/lvm-3-x-care/payloads"
+#   cards:
+#     - title: "Ultra Violet Imaging Telescope (UVIT)"
+#       image: "../../images/missions/lvm-3-x-care/uvit_3.jpg"
+#     - title: "Cadmium-Zinc-Telluride Imager (CZTI)"
+#       image: "../../images/missions/lvm-3-x-care/czti.jpg"
+#     - title: "Scanning Sky Monitor (SSM)"
+#       image: "../../images/missions/lvm-3-x-care/ssm.jpg"
+#     - title: "Charged Particle Monitor (CPM)"
+#       image: "../../images/missions/lvm-3-x-care/cpm.jpg"
+
+
+
+# verticalTimeline:
+#   title: ""
+#   events:
+#     - date: "September 28, 2015"
+#       title: "Launch"
+#     - date: "October 18, 2015"
+#       title: "First SSM observations released"
+
+
+textContent2:
+  title: "Launch Details"
+  image: "../../images/missions/lvm-3-x-care/lvm3flightprofile.jpg"
+  caption: "Flight Profile"
+  text: !markdown |
+    The experimental flight of GSLV MK-III designated as GSLV MK-III X, carried Crew module Atmospheric Reentry Experiment (CARE) as its payload. In the GSLV MK-III-X flight active S200 and L110 propulsive stages, and a passive C25 stage with dummy engine are used. The C25 stage uses all flight identical structures and interfaces. The LOX and LH2 tank are filled with Liquid Nitrogen (LN2) and Gaseous Nitrogen (GN2) respectively. The external vehicle configuration is identical to that of GSLV MK-III-D1 which is the generic vehicle configuration. The Payload Fairing and Spacecraft separation systems are also functional. The mission is designed to provide a suitable altitude, velocity and flight path angle to CARE at separation.

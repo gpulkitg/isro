@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import Layout from "../components/layout"
 import Separator from '../components/separator'
 import ClickReveal from '../components/click-reveal'
+import Sensor from '../components/sensor'
 
 
 export const query = graphql`
@@ -18,7 +19,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -45,14 +46,14 @@ export default function FAQ({ data }) {
     <Layout>
       <SEO title="FAQ" />
 
-      <div className="w-100" style={{ height: `50vh`, position: `relative`}}>
+      <div className="w-100" className="cover-img-wrapper">
         <Img
           fluid={cover.image.childImageSharp.fluid}
           alt={cover.image.name}
           className="w-100 h-100"
           imgStyle={{ opacity: `0.5`, objectPosition: `top right` }}
         />
-        <h1 className="text-center" style={{ position: `absolute`, top: `50%`, left: `50%`, transform: `translate(-50%, -50%)` }}>
+        <h1 className="text-center display-4" style={{ position: `absolute`, top: `50%`, left: `50%`, transform: `translate(-50%, -50%)` }}>
           {cover.title}
         </h1>
       </div>
@@ -60,7 +61,9 @@ export default function FAQ({ data }) {
 
       <Separator />
       <Container>
-        <ClickReveal content={content} />
+        <Sensor>
+          <ClickReveal content={content} />
+        </Sensor>
       </Container>
 
 

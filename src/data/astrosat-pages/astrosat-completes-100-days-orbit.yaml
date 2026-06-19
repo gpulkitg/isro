@@ -1,0 +1,110 @@
+slug: "/missions/astrosat/astrosat-completes-100-days-orbit"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "AstroSat Completes 100 days in Orbit"
+
+sections:
+  - title: ""
+    text: !markdown |
+      The AstroSat, the multi-wavelength space based observatory of India, launched on September 28, 2015, has completed more than 100 days in orbit and has experiments covering the UV and X-ray wavebands to conduct observations in the area of astronomy.  The Performance Verification (PV) phase of AstroSat is now half way through and it was decided to review the operations so far in order to assess the gain in understanding of the spacecraft operations and the scientific outcome envisaged.  Based on this review it is certain that ISRO and the Science community stands vindicated that the outcomes are as expected and in a short while the learning from this mission is enormous.
+
+      The AstroSat, with all its Five payloads of astronomy, is unique and the operational procedures enhanced to suit the payload requirements unlike the earlier remote sensing or communication missions of ISRO.   The astronomy payloads demand stringent geometrical constraints with respect to bright objects in space, specific state of payloads during South Atlantic Anomaly (SAA), Earth Occult and  eclipse (night side) regions and finally constrained  attitude manoeuvres avoiding Sun in +Roll and +yaw axes of the spacecraft simultaneously.  This requires utmost careful planning on ground and executing the same on orbit.
+
+      The AstroSat pointing accuracy is found to be dependent upon two factors; the settling of gyro drift behaviour and lack of updates of the star sensor during the earth albedo region.  Both sensors are studied on-orbit for a whole month and procedures built to counter their effects.  Gyro base temperature affects gyro drift and therefore a tight control on base temperature was exacted by controlling Sun-pitch and Earth-pitch angles.  This solved the gyro drift problem.  Similarly the star sensor, and updates of gyro are supplemented by extensive modelling on ground.  Subsequently, the procedure is incorporated into the payload programming software and automated for current operations.
+
+      As far as payloads are concerned, each of them was switched ON one at a time and the preliminary performance was checked before going further for calibrations and observations of certain target sources.  Few calibrations are still pending and further observations are planned before the end of performance verification phase  of this satellite in March 2016. Few highlights of the observations obtained in the first 100 days of observations with the payloads are present here:
+
+      **UV Imaging Telescope (UVIT)**
+
+      UVIT is the ultraviolet-visible eye of AstroSat. It is designed to make images over a field of ~ 28’, simultaneously in 3- bands: FUV (130-180 nm), NUV (200-300 nm), and VIS (320-550 nm). The specified spatial resolution for the ultraviolet  is < 1.8” Full Width at Half Maximum (FWHM).
+
+      UVIT started observing  the sky on 62nd day after the launch. Preliminary analysis of the initial observations indicate that the payload meets the requirements of sensitivity in FUV (130-180 nm) of maximum effective area as ~12 sq cm  and spatial resolution of <1.8” FWHM in ultraviolet. Some of the preliminary results are presented in the following figures.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat1.jpg"
+        caption: ""
+      - image: "../../images/missions/astrosat/astrosat2.jpg"
+        caption: ""
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat3.jpg"
+        caption: "NUV Image  of  the galaxy in the sky.  This image is  corrected for drifts using  UVIT itself;  This image was acquired on Dec. 17, 2015.  NGC 2336 is a barred spiral galaxy  more than 100 million light years away.  The spiral arms are indicative of several star forming regions  and hence this  galaxy is a very good target for UV  studies (at present this image is one of the best resolved,  large field NUV  image  of  this galaxy and its surroundings)"
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat4.jpg"
+        caption: ""
+      - image: "../../images/missions/astrosat/astrosat5.jpg"
+        caption: ""
+
+
+  - title: ""
+    text: !markdown |
+      **Soft X-ray Telescope (SXT)**
+
+      The Soft X-ray imaging Telescope (SXT) on board AstroSat is a grazing incidence doubly reflecting Telescope with a cooled CCD at its focus to observe cosmic X-ray sources in 0.3-8.0 keV energy band with spectral resolution of  2.5% @ 6 keV and a spatial resolution of ~ 2 arc-mins (FWHM).  The initial operations of venting of the camera body, switching ON  the electronics  and the temperature control  and stability were achieved  in October 2015.
+
+      The instrument was assessed first  with the onboard calibration  sources.  The camera  door  was opened  to the sky on October 26 , 2015 with first light image of the blazar PKS 2155-304. The first figure is that of Tycho Supernova remnant  (also called SN 1572 or 3C 10)  one of the bright supernovae visible to naked eye as  found in historical records.  This  remnant is located in the constellation Cassiopeia.   An  X-ray spectrum provides  both the continuum spectrum which is indicative of the temperature of the plasma  and  the lines of  the elements which are expected  to be formed during the final evolution before  the supernova explosion.   The X-ray spectrum provides observational proof of these elements.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat6.jpg"
+        caption: "X-ray Spectrum of Tycho supernova remnant  using SXT; emission lines from ionized Mg, Si, S, Ar, Ca in the millions of degrees hot plasma can be seen clearly, the most prominent line being that  of ionized Silicon."
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat7.jpg"
+        caption: "Near-simultaneous observation with Swift carried out and data analyzed jointly. See the spectra obtained with SXT (Oct 26, 18:20:10 (3500 s)), and Swift (Oct. 25, 20:40:40 (1470 s)). Swift data are shown in red color. There is an agreement to within 20%, some of this discrepancy could be due to intensity variations in the source as observations are ~21 hours apart. The SXT bandwidth can be seen to be wider than that of Swift."
+
+
+  - title: ""
+    text: !markdown |
+      **Large Area X-ray Proportional Counters (LAXPCS)**
+
+      There are three large Area X-ray Proportional counters (LAXPCs)  covering the energy range of 3-80keV.  These are currently the largest area proportional counters operating in space.  These counters were switched ON in October 2015, with the high voltages turned ON  gradually.  The gas  in the counters were purified using an onboard purifier.  The following figure gives  the  continuum spectrum of GRS 1915+105, an X-ray binary with a black hole.  This source also emits  jets and is termed as a micro-quasar.  The continuum spectrum changes as the source goes through different spectral states.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat8.jpg"
+        caption: "Continuum spectrum of GRS 1915+105  obtained with one of the LAXPC unit.  The top panel shows  the observed pints  with a fit line.  Bottom panel shows the residuals of observed points with respect to the fit. The residual figure is checked for goodness of fit."
+
+
+  - title: ""
+    text: !markdown |
+      **Scanning Sky Monitor (SSM)**
+
+      The aim the Scanning Sky Monitor is to scan the sky in order to detect and locate X-ray transients in the energy range of  2-10 keV.  This payload is now observing  portions of half of the sky on the other side of sun  for  X-ray transients.  The performance verification and pipeline to put  the data on web is  under progress.  Stares were performed on  4U0115+63  which is a neutron star binary pulsar on October 26, 2015.  During these stares  the payload  can be operated with a fine time resolution.  Following figure shows  the detection of  the 3.6s rotation period of the neutron star  using this payload.
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat9.jpg"
+        caption: "A period  folding output of the light curve of the neutron star binary 4U0115+634.  The peak indicates detection of the rotation period (~3.6s) of the neutron star"
+
+
+  - title: ""
+    text: !markdown |
+      **Cadmium Zinc Telluride Imager (CZTI)**
+
+      This was the first scientific  payload  to be switched ON during October 6-11, 2015. It operates in the  20-150keV range and provides  observations in the hard X-ray energy range. In addition to capability of extending the hard part of the energy range for studying X-ray binaries and (AGNs), it has capability to detect Gamma  ray bursts and also expected  to reveal polarisation in bright x-ray sources in  hard X-ray band. The Crab source has been used  to calibrate  the timing capability of the instrument. If we divide Crab observation light curve into two halves and study the change in pulse period (~33ms), we could detect spin down of the Crab pulsar.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat10.jpg"
+        caption: "The fit significance as a function of trial period for the Crab pulsar  observed by the CZTI during 12 November 2015. The abscissa shows the  difference of the trial period from the average period during the 24-hour  observation. The first half of the data clearly shows a period shorter  than that in the second half of the data.  The difference of 18 nanoseconds  matches exactly the known rate of spin-down of the Crab Pulsar."
+
+
+  - title: ""
+    text: !markdown |
+      The individual requirements of each payload are now fine-tuned and automated operational procedure is being established.  AstroSat team is now ready to meet the future challenges of the astronomy mission to explore the deep space with these world-class instruments.

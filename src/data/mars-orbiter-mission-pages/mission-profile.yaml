@@ -1,0 +1,33 @@
+slug: "/missions/mars-orbiter-mission/mission-profile"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "Mission Profile"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/profile.jpg"
+        caption: ""
+    text: !markdown |
+      1. Geo Centric Phase
+
+      The spacecraft is injected into an Elliptic Parking Orbit by the launcher. With six main engine burns, the spacecraft is gradually maneuvered into a departure hyperbolic trajectory with which it escapes from the Earth’s Sphere of Influence (SOI) with Earth’s orbital velocity + V boost. The SOI of earth ends at 918347 km from the surface of the earth beyond which the perturbing force on the orbiter is mainly due to the Sun. One primary concern is how to get the spacecraft to Mars, on the least amount of fuel. ISRO uses a method of travel called a Hohmann Transfer Orbit – or a Minimum Energy Transfer Orbit – to send a spacecraft from Earth to Mars with the least amount of fuel possible.
+
+      2. Helio Centric Phase
+
+      The spacecraft leaves Earth in a direction tangential to Earth’s orbit and encounters Mars tangentially to its orbit. The flight path is roughly one half of an ellipse around sun. Eventually it will intersect the orbit of Mars at the exact moment when Mars is there too. This trajectory becomes possible with certain allowances when the relative position of Earth, Mars and Sun form an angle of approximately 44o. Such an arrangement recur periodically at intervals of about 780 days. Minimum energy opportunities for Earth-Mars occur in November 2013, January 2016, May2018 etc.
+
+      3. Martian Phase
+
+      The spacecraft arrives at the Mars Sphere of Influence (around 573473 km from the surface of Mars) in a hyperbolic trajectory. At the time the spacecraft reaches the closest approach to Mars (Periapsis), it is captured into planned orbit around mars by imparting ∆V retro which is called the Mars Orbit Insertion (MOI) manoeuvre. The Earth-Mars trajectory is shown in the above figure. ISRO plans to launch the Mars Orbiter Mission during the November 2013 window utilizing minimum energy transfer opportunity.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/moi.jpg"
+        caption: ""
+    # text: ""

@@ -1,0 +1,12 @@
+slug: "/publications/ism-data-sheets"
+
+title: "ISM Data Sheets"
+
+cover:
+  image: "../../images/publications/ism-data-sheets-cover.png"
+
+
+contents:
+  - text: "Indigenisation of Space Materials (ISM) Data Sheet"
+    doc: "../../docs/publications/ism-data-sheets/ism-data-sheets.pdf"
+    image: "../../images/publications/ism-data-sheets-cover.png"

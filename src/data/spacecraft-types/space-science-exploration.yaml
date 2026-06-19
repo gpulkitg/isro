@@ -1,0 +1,35 @@
+slug: "/spacecraft/space-science-exploration"
+
+spacecraftType: "Scientific"
+
+
+title: "Scientific & Exploration Spacecraft"
+
+sections:
+  - title: ""
+    # images:
+    #   - image: "../../images/spacecraft-types/small-scs.jpg"
+    #     caption: ""
+    text: !markdown |
+      Indian space programme encompasses research in areas like astronomy, astrophysics, planetary and earth sciences, atmospheric sciences and theoretical physics. Balloons, sounding rockets, space platforms and ground-based facilities support these research efforts. A series of sounding rockets are available for atmospheric experiments. Several scientific instruments have been flown on satellites especially to direct celestial X-ray and gamma-ray bursts.
+
+      ##### [AstroSat](/missions/astrosat)
+
+      AstroSat is the first dedicated Indian astronomy mission aimed at studying celestial sources in X-ray, optical and UV spectral bands simultaneously. The payloads cover the energy bands of Ultraviolet (Near and For), limited optical and X-ray regime (0.3 keV to 100keV). One of the unique features of AstroSat mission is that it enables the simultaneous multi-wavelength observations of various astronomical objects with a single satellite.
+
+      AstroSat with a lift-off mass of 1515 kg was launched on September 28, 2015 into a 650 km orbit inclined at an angle of 6 deg to the equator by PSLV-C30 from Satish Dhawan Space Centre, Sriharikota. The minimum useful life of the AstroSat mission is expected to be 5 years.
+
+
+      ##### [Mars Orbiter Mission](/missions/mars-orbiter-mission)
+
+      Mars Orbiter Mission is ISRO’s first interplanetary mission to planet Mars with an orbiter craft designed to orbit Mars in an elliptical orbit of 372 km by 80,000 km. Mars Orbiter mission can be termed as a challenging technological mission and a science mission considering the critical mission operations and stringent requirements on propulsion, communications and other bus systems of the spacecraft. The primary driving technological objective of the mission is to design and realize a spacecraft with a capability to perform Earth Bound Manoeuvre (EBM), Martian Transfer Trajectory (MTT) and Mars Orbit Insertion (MOI) phases and the related deep space mission planning and communication management at a distance of nearly 400 million Km. Autonomous fault detection and recovery also becomes vital for the mission.
+
+
+      ##### [Chandrayaan-1](/spacecraft/chandrayaan-1)
+
+      Chandrayaan-1, India's first mission to Moon, was launched successfully on October 22, 2008 from SDSC SHAR, Sriharikota. The spacecraft was orbiting around the Moon at a height of 100 km from the lunar surface for chemical, mineralogical and photo-geologic mapping of the Moon. The spacecraft carried 11 scientific instruments built in India, USA, UK, Germany, Sweden and Bulgaria.
+
+
+      ##### [Chandrayaan-2](/missions/chandrayaan-2)
+
+      Chandrayaan-2 will be an advanced version of the previous Chandrayaan-1 mission to Moon.Chandrayaan-2 is configured as a two module system comprising of an Orbiter Craft module (OC) and a Lander Craft module (LC) carrying the Rover developed by ISRO.

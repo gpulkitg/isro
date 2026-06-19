@@ -1,0 +1,95 @@
+slug: "/missions/astrosat/astrosat-first-light-czt-imager-looks-crab-nebula"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "AstroSat First Light: CZT Imager Looks at Crab Nebula"
+
+sections:
+  - title: ""
+    text: !markdown |
+      Astrosat, India's first Multi-wavelength Space Observatory was successfully launched by ISRO's workhorse launch vehicle PSLV into a 650km orbit on September 28, 2015. Then began the process of putting each of the payloads into operation.The Charged Particle Monitor (CPM) was the first payload to go operational followed by the Cadmium Zinc Telluride Imager (CZTI), the hard X-ray detector on board Astrosat. CZTI was made fully operational on October 5, 2015.  Then, on October 6, Astrosat was oriented towards Crab Nebula, remnant of the Supernova detected by Chinese astronomers in the year 1054. The Crab Nebula, which also includes the Crab Pulsar, is the brightest hard X-ray source in the sky, and is very often used to calibrate hard X-ray detectors.
+
+      ##### CZTI Detectors
+
+      CZTI consists of four quadrants of 16 pixelated detectors each, achieving a total geometric area of 976 cm2. It is sensitive to X-rays above 10 keV energy.  For every photon it detects, CZTI sends an event report consisting of position (pixel number, each pixel – 2.5mm X 2.5mm), time of detection (correct to 20 micro-seconds) and energy of the incident photon.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/Capture.jpeg"
+        caption: ""
+    text: !markdown |
+      The top of the CZTI is covered by a Coded Aperture Mask – a Tantalum plate with carefully placed holes – which casts a shadow on the detector when illuminated by a source. Imaging is performed by interpreting the pattern of the recorded shadow.  The mask blocks nearly half the incident X-rays, so the effective area of the CZTI is about 490 cm2.
+
+      The expected background rate is about 250 counts per second per quadrant; however, the observed counts exceeded it by a factor of four. This was understood to be due to multiple events recorded during Cosmic Ray interaction. A movie made out of images taken every 100 micro-second (http://astrosat.iucaa.in/czti/images/CZTI_Crab_5s.mpg) shows the fascinating kaleidoscopic picture of high energy interactions in space: looked at the fast rate of 100 micro-seconds, there won’t be any events 98% of the time (these blank images are skipped while making the movie), some are single events representing genuine X-rays, some are double events in neighbouring pixels due to Compton scattering and many are multiple particle induced events.  This is the first time ever that a hard X-ray instrument acting as a particle tracker is sent to space. One of the tracks is shown in Figure 2, and it possibly represents a charge particle interaction.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/xfgsdfe.png"
+        caption: "Figure 2: A snapshot of the locations of `events’ detected by one quadrant of CZT-Imager in a 100 micro-sec window. Each dot represents charges deposited in a 2.5 mm X 2.5 mm pixel of the detector. Vertical lines separate detector modules of size 4 cm X 4 cm (16 X 16 pixels). This particular track is most likely the result of charge particle interaction."
+    text: !markdown |
+      Quick analysis software, based on the idea that genuine X-ray events would be isolated single events, was made operational to prune the data and detect the actual X-rays coming from Crab Nebula.
+
+      ##### A First look at Crab Nebula
+
+      The ground support software had been reviewed at multiple levels and was ready to tackle the data immediately after the first orbit of the satellite during the Crab observations. Unfortunately, these software were tested using the benign ground data, and were ill equipped to handle the voluminous on board data. Hence, the first attempt was to just look at the Crab data in the first orbit without going into finer nuances like satellite location etc.
+
+      A quick look at the first orbit image showed that Crab Nebula was not detected.
+
+      Well, Crab is the brightest hard X-ray source, visible even to a small hard X-ray detector.
+
+      Most likely, the data pruning was erroneous. The total X-ray counts as a function of time was looked into: they should be stable at the Astrosat orbit and must show a decrease whenever Crab goes behind the Earth, i.e. when the so called Earth occultation occurs. Count rates were steady, but there was no sign of decrease or increase in count rates throughout the orbit.
+
+      A tense session of self introspection followed. Questions followed one after the other to explain the strange behaviour.
+
+      Did the characteristics of the X-ray detectors change after launch ? However, the data contradicted the possibility. The multiple tracks show that they are genuine events and a careful look at the spectrum showed the characteristic X-ray lines emitted by the protective Tantalum cover at exactly the expected energy.
+
+      Did the Mission Operation team make any error in orienting the satellite ? Well, CZT-Imager has a wide field of view and it is too embarrassing to even pose the question whether they made such a large mistake in pointing.
+
+      Being Science, and not magic, an explanation would be there for this behaviour and the only way to reach at it was by systematically analysing the data at hand.
+
+      ##### Crab Nebula was Captured
+
+      Crab Nebula was detected on Oct 9, 2015, observed parallely by both Mission Operation Centre at Peenya, Bengaluru and Payload Operation Centre, IUCAA, Pune.
+      During the first orbit, there was a difficulty in detecting this Crab Nebula as the satellite happened to pass through the South Atlantic Anomaly (SAA) region  when Crab was in the field of view. SAA avoidance zone was deliberately kept wide to protect the instruments, and detectors were switched OFF in this interval  during the initial days of Astrosat operation. When all the data were systematically analysed and data were selected based on the availability of Crab in the detector field of view, one could see the Crab emerging from Earth's shadow (Fig 3).  The image generated by deconvolving the coded mask shadows accumulated during this interval clearly shows Crab as a bright object near the centre (Fig 4).
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/erysdty.png"
+        caption: "Figure 3: X-ray counts from each detector module of one quadrant of CZTI are plotted as a function of time. The counts (about 9 counts per detector or about 150 counts per quadrant) when the Earth was blocking Crab almost doubled when Crab emerged from the Earth shadow. The unfiltered raw count rate was about 1300 per second per quadrant."
+    # text: ""
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/dhyfgje.png"
+        caption: "Figure4: Image of Crab Nebula in hard X-rays above 25 keV. The bright spot near the centre indicates Crab. The effective imaging resolution here is about 10 arcmin. The faint patches outside are `side-lobes’ of the imaging process and they will be suppressed significantly when data from all quadrants are analysed simultaneously, which will also improve the image resolution to better than 8 arcmin."
+    text: !markdown |
+      ##### Further Work
+
+      In the first week of CZTI operation, Crab Nebula was stared at continuously and was also viewed at different angles to firm up the imaging ability of the instrument. The Crab Nebula was also made to bombard the instrument at several large off-axis angles so that CZTI characteristics as a hard X-ray wide angle monitor can be quantified.
+
+      The black hole source Cygnus X-1 was also observed for two days.  In the initial operation, the low energy threshold of CZTI was kept at 20 keV (to be brought down carefully to the design goal of 10 keV in due course) and to provide simultaneous low energy data, the Swift satellite of NASA made the following observations:
+
+      Crab:    Oct 6 21:51:00 to 22:12:00 UT
+
+      Cyg X-1: Oct 7 14:55:00 to 15:15:00 UT
+
+      One of the fascinating science objectives is to understand the accretion disk geometry in a black hole sources like Cygnus X-1. The NuSTAR satellite of NASA is operating for the last 3 years and it has the best spectroscopic sensitivity in the 10 – 80 keV region. A simultaneous observation has been made with NuSTAR (Oct 7 15:40:08 UT to Oct 8 02:25:00 UT) to observe the time dependent spectral characteristics: it will help us in understanding the instrument systematics in the 10 – 80 keV region; CZTI will provide best spectroscopic data in 70 keV – 300 keV region (by utilising Compton scattered double events) and a joint analysis with NuSTAR will provide unprecedented wide band spectroscopic data on this source.
+
+      CZTI has polarisation sensitivity in the 100 – 300 keV region and the best hard X-ray polarisation measurement of Crab till date has been provided by the Integral satellite of ESA. Integral is observing Crab simultaneously with CZTI and hopefully, we will have a refined polarisation measurement of Crab, as a function of its rotation period.
+
+      ##### What Next?
+
+      In the next few weeks, other X-ray instruments of Astrosat would be made operational and in about a month, all X-ray instruments (CZTI, LAXPC and SXT) will be ready to stare at interesting stars. Astrosat would be looking at some of the black hole sources / candidates like GRS 1915+105, Cygnus X-1, Cygnus X-3 during the month of November. Simultaneous observations are also planned using an Infra-red telescope at Mt Abu, radio observations at GMRT, Khodad (near Pune) and using the Himalayan Chandra Telescope, located at Hanle, Ladakh, for science analysis of CZTI.
+
+      ##### This is only the beginning, with many more events to unfold…
+
+      ---------------------------------------------------------------------------
+
+      CZT-Imager is built by a consortium of Institutes across India: Tata Institute of Fundamental Research, Mumbai, led the effort with instrument design and development; Vikram Sarabhai Space Centre, Thiruvananthapuram provided the electronic design, assembly and testing; ISRO  Satellite Centre (ISAC), Bengaluru provided the mechanical design, quality consultation and project management; Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune did the Coded Mask design, instrument calibration, and hosts the Payload Operation for CZTI; Space Application Centre (SAC) at Ahmedabad provided the analysis software; Physical Research Laboratory (PRL) Ahmedabad, provided the polarisation detection algorithm and ground calibration; a vast number of industries participated in the fabrication and the University sector pitched in by participating in the test and evaluation of the payload.
+
+      ---------------------------------------------------------------------------

@@ -9,7 +9,7 @@ import SEO from '../../components/seo'
 import TableVersatile from '../../components/table-versatile'
 // import SplitSection from '../../components/split-section'
 import Separator from '../../components/separator'
-
+import Sensor from '../../components/sensor'
 
 
 export const query = graphql`
@@ -25,7 +25,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -41,7 +41,7 @@ export const query = graphql`
             #   ...GatsbyImageSharpFixed
             # }
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -81,8 +81,51 @@ export default function SoundingRockets({ data }) {
 
       <Container>
 
+        <Separator />
 
-        <Row>
+        <h2 className="mb-2 text-center">{seo.title}</h2>
+
+        { sections.map((section, ind) => (
+          <Sensor key={`sections_${ind}`}>
+            { section.title &&
+              <h3 className="mb-2 text-center">{section.title}</h3>
+            }
+            <Row className="d-flex align-items-center">
+              { section.text &&
+                <Col md>
+                  <div className="mb-2">
+                    <div dangerouslySetInnerHTML={{ __html: section.text }} className="markdown-content" />
+                  </div>
+                </Col>
+              }
+              { section.image &&
+                <Col md>
+                  <Figure className="w-100 mb-2">
+                    <Img
+                      fluid={section.image.childImageSharp.fluid}
+                      alt={section.image.name}
+                      style={{ maxHeight: `400px` }}
+                      imgStyle={{ objectFit: `contain` }}
+                    />
+                    <Figure.Caption className="text-center">{section.caption}</Figure.Caption>
+                  </Figure>
+                </Col>
+              }
+            </Row>
+
+            { section.table &&
+              <Container>
+                <div className="mb-2">
+                  {section.table.title && <h4 className="text-center mb-1">{section.table.title}</h4>}
+                  <TableVersatile data={section.table} />
+                </div>
+              </Container>
+            }
+          </Sensor>
+        ))}
+
+
+        {/* <Row>
           <Col className="vh-100 d-flex order-md-0 py-2" md>
             <Img
               fluid={splitSection.image.childImageSharp.fluid}
@@ -94,16 +137,14 @@ export default function SoundingRockets({ data }) {
             <h2 className="mb-2">{splitSection.title}</h2>
             <p className="mb-2">{splitSection.description}</p>
           </Col>
-        </Row>
+        </Row> */}
 
         {/* <SplitSection imgSrc={vyom} imgObjectFit="contain" textPosition="right" textAlignment="center">
           <h1 className="mb-4">Sounding Rockets</h1>
           <p>
             Sounding rockets are one or two stage solid propellant rockets used for probing the upper atmospheric regions and for space research. They also serve as easily affordable platforms to test or prove prototypes of new components or subsystems intended for use in launch vehicles and satellites.
           </p>
-        </SplitSection> */}
-
-
+        </SplitSection>
 
         { sections.map((section, ind) => (
           <div key={`sections_${ind}`} className="text-center">
@@ -125,7 +166,7 @@ export default function SoundingRockets({ data }) {
               <TableVersatile data={section.table} />
             }
           </div>
-        ))}
+        ))} */}
 
 
 

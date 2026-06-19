@@ -6,15 +6,13 @@ import { Container, Row, Col, Button, Carousel } from 'react-bootstrap'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import CarouselGallery from '../components/carousel-gallery'
-// import JumbotronImg from '../components/jumbotron-img'
 import TextContent from '../components/text-content'
 import Counter from '../components/counter'
-// import CardGlow from '../components/card-glow'
 import CardBrighten from '../components/card-brighten'
-// import SplitSection from '../components/split-section'
 import Separator from '../components/separator'
 import FooterMore from '../components/footer-more'
+import Sotw from '../components/sotw'
+// import Sensor from '../components/sensor'
 
 
 export const query = graphql`
@@ -30,7 +28,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -43,7 +41,7 @@ export const query = graphql`
         name
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
@@ -53,12 +51,12 @@ export const query = graphql`
       }
       cardSection {
         title
-        slug
+        link
         image {
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -66,18 +64,18 @@ export const query = graphql`
       sotw {
         title
         description
-        slug
+        link
         image {
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
     }
-    recentUpdates: allUpdatesYaml(sort: {fields: date, order: DESC}, limit: 4) {
+    recentUpdates: allUpdatesYaml(sort: {fields: date, order: DESC}, limit: 3) {
       edges {
         node {
           id
@@ -89,7 +87,7 @@ export const query = graphql`
             name
             childImageSharp {
               fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -121,13 +119,13 @@ export default function Home({ data }) {
     <Layout>
       <SEO title={seo.title} />
 
-      {/* <CarouselGallery items={items} /> */}
       <Carousel interval={null} className="carousel-fade">
         { carouselSection.map((item, ind) => (
           <Carousel.Item key={`carouselSections_${ind}`} className="item-gradient">
             <Img
               fluid={item.image.childImageSharp.fluid}
               alt={item.image.name}
+              // className="animate-appear-fast"
               style={{ width: `100%`, height: `100vh`}}
               imgStyle={{ opacity: `0.8` }}
             />
@@ -139,13 +137,12 @@ export default function Home({ data }) {
         ))}
       </Carousel>
 
+
       <Separator />
-
-
+      {/* <h1 className="display-4 text-center">{textContent.title}</h1> */}
       <TextContent title={textContent.title}>
         <h5 className="text-center">{textContent.text}</h5>
       </TextContent>
-
 
       <Img
         fluid={coverImg.childImageSharp.fluid}
@@ -154,43 +151,39 @@ export default function Home({ data }) {
         imgStyle={{ opacity: `0.8` }}
       />
 
-      {/* <JumbotronImg
-        imgSrc={isro_office}
-        horizontalPosition="center"
-        verticalPosition="center"
-        contentAlignment="center"
-        >
-        <h3>
-          Mission Control
-        </h3>
-      </JumbotronImg> */}
 
       <Separator />
       <Container>
-        <Row>
+        <Row className="justify-content-center">
           { counters.map((item, ind) => (
-            <Col key={`counters_${ind}`} md>
+            <Col key={`counters_${ind}`} className="mb-1" lg={2} md={4}>
               <Counter count={item.count} text={item.text} />
             </Col>
           ))}
         </Row>
+        {/* <div className="my-2" style={{ borderBottom: `1px solid gray`}}></div> */}
       </Container>
 
 
-      {/* <br />
-      <br />
-      <br />
 
-      <h2 className="mb-2 text-center">Featured</h2> */}
-      <Separator  />
+
+      {/* <h2 className="mb-2 text-center">Featured</h2> */}
+      <Separator />
       <Container>
         <Row>
           { cardSection.map((card, ind) => (
-            <Col md={4} key={`cardSection_${ind}`} className="mb-2">
+            <Col
+              key={`cardSection_${ind}`}
+              className="mb-2"
+              data-sal="fade"
+              data-sal-duration="1000"
+              data-sal-easing="easeOutCirc"
+              lg={4} md={6}
+              >
               <CardBrighten
                 title={card.title}
-                link={card.slug}
-              >
+                link={card.link}
+                >
                 <Img
                   fluid={card.image.childImageSharp.fluid}
                   alt={card.image.name}
@@ -200,60 +193,55 @@ export default function Home({ data }) {
             </Col>
           ))}
         </Row>
-
-
-        {/* <SplitSection imgSrc={sotw} imgObjectFit="contain" textPosition="right" textAlignment="center">
-          <h4 className="mb-4 display-4">Story of the week</h4>
-          <h5 className="mb-4">Super flares in Nascent Sun: Evidence from Meteorites!</h5>
-          <p className="mb-4">
-            Scientists at Physical Research Laboratory, Ahmedabad working in collaboration with University of Heidelberg, Germany,have recently reported Giant flares from the embryonic Sun. The super-flare has been calculated to be about a million times stronger in intensity compared to the highest X-class flare observed from the modern Sun.
-          </p>
-          <div>
-            <Button href="/super-flares-nascent-sun-evidence-meteorites" variant="outline-light" className="btn-jumbotron">
-              Read more
-            </Button>
-          </div>
-        </SplitSection>
-        <br />
-        <br /> */}
-
-        <Separator />
-        {/* <h2 className="mb-4 text-center display-4">Story of the week</h2> */}
-        <Row>
-          <Col md className="my-auto">
-            <h4 className="display-4">Story of the week</h4>
-          </Col>
-
-          <Col className="d-flex justify-content-center order-md-1" md>
-            <Img
-              fluid={sotw.image.childImageSharp.fluid}
-              alt={sotw.image.name}
-              className="h-100 w-100"
-              imgStyle={{ objectFit: "contain" }}
-            />
-          </Col>
-
-          <Col className="d-flex flex-column justify-content-center py-2" md>
-            <h5 className="mb-2">{sotw.title}</h5>
-            <p className="mb-2">
-              {sotw.description}
-            </p>
-            <div>
-              <Button href={sotw.slug} variant="outline-light" className="btn-jumbotron">
-                Read more
-              </Button>
-            </div>
-          </Col>
-        </Row>
-
       </Container>
+
+
+      <Separator />
+      <Sotw
+        title={sotw.title}
+        description={sotw.description}
+        link={sotw.link}
+      >
+        <Img
+          fluid={sotw.image.childImageSharp.fluid}
+          alt={sotw.image.name}
+          className="h-100 w-100"
+          imgStyle={{ objectFit: "contain" }}
+        />
+      </Sotw>
 
 
 
       {/* <h2 className="mb-2 text-center">Updates</h2> */}
-      <Separator title="Updates" />
+      <Separator title="Recent Updates" />
 
-      <Container>
+      <Container className="mb-2">
+        { data.recentUpdates.edges.map(({node}) =>
+          <Row
+            key={node.id}
+            className="py-2"
+            style={{ borderBottom: `1px solid gray`}}
+            data-sal="fade"
+            data-sal-duration="1000"
+            data-sal-easing="easeOutCirc"
+            >
+            <Col md={3}>
+              { node.image &&
+                <Img
+                  fluid={node.image.childImageSharp.fluid}
+                  alt={node.image.name}
+                  style={{ objectFit: "contain" }}
+                />
+              }
+            </Col>
+
+            <Col className="py-1" md={9}>
+              <h6 className="text-info">{node.date}</h6>
+              <h4>{node.title}</h4>
+            </Col>
+
+          </Row>
+        )}
         {/* { data.recentUpdates.edges.map(({node}) => (
           <Row className="py-2" key={node.id}>
             <Col md>
@@ -273,7 +261,7 @@ export default function Home({ data }) {
 
             </Row>
           ))} */}
-          <Row>
+          {/* <Row>
           { data.recentUpdates.edges.map(({node}) => (
               <Col key={node.id} md={6} className="d-flex flex-column py-1">
                 { node.image &&
@@ -290,12 +278,12 @@ export default function Home({ data }) {
                 </div>
               </Col>
             ))}
-          </Row>
+          </Row> */}
       </Container>
 
       <div className="text-center">
         <Button href="/updates" variant="outline-light" className="btn-jumbotron">
-          All updates
+          See all updates
         </Button>
       </div>
 

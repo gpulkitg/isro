@@ -3,8 +3,11 @@
       - text: "Tender Notices"
         link: "/tenders"
 
-      - text: "E-Procurement"
+      - text: "E-Procurement OLD"
         link: "https://eprocure.isro.gov.in/"
+
+      - text: "E-Procurement NEW"
+        link: "https://eproc.isro.gov.in/home.html"
 
       - text: "Right to Information"
         link: "/right-to-information"
@@ -17,11 +20,11 @@
 
       - text: "Annual Report (English)"
         link: ""
-        doc: "../docs/general/AnnualReport2019-20(English).pdf"
+        doc: "../docs/publications/annual-reports/AnnualReport2019-20(English).pdf"
 
       - text: "Annual Report (Hindi)"
         link: ""
-        doc: "../docs/general/AnnualReport2019-20(Hindi).pdf"
+        doc: "../docs/publications/annual-reports/AnnualReport2019-20(Hindi).pdf"
 
       - text: "Monthly Summary of DOS"
         link: "/monthly-summary-of-department-of-space"
@@ -58,7 +61,7 @@
 
       - text: "ISM Data Sheets"
         # link: "/indigenisation-of-space-materials-ism-data-sheet"
-        doc: "../docs/general/ism-data-sheets.pdf"
+        doc: "../docs/publications/ism-data-sheets/ism-data-sheets.pdf"
 
 
     - col:

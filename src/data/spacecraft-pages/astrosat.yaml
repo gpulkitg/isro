@@ -1,0 +1,154 @@
+slug: "/spacecraft/astrosat"
+
+tag: "pslv-c30-astrosat"
+
+
+sections:
+  - title: ""
+    image: "../../images/spacecraft-pages/astrosat1.jpg"
+    caption: ""
+    text: !markdown |
+      ASTROSAT is India’s first dedicated multi wavelength space observatory. This scientific satellite mission endeavours for a more detailed understanding of our universe. One of the unique features of ASTROSAT mission is that enables the simultaneous multi-wavelength observations of various astronomical objects with a single satellite.
+
+      ASTROSAT observes universe in the optical, Ultraviolet, low and high energy X-ray regions of the electromagnetic spectrum, whereas most other scientific satellites are capable of observing a narrow range of wavelength band. Multi-wavelength observations of ASTROSAT can be further extended with co-ordinated observations using other spacecraft and ground based observations. All major astronomy Institutions and some Universities in India are participating in these observations.
+
+
+
+
+  - title: ""
+    # image: "../../images/spacecraft-pages/astrosat1.jpg"
+    # caption: ""
+    text: !markdown |
+      ASTROSAT with a lift-off mass of about 1513 kg was launched into a 650 km orbit inclined at an angle of 6 deg to the equator by PSLV-C30. After injection into Orbit, the two solar panels of ASTROSAT were automatically deployed in quick succession. The spacecraft control centre at Mission Operations Complex (MOX) of ISRO Telemetry, Tracking and Command Network (ISTRAC) at Bangalore manages the satellite during its mission life.
+
+      The science data gathered by five payloads of ASTROSAT are telemetered to the ground station at MOX. The data is then processed, archived and distributed by Indian Space Science Data Centre (ISSDC) located at Byalalu, near Bangalore.
+
+      The scientific objectives of ASTROSAT mission are:
+
+      - To understand high energy processes in binary star systems containing neutron stars and black holes
+      - Estimate magnetic fields of neutron stars
+      - Study star birth regions and high energy processes in star systems lying beyond our galaxy
+      - Detect new briefly bright X-ray sources in the sky
+      - Perform a limited deep field survey of the Universe in the Ultraviolet region
+
+
+
+  - title: ""
+    image: "../../images/spacecraft-pages/astrosat2.png"
+    caption: "AstroSat in Clean room before its integration with PSLV-C30"
+    text: ""
+    table:
+      title: "Specifications"
+      body:
+        - row:
+            - col:
+                text: "Spacecraft mass"
+            - col:
+                text: "~ 1515 kg (Main bus: 660.2 kg; Payloads: 854.8 kg)"
+        - row:
+            - col:
+                text: "Spacecraft"
+            - col:
+                text: "Cuboid shaped; 1.96 m x 1.75 m x 1.30 m"
+        - row:
+            - col:
+                text: "S/C power"
+            - col:
+                text: "1626 W"
+        - row:
+            - col:
+                text: "Structures"
+            - col:
+                text: "1500 kg class. Composite Fiber Reinforced Plastic (CFRP) honeycomb sandwich with CFRP face skin and aluminium honeycomb core."
+        - row:
+            - col:
+                text: "Mechanism"
+            - col:
+                text: "Solar Array Drive Mechanism (SADM), UVIT and SXT deployable cover, SSM hold down release and steering mechanism"
+        - row:
+            - col:
+                text: "Propulsion"
+            - col:
+                text: "Monopropellant Hydrazine (42 kg) and 11 N thrusters (8 no.s)"
+        - row:
+            - col:
+                text: "Thermal System"
+            - col:
+                text: "Passive thermal control system, Heaters and Radiator plates"
+        - row:
+            - col:
+                text: "Power System"
+            - col:
+                text: "2 wing assemblies, each having two panels (1.4m x 1.8 m each)of Advanced Triple Junction solar cells, ~ 2000 Watt generation, Two 36 AH Li ion batteries, SADA for sun tracking"
+        - row:
+            - col:
+                text: "Pointing accuracy"
+            - col:
+                text: "0.05 deg (3 sigma) in each axis"
+        - row:
+            - col:
+                text: "AOCS"
+            - col:
+                text: "Drift Rate (freq < 0.2 Hz) : 3 x 10-4 deg/s Jitter (freq > 0.2 Hz) : < 0.3 arcsec"
+        - row:
+            - col:
+                text: "Sensors"
+            - col:
+                text: "4 Solar panel Sun sensor ; 2 nos. Star sensors (Mk-I) ; four 4 Pi Sun sensors, two triaxial magnetometer, Inertial Reference Unit"
+        - row:
+            - col:
+                text: "Actuators"
+            - col:
+                text: "10 NMs Reaction Wheels (4 Nos), 11 N Thrusters (8Nos)"
+        - row:
+            - col:
+                text: "Antenna"
+            - col:
+                text: "Phased Array Antenna (PAA); TC (Uplink) – 2067.897 MHz; TM (Downlink) – 2245 MHz"
+
+
+  - title: "Payloads"
+    image: "../../images/spacecraft-pages/astrosat-cad.jpeg"
+    caption: ""
+    text: !markdown |
+      Five payloads of ASTROSAT are chosen to facilitate a deeper insight into the various astrophysical processes occurring in the various types of astronomical objects constituting our universe.  These payloads rely on the visible, Ultraviolet and X-rays coming from distant celestial sources.
+
+      - The Ultraviolet Imaging Telescope (UVIT), capable of observing the sky in the Visible, Near Ultraviolet and Far Ultraviolet regions of the electromagnetic spectrum
+      - Large Area X-ray Proportional Counter (LAXPC), is designed for study the variations in the emission of X-rays from sources like X-ray binaries, Active Galactic Nuclei and other cosmic sources.
+      - Soft X-ray Telescope (SXT) is designed for studying how the X-ray spectrum of 0.3-8 keV range coming from distant celestial bodies varies with time.
+      - Cadmium Zinc Telluride Imager (CZTI), functioning in the X-ray region, extends the capability of the satellite to sense X-rays of high energy in 10-100 keV range.
+      - Scanning Sky Monitor(SSM), is intended to scan the sky for long term monitoring of bright X-ray sources in binary stars, and for the detection and location of sources that become bright in X-rays for a short duration of time.
+
+    table:
+      title: "About spacecraft"
+      body:
+        - row:
+            - col:
+                text: "प्रमोचक राकेट / Launch Vehicle:"
+            - col:
+                text: "PSLV-C30 / AstroSat MISSION"
+        - row:
+            - col:
+                text: "उपग्रह का प्रकार / Type of Satellite:"
+            - col:
+                text: "Science & Exploration"
+        - row:
+            - col:
+                text: "निर्माता / Manufacturer: "
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "स्‍वामी / Owner: "
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "अनुप्रयोग / Application:"
+            - col:
+                text: "Space Science"
+        - row:
+            - col:
+                text: "कक्षा का प्रकार / Orbit Type:"
+            - col:
+                text: "Near equatorial"

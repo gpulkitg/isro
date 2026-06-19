@@ -13,6 +13,7 @@
   tag: "pslv-c49-eos-01"
 
 
+
 - title: "GSLV-F11 Lift-off and Onboard Camera View"
   poster: "../../videos/media/gslv-f11-lift-and-onboard-camera-view/21.jpg"
   video: "../../videos/media/gslv-f11-lift-and-onboard-camera-view/gslv_f11_gsat_7a_mission_full.mp4"
@@ -29,7 +30,33 @@
   tag: "gslv-f11-gsat-7a"
 
 
-- title: "CHANDRAYAAN 2 LAUNCH"
-  poster: "../../images/media/chandrayaan-2-mission-gallery/liftoffimage11_compressed.jpg"
-  video: "../../videos/launchers/gslv-mk-iii/GSLV_MkIII_teaser_full.mp4"
+
+- title: "Curtain Raiser video (Hindi)"
+  poster: "../../videos/media/chandrayaan-2-curtain-raiser-video-hindi/page0001.jpg"
+  video: "../../videos/media/chandrayaan-2-curtain-raiser-video-hindi/ch2-hindi-mp4-8mbps.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+- title: "Curtain Raiser video (English)"
+  poster: "../../videos/media/chandrayaan-2-curtain-raiser-video-english/c2_cancelled.png"
+  video: "../../videos/media/chandrayaan-2-curtain-raiser-video-english/ch2-eng-mp4-8mbps.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+- title: "Chandrayaan 2 Video"
+  poster: "../../videos/media/chandrayaan-2-video/c2_video.png"
+  video: "../../videos/media/chandrayaan-2-video/isro_curtain_raiser_video2.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+- title: "Lift-off and Onboard Camera View of GSLV MkIII-M1/Chandrayaan2 Launch"
+  poster: "../../videos/media/lift-and-onboard-camera-view-of-gslv-mkiii-m1-chandrayaan2/gslv_mark_iii_m1_pad_e_04.jpg"
+  video: "../../videos/media/lift-and-onboard-camera-view-of-gslv-mkiii-m1-chandrayaan2/lift_off_onboard_video_m1_mission.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+- title: "Honorable Prime Minister Congratulates Team ISRO for the successful launch of Chandrayaan-2"
+  poster: "../../videos/media/honorable-prime-minister-congratulates-team-isro-successful/pm_wishes_isro.png"
+  video: "../../videos/media/honorable-prime-minister-congratulates-team-isro-successful/pm_address_isro.mp4"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+- title: "Chandrayaan 2 - About Vikram Lander"
+  poster: "../../videos/media/chandrayaan-2-about-vikram-lander/vikramlander.jpg"
+  video: "../../videos/media/chandrayaan-2-about-vikram-lander/meet_vikram_-_chandrayaan_2s_lander.mp4"
   tag: "gslv-mk-iii-m1-chandrayaan-2"

@@ -5,23 +5,23 @@ import Img from 'gatsby-image'
 import { Navbar, Nav } from 'react-bootstrap'
 import debounce from "lodash/debounce"
 
-// import isro_logo from '../images/isro_icon_black.png'
+import isro_logo from '../images/common/isro_logo.svg'
 
 
 export default function Header() {
 
-  const data = useStaticQuery(graphql`
-    query {
-      logo: file(relativePath: {eq: "common/isro_icon_black.png"}) {
-        name
-        childImageSharp {
-          fixed(width: 30, height: 30) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     logo: file(relativePath: {eq: "common/isro_icon_black.png"}) {
+  //       name
+  //       childImageSharp {
+  //         fixed(width: 30, height: 30) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
 
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -77,12 +77,12 @@ export default function Header() {
       >
 
       <Navbar.Brand href="/">
-        {/* <img src={isro_logo} width="30" height="30" className="d-inline-block align-top" alt="ISRO logo" /> */}
-        <Img
+        <img src={isro_logo} width="30" height="30" className="d-inline-block align-top" alt="ISRO logo" />
+        {/* <Img
           fixed={data.logo.childImageSharp.fixed}
           className="d-inline-block align-top"
           alt={data.logo.name}
-        />
+        /> */}
       </Navbar.Brand>
       <Navbar.Brand href="/" className="no-underline">ISRO</Navbar.Brand>
 

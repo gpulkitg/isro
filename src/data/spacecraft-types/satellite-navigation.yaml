@@ -1,0 +1,29 @@
+slug: "/spacecraft/satellite-navigation"
+
+spacecraftType: "Navigation"
+
+
+title: "Satellite Navigation"
+
+
+sections:
+  - title: ""
+    # images:
+    #   - image: "../../images/spacecraft-types/comm.jpg"
+    #     caption: ""
+    text: !markdown |
+      Satellite Navigation service is an emerging satellite based system with commercial and strategic applications. ISRO is committed to provide the satellite based Navigation services to meet the emerging demands of the Civil Aviation requirements and to meet the user requirements of the positioning, navigation and timing based on the independent satellite navigation system. To meet the Civil Aviation requirements, ISRO is working jointly with Airport Authority of India (AAI) in establishing the GPS Aided Geo Augmented Navigation (GAGAN) system. To meet the user requirements of the positioning, navigation and timing services based on the indigenous system, ISRO is establishing a regional satellite navigation system called Indian Regional Navigation Satellite System (IRNSS).
+
+      1. GPS Aided GEO Augmented Navigation (GAGAN)
+
+        This is a Satellite Based Augmentation System (SBAS) implemented jointly with Airport Authority of India (AAI). The main objectives of GAGAN are to provide Satellite-based Navigation services with accuracy and integrity required for civil aviation applications and to provide better Air Traffic Management over Indian Airspace. The system will be interoperable with other international SBAS systems and provide seamless navigation across regional boundaries. The GAGAN Signal-In-Space (SIS) is available through GSAT-8 and GSAT-10.
+
+
+      2. [Indian Regional Navigation Satellite System (IRNSS) : NavIC](/irnss-programme)
+
+        This is an independent Indian Satellite based positioning system for critical National applications. The main objective is to provide Reliable Position, Navigation and Timing services over India and its neighbourhood, to provide fairly good accuracy to the user. The IRNSS will provide basically two types of services
+
+          1. Standard Positioning Service (SPS)
+          2. Restricted Service (RS)
+
+        To date, ISRO has built a total of nine satellites in the IRNSS series; of which eight are currently in orbit Three of these satellites are in geostationary orbit (GEO) while the remaining in geosynchronous orbits (GSO) that maintain an inclination of 29° to the equatorial plane. The IRNSS constellation was named as “NavIC” (Navigation with Indian Constellation) by the Honourable Prime Minister, Mr. Narendra Modi and dedicated to the nation on the occasion of the successful launch of the IRNSS-1G satellite. The eight operational satellites in the IRNSS series, namely IRNSS-1A, 1B, 1C, 1D, 1E, 1F, 1G and 1I were launched on Jul 02, 2013; Apr 04, 2014; Oct 16, 2014; Mar 28, 2015; Jan 20, 2016; Mar 10, 2016, Apr 28, 2016; and Apr 12, 2018 respectively. The PSLV-39 / IRNSS-1H being unsuccessful; the satellite could not reach orbit.

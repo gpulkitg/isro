@@ -10,6 +10,7 @@ import Separator from '../components/separator'
 import JumbotronImg from '../components/jumbotron-img'
 import SplitSection from '../components/split-section'
 import CardBrighten from '../components/card-brighten'
+import ListItems from '../components/list-items'
 // import TableVersatile from '../components/table-versatile'
 
 
@@ -29,13 +30,20 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
         verticalPosition
         horizontalPosition
         textAlignment
+      }
+      listTrendingSpacecrafts {
+        title
+        content {
+          link
+          text
+        }
       }
       splitSection {
         title
@@ -50,7 +58,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
@@ -64,31 +72,24 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
-      # listSpacecrafts {
-      #   title
-      #   table {
-      #     head {
-      #       col {
-      #         text
-      #       }
-      #     }
-      #     body {
-      #       row {
-      #         col {
-      #           text
-      #           date(formatString: "MMM D, YYYY")
-      #           link
-      #         }
-      #       }
-      #     }
-      #   }
-      # }
     }
+    allMasterListYaml(sort: {order: DESC, fields: launchDate}, limit: 3) {
+      edges {
+        node {
+          id
+          launcherName
+          launcherLink
+          spacecraftName
+          spacecraftLink
+        }
+      }
+    }
+
   }
 `
 
@@ -100,11 +101,26 @@ export default function SpacecraftsPage({ data }) {
 
   const {
     seo,
+    listTrendingSpacecrafts,
     jumbotronImg,
     splitSection,
     cardSection,
-    // listSpacecrafts,
   } = data.spacecraftYaml
+
+
+  let listLatestSpacecrafts = {
+    "title": "Latest",
+    "content": [],
+  }
+
+  data.allMasterListYaml.edges.map(({ node }, ind) => {
+    listLatestSpacecrafts.content.push({
+      "text": node.spacecraftName,
+      "link": node.spacecraftLink,
+    })
+  })
+
+  const listAllSpacecrafts = [listTrendingSpacecrafts, listLatestSpacecrafts]
 
 
   return (
@@ -127,6 +143,7 @@ export default function SpacecraftsPage({ data }) {
             <Img
               fluid={item.image.childImageSharp.fluid}
               alt={item.image.name}
+              // className="animate-appear-fast"
               style={{ position: `absolute`, top: 0, left: 0, right: 0, bottom: 0 }}
               imgStyle={{ opacity: `0.7` }}
             />
@@ -148,6 +165,16 @@ export default function SpacecraftsPage({ data }) {
           </Row>
         </Container>
       </div> */}
+
+      <Separator />
+      <ListItems list={listAllSpacecrafts} />
+
+      <div className="text-center my-2">
+        <Button href="/list-of-spacecrafts" variant="outline-light" className="btn-jumbotron">
+          LIST OF ALL SPACECRAFTS
+        </Button>
+      </div>
+
 
       { splitSection && splitSection.map((item, ind) => (
         <SplitSection
@@ -194,9 +221,9 @@ export default function SpacecraftsPage({ data }) {
 
         <Separator title="Others" />
 
-        <Row>
+        <Row className="d-flex justify-content-center">
           { cardSection.map((card, ind) => (
-            <Col md={4} key={`cardSection_${ind}`} className="mb-2">
+            <Col key={`cardSection_${ind}`} className="mb-2" lg={4} md={6}>
               <CardBrighten
                 title={card.title}
                 link={card.link}

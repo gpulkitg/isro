@@ -38,7 +38,12 @@ export default function FooterMore() {
 
 
   return (
-    <div className="bg-secondary">
+    <div
+      className="bg-secondary"
+      // data-sal="fade"
+      // data-sal-duration="1000"
+      // data-sal-easing="easeOutCirc"
+      >
       <Container>
 
         <Row>

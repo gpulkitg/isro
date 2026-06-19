@@ -1,0 +1,15 @@
+slug: "/spacecraft/experimental-satellites"
+
+spacecraftType: "Experimental"
+
+
+title: "Experimental Satellites"
+
+
+sections:
+  - title: ""
+    # images:
+    #   - image: "../../images/spacecraft-types/comm.jpg"
+    #     caption: ""
+    text: !markdown |
+      ISRO has launched many small satellites mainly for the experimental purposes. This experiment include Remote Sensing, Atmospheric Studies, Payload Development, Orbit Controls, recovery technology etc.

@@ -3,10 +3,14 @@ import { graphql } from 'gatsby'
 // import Img from 'gatsby-image'
 
 import { Container } from 'react-bootstrap'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import LightboxGallery from '../components/lightbox-gallery'
 import Separator from '../components/separator'
+import Sensor from '../components/sensor'
+
+
 
 export const query = graphql`
   query ($slug: String!, $imagesDir: String!) {
@@ -16,7 +20,7 @@ export const query = graphql`
       # image {
       #   childImageSharp {
       #     fluid {
-      #       ...GatsbyImageSharpFluid
+      #       ...GatsbyImageSharpFluid_withWebp
       #     }
       #   }
       # }
@@ -27,7 +31,7 @@ export const query = graphql`
           name
           childImageSharp {
             fluid {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
             # fixed(width: 300, height: 300) {
             #   ...GatsbyImageSharpFixed
@@ -46,8 +50,8 @@ export default function ImageGallery({ data }) {
   const photos = data.images.edges.map(({ node }) => {
     return (
       {
-        src: node.childImageSharp.fluid.src,
-        srcSet: node.childImageSharp.fluid.srcSet,
+        src: node.childImageSharp.fluid.srcWebp,
+        srcSet: node.childImageSharp.fluid.srcSetWebp,
         sizes: node.childImageSharp.fluid.sizes,
         width: 1,
         height: 1,
@@ -69,7 +73,9 @@ export default function ImageGallery({ data }) {
       <Separator />
       <h2 className="text-center mb-2">{title}</h2>
 
+      <Sensor>
         <LightboxGallery photos={photos} columns={3} />
+      </Sensor>
         {/* <Row>
           { data.images.edges.map(({node}) => (
             <Col key={node.childImageSharp.fluid.src} className="mb-4" md={4}>

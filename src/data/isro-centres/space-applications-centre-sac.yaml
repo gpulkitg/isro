@@ -4,7 +4,7 @@ image: "../../images/about/centres/sac.jpg"
 description: ""
 locations:
   - name: ""
-    image: "../../images/about/centres/"
+    image: "../../images/about/centres/sac.jpg"
     headPosition: "Director"
     head: "Shri D K Das"
     address: "Space Applications Centre, Jodhpur Tekra, Ambawadi Vistar P.O., Ahmedabad - 380015"

@@ -1,0 +1,12 @@
+slug: "/publications/space-science-glossary"
+
+title: "Space Science Glossary"
+
+cover:
+  image: "../../images/publications/space-science-glossary-cover.jpg"
+
+
+contents:
+  - text: "Space Science Glossary"
+    doc: "../../docs/publications/space-science-glossary/Space-Science-Glossary.pdf"
+    image: "../../images/publications/space-science-glossary-cover.jpg"

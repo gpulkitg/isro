@@ -1,0 +1,105 @@
+slug: "/launcher/pslv-c30-astrosat-mission"
+
+tag: "pslv-c30-astrosat"
+
+
+sections:
+  - title: ""
+    image: "../../images/launcher-pages/pslv-c30.jpg"
+    caption: ""
+    text: !markdown |
+      India’s Polar Satellite Launch Vehicle, in its thirty first flight (PSLV-C30), launched 1513 kg AstroSat into a 650 km orbit of 6 deg inclination to the equator. Along with AstroSat, six satellites from international customers viz., 76 kg LAPAN-A2 of Indonesia, 14 kg NLS-14 (Ev9) of Canada and four identical LEMUR satellites of USA together weighing about 28 kg – launched in this PSLV flight.
+
+      PSLV-C30 successfully launched from First Launch Pad (FLP) of Satish Dhawan Space Centre (SDSC) SHAR, Sriharikota.  PSLV-C30 is the tenth flight of PSLV in its 'XL' Configuration. The earlier nine flights of PSLV-XL were PSLV-C11/Chandrayaan-1, PSLV-C17/GSAT-12, PSLV-C19/RISAT-1, PSLV-C22/IRNSS-1A, PSLV-C25/Mars Orbiter Spacecraft, PSLV-C24/IRNSS-1B and PSLV-C26/IRNSS-1C, PSLV-C27/IRNSS-1D, PSLV-C28/DMC3 missions. The total payload weight of PSLV-C30 is 1631 kg.
+
+
+
+  - title: ""
+    text: !markdown |
+
+      ##### International customer satellites of PSLV-C30
+
+      LAPAN-A2 is a Microsatellite from National Institute of Aeronautics and Space-LAPAN, Indonesia. LAPAN-A2 is meant for providing maritime surveillance using Automatic Identification System (AIS), supporting Indonesian radio amateur communities for disaster mitigation and carrying out Earth surveillance using video and digital camera.
+
+      NLS-14 (Ev9), a Nanosatellite from Space Flight Laboratory, University of Toronto Institute for Advanced Studies (SFL, UTIAS), Canada. It is a maritime monitoring Nanosatellite using the next generation Automatic Identification System (AIS).
+
+      Four LEMUR nano satellites from Spire Global, Inc. (San Francisco, CA), USA, are non-visual remote sensing satellites, focusing primarily on global maritime intelligence through vessel tracking via the Automatic Identification System (AIS), and high fidelity weather forecasting using GPS Radio Occultation technology.
+
+    table:
+      title: "PSLV- C30 Stages at a Glance"
+      head:
+        - col:
+            text: ""
+        - col:
+            text: "STAGE-1"
+        - col:
+            text: "STAGE-2"
+        - col:
+            text: "STAGE-3"
+        - col:
+            text: "STAGE-4"
+      body:
+        - row:
+            - col:
+                text: "Nomenclature"
+            - col:
+                text: "Core stage PS1+6 Strap-on motors"
+            - col:
+                text: "PS 2"
+            - col:
+                text: "PS 3"
+            - col:
+                text: "PS 4"
+        - row:
+            - col:
+                text: "Propellant"
+            - col:
+                text: "Solid (HTPB Based)"
+            - col:
+                text: "Liquid (UH25 + N2O4)"
+            - col:
+                text: "Solid (HTPB Based)"
+            - col:
+                text: "Liquid (MMH + MON-3)"
+        - row:
+            - col:
+                text: "Propellant Mass (Tonne)"
+            - col:
+                text: "138.2 {Core}, 6 x 12.2 {Strap-on}"
+            - col:
+                text: "41.35"
+            - col:
+                text: "7.6"
+            - col:
+                text: "1.6"
+        - row:
+            - col:
+                text: "Stage Diameter (m)"
+            - col:
+                text: "2.8 {Core} 1 {Strap on}"
+            - col:
+                text: "2.8"
+            - col:
+                text: "2.0"
+            - col:
+                text: "1.34"
+        - row:
+            - col:
+                text: "Stage Length (m)"
+            - col:
+                text: "20 {Core} 12 {Strap-on}"
+            - col:
+                text: "12.8"
+            - col:
+                text: "3.6"
+            - col:
+                text: "3.0"
+
+
+  - title: ""
+    text: !markdown |
+      *Notation*
+      - HTPB: Hydroxyl Terminated Poly Butadiene,
+      - UH25: Unsymmetrical Dimethyl  Hydrazine + 25% Hydrazine Hydrate
+      - N2O4:Nitrogen Tetroxide, MMH : Mono Methyl  Hydrazine
+      - MON-3: Mixed Oxides of  Nitrogen

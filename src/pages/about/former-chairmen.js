@@ -3,9 +3,11 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Container, Row, Col } from 'react-bootstrap'
-import Layout from '../../components/layout'
+// import Layout from '../../components/layout'
+import LayoutAbout from '../../components/layout-about'
 import Separator from '../../components/separator'
 import CardBrighten from '../../components/card-brighten'
+// import Sensor from '../../components/sensor'
 
 
 export const query = graphql`
@@ -21,7 +23,7 @@ export const query = graphql`
             name
             childImageSharp {
               fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -35,36 +37,38 @@ export default function FormerChairmen({ data }) {
 
 
   return (
-    <Layout>
-
-      <Separator />
+    <LayoutAbout>
 
       <Container>
 
-        <h1 className="mb-2 text-center display-4">Former Chairmen</h1>
+          <h2 className="mb-2 text-center">Former Chairmen</h2>
 
-        <Row>
-          { data.allChairmenYaml.edges.map(({ node }, ind) => (
-            <Col md={4} key={node.id} className="mb-2">
-              <CardBrighten
-                title={node.name}
-                subtitle={node.tenure}
-                link={node.slug}
-              >
-                <Img
-                  fluid={node.image.childImageSharp.fluid}
-                  alt={node.image.name}
-                  className="card-brighten-img"
-                />
-              </CardBrighten>
+          <Row>
+            { data.allChairmenYaml.edges.map(({ node }, ind) =>
+              <Col key={node.id} className="mb-2" lg={4} md={6}>
+                {/* <Sensor> */}
+                  <CardBrighten
+                    title={node.name}
+                    subtitle={node.tenure}
+                    link={node.slug}
+                  >
+                    <Img
+                      fluid={node.image.childImageSharp.fluid}
+                      alt={node.image.name}
+                      className="card-brighten-img"
+                    />
+                  </CardBrighten>
+                {/* </Sensor> */}
+
               </Col>
-            ))}
-        </Row>
+            )}
+          </Row>
+
 
       </Container>
 
 
-    </Layout>
+    </LayoutAbout>
   )
 
 }

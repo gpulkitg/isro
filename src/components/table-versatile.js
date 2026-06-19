@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import { Link } from 'gatsby'
 import Table from 'react-bootstrap/Table'
-import LinkVersatile from './link-versatile'
 import { FileEarmark } from 'react-bootstrap-icons'
+// import VisibilitySensor from 'react-visibility-sensor'
+
+import LinkVersatile from './link-versatile'
 
 
-const ColVersatile = ({ col }) => {
+const ColEntry = ({ col }) => {
   if (col.link) {
     return (
       <LinkVersatile url={col.link} className="no-underline">
@@ -31,35 +33,82 @@ const ColVersatile = ({ col }) => {
 export default function TableVersatile({ data }) {
 
   return (
-    <Table className="table-custom-border" responsive>
-      {/* <Table variant="dark" className="table-custom-border" responsive> */}
-      { data.hasOwnProperty('head') &&
-        <thead>
-          <tr>
-            { data.head.map( ({col},i) =>
-              <th key={`head_th_${i}`}>
-                <ColVersatile col={col} />
-              </th>
-            )}
-          </tr>
-        </thead>
-      }
+      <Table variant="dark" responsive>
 
-      <tbody>
-        { data.hasOwnProperty('body') &&
-            data.body.map( ({row},i) =>
-              <tr key={`body_tr_${i}`}>
-                {row.map( ({col},j) => (
-                  <td key={`body_td_${j}`}>
-                    <ColVersatile col={col} />
-                  </td>
-                ))}
-              </tr>
-            )
+        { data.head &&
+          <thead>
+            <tr
+              data-sal="fade"
+              data-sal-duration="1000"
+              data-sal-easing="easeOutCirc"
+              >
+              { data.head.map( ({col},i) =>
+                <th key={`head_th_${i}`}>
+                  <ColEntry col={col} />
+                </th>
+              )}
+            </tr>
+          </thead>
         }
-      </tbody>
 
-    </Table>
+        <tbody>
+          { data.body &&
+            data.body.map( ({row},i) =>
+              <tr
+                key={`body_tr_${i}`}
+                data-sal="fade"
+                data-sal-duration="1000"
+                data-sal-easing="easeOutCirc"
+                >
+                {row.map( ({col},j) =>
+                  <td key={`body_td_${j}`}>
+                    <ColEntry col={col}/>
+                  </td>
+                )}
+              </tr>
+              // <RowWithSensor row={row} key={`body_tr_${i}`} />
+          )}
+        </tbody>
+
+      </Table>
   )
 
 }
+
+// const ColEntryWithSensor = ({ col }) => {
+//
+//   const [visible, setVisible] = useState(false)
+//   const handleOnChange = (isVisible) => (
+//     setVisible(isVisible)
+//   )
+//
+//   return (
+//     <VisibilitySensor active={!visible} onChange={handleOnChange}>
+//       <div className={visible ? "animate-appear" : "opacity-zero"}>
+//         <ColEntry col={col} />
+//       </div>
+//     </VisibilitySensor>
+//   )
+//
+// }
+
+// const RowWithSensor = ({ row }) => {
+//
+//   const [visible, setVisible] = useState(false)
+//   const handleOnChange = (isVisible) => (
+//     setVisible(isVisible)
+//   )
+//
+//   return (
+//     <VisibilitySensor active={!visible} onChange={handleOnChange}>
+//       <tr className={visible ? "animate-appear" : "opacity-zero"}>
+//         {row.map( ({col},j) =>
+//           <td key={`body_td_${j}`}>
+//             <ColEntry col={col}/>
+//           </td>
+//         )}
+//       </tr>
+//     </VisibilitySensor>
+//   )
+//
+// }

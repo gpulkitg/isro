@@ -1,0 +1,24 @@
+slug: "/publications/brochures"
+
+title: "Brochures"
+
+cover:
+  image: "../../images/publications/brochures-cover.png"
+
+
+contents:
+  - text: "GSLV-F11 / GSAT-7A Brochure"
+    doc: "../../docs/publications/brochures/GSLV-F11-GSAT-7A-Brochure-A5-Size.cdr.pdf"
+    image: "../../images/publications/brochures/gslv-f11-gsat-7a-cover.jpg"
+
+  - text: "Mars Orbiter Mission Brochure"
+    doc: "../../docs/publications/brochures/mom-brochure.pdf"
+    image: "../../images/publications/brochures/mom-cover.jpg"
+
+  - text: "PSLV-C25 Brochure"
+    doc: "../../docs/publications/brochures/pslv-c25-brochure.pdf"
+    image: "../../images/publications/brochures/pslv-c25-cover.jpg"
+
+  - text: "LVM3-X / CARE Brochure"
+    doc: "../../docs/publications/brochures/LVM3-brochure.pdf"
+    image: "../../images/publications/brochures/lvm3-care.jpg"

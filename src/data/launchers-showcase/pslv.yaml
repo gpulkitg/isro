@@ -1,0 +1,213 @@
+slug: "/launchers/pslv"
+
+seo:
+  title: "PSLV"
+
+launcherTypeKeyword: "PSLV"
+
+
+jumbotronImg:
+  # - image: "../../images/media/pslv-c40-cartosat-2-series-satellite-mission-gallery/5.jpg"
+  - image: "../../images/media/pslv-c45-gallery/logu7535.jpg"
+  # - image: "../../images/media/pslv-c43-hysis-mission-gallery/c43l9516.jpg"
+    title: "PSLV"
+    subtitle: "The Workhorse Of ISRO"
+    description: ""
+    button: ""
+    link: ""
+    horizontalPosition: "center"
+    verticalPosition: "center"
+    textAlignment: "center"
+
+
+fixBgSection:
+  # image: "../../images/media/pslv-c40-cartosat-2-series-satellite-mission-gallery/1panaromicviewoffullyintegratedpslv-c40withmobileservicetowerwithdrawn.jpg"
+  image: "../../images/media/pslv-c44-gallery/pslv-c444.jpg"
+  # image: "../../images/media/pslv-c45-gallery/bjs0772.jpg"
+  contents:
+    - title: "1,750 kg"
+      subtitles:
+        # - line: "Payload"
+        - line: "Sun-Synchronous Polar Orbits (SSPO)"
+
+    - title: "1,425 kg"
+      subtitles:
+        # - line: "Payload"
+        - line: "Sub Geosynchronous Transfer Orbit (GTO)"
+
+
+splitSection:
+  - image: "../../images/launchers/pslv/pslv.png"
+    title: "Vehicle Specifications"
+    subtitle: ""
+    description: ""
+    textPosition: "right"
+    textAlignment: "left"
+    objectFit: "contain"
+    table:
+      body:
+        - row:
+          - col:
+              text: 'Height'
+          - col:
+              text: '44 m'
+        - row:
+          - col:
+              text: 'Diameter'
+          - col:
+              text: '2.8 m'
+        - row:
+          - col:
+              text: 'Number of Stages'
+          - col:
+              text: '4'
+        - row:
+          - col:
+              text: 'Lift Off Mass'
+          - col:
+              text: '320 tonnes (XL)'
+        - row:
+          - col:
+              text: 'Variants'
+          - col:
+              text: '3 (PSLV-G, PSLV-CA, PSLV-XL)'
+        - row:
+          - col:
+              text: 'First flight'
+          - col:
+              text: 'September 20, 1993'
+
+
+textContent1:
+  title: "About launcher"
+  text: !markdown |
+    Polar Satellite Launch Vehicle (PSLV) is the third generation launch vehicle of India. It is the first Indian launch vehicle to be equipped with liquid stages. After its first successful launch in October 1994, PSLV emerged as the reliable and versatile workhorse launch vehicle of India with 39 consecutively successful missions by June 2017. During 1994-2017 period, the vehicle has launched 48 Indian satellites and 209 satellites for customers from abroad.
+
+    PSLV earned its title ***'The Workhorse of ISRO'*** through consistently delivering various satellites to Low Earth Orbits, particularly the IRS series of satellites. Due to its unmatched reliability, PSLV has also been used to launch various satellites into Geosynchronous and Geostationary orbits, like satellites from the IRNSS constellation.
+
+    Besides, the vehicle successfully launched two spacecraft – [Chandrayaan-1](/spacecraft/chandrayaan-1) in 2008 and [Mars Orbiter Spacecraft](/spacecraft/mars-orbiter-mission-spacecraft) in 2013 – that later traveled to Moon and Mars respectively.
+
+
+carouselSections:
+  - image: "../../images/launchers/pslv/integration-of-3rd-4th-stage-of-pslv-c27.jpg"
+    title: "Fourth Stage: PS4"
+    description: "PS4 is the fourth and final stage of PSLV and it uses two Earth storable liquid engines for propulsion. PS4 is responsible for the correct injection of PSLV's payloads into their respective desired orbits."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Engine"
+          - col:
+              text: "2 x PS-4"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "MMH + MON"
+        - row:
+          - col:
+              text: "Max thrust"
+          - col:
+              text: "7.6 x 2 kN"
+
+
+  - image: "../../images/launchers/pslv/integration-of-3rd-4th-stage-of-pslv-c27.jpg"
+    title: "Third Stage: PS3"
+    description: "The third stage of PSLV is a solid rocket motor that provides the upper stages high thrust after the atmospheric phase of the launch."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "HTPB"
+        - row:
+          - col:
+              text: "Max thrust"
+          - col:
+              text: "240 kN"
+
+
+  # - image: "../../images/launchers/pslv/7hoistingofpslv-c45liquidsecondstageduringvehicleintegration.jpg"
+  # - image: "../../images/launchers/pslv/pslv-c20-ps2.jpg"
+  - image: "../../images/launchers/pslv/pslv-c39-liquid-stage.png"
+    title: "Second Stage: PS2"
+    description: "PSLV uses an Earth storable liquid rocket engine for its second stage, known as the Vikas engine, developed by Liquid Propulsion Systems Centre in the early 90s."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Engine"
+          - col:
+              text: "Vikas"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "UDMH + N204"
+        - row:
+          - col:
+              text: "Max thrust"
+          - col:
+              text: "799 kN"
+
+
+  - image: "../../images/launchers/pslv/4fullyintegratedpslv-c45corefirststagewithoneofitsstrap-onsbyitsside.jpg"
+    title: "First Stage: PS1"
+    description: "PS1 is the first stage of PSLV and it provides the launcher the high thrust that is required for lift off. It uses the S139 solid rocket motor that is augmented by 6 solid strap-on boosters."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Engine"
+          - col:
+              text: "S139"
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "HTPB"
+        - row:
+          - col:
+              text: "Max thrust"
+          - col:
+              text: "4800 kN"
+
+
+  - image: "../../images/launchers/pslv/6integrationofstrap-onmotorswithpslv-c34corestageatvehicleassemblybuilding.jpg"
+    title: "Strap-on Motors"
+    description: "PSLV uses 6 solid rocket strap-on motors to augment the thrust provided by the first stage in its PSLV-G and PSLV-XL variants. However, strap-ons are not used in the core alone version (PSLV-CA)."
+    table:
+      body:
+        - row:
+          - col:
+              text: "Fuel"
+          - col:
+              text: "HTPB"
+        - row:
+          - col:
+              text: "Max thrust"
+          - col:
+              text: "719 kN"
+
+
+
+jumbotronVideo:
+  videoClip: "../../videos/launchers/pslv/pslv_c49_onboard_video_clip.mp4"
+  poster: "../../images/media/gslv-f11-gsat-7a-mission-gallery/23.jpg"
+  title: "PSLV-C49 / EOS-01 LAUNCH"
+  video: "../../videos/media/lift-and-onboard-camera-view-of-pslv-c49-eos-01-launch/pslv_c49_onboard_video.mp4"
+
+
+textContent2:
+  title: "Launches till Date"
+  text: ""
+
+
+figure:
+  # image: "../../images/media/pslv-c47-gallery/image3_0.jpg"
+  # caption: "PSLV-C47 outside Vehicle Assembly Building"
+  image: "../../images/media/pslv-c34-gallery/12fullyintegratedpslv.jpg"
+  caption: "Fully integrated PSLV-C34 with all the Spacecrafts being moved out of Vehicle assembly building"
+  # image: "../../images/media/pslv-c35-scatsat-1-gallery/1panoromicviewofpslv-c35atfirstlaunchpad-view3.jpg"
+  # caption: "Panoramic view of PSLV-C35 at First Launch Pad"

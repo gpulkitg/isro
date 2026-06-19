@@ -1,0 +1,127 @@
+slug: "/spacecraft/mars-orbiter-mission-spacecraft"
+
+tag: "pslv-c25-mars-orbiter-mission"
+
+# seo:
+#   title: "Mars Orbiter Mission Spacecraft"
+
+sections:
+  - title: ""
+    image: "../../images/spacecraft-pages/mom-spacecraft.jpg"
+    caption: ""
+    text: !markdown |
+      Mars Orbiter Mission is India's first interplanetary mission to planet Mars with an orbiter craft designed to orbit Mars in an elliptical orbit. The Mission is primarily technological mission considering the critical mission operations and stringent requirements on propulsion and other bus systems of spacecraft. It has been configured to carry out observation of physical features of mars and carry out limited study of Martian atmosphere with following five payloads:
+
+        - Mars Colour Camera (MCC)
+        - Thermal Infrared Imaging Spectrometer (TIS)
+        - Methane Sensor for Mars (MSM)
+        - Mars Exospheric Neutral Composition Analyser (MENCA)
+        - Lyman Alpha Photometer (LAP)
+
+    table:
+      title: "Specifications"
+      body:
+        - row:
+            - col:
+                text: "Lift-off Mass"
+            - col:
+                text: "1337 kg"
+        - row:
+            - col:
+                text: "Structures"
+            - col:
+                text: "Aluminium and Composite Fibre Reinforced Plastic (CFRP) sandwich construction-modified I-1 K Bus"
+        - row:
+            - col:
+                text: "Mechanism"
+            - col:
+                text: "Solar Panel Drive Mechanism (SPDM), Reflector & Solar panel deployment"
+        - row:
+            - col:
+                text: "Propulsion"
+            - col:
+                text: "Bi propellant system (MMH + N2O4) with additional safety and redundancy features for MOI. Proplellant mass:852 kg"
+        - row:
+            - col:
+                text: "Thermal System"
+            - col:
+                text: "Passive thermal control system"
+        - row:
+            - col:
+                text: "Power System"
+            - col:
+                text: "Single Solar Array-1.8m X 1.4 m - 3 panels - 840 W Generation (in Martian orbit), Battery:36AH Li-ion"
+        - row:
+            - col:
+                text: "Attitude and Orbit Control System"
+            - col:
+                text: "AOCE (Attitude and Orbit Control Electronics): with MAR31750 Processor; Sensors: Star sensor (2Nos), Solar Panel Sun Sensor (1No), Coarse Analogue Sun Sensor; Actuators: Reaction Wheels (4Nos), Thrusters (8Nos), 440N Liquid Engine"
+        - row:
+            - col:
+                text: "Antennae"
+            - col:
+                text: "Low Gain Antenna (LGA), Mid Gain Antenna (MGA) and High Gain Antenna (HGA)"
+        - row:
+            - col:
+                text: "Launch Date"
+            - col:
+                text: "Nov 05, 2013"
+        - row:
+            - col:
+                text: "Launch Site"
+            - col:
+                text: "SDSC SHAR Centre, Sriharikota, India"
+        - row:
+            - col:
+                text: "Launch Vehicle"
+            - col:
+                text: "PSLV - C25"
+
+
+  - title: ""
+    image: "../../images/spacecraft-pages/mom-payloads.jpg"
+    caption: "MOM Payloads"
+    text: ""
+    table:
+      title: "About spacecraft"
+      body:
+        - row:
+            - col:
+                text: "प्रमोचन भार / Launch Mass:"
+            - col:
+                text: "1337 kg"
+        - row:
+          - col:
+              text: "शक्ति / Power:"
+          - col:
+              text: "840 W"
+        - row:
+            - col:
+                text: "प्रमोचक राकेट / Launch Vehicle:"
+            - col:
+                text: "PSLV-C25"
+        - row:
+            - col:
+                text: "उपग्रह का प्रकार / Type of Satellite:"
+            - col:
+                text: "Science & Exploration"
+        - row:
+            - col:
+                text: "निर्माता / Manufacturer:"
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "स्‍वामी / Owner"
+            - col:
+                text: "ISRO"
+        - row:
+            - col:
+                text: "अनुप्रयोग / Application:"
+            - col:
+                text: "Planetary Observation"
+        - row:
+            - col:
+                text: "कक्षा का प्रकार / Orbit Type:"
+            - col:
+                text: "Martian"

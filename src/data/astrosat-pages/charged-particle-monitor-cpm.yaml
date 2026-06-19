@@ -1,0 +1,19 @@
+slug: "/missions/astrosat/charged-particle-monitor-cpm"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Charged Particle Monitor (CPM)"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/cpm.jpg"
+        caption: ""
+    text: !markdown |
+      CPM is a Scintillator Photodiode Detector (SPD) with a Charge Sensitive Preamplifier for detecting charged particles.  Even though the orbital inclination of the satellite will be 6 degree or less, in about 2/3rd of the orbits the satellite will spend a considerable time (15 - 20 minutes) in the South Atlantic Anomaly (SAA) region which has high fluxes of low energy protons and electrons. The high voltage will be lowered or put off using data from CPM when the satellite enters the SAA region to prevent damage to the detectors as well as to minimize ageing effect in the Proportional Counters.
+
+      The mass of the payload is about 2kg.
+
+      This instrument is from Tata Institute of Fundamental Research (TIFR), Mumbai.

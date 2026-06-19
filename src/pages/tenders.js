@@ -119,7 +119,7 @@ export default function Tenders({ data }) {
 
         { displayedTenders.length > 0 ? (
 
-          <Table variant="dark" className="table-custom-border" responsive>
+          <Table variant="dark" responsive>
             <thead>
               <tr>
                 <th style={{ width: `33.33%` }}>विज्ञापनकर्ता / Advertiser</th>

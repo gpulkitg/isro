@@ -1,0 +1,23 @@
+slug: "/spacecraft/small-satellites"
+
+spacecraftType: "Small"
+
+
+title: "Small Satellites"
+
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/spacecraft-types/small-scs.jpg"
+        caption: ""
+    text: !markdown |
+      The small satellite project is envisaged to provide platform for stand-alone payloads for earth imaging and science missions within a quick turn around time. For making the versatile platform for different kinds of payloads, two kinds of buses have been configured and developed.
+
+      ##### Indian Mini Satellite -1 (IMS-1)
+
+      IMS-1 bus has been developed as a versatile bus of 100 kg class which includes a payload capability of around 30 kg. The bus has been developed using various miniaturization techniques. The first mission of the IMS-1 series was launched successfully on April 28th 2008 as a co-passenger along with Cartosat 2A. Youthsat is second mission in this series and was launched successfully along with Resourcesat 2 on  20th April 2011.
+
+      ##### Indian Mini Satellite -2 (IMS-2) Bus
+
+      IMS-2 Bus is evolved as a standard bus of 400 kg class which includes a payload capability of around 200kg. IMS-2 development is an important milestone as it is envisaged to be a work horse for different types of remote sensing applications. The first mission of IMS-2 is SARAL.  SARAL is a co-operative mission between ISRO and CNES with payloads from CNES and spacecraft bus from ISRO.

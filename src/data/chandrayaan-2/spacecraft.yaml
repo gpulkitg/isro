@@ -1,0 +1,66 @@
+- cover:
+    title: "Chandrayaan 2"
+    image: "../../images/missions/chandrayaan-2/ch2.jpg"
+
+  title: "Spacecraft"
+
+  splitSection:
+    - image: "../../images/missions/chandrayaan-2/c2spac-rocket1.png"
+      title: "Orbiter"
+      subtitle: ""
+      description: "Chandrayaan 2 Orbiter is capable of communicating with Indian Deep Space Network (IDSN) at Byalalu as well as the Vikram Lander. The precise launch and mission management has ensured a mission life of almost seven years instead of the planned one year."
+      textPosition: "left"
+      textAlignment: "left"
+      objectFit: "cover"
+      table:
+        body:
+          - row:
+            - col:
+                text: 'Weight'
+            - col:
+                text: '2,379 kg'
+          - row:
+            - col:
+                text: 'Electric Power Generation Capability'
+            - col:
+                text: '1,000 W'
+
+    - image: "../../images/missions/chandrayaan-2/spac-rocket3.png"
+      title: "Lander - Vikram"
+      subtitle: ""
+      description: "The Lander of Chandrayaan-2 was named Vikram after Dr Vikram A Sarabhai, the Father of the Indian Space Programme. It was designed to function for one lunar day, which is equivalent to about 14 Earth days."
+      textPosition: "right"
+      textAlignment: "left"
+      objectFit: "cover"
+      table:
+        body:
+          - row:
+            - col:
+                text: 'Weight'
+            - col:
+                text: '1,471 kg'
+          - row:
+            - col:
+                text: 'Electric Power Generation Capability'
+            - col:
+                text: '650 W'
+
+    - image: "../../images/missions/chandrayaan-2/spac-rocket4.png"
+      title: "Rover - Pragyan"
+      subtitle: ""
+      description: "Chandrayaan-2’s Rover was a 6-wheeled robotic vehicle named as Pragyan, which translates to 'wisdom' in Sanskrit."
+      textPosition: "left"
+      textAlignment: "left"
+      objectFit: "cover"
+      table:
+        body:
+          - row:
+            - col:
+                text: 'Weight'
+            - col:
+                text: '27 kg'
+          - row:
+            - col:
+                text: 'Electric Power Generation Capability'
+            - col:
+                text: '50 W'

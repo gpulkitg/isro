@@ -1,0 +1,41 @@
+slug: "/publications/special-publications"
+
+title: "Special Publications"
+
+cover:
+  image: "../../images/publications/special-publications-cover.png"
+
+
+contents:
+  - text: "Book on AstroSat Released - Download the Free Copy"
+    doc: "../../docs/publications/special-publications/astrosat-book-final.pdf"
+    image: "../../images/publications/special-publications/astrosat_coverpage.jpg"
+
+  - text: "Fishing Hamlet to Red Planet - Download the E-book"
+    doc: "../../docs/publications/special-publications/from_fishing_hamlet_to_red_planet_p_v_manoranjan_r.epub"
+    image: "../../images/publications/special-publications/fishing_hamlet_coverpage.jpg"
+
+  - text: "Illustrated Book on Mars Orbiter Mission"
+    doc: "../../docs/publications/special-publications/Illustrated-Book-on-Mars-Orbiter-Mission.pdf"
+    image: "../../images/publications/special-publications/mars_coverpage.jpg"
+
+  # - text: "Space Science Publications"
+  #   doc: "../../docs/publications/special-publications/.pdf"
+  #   image: "../../images/publications/special-publications/.jpg"
+
+
+listItems:
+  title: "Publications from Space Science missions"
+  content:
+    - text: "SROSS C &C2"
+      doc: "../../docs/publications/special-publications/sross_cc2.pdf"
+    - text: "Indian X-ray Astronomy Experiment (IXAE) on IRS-P3"
+      doc: "../../docs/publications/special-publications/ixae-irs-p3.pdf"
+    - text: "Solar X-ray Spectrometer (SOXS) on GSAT-2"
+      doc: "../../docs/publications/special-publications/sox.pdf"
+    - text: "Chandrayaan-1"
+      doc: "../../docs/publications/special-publications/chandrayaan-i.pdf"
+    - text: "Astrosat"
+      doc: "../../docs/publications/special-publications/astrosat_publications_updated_list_16042018_1_.pdf"
+    - text: "Mars Orbiter Mission"
+      doc: "../../docs/publications/special-publications/mars_orbiter_mission_mom_-_list_of_publications-october2020.pdf"

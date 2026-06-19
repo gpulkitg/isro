@@ -1,0 +1,20 @@
+slug: "/missions/astrosat/scanning-sky-monitor-ssm"
+
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Scanning Sky Monitor (SSM)"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/ssm.jpg"
+        caption: ""
+    text: !markdown |
+      The Scanning Sky Monitor (SSM), as the name  indicates,  is to  scan  the portion of sky away from sun to look for any transient behaviour in X-ray sources.  In any space mission such an instrument is mandatory because it can scan a large portion of the sky in a few hours. Hence, the SSM is good for detecting and locating any transient event in outbursting phase in the energy range 2.5-10 keV.  Also, at the output of SSM, if some  interesting source is found in a particular location, other instruments on-board AstroSat as well as ground based observatories can be alerted  to conduct detailed observation towards that position. Hence SSM needs to have large field of view (FOV) and good angular resolution. SSM consists of three nearly identical one dimensional position sensitive proportional counters each having a FOV of about 22o x 100o. The assembly is mounted on a rotating platform to scan the sky. The working principle of the detector of SSM is similar to the proportional counter for LAXPC but in this case the anode wire  is position sensitive and therefore functions as a 1-D position sensitive detector. The charge is proportionally divided to the two ends of the anode wire and therefore provides an estimate of where the incident X-ray  created  the charge cloud.  The position resolution along the wire is 0.7 mm at 6 keV. The top part of each of the three SSM instrument consists of different coded aperture mask (CAM) patterns which forms  the imaging element, which is  joined sideway and the image of the shadow casted by the mask is deconvolved (same as for CZTI) using software application to find the location of the source in the sky. The angular resolution of SSM is ~12 arcmin (1o = 60 arcmin) in the coding direction and across is ~ 2.5o.
+
+      The geometric area is 57.6cm2 per SSM unit and total mass is 75.5 kg.
+
+      This payload is developed by ISRO Satellite Centre (ISAC), Bangalore and IUCAA

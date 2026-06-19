@@ -5,9 +5,10 @@ import Footer from './footer'
 
 import bgLayout from '../images/bg/jose-ignacio-pompe-VkF6IXHVIvA-unsplash.jpg'
 
-const Layout = ({ children, withBgImg }) => {
+const Layout = ({ children }) => {
   return (
-    <div className={`d-flex flex-column min-vh-100 ${withBgImg ? "layout-bg-img" : ""}`}>
+    // <div className={`d-flex flex-column min-vh-100 ${withBgImg ? "layout-bg-img" : ""}`}>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
       <main className="flex-grow-1">
         { children }

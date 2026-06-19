@@ -32,6 +32,7 @@ export default function LightboxGallery({ photos, columns }) {
       direction="column"
       columns={columns}
       onClick={openLightbox}
+      margin={8}
     />
 
     {/* { lightboxIsOpen && (

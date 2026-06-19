@@ -1,0 +1,25 @@
+slug: "/missions/mars-orbiter-mission/celebrating-one-year-of-mars-orbiter-mission-orbit-release-of-mars"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "Celebrating one year of Mars Orbiter Mission in Orbit; Release of Mars Atlas"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/IMG_1737.jpeg"
+        caption: "Shri A S Kiran Kumar, Chairman ISRO (centre) releasing the Mars Atlas with Dr. Y V N Krishnamoorthy, Scientific Secretary ISRO (left); Dr. Annadurai M, Director ISRO Satellite Centre, Shri Tapan Misra, Director Space Application Centre ISRO, Shri Deviprasad Karnik, Director Public Relations Unit ISRO"
+    text: !markdown |
+      Mars Orbiter spacecraft marks one year of its life around the red planet today. After successfully completing one year of the mission life around Mars, now a large data set has been acquired by all five payloads of MOM. On this occasion Space Applications Centre, (ISRO), Ahmedabad has brought out a Mar Atlas which contains a compilation of images acquired by Mars Colour Camera (MCC) and results obtained by other payload results in a form of scientific atlas.
+
+
+  - title: ""
+    text: !markdown |
+      The images from MCC have provided unique information about Mars at varying spatial resolutions. It has obtained Mars Global data showing clouds, dust in atmosphere and surface albedo variations, when acquired from apoapsis at around 72000 km. On the other hand high resolution images acquired from periapsis show details of various morphological features on the surface of Mars. Some of these images have been showcased in this atlas. The images have been categorized depending upon the Martian surface and atmospheric processes.
+
+      Mars is one of the closest celestial objects to the Earth and it has attracted humans towards itself since the time immemorial. A large number of unmanned orbiters, landers and rovers have been launched to reach Mars since early 1960s. These missions had provided large amount of data on various scientific aspects of the Mars. The knowledge acquired by the analysis of these data, suggested enhanced possibility of the presence of life, on this now dry and dusty planet. India has joined the club of space faring nations to explore Mars by sending its first planetary mission called, Mars Orbiter Mission or popularly known as MOM. The MOM spacecraft was designed, built and launched in record period of less than two years. MOM carried five science instruments collecting data on surface geology, morphology, atmospheric processes, surface temperature and atmospheric escape process.
+
+      Mars Atlas can be downloaded from the [mission homepage](/missions/mars-orbiter-mission).

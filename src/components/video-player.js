@@ -1,7 +1,7 @@
 import React from 'react'
 import Modal from 'react-bootstrap/Modal'
-import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
-import { Player, BigPlayButton, LoadingSpinner } from 'video-react'
+// import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed'
+// import { Player, BigPlayButton, LoadingSpinner } from 'video-react'
 
 export default function VideoPlayer({ srcUrl, title, show, onHide }) {
 

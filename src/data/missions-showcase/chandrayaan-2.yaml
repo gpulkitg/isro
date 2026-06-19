@@ -1,0 +1,124 @@
+slug: "/missions/chandrayaan-2"
+
+tag: "gslv-mk-iii-m1-chandrayaan-2"
+
+seo:
+  title: "Chandrayaan 2"
+
+
+jumbotronImg:
+  - image: "../../images/missions/chandrayaan-2/chandrayaan2_orbiter.jpg"
+    title: "Chandrayaan 2"
+    subtitle: "Expanding the boundaries of human knowledge"
+    description: ""
+    button: "LEARN MORE"
+    link: "/missions/chandrayaan-2/mission-info"
+    horizontalPosition: "left"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+  - image: "../../images/missions/chandrayaan-2/historybg.png"
+    title: "Why moon?"
+    subtitle: ""
+    description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+    # button: "LEARN MORE"
+    # link: "/missions/chandrayaan-2"
+    horizontalPosition: "right"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+
+# splitSection:
+#   - image: "../../images/missions/chandrayaan-2/rocket.jpg"
+#     title: "Why moon?"
+#     subtitle: ""
+#     description: "The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists."
+#     button: "LEARN MORE"
+#     link: "/missions/chandrayaan-2"
+#     textPosition: "right"
+#     textAlignment: "left"
+#     objectFit: "contain"
+
+
+textContent1:
+  title: "Indian Ambitions, Universal Aspirations"
+  text: !markdown |
+    Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO, which brought together an Orbiter, Lander and Rover with the goal of exploring south pole of the Moon. This is a unique mission which aims at studying not just one area of the Moon but all the areas combining the exosphere, the surface as well as the sub-surface of the moon in a single mission.
+
+
+cardSection:
+  - title: "Launch Vehicle"
+    image: "../../images/missions/chandrayaan-2/spac-rocket.png"
+    text: "GSLV MK III, India's most powerful launcher"
+    link: "/launchers/gslv-mk-iii"
+
+  - title: "Orbiter"
+    image: "../../images/missions/chandrayaan-2/c2spac-rocket1.png"
+    text: "Observes the lunar surface and relays communication between Earth and Vikram Lander"
+    link: "/missions/chandrayaan-2/spacecraft"
+
+  - title: "Vikram Lander"
+    image: "../../images/missions/chandrayaan-2/spac-rocket3.png"
+    text: "Designed to execute India's first soft landing on the lunar surface"
+    link: "/missions/chandrayaan-2/spacecraft"
+
+  - title: "Pragyan Rover"
+    image: "../../images/missions/chandrayaan-2/spac-rocket4.png"
+    text: "6-wheeled, AI-powered vehicle"
+    link: "/missions/chandrayaan-2/spacecraft"
+
+
+gallery:
+  link: "/media/chandrayaan-2-gallery"
+  photos:
+    - image: "../../images/media/chandrayaan-2-gallery/c2_dfsar_fig2.png"
+    # - image: "../../images/media/chandrayaan-2-gallery/slide1.png"
+    - image: "../../images/media/chandrayaan-2-gallery/slide3.png"
+    - image: "../../images/media/chandrayaan-2-gallery/ohrc_image.png"
+    - image: "../../images/media/chandrayaan-2-gallery/c2_dfsar_fig3.png"
+    # - image: "../../images/media/chandrayaan-2-gallery/slide2_1.png"
+
+
+
+cardSection2:
+  link: "/missions/chandrayaan-2/payloads"
+  cards:
+    # - title: "Chandra's Surface Thermo-physical Experiment (CHaSTE)"
+    #   image: "../../images/missions/chandrayaan-2/Chandras-Surface-Thermo-Physical-Experiment-CHaSTE.jpg"
+    - title: "Synthetic Aperture Radar L & S Band (DFSAR)"
+      image: "../../images/missions/chandrayaan-2/nisar.jpg"
+    - title: "Alpha Particle X-ray Spectrometer (APXS)"
+      image: "../../images/missions/chandrayaan-2/alpha-particle-x-ray-spectrometer.jpg"
+    - title: "Chandrayaan 2 Large Area Soft X-ray Spectrometer (CLASS)"
+      image: "../../images/missions/chandrayaan-2/Chandrayaan2-Large-Area-Soft-X-ray-Spectrometer.jpeg"
+    - title: "Terrain Mapping Camera (TMC-2)"
+      image: "../../images/missions/chandrayaan-2/Terrain-Mapping-Camera-2-TMC-2.jpg"
+    # - title: "Solar X-Ray Monitor (XSM)"
+    #   image: "../../images/missions/chandrayaan-2/xsm-mechanism.jpeg"
+
+
+
+verticalTimeline:
+  title: "Mission Timeline"
+  events:
+    - date: "18th September, 2008"
+      title: "Prime Minister Manmohan Singh approves the Chandrayaan2 lunar mission"
+    - date: ""
+      title: "Mission Planning"
+    - date: "July 22, 2019"
+      title: "Launch Date"
+    - date: "Aug 20, 2019"
+      title: "Orbiter Lunar Orbit insertion"
+    - date: ""
+      title: "Orbital Experiments, Will be operational for 7 years"
+      # subtitle: "Will be operational for 7 years"
+
+
+textContent2:
+  title: "Scientific Objectives"
+  text: !markdown |
+    Moon provides the best linkage to Earth’s early history. It offers an undisturbed historical record of the inner Solar system environment. Though there are a few mature models, further explanations were needed to understand the origin of the Moon. Extensive mapping of lunar surface to study variations in lunar surface were essential to trace back the origin and evolution of the Moon. Evidence for water molecules discovered by Chandrayaan-1, required further studies on the extent of water molecule distribution on the surface, below the surface and in the tenous lunar exosphere to address the origin of water on Moon.
+
+    #### Why was the Lunar South Pole targetted for exploration?
+
+    The Lunar South pole is especially interesting because of the lunar surface area that remains in shadow is much larger than that at the North Pole. There could be a possibility of presence of water in permanently shadowed areas around it. In addition, South Pole region has craters that are cold traps and contain a fossil record of the early Solar System.

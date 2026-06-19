@@ -1,0 +1,44 @@
+slug: "/missions/astrosat/indias-astrosat-discovers-one-of-earliest-galaxies"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "India's AstroSat discovers one of the earliest galaxies in extreme-Ultraviolet light and marks a major breakthrough"
+
+sections:
+  - title: ""
+    text: !markdown |
+      - India’s first multi-wavelength satellite, which has five unique X-ray and ultraviolet telescopes working in tandem, AstroSat, has detected extreme-UV light from a galaxy, called AUDFs01, 9.3 billion light-years away from Earth.
+      - The discovery was made by an international team of astronomers led by Dr. Kanak Saha, at the Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune and reported in Nature Astronomy.  This team includes scientists from India, Switzerland, France, The USA, Japan and The Netherlands.
+      - After the Big Bang, the Universe was a hot soup of particles (i.e., protons, neutrons, and electrons). As the universe started to cool, the protons and neutrons began combining into ionized atoms of hydrogen (and eventually some helium). These ionized atoms of hydrogen and helium combined with electrons to become neutral atoms — which allowed light to travel freely for the first time, since this light was no longer scattered off free electrons. The universe was no longer opaque! But there were no stars, and no galaxies, and the Universe was still dark. A few hundred million years after the big bang, the first stars and galaxies formed and the energy/photons pouring out from them ionized the hydrogen and helium again to protons and electrons. This is era is generally called as the epoch of reionization.
+
+      Dr. Saha and his team observed the galaxy which is located in the Hubble Extreme Deep field, through AstroSat. Since UV radiation is absorbed by Earth’s atmosphere, it can only be observed from Space.   “AstroSat/UVIT was able to achieve this unique feat because the background noise in the UVIT detector is much less than the ones on Hubble Space Telescope”, said Dr. Saha. “The excellent spatial resolution, and high sensitivity, a tribute to the hard work of UVIT core team over a decade, were key to the detection of this very weak source”, said Prof. Tandon.
+
+      Astronomers have been looking for sources that reionized the early universe. The usual suspects have been the first astronomical objects, especially the newborn small galaxies. But observing ionizing radiation from these sources is next to impossible. The probability that a fraction of extreme-UV photons escape the host galaxy and caught by a telescope on Earth is practically zero, because these photons will be absorbed by the gas in the galaxy or the gas surrounding the galaxy or the matter between the galaxy and us.
+
+      But how some of these high energy photons manage to cross all the barriers and reach Earth is a mystery. The absorption in the intergalactic medium is so severe that it is impossible to observe ionizing photons in the reionization epoch directly. In the later epoch, the intergalactic absorbers decrease and we have a chance to detect such photons but it is still like a lottery, — said coauthor Dr. Akio Inoue, professor of  Waseda University, Japan.
+
+      With UVIT observation, AUDFs01 became the first example of a galaxy with clumpy morphology and leaking ionizing radiation at 60 nanometers. AUDFs01 offers the first observational constraint in this extreme ultraviolet regime where stellar models are the most discrepant; with further detections, AstroSat will allow us to refine our scenario of cosmic reionization — said co-author, Dr. Anne Verhamme, professor at the Geneva Observatory, Switzerland.
+
+      AUDFs01 is in the middle of a redshift range (0.4 to 2.5) where previously no similar sources were detected. The galaxy is not only bridging the gap between the low and high redshift regime at present, but it is also the beginning of a new exploration of star-forming galaxies at extreme-UV wavelength. One can use large-aperture, ground-based telescopes like Keck, VLT, and Subaru for observations of ionizing photons in the universe of redshift larger than 2.5. But below this redshift, AstroSat becomes a unique facility. “Indeed, UVIT will play an important role in revealing insights to the epoch of reionization”, said co-author Dr. Abhishek Paswan, a postdoctoral fellow at IUCAA. Anshuman Borgohain, a PhD student at Tezpur University and coauthor, said “It is a privilege to be a part of the team which has made this important discovery. The fact that we can do such outstanding work using Indian facilities is an inspiration for young scientists of the country”.
+
+      Dr Somak Raychaudhury, Director of IUCAA, said “this is a very important clue to how the dark ages of the Universe ended and there was light in the Universe. We need to know when this started, but it has been very hard to find the earliest sources of light. I am very proud that my colleagues have made such an important discovery.”
+
+      Dr. Saha from IUCAA who led this research said, “We knew it would be an uphill task to convince the international community that UVIT has recorded extreme-UV emission from this galaxy when more powerful HST has not.” This discovery of AUDFs01 by AstroSat establishes that there is hope and perhaps, this is the beginning.
+
+      The  article is available at https://www.nature.com/articles/s41550-020-1173-5
+
+      ##### More about UVIT & AstroSat
+
+      AstroSat was launched on Sept. 28, 2015, by the Indian Space Research Organization (ISRO) with five major science instruments onboard. The 38-cm diameter UVIT, which is capable of simultaneous imaging in far and near-ultraviolet bands with a wide field of view, was developed by teams from IIA, IUCAA, and TIFR from India, and CSA of Canada under the leadership of Shyam Tandon, ExEmeritus Professor, IUCAA with the full support of ISRO.
+
+      ##### Research Team (grouped together country wise)
+
+      Kanak Saha, Shyam Tandon & Abhishek Paswan (all from IUCAA, India); Anshuman Borgohain (Tezpur University, India); Anne Verhamme, Charlotte Simmonds & Daniel Schaerer (all from Geneva Observatory, Switzerland); Francoise Combes (Observatoire de Paris, LERMA, France); Michale Rutkowski (Minnesota State University-Mankato, USA); Bruce Elmegreen (IBM Research Division, USA); Debra Elmegreen (Dept. of Physics and Astronomy, Vassar College, USA); Akio Inoue (Waseda Research Institute for Science and Engineering, Japan); Mieke Paalvast (Leiden Observatory, The Netherlands)
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/astrosat_uv_deep_field_0.png"
+        caption: "Combined four-colour image of the AstroSat Uv Deep Field (AUDF). Red and green colours from HST while cyan and dark blue are from AstroSat. AUDFs01 is in the square box. Highlighted images in the boxes below are from HST and AstroSat. Image Credit: Kanak Saha (IUCAA)."

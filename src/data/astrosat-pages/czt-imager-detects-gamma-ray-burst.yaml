@@ -1,0 +1,64 @@
+slug: "/missions/astrosat/czt-imager-detects-gamma-ray-burst"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "CZT Imager detects a Gamma-ray Burst"
+
+sections:
+  - title: ""
+    # image: "../../images/missions/astrosat/"
+    # caption: ""
+    text: !markdown |
+      During the first week of CZTI operation, the supernova remnant Crab Nebula and the black hole source Cyg X-1 were monitored. The Crab Nebula can be treated as a standard candle and it was used as a calibrator for timing and imaging, and also to measure the response of the instrument  at large off-axis angles. One of the projected objectives of CZTI is wide-angle monitoring of the sky in hard X-ray band to record strange and rare events like Gamma-ray Bursts (GRB).
+
+      Luckily, on the first day of operation of CZTI, the Swift satellite reported the detection of a Gamma-ray burst, at  09:55:01 UT,  named GRB 151006A. We were eager to know whether CZTI was operational at that time (i.e. outside SAA) and if the GRB was in a favourable condition to be observed. A quick calculation showed that this GRB was 60.7 degrees away from the CZTI pointing direction and, at this angle, CZTI should be sensitive to this GRB at energies greater than about 60 keV. The instrument time is yet to be calibrated precisely as the data analysis pipe-line is yet to be streamlined; still a band of youngsters delved into the voluminous data to extract the precious information about this messenger of a blast from the extremities of the universe: GRB 151006A.
+
+      Yes, there it is: the GRB made its presence felt as an increase in the recorded counts, shown in Figure 1. At higher energies (above 100 keV), the shielding material at the side of the CZTI is designed to be more transparent and one can see a significant and sharp jump in the counts above 100 keV during the GRB time.
+
+      One of the much anticipated properties  of CZTI is its ability to identify X-rays depending on the method by which they interact with the detector. If it is by inelastic scattering (called the Compton scattering), they should obey certain scattering principles; and when all the recorded events were subjected to the Compton scattering criteria, there indeed was a significant jump in the count rate. In Figure 2, the so-called `Compton’ events (that is, double events satisfying all the requirements of the theoretical expectations of Compton scattering) are plotted as a function of time, the reference time (time zero) being the trigger time of the GRB reported by the Swift satellite.
+
+      This information was flashed to the scientific community through GCN (the Gamma-ray Coordinates Network maintained by NASA), and the resultant GCN circular is shown in Figure 3.
+
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/pic1.png"
+        caption: "Fig 1: Observed count profile of GRB 151006A"
+    # text: ""
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/pic2.png"
+        caption: "Fig 2: Observed count profile of Compton events during GRB 151006A"
+    # text: ""
+
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/pic3.png"
+        caption: "Fig. 3: GCN Circular 18422"
+    text: !markdown |
+      Gamma-ray bursts - blasts from the past: Gamma-ray bursts are, as the name suggests, bursts of gamma-rays, coming  from apparently random directions in the sky. They were discovered serendipitously in the sixties by the American Vela satellites designed to detect possible surreptitious nuclear  weapon tests by the then Soviet Union. For long, they remained a mystery, but in the late ninties the Italian-Dutch satellite Beppo-SAX managed to measure longer wavelength lingering radiations from them in soft X-rays (called the after-glows) and identify them with far away galaxies. Currently, there are two dedicated satellites measuring their properties: the Swift and the Fermi satellites. Thousands of GRBs have been detected and some of them are identified to be so far away that they originated when the universe was less than a billion years old (the current age of the universe is 13 billion years).
+
+      So, what is the big deal of CZTI detecting one more GRB ?
+
+      In spite of the vast amount of data available, GRBs still remain a mystery. One class of GRBs called the long GRBs are associated with newly formed black holes while another class, called the short GRBs, are believed to be the tell-tale signs of the merger of two compact objects. There is also an emerging school of thought which postulates that GRBs originate from neutron stars with extremely high magnetic field, called the magnetars. The current debate about the origin of GRBs is accentuated by the fact that the characteristics of the burst of gamma-rays are ill understood and the radiation mechanisms responsible for the emission is not quantified.
+
+      The Swift satellite, as the name suggests, is swift in pointing itself towards new GRBs and locating the afterglows: it has limited response above 150 keV and it is unable to fix the spectral parameter like the peak energy for many GRBs with `hard’ spectrum. A simultaneous observation with the CZTI, which is sensitive upto 250 keV and has the best spectral capability, ever, for GRB studies in the 80 – 250 keV region, will certainly help in measuring the spectral parameters. The Fermi satellite, on the other hand, is very sensitive to higher energy emission and detects a lot of short-hard GRBs, but it has very limited localisation capability. CZTI can pitch in for short-hard GRBs and localise them much better than Fermi. If the spectral and localisation capabilities of CZTI can be demonstrated by a detailed analysis of GRB 151006A, it will enrich the GRB science by providing spectral properties for long GRBs and localisation of short GRBs (it is estimated that 50 to 100 GRBs would be detected by CZTI in a year).
+
+      But,  the biggest deal, however, is the mouth-watering profile shown in Figure 2. CZTI, as designed, is sensitive to detect Compton scattered events and a demostration of this capability in GRB 151006A is extremely significant for the following reason: the Compton scattering process is sensitive to the polarisation of the incident X-rays and if CZTI is sensitive to Compton scattering, then it is surely sensitive to the polarisation characteristics. Hence, for brighter GRBs, a precise value of polarisation amplitude should be measurable (this GRB has about 500 counts detected as Compton scattered events and it is estimated that one needs at least 2000 counts to make a reliable polarisation measurement). Though polarisation has been measured in a few GRBs, this is the first time ever that spectral, timing, and polarisation properties of GRBs in hard X-rays will be measured simultaneously and it will have far reaching implications in the understanding of the radiation mechanisms of GRBs.
+
+      Meanwhile, as they say: During the first week of CZTI observations, CZTI measured the pulse period of Crab Pulsar (shown in Figure 4), demonstrating  the timing capability of the instrument.
+
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/pic4.png"
+        caption: "Fig 4: Power spectrum of Crab observations. Crab pulsar frequency with its harmonics are clearly seen at a frequency corresponding to 29.65 Hz and its multiples"
+    # text: ""

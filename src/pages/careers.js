@@ -14,7 +14,7 @@ export const query = graphql`
       name
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }
@@ -32,6 +32,7 @@ export const query = graphql`
       }
     }
     file(relativePath: {eq: "general/caution_regarding_fake_offers_of_appointment_.pdf"}) {
+      name
       publicURL
     }
   }
@@ -39,7 +40,6 @@ export const query = graphql`
 
 
 export default function Careers({ data }) {
-  console.log(data.file);
 
 
   const [selectedCentre, setSelectedCentre] = useState(0)
@@ -189,7 +189,7 @@ export default function Careers({ data }) {
 
         { displayedCareers.length > 0 ? (
 
-          <Table variant="dark" className="table-custom-border" responsive>
+          <Table variant="dark" responsive>
             <thead>
               <tr>
                 <th>इसरो केंद्र / ISRO Centre</th>

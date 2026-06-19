@@ -84,7 +84,7 @@ export default function Help({ data }) {
         <div dangerouslySetInnerHTML={{ __html: section1.text }} className="text-justify" />
 
         <Separator title="Plug-ins for alternate document types" />
-        <Table className="table-custom-border mb-2" responsive>
+        <Table variant="dark" className="mb-2" responsive>
           <thead>
             <tr>
               { pluginsTable.head.map(({ col }, ind) => (

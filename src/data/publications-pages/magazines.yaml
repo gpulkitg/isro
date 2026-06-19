@@ -1,0 +1,12 @@
+slug: "/publications/magazines"
+
+title: "Magazines"
+
+cover:
+  image: "../../images/publications/magazines-cover.jpg"
+
+
+contents:
+  - text: "Disha Digital Edition"
+    doc: "../../docs/publications/magazines/disha_vol_11-_digital_edition-min.pdf"
+    image: "../../images/publications/magazines-cover.jpg"

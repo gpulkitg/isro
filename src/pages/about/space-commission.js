@@ -3,9 +3,12 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import Layout from '../../components/layout'
+
+// import Layout from '../../components/layout'
+import LayoutAbout from '../../components/layout-about'
 import Separator from '../../components/separator'
 import CardBrighten from '../../components/card-brighten'
+// import Sensor from '../../components/sensor'
 
 
 export const query = graphql`
@@ -21,7 +24,7 @@ export const query = graphql`
             name
             childImageSharp {
               fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
@@ -39,29 +42,18 @@ export default function SpaceCommission({ data }) {
   }
 
   return (
-    <Layout>
+    <LayoutAbout>
 
-      <Separator />
 
       <Container>
 
-        <h1 className="mb-2 text-center display-4">Space Commmission</h1>
+        {/* <Separator /> */}
+        <h2 className="mb-2 text-center">Space Commmission</h2>
 
         <Row>
           { data.allSpaceCommissionYaml.edges.map(({ node }, ind) => (
-            <Col md={4} key={node.id} className="mb-2">
-              {/* <CardBrighten
-                title={node.name}
-                subtitle={node.designation}
-                // link={node.slug}
-                text={node.position}
-              >
-                <Img
-                  fluid={node.image.childImageSharp.fluid}
-                  alt={node.image.name}
-                  className="card-brighten-img"
-                />
-              </CardBrighten> */}
+            <Col key={node.id} className="mb-2" lg={4} md={6}>
+              {/* <Sensor> */}
                 <Card text="white" className="h-100" style={cardStyles}>
                   <Img
                     fluid={node.image.childImageSharp.fluid}
@@ -74,6 +66,20 @@ export default function SpaceCommission({ data }) {
                     <Card.Text>{node.position}</Card.Text>
                   </Card.Body>
                 </Card>
+              {/* </Sensor> */}
+              {/* <CardBrighten
+                title={node.name}
+                subtitle={node.designation}
+                // link={node.slug}
+                text={node.position}
+              >
+                <Img
+                  fluid={node.image.childImageSharp.fluid}
+                  alt={node.image.name}
+                  className="card-brighten-img"
+                />
+              </CardBrighten> */}
+
               </Col>
             ))}
 
@@ -82,7 +88,7 @@ export default function SpaceCommission({ data }) {
       </Container>
 
 
-    </Layout>
+    </LayoutAbout>
   )
 
 }

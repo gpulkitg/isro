@@ -12,14 +12,21 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   const imageGalleryTemplate = require.resolve("./src/templates/image-gallery.js")
-  const launcherDetailTemplate = require.resolve("./src/templates/launcher-detail.js")
-  const missionDetailTemplate = require.resolve("./src/templates/mission-detail.js")
+  const launcherShowcaseTemplate = require.resolve("./src/templates/launcher-showcase.js")
+  const missionShowcaseTemplate = require.resolve("./src/templates/mission-showcase.js")
   const isroCentreTemplate = require.resolve("./src/templates/isro-centre.js")
   const autonomousBodyTemplate = require.resolve("./src/templates/autonomous-body.js")
   const chairmanTemplate = require.resolve("./src/templates/chairman.js")
-  // const markdownPageTemplate = require.resolve("./src/templates/markdown-page.js")
-  const mdLauncherTemplate = require.resolve("./src/templates/md-launcher.js")
-  const mdSpacecraftTemplate = require.resolve("./src/templates/md-spacecraft.js")
+  const launcherPageTemplate = require.resolve("./src/templates/launcher-page.js")
+  const spacecraftPageTemplate = require.resolve("./src/templates/spacecraft-page.js")
+  const astrosatPageTemplate = require.resolve("./src/templates/astrosat-page.js")
+  const momPageTemplate = require.resolve("./src/templates/mars-orbiter-mission-page.js")
+  const publicationsPageTemplate = require.resolve("./src/templates/publications-page.js")
+  const spacecraftTypeTemplate = require.resolve("./src/templates/spacecraft-type.js")
+  const generalPostTemplate = require.resolve("./src/templates/general-post.js")
+
+
+
 
   const result = await graphql(`
     query {
@@ -31,17 +38,19 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-      allLaunchersDetailYaml {
+      allLaunchersShowcaseYaml {
         edges {
           node {
             slug
+            launcherTypeKeyword
           }
         }
       }
-      allMissionsDetailYaml {
+      allMissionsShowcaseYaml {
         edges {
           node {
             slug
+            tag
           }
         }
       }
@@ -66,7 +75,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-      allMdLauncherYaml {
+      allLauncherPagesYaml {
         edges {
           node {
             slug
@@ -74,7 +83,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
-      allMdSpacecraftYaml {
+      allSpacecraftPagesYaml {
         edges {
           node {
             slug
@@ -82,6 +91,43 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           }
         }
       }
+      allAstrosatPagesYaml {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+      allMarsOrbiterMissionPagesYaml {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+      allPublicationsPagesYaml {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+      allSpacecraftTypesYaml {
+        edges {
+          node {
+            slug
+            spacecraftType
+          }
+        }
+      }
+      allGeneralPostsYaml {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+
     }
   `)
 
@@ -103,23 +149,24 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-  result.data.allLaunchersDetailYaml.edges.forEach(({ node }) => {
+  result.data.allLaunchersShowcaseYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
-      component: launcherDetailTemplate,
+      component: launcherShowcaseTemplate,
       context: {
         slug: node.slug,
-        // imagesDir: `/${node.imagesDir}/`,
+        launcherTypeRegex: `/${node.launcherTypeKeyword}\\b/`,
       }
     })
   })
 
-  result.data.allMissionsDetailYaml.edges.forEach(({ node }) => {
+  result.data.allMissionsShowcaseYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
-      component: missionDetailTemplate,
+      component: missionShowcaseTemplate,
       context: {
         slug: node.slug,
+        tag: node.tag,
         // filterRegex: `/${node.updates.filter}/`
       }
     })
@@ -155,10 +202,10 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-  result.data.allMdLauncherYaml.edges.forEach(({ node }) => {
+  result.data.allLauncherPagesYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
-      component: mdLauncherTemplate,
+      component: launcherPageTemplate,
       context: {
         slug: node.slug,
         tag: node.tag,
@@ -166,13 +213,64 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-  result.data.allMdSpacecraftYaml.edges.forEach(({ node }) => {
+  result.data.allSpacecraftPagesYaml.edges.forEach(({ node }) => {
     createPage({
       path: node.slug,
-      component: mdSpacecraftTemplate,
+      component: spacecraftPageTemplate,
       context: {
         slug: node.slug,
         tag: node.tag,
+      }
+    })
+  })
+
+  result.data.allAstrosatPagesYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: astrosatPageTemplate,
+      context: {
+        slug: node.slug,
+      }
+    })
+  })
+
+  result.data.allMarsOrbiterMissionPagesYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: momPageTemplate,
+      context: {
+        slug: node.slug,
+      }
+    })
+  })
+
+  result.data.allPublicationsPagesYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: publicationsPageTemplate,
+      context: {
+        slug: node.slug,
+      }
+    })
+  })
+
+  result.data.allSpacecraftTypesYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: spacecraftTypeTemplate,
+      context: {
+        slug: node.slug,
+        spacecraftTypeRegex: `/${node.spacecraftType}/`,
+      }
+    })
+  })
+
+  result.data.allGeneralPostsYaml.edges.forEach(({ node }) => {
+    createPage({
+      path: node.slug,
+      component: generalPostTemplate,
+      context: {
+        slug: node.slug,
       }
     })
   })

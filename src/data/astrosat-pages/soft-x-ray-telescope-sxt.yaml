@@ -1,0 +1,43 @@
+slug: "/missions/astrosat/soft-x-ray-telescope-sxt"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Soft X-ray Telescope (SXT)"
+
+sections:
+  - title: ""
+    # image: "../../images/missions/astrosat/"
+    # caption: ""
+    text: !markdown |
+      SXT is a X-ray focusing telescope operating in the energy range 0.3-8.0 keV (X-rays are often  again detected  as individual photons. They are quantified in terms of their energy rather  than their wavelength, purely due  to initial  development of X-ray  detectors  without optics. 1 keV photon is approximately 1.2 nm (for comparison, a  blue light photon has an energy of about 3 eV).
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/sxt.png"
+        caption: ""
+    text: !markdown |
+      At normal incidence, silver and aluminium reflect over 90% of all visible light which is why metallic coatings are applied to visible light telescope mirrors made of glass. The amount reflected increases at grazing angles of incidence. However, X-rays do not reflect off mirrors the same way that visible light does. Because of their high-energy, X-ray photons penetrate into the mirror in much the same way that bullets slam into a wall. X-rays are either completely absorbed or pass right through the material at normal incidence  depending on their energy. However, these X-ray photons reflect off the surface of few materials if grazing incidence angles are used. This principle is used in construction of X-ray telescopes.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/sxt2.png"
+        caption: "Wolter-I geometry"
+    text: !markdown |
+      The SXT uses one such geometry, the Wolter Type I geometry Here the X-rays are reflected twice, first by a paraboloid mirror section and then by a hyperboloid mirror section before being focused.  The  mirrors are  made as conical approximation to  these cross sections  using gold  coated Aluminium foils  and  can achieve  resolution  of  few arcminutes. This allows the telescope to be lighter than the much heavier but much more accurate telescopes of Chandra and XMM-Newton. The word 'soft' is used to imply that the telescope can focus X-rays of relatively low energies, in the range 0.3 - 8.0 keV. The length of SXT is nearly 2.5 m while the telescope envelope diameter is 38.6 cm. The telescope has 320 nested mirror foils to increase the collecting area of X-rays. Each foil of thickness 0.2 mm is made of aluminium and coated with gold for reflectivity
+
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/sxt3.png"
+        caption: "A shaped and gold coated foil segment"
+    text: !markdown |
+      The focused X-ray photons are collected by a cooled charge-coupled device (CCD) with  600 x 600 pixels.  The total field-of-view is 41.3 minutes of arc across. The CCD is cooled to a temperature lower than -80 °C to avoid stray noise photons being generated. This is particularly important since the rate of X-ray photons from astronomical objects are very few in number in contrast to longer wavelengths such as optical or infrared. The SXT-CCD can also separate X-ray photons of different energies between 0.3 - 8.0 keV, and so simultaneously provides a spectral resolution of about  150 eV at 6 keV.
+
+      The geometric area and mass of SXT are 250 cm2 and 73.6 kg.
+
+      This payload is developed by Tata Institute of Fundamental Research (TIFR), Mumbai.  The focal plane camera with a cooled CCD is from University of Leicester, UK.

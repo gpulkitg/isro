@@ -1,0 +1,116 @@
+slug: "/missions/mars-orbiter-mission"
+
+tag: "pslv-c25-mars-orbiter-mission"
+
+seo:
+  title: "Mars Orbiter Mission"
+
+
+jumbotronImg:
+  - image: "../../images/missions/mars-orbiter-mission/mom1.jpg"
+    title: "Mars Orbiter Mission"
+    subtitle: "Breathtaking pictures by Mars Color Camera"
+    description: ""
+    button: "SEE MORE"
+    link: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+    horizontalPosition: "left"
+    verticalPosition: "bottom"
+    textAlignment: "left"
+
+  - image: "../../images/missions/mars-orbiter-mission/mom2.jpg"
+    title: "Journey of Mars Orbiter"
+    subtitle: "From launch to Martian orbit"
+    description: ""
+    button: "LEARN MORE"
+    link: "/missions/mars-orbiter-mission/mission-profile"
+    horizontalPosition: "right"
+    verticalPosition: "center"
+    textAlignment: "left"
+
+
+textContent1:
+  title: "India's First Interplanetary Mission"
+  text: !markdown |
+    Marking India's first venture into the interplanetary space MOM will explore and observe Mars surface features morphology mineralogy and the Martian atmosphere. Further a specific search for methane in the Martian atmosphere will provide information about the possibility or the past existence of life on the planet
+
+    The enormous distances involved in interplanetary missions present a demanding challenge; developing and mastering the technologies essential for these missions will open endless possibilities for space exploration. After leaving Earth the Orbiter will have to endure the Interplanetary space for 300 days before Mars capture. Apart from deep space communications and navigation-guidance-control capabilities the mission will require autonomy at the spacecraft end to handle contingencies.
+
+    Once India decided to go to Mars ISRO had no time to lose as the nearest launch window was only a few months away and it could not afford to lose the chance given the next launch would present itself after over 780 days in 2016. Thus mission planning manufacturing the spacecraft and the launch vehicle and readying the support systems took place swiftly.
+
+
+cardSection:
+  - title: "Launch Vehicle"
+    image: "../../images/missions/mars-orbiter-mission/mom_lv.png"
+    text: "PSLV C-25"
+    link: "/launchers/pslv"
+
+  - title: "Spacecraft"
+    image: "../../images/missions/mars-orbiter-mission/mom_spacecraft.png"
+    text: "Mars Orbiter Mission (MOM)"
+    link: "/spacecraft/mars-orbiter-mission-spacecraft"
+
+  - title: "Ground Segment"
+    image: "../../images/missions/mars-orbiter-mission/mom_ground_segment.png"
+    text: "Indian Deep Space Network (ISDN)"
+    link: "/missions/mars-orbiter-mission/ground-segment"
+
+  - title: "Mission Profile"
+    image: "../../images/missions/mars-orbiter-mission/mom_mission_profile.png"
+    text: "Rendezvous problem"
+    link: "/missions/mars-orbiter-mission/mission-profile"
+
+
+
+gallery:
+  link: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+  photos:
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/26decmcc.png"
+      # width: 8
+      # height: 9
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/latestimagetakefrommcc.jpg"
+      # width: 3
+      # height: 2
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/marsmoonphobos.jpg"
+      caption: "Mars Moon Phobos"
+    - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/eoschaos.jpg"
+      # width: 7
+      # height: 5
+
+
+cardSection2:
+  link: "/missions/mars-orbiter-mission/payloads"
+  cards:
+    - title: "Methane Sensor for Mars (MSM)"
+      image: "../../images/missions/mars-orbiter-mission/msm.png"
+    - title: "Mars Color Camera (MCC)"
+      image: "../../images/missions/mars-orbiter-mission/mcc.png"
+    - title: "Lyman Alpha Photometer (LAP)"
+      image: "../../images/missions/mars-orbiter-mission/lap.png"
+    - title: "Mars Exospheric Neutral Composition Analyser (MENCA)"
+      image: "../../images/missions/mars-orbiter-mission/menca.png"
+    # - title: "Thermal Infrared Imaging Spectrometer (TIS)"
+    #   image: "../../images/missions/mars-orbiter-mission/tis.png"
+
+
+
+verticalTimeline:
+  title: "Mission Timeline"
+  events:
+    - date: "Nov 30, 2013"
+      title: "Launch"
+    - date: "Sep 24, 2014"
+      title: "Mars Orbit Insertion"
+
+
+textContent2:
+  title: "Mission Objectives"
+  text: !markdown |
+    One of the main objectives of the first Indian mission to Mars is to develop the technologies required for design, planning, management and operations of an interplanetary mission. Following are the major objectives of the mission:
+
+    ##### Technological Objectives
+      - Design and realisation of a Mars orbiter with a capability to survive and perform Earth bound manoeuvres, cruise phase of 300 days, Mars orbit insertion / capture, and on-orbit phase around Mars.
+      - Deep space communication, navigation, mission planning and management.
+      - Incorporate autonomous features to handle contingency situations.
+
+    ##### Scientific Objectives
+      - Exploration of Mars surface features, morphology, mineralogy and Martian atmosphere by indigenous scientific instruments.

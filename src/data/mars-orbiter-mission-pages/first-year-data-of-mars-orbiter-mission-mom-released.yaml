@@ -1,0 +1,23 @@
+slug: "/missions/mars-orbiter-mission/first-year-data-of-mars-orbiter-mission-mom-released"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "First year data of Mars Orbiter Mission (MOM) released"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/chairman_releases_data_v2.jpg"
+        caption: ""
+    text: !markdown |
+      Chairman, ISRO and Secretary, Department of Space has released first year of MOM Long-term archive data (Sept 24, 2014 to Sept 23, 2015) to public.
+
+
+  - title: ""
+    text: !markdown |
+      For data release statement, check link on [mission homepage](/missions/mars-orbiter-mission).
+
+      Visit https://mrbrowse.issdc.gov.in/MOMLTA/ for online Archive of MOM data

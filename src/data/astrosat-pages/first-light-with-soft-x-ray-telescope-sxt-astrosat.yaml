@@ -1,0 +1,77 @@
+slug: "/missions/astrosat/first-light-with-soft-x-ray-telescope-sxt-astrosat"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "First Light with the Soft X-ray Telescope (SXT) for ASTROSAT"
+
+sections:
+  - title: ""
+    # image: "../../images/missions/astrosat/"
+    # caption: ""
+    text: !markdown |
+      The Soft X-ray grazing incidence doubly reflecting Telescope (shown below with optics and camera) with a cooled CCD at its focus was launched on board the ASTROSAT on September 28th, 2015.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/04112015.png"
+        caption: "Schematic view of SXT"
+      - image: "../../images/missions/astrosat/041120152.png"
+        caption: "Actual view of SXT"
+    # text: ""
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/041120153.png"
+        caption: "Front view of the assembled X-ray optics"
+      - image: "../../images/missions/astrosat/041120154.png"
+        caption: "Focal Plane Camera Assembly"
+    text: !markdown |
+      The SXT was brought to life in a preplanned manner as described below, and is found to be working perfectly.
+
+      The first task was to vent the inside of the camera to release any build up of pressure since it was evacuated 24 days before launch. This is very important to avoid any condensation on the CCD inside that had already been made cold to a cold finger, which in turn is connected via a Heat Pipe to the Radiator Plate on a side of the satellite that is kept away from the Sun. Therefore, the Processing Electronics was switched on Sep 30th, and venting of the camera by opening a valve actuated by a HOP (High Output Paraffin) motor was started at the earliest opportunity. Venting once every day was continued on a daily basis until Oct 26th. The cold finger was observed to vary in temperature by ~12 degrees in different parts of the orbit in a range spanning -42C and -60C. The CCD had the same temperature. These temperatures were monitored and on October 9th, after the venting had been completed the thermo-electric cooler (TEC) and the temperature control circuit were switched on. The CCD temperature was then stabilized around -82C with a swing of only 2C around this set point. This set point is slightly cooler then the planned value of -80C but provides a steadier temperature on the CCD, despite the large swing of temperature of the cold finger that is likely to continue through the mission. A slightly colder CCD in fact ensures a very good performance throughout the mission. In the following days, data were taken in various modes of operation of the CCD and spectra from internal calibration sources were taken and found to be consistent with the values during the thermo-vac tests on the ground. The Focal Plane Camera was thus found to be working as expected and ready to do astronomy, awaiting the opening of the doors.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/041120155.png"
+        caption: ""
+    text: !markdown |
+      The integrity of a thin (0.2 microns with 0.2 microns of aluminum coating) optical blocking filer in front of the CCD was checked with LED ON and found to be intact. This was done on October 11th and the result shown below (left) is identical to the pre-launch observation. An X-ray image of the 5 calibration sources (four on the corners and one in the center under the camera door) is also shown (right) below, and shows that X-ray performance is excellent.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/041120156.png"
+        caption: ""
+      - image: "../../images/missions/astrosat/041120157.png"
+        caption: ""
+    text: !markdown |
+      The energy spectrum obtained from the five calibration sources based on data taken on Oct. 12th , 2015 is shown below:
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/041120158.png"
+        caption: ""
+    text: !markdown |
+      All the principal lines can be seen clearly at the resolution expected based on pre-launch thermo-vac results. A preliminary fit with the current response model and some identified lines is shown and fit to the principal lines is found to be excellent. Please note the data are plotted on log-log scale, which enhances the small differences at low energies, and that will be improved further.
+
+      The Telescope Door on top of the X-ray Optics was opened on Oct 15th. The telescope tube structure holding the optics was thus allowed to vent out all the residual gases that might have been built up inside the telescope structure, before launch (The Camera Door was scheduled to open on Oct. 26th). All the temperatures (optics, cold finger, CCD) were maintained as before (see the graph above), and the CCD was put in the Bias mode and data were collected. All the CCD characteristics: gain, noise levels etc. using the five radioactive (Fe55) sources were found to be unchanged and thus in excellent shape.
+
+      The most crticial operation was the opening of the Camera Door. This was scheduled after one final venting of the camera to ensure that the very thin optical blocking filter does not experience any differential pressure when the camera door is opened. The camera door was opened on Oct 26th @ 06:30 UT. The telescope, in the meantime had already been maneuvered to point at PKS2155-304 – a bright blazar (a special type of Quasar with a superluminal jet – a stream of particles accelerated to nearly the speed of light -- pointing almost towards the telescope) about 1.5 billion light years away. This is the moment we have been waiting for. An orbit later once we had switched to the PC mode of observation for the PKS2155-304, we could see the source almost at the center of the CCD as was expected. Results obtained from a preliminary analysis are shown in picture below and we were elated to see the X-rays from PKS2155-304 focused on the CCD. This vindicated that the X-ray optics is working perfectly, and the mission people have been able to keep a proper and very steady pointing towards the source. A slight offset of the source from the exact central position by ~3 arcmins, is most likely due to a very small error in internal alignment rather than pointing error. The source strength (for events of 0-12 type) has produced ~5 cps, with the background being <~ 0.1 cps, consistent with the source being in a low state. The preliminary analysis also shows that the psf is around 2.5 arcmin (FWHM), well within our expectations. The light curve and X-ray spectra are being studied. This source is being observed continuously until Nov. 3rd at different offset positions of the CCD to further characterize the X-ray optics. A near- simultaneous observation with Swift has also been planned, for cross-calibration. The SXT observations will then focus on X-ray dark stars to evaluate the efficiency of the optical blocking filter. Observations of several other sources of various types are planned until March 2016 to fully characterize the SXT in the coming months.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/041120159.png"
+        caption: ""
+    text: !markdown |
+      Another task after opening the door was to immediately check the integrity of the thin (0.2 microns) optical blocking filter by turning on the LED inside the camera for 2 minutes. Though this operation happened when the bright earth was in view of the SXT that was dazzling the SXT camera, we were able to get a glimpse of a healthy filter in the Quick Look Data, though it took some time. During the bright earth view by the SXT, the light fills every pixel with events, and since the buffer size for the CCD is 10% of the total number of the pixels in the CCD, it leads to incomplete frame being transmitted to ground. The SXTobservations, therefore, need to avoid viewing the bright earth while carrying out astronomical observations. This duration combined with the period of the source being eclipsed by the earth implies that the efficiency of observing with SXT will be about ~35%, except while pointing towards the polar regions in the sky coordinates. This is as expected.
+
+      In conclusion, the SXT is functioning as per its specifications in terms of sensitivity, spatial and spectral resolution, and has started observing the celestial objects in the universe.
+
+      [SXT was built by a consortium led by Tata Institute of Fundamental Research, Mumbai, in collaboration with the University of Leicester, UK, Vikram Sarabhai Space Centre,Thiruvananthapuram, ISRO Satellite Centre, Bengaluru, Space Application Centre (SAC), Ahemdabad. A number of industries in Pune, Mumbai, and Bengaluru participated in the fabrication of the payload.]

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 
 import { Container, Row, Col, Button } from 'react-bootstrap'
 // import VisibilitySensor from 'react-visibility-sensor'
@@ -7,8 +7,6 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 export default function JumbotronImg(props) {
 
   const {
-    // imgSrc,
-    // imgAlt="",
     title,
     subtitle,
     description,
@@ -17,22 +15,15 @@ export default function JumbotronImg(props) {
     horizontalPosition,
     verticalPosition,
     textAlignment,
-    // isVisible,
     children,
   } = props
 
-  // const [animated, setAnimated] = useState(false)
-  const [visible, setVisible] = useState(false)
 
-  const handleVisibilityChange = (isVisible) => {
-    console.log("isVisible", isVisible);
-    // if (isVisible && !animated) {
-    //   setAnimated(true)
-    // }
-    setVisible(isVisible)
-  }
+  // const [visible, setVisible] = useState(false)
+  // const handleVisibilityChange = (isVisible) => {
+  //   setVisible(isVisible)
+  // }
 
-  const contentRef = useRef(null)
 
 
   function getHorizontalPositionClasses() {
@@ -73,33 +64,44 @@ export default function JumbotronImg(props) {
 
   return (
 
+
     <div className="jumbotron jumbotron-container">
 
       { children }
 
-      {/* <VisibilitySensor onChange={handleVisibilityChange}>
-      ${visible && "animate-bottom"}`} ref={contentRef}>
-      </VisibilitySensor> */}
 
         <Container className="lead">
           <Row className={`vh-100 ${getHorizontalPositionClasses()}`}>
-            <Col lg={6} md={8} className={`d-flex flex-column ${getVerticalPositionClasses()} ${getTextAlignmentClasses()} py-4`}>
-              { title && <h1 className="mb-2 display-4">{title}</h1> }
-              { subtitle && <h3 className="mb-2">{subtitle}</h3> }
-              { description && <p className="mb-2 text-justify">{description}</p> }
-              { button &&
-                <div>
-                  <Button href={link} variant="outline-light" className="btn-jumbotron">{button}</Button>
-                </div>
-              }
+            <Col
+              className={`d-flex flex-column ${getVerticalPositionClasses()} ${getTextAlignmentClasses()} py-4`}
+              data-sal="fade"
+              data-sal-duration="1000"
+              data-sal-easing="easeOutCirc"
+              lg={6} md={8}
+              >
+
+              {/* <VisibilitySensor active={!visible} onChange={handleVisibilityChange} partialVisibility> */}
+
+                {/* <div className={visible ? "animate-appear-slow" : "opacity-zero"}> */}
+                  { title && <h1 className="mb-2 display-4">{title}</h1> }
+                  { subtitle && <h3 className="mb-2">{subtitle}</h3> }
+                  { description && <p className="mb-2 text-left">{description}</p> }
+                  { button &&
+                    <div>
+                      <Button href={link} variant="outline-light" className="btn-jumbotron">{button}</Button>
+                    </div>
+                  }
+                {/* </div> */}
+
+              {/* </VisibilitySensor> */}
             </Col>
           </Row>
         </Container>
 
 
 
-
     </div>
+    // </VisibilitySensor>
 
     // <div className="jumbotron jumbotron-container">
     //

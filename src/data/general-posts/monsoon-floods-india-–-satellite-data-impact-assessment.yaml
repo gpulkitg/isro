@@ -1,0 +1,40 @@
+slug: "/disaster-management-support/monsoon-floods-india-–-satellite-data-impact-assessment"
+
+title: "Monsoon Floods in India – Satellite data for impact assessment"
+
+sections:
+  - title: ""
+    text: !markdown |
+      Heavy rains during current monsoon triggered floods in many States in the country, particularly in Assam and Bihar States.
+
+      #### Assam Floods
+
+      River Brahmaputra inundated several villages in as many as 30 districts in Assam. These floods inundated Kaziranga National Park also.
+
+      Based on multi-date satellite datasets, it is observed that 30 out of 33 districts in Assam are inundated, particularly, Golaghat,Nowgong, Lakhimpur, Barpeta, Marigaon, Biswanath, Dhemaji and Dibrugarh  districts.
+
+      ISRO acquired satellite data from Indian and other satellites and provided several inputs to MHA, NDMA, Assam State Disaster Management Authority and others, in near real time mode.
+
+
+  - title: ""
+    images:
+      - image: "../../images/general-posts/1.assamfloods.png"
+        caption: "Cumulative flood inundation map of Assam State, during July 10-18, 2020"
+
+
+
+  - title: ""
+    text: !markdown |
+      #### Bihar Floods
+
+      Bihar State also severely affected by floods during July, 2020. Due to heavy rains in the catchment areas of Gandak, Kosi and other tributaries of Ganga river, north Bihar was flooded by these rivers.
+
+      Based on the multi-date satellite analysis, extensive flooding is observed in Darbhanga, Purnia, Madhubani, Katihar, Araria, Saharsa, Madhepura, Sitamarhi, Muzaffarpur, East Champaran, Saran, Khagaria, Siwan, Gopalganj, Kishanganj, Supaul, Samastipur and Bhagalpur districts.
+
+      These inputs to are provided, in near real time mode, to Disaster Management Department, Govt of Bihar, along with MHA, NDMA and others.
+
+
+  - title: ""
+    images:
+      - image: "../../images/general-posts/2.biharfloods.png"
+        caption: "Cumulative flood inundation map of Bihar State, during July 09-23, 2020"

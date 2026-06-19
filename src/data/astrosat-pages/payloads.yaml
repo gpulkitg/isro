@@ -1,0 +1,68 @@
+slug: "/missions/astrosat/payloads"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "All Payloads"
+
+sections:
+  - title: "Ultra Violet Imaging Telescope (UVIT)"
+    images:
+      - image: "../../images/missions/astrosat/uvit_3.jpg"
+        caption: ""
+    text: !markdown |
+      To image the sky simultaneously in  three wavelengths, one covering the far UV band (130 – 180 nm) and the second sensitive in near UV (200 – 300nm) and Visible (320 – 550 nm) bands.  The detector in each channel is a photon counting device. Multiple choices of filters are available in each channel.
+
+      [Know More](/missions/astrosat/ultra-violet-imaging-telescope-uvit)
+
+
+
+  - title: "Soft X-ray Telescope (SXT)"
+    images:
+      - image: "../../images/missions/astrosat/sxt.png"
+        caption: ""
+    text: !markdown |
+      Is a focusing X-ray telescope with an X-ray CCD imaging camera. This will work primarily in photon counting mode, recording the position, time and energy of every detected photon in the energy range 0.3-8 keV.
+
+      [Know More](/missions/astrosat/soft-x-ray-telescope-sxt)
+
+
+  - title: "Large Area X-ray Proportional Counters (LAXPC)"
+    images:
+      - image: "../../images/missions/astrosat/laxpc11.jpg"
+        caption: ""
+    text: !markdown |
+      Comprising three identical proportional counters of effective area > 8000 cm2 @ 5-30 keV.  This payload is non-imaging. Its main purpose is to record variation of total intensity of sources within its 1-degree field of view, with high time resolution and moderate spectral resolution over a large spectral band from 3 to 80 keV.
+
+      [Know More](/missions/astrosat/large-area-x-ray-proportional-counters-laxpc)
+
+
+  - title: "Cadmium-Zinc-Telluride Imager (CZTI)"
+    images:
+      - image: "../../images/missions/astrosat/czti.jpg"
+        caption: ""
+    text: !markdown |
+      Is a hard X-ray coded mask camera working in the band 10-100 keV. It has better spectral resolution than the LAXPC and a coarse imaging capability by the coded mask.
+
+      [Know More](/missions/astrosat/cadmium-zinc-telluride-imager-czti)
+
+
+  - title: "Scanning Sky Monitor (SSM)"
+    images:
+      - image: "../../images/missions/astrosat/ssm.jpg"
+        caption: ""
+    text: !markdown |
+      For detection of new X-ray transients and monitoring of known X-ray sources in 2.5 – 10 keV region
+
+      [Know More](/missions/astrosat/scanning-sky-monitor-ssm)
+
+
+  - title: "Charged Particle Monitor (CPM)"
+    images:
+      - image: "../../images/missions/astrosat/cpm.jpg"
+        caption: ""
+    text: !markdown |
+      To detect high-energy particles during the satellite orbital path and alert the instrumentation.
+
+      [Know More](/missions/astrosat/charged-particle-monitor-cpm)

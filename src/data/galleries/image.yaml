@@ -1,7 +1,17 @@
+
+- title: "LVM-3 / CARE Gallery"
+  image: "../../images/media/lvm-3-x-care-gallery/gslv-mkiii-x17.jpg"
+  slug: "/media/lvm-3-x-care-gallery"
+  imagesDir: "lvm-3-x-care-gallery"
+  dateAdded: "2020-11-01"
+  tag: "lvm-3-x-care"
+
+
 - title: "PSLV-C49 / EOS-01 Gallery"
   image: "../../images/media/pslv-c49-eos-01-gallery/5.jpg"
   slug: "/media/pslv-c49-eos-01-gallery"
   imagesDir: "pslv-c49-eos-01-gallery"
+  dateAdded: "2020-11-30"
   tag: "pslv-c49-eos-01"
 
 
@@ -9,12 +19,14 @@
   image: "../../images/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project/iafmou4.jpg"
   slug: "/media/mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
   imagesDir: "mou-signed-between-isro-and-iaf-cooperation-crew-selection-and-training-gaganyaan-project"
+  dateAdded: "2020-11-29"
 
 
 - title: "First set of earth images by Vikram Lander"
   image: "../../images/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2/slide1.png"
   slug: "/media/first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
   imagesDir: "first-set-of-beautiful-images-of-earth-captured-chandrayaan-2"
+  dateAdded: "2020-11-28"
 
 
 - title: "GSLV-F10 / GISAT-1"
@@ -22,18 +34,21 @@
   slug: "/media/gslv-f10-gisat-1-gallery"
   imagesDir: "gslv-f10-gisat-1-gallery"
   tag: "gslv-f10-gisat-1"
+  dateAdded: "2020-11-27"
 
 
 - title: "WSW-2017- VSSC, LPSC, IISU and IPRC"
   image: "../../images/media/wsw-2017-vssc-lpsc-iisu-and-iprc/vssc2.jpg"
   slug: "/media/wsw-2017-vssc-lpsc-iisu-and-iprc"
   imagesDir: "wsw-2017-vssc-lpsc-iisu-and-iprc"
+  dateAdded: "2020-11-26"
 
 
 - title: "National Meet"
   image: "../../images/media/national-meet/special-session-9.jpg"
   slug: "/media/national-meet"
   imagesDir: "national-meet"
+  dateAdded: "2020-11-25"
 
 
 - title: "GSAT-30 Gallery"
@@ -41,6 +56,7 @@
   slug: "/media/gsat-30-gallery"
   imagesDir: "gsat-30-gallery"
   tag: "ariane-5-va-251-gsat-30"
+  dateAdded: "2020-11-24"
 
 
 - title: "GSLV-D6 / GSAT-6 Gallery"
@@ -48,12 +64,14 @@
   slug: "/media/gslv-d6-gsat-6-gallery"
   imagesDir: "gslv-d6-gsat-6-gallery"
   tag: "gslv-d6-gsat-6"
+  dateAdded: "2020-11-23"
 
 
 - title: "Photos WSW-2017 -SAC"
   image: "../../images/media/photos-wsw-2017-sac/sac4.jpg"
   slug: "/media/photos-wsw-2017-sac"
   imagesDir: "photos-wsw-2017-sac"
+  dateAdded: "2020-11-22"
 
 
 - title: "High Resolution Panchromatic and Multi-spectral Images as observed from CARTOSAT-3"
@@ -61,6 +79,7 @@
   slug: "/media/high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
   imagesDir: "high-resolution-panchromatic-and-multi-spectral-images-observed-cartosat-3-calibration-validation-of"
   tag: "pslv-c47-cartosat-3"
+  dateAdded: "2020-11-21"
 
 
 - title: "GSLV-F11 / GSAT-7A Gallery"
@@ -68,6 +87,23 @@
   slug: "/media/gslv-f11-gsat-7a-mission-gallery"
   imagesDir: "gslv-f11-gsat-7a-mission-gallery"
   tag: "gslv-f11-gsat-7a"
+  dateAdded: "2020-11-20"
+
+
+- title: "PSLV-C30 / AstroSat Mission Gallery"
+  image: "../../images/media/pslv-c30-astrosat-mission-gallery/01-c301566-copy.jpg"
+  slug: "/media/pslv-c30-astrosat-mission-gallery"
+  imagesDir: "pslv-c30-astrosat-mission-gallery"
+  tag: "pslv-c30-astrosat"
+  dateAdded: "2020-11-19"
+
+- title: "AstroSat Gallery"
+  image: "../../images/media/astrosat-gallery/astrosat-image.jpg"
+  slug: "/media/astrosat-gallery"
+  imagesDir: "astrosat-gallery"
+  tag: "pslv-c30-astrosat"
+  dateAdded: "2020-11-19"
+
 
 
 - title: "Chandrayaan 2 Mission Gallery"
@@ -75,20 +111,33 @@
   slug: "/media/chandrayaan-2-mission-gallery"
   imagesDir: "chandrayaan-2-mission-gallery"
   tag: "gslv-mk-iii-m1-chandrayaan-2"
+  dateAdded: "2020-11-18"
 
 
-- title: "PSLV-C11/ Chandrayaan-1 Gallery"
+- title: "Images captured by Chandrayaan 2"
+  image: "../../images/media/chandrayaan-2-gallery/c2_dfsar_fig3.png"
+  slug: "/media/chandrayaan-2-gallery"
+  imagesDir: "chandrayaan-2-gallery"
+  tag: "gslv-mk-iii-m1-chandrayaan-2"
+  dateAdded: "2020-11-17"
+
+
+
+- title: "PSLV-C11 / Chandrayaan-1 Gallery"
   image: "../../images/media/pslv-c11-chandrayaan-1-gallery/7-chandrayan-1.jpg"
   slug: "/media/pslv-c11-chandrayaan-1-gallery"
   imagesDir: "pslv-c11-chandrayaan-1-gallery"
   tag: "pslv-c11-chandrayaan-1"
+  dateAdded: "2020-11-16"
 
 
-- title: "PSLV-C25/Mars Orbiter Mission Gallery"
+
+- title: "PSLV-C25 / Mars Orbiter Mission Gallery"
   image: "../../images/media/pslv-c25-mars-orbiter-mission-gallery/pslv-c25-22.jpg"
   slug: "/media/pslv-c25-mars-orbiter-mission-gallery"
   imagesDir: "pslv-c25-mars-orbiter-mission-gallery"
   tag: "pslv-c25-mars-orbiter-mission"
+  dateAdded: "2020-11-15"
 
 
 - title: "Pictures from Mars Colour Camera (MCC) onboard India’s Mars Orbiter Spacecraft"
@@ -96,3 +145,4 @@
   slug: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
   imagesDir: "pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
   tag: "pslv-c25-mars-orbiter-mission"
+  dateAdded: "2020-11-14"

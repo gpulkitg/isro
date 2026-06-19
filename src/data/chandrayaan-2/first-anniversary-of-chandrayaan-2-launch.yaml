@@ -1,0 +1,16 @@
+- cover:
+    title: "Chandrayaan 2"
+    image: "../../images/missions/chandrayaan-2/ch2.jpg"
+
+  title: "First anniversary of Chandrayaan-2 launch"
+
+  sections:
+    - title: ""
+      image: "../../images/media/chandrayaan-2-gallery/ohrc_image.png"
+      caption: "OHRC image covering the region between Manzinus C and Simpelius N acquired on 2nd March 2020. OHRC has acquired 22 orbits images of lunar surface consisting of nearly 1056 sq. km area.  It is also used to characterize landing sites for future missions."
+      text: !markdown |
+        Chandrayaan-2 marked one year of completion of launch by GSLV MkIII –M1 today. The Chandrayaan-2 spacecraft was inserted into lunar orbit on August 20, 2019. All eight payloads on Chandrayaan-2 are performing well. The global mapping of lunar surface and polar coverage are being carried out as per the mission plan.
+
+        Extensive data has been acquired from Chandrayaan-2 payloads and parameters are being derived for (i) presence of water-ice in the polar regions, (ii) X-ray based and Infrared spectroscopic mineral information and (iii) mid and high latitude presence of Argon-40, a condensable gas on the Moon which gets released internally by the radio-active decay of 40 K .
+
+        The report on the major findings from Chandrayaan-2 science experiments was planned to be released at the Annual Lunar Planetary Science Conference in March 2020; however due to COVID-19, it has been cancelled. Public release of Science data from Chandrayaan-2 for global use will begin in October 2020, wherein details for accessing the data will be provided.

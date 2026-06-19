@@ -1,0 +1,30 @@
+slug: "/missions/mars-orbiter-mission/ground-segment"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "Ground Segment"
+
+sections:
+  - title: ""
+    # images: ""
+    caption: ""
+    text: !markdown |
+      ISRO Telemetry Tracking and Command Network (ISTRAC) will be providing support of the TTC ground stations, communications network between ground stations and control center, Control center including computers, storage, data network and control room facilities, and the support of Indian Space Science Data Center (ISSDC) for the mission. The ground segment systems form an integrated system supporting both launch phase, and orbital phase of the mission.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/gs-map.jpg"
+        caption: ""
+    text: !markdown |
+      #### Launch Phase
+      - The launch vehicle is tracked during its flight from lift-off till spacecraft separation by a network of ground stations, which receive the telemetry data from the launch vehicle and transmit it in real time to the mission computer systems at Sriharikota, where it is processed.
+      - The ground stations at Sriharikota, Port Blair, Brunei provide continuous tracking of the PSLV-C25 from liftoff till burnout of third stage of PSLV-C25.
+      - Two ships carrying Ship Borne Terminals (SBT) are being deployed at suitable locations in the South Pacific Ocean, to support the tracking of the launch vehicle from PS4 ignition till spacecraft separation.
+
+      #### Orbital Phase
+      - After satellite separation from the launch vehicle, the Spacecraft operations are controlled from the Spacecraft Control Centre in Bangalore.
+      - To ensure the required coverage for carrying out the mission operations, the ground stations of ISTRAC at Bangalore, Mauritius, Brunei, and Biak are being supplemented by Alcantara and Cuiaba TTC stations of INPE, Brazil, Hartebeestoek TTC station of SANSA and the DSN network of JPL, NASA.

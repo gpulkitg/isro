@@ -1,0 +1,54 @@
+slug: "/publications/newsletters"
+
+title: "Newsletters"
+
+cover:
+  image: "../../images/publications/newsletters-cover.png"
+
+
+contents:
+  - text: "Space Science July - Dec 2017"
+    doc: "../../docs/publications/newsletters/space-india-july-dec-17.pdf"
+    image: "../../images/publications/newsletters/space-india-july-dec-17.jpg"
+
+  - text: "Space Science Jan - June 2017"
+    doc: "../../docs/publications/newsletters/space-india-jan-june-17.pdf"
+    image: "../../images/publications/newsletters/space-india-jan-june-17.jpg"
+
+  - text: "Space Science July - Dec 2016"
+    doc: "../../docs/publications/newsletters/space-india-july-dec-16.pdf"
+    image: "../../images/publications/newsletters/space-india-july-dec-16.jpg"
+
+  - text: "Space Science Jan - June 2016"
+    doc: "../../docs/publications/newsletters/space-india-jan-june-16.pdf"
+    image: "../../images/publications/newsletters/space-india-jan-june-16.jpg"
+
+  - text: "Space Science Jan 2016 - Dec 2017"
+    doc: "../../docs/publications/newsletters/space-india-jan-16-dec-17.pdf"
+    image: "../../images/publications/newsletters/space-india-jan-16-dec-17.png"
+
+
+  - text: "NNRMS May 2016"
+    doc: "../../docs/publications/newsletters/nnrms-may-16.pdf"
+    image: "../../images/publications/newsletters/nnrms-may-16.jpg"
+
+
+  - text: "Space Science July - Dec 2015"
+    doc: "../../docs/publications/newsletters/space-india-july-dec-15.pdf"
+    image: "../../images/publications/newsletters/space-india-july-dec-15.jpg"
+
+  - text: "Space Science Jan - June 2015"
+    doc: "../../docs/publications/newsletters/space-india-jan-june-15.pdf"
+    image: "../../images/publications/newsletters/space-india-jan-june-15.jpg"
+
+  - text: "Space Science Sep 2013 - Dec 2014"
+    doc: "../../docs/publications/newsletters/space-india-sep-13-dec-14.pdf"
+    image: "../../images/publications/newsletters/space-india-sep-13-dec-14.jpg"
+
+  - text: "Space Science July 2012 - Aug 2013"
+    doc: "../../docs/publications/newsletters/space-india-july-12-aug-13.pdf"
+    image: "../../images/publications/newsletters/space-india-july-12-aug-13.jpg"
+
+  - text: "Space Science Jan - June 2012"
+    doc: "../../docs/publications/newsletters/space-india-jan-june-12.pdf"
+    image: "../../images/publications/newsletters/space-india-jan-june-12.jpg"

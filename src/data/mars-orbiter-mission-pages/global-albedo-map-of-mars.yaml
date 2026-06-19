@@ -1,0 +1,23 @@
+slug: "/missions/mars-orbiter-mission/global-albedo-map-of-mars"
+
+
+cover:
+  title: "Mars Orbiter Mission"
+  image: "../../images/missions/mars-orbiter-mission/isro-emily.jpg"
+
+title: "Global Albedo Map of Mars"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/mars-orbiter-mission/mom_1.jpg"
+        caption: ""
+    gifs:
+      - gif: "../../images/missions/mars-orbiter-mission/slide0004_image010.gif"
+        caption: "Global albeda of Mars using MSM data"
+      # - gif: "../../images/missions/mars-orbiter-mission/slide0004_image012.gif"
+      #   caption: "Scale"
+    text: !markdown |
+      The albedo of any planetary surface is defined as the fraction of incident solar radiation reflected by the surface. The magnitude and spatial distribution of Martian surface albedo are important inputs for characterisation of Martian surface and Atmospheric circulation. The global Short Wave Infra Red (SWIR) albedo map in wavelength band 1.64-1.66 µm has been derived for the surface of Mars using the data from Methane Sensor for Mars (MSM) onboard the Mars Orbiter Mission (MOM).  Five months (October 2014- February 2015) of radiance data from the reference channel of MSM are converted to the top of atmosphere reflectance normalised to sun-sensor viewing geometry and incoming solar flux.  The global view of MSM derived Martian SWIR albedo has been averaged at ~50 km spatial resolution.
+
+      The bright regions (albedo > 0.4) are mainly localised over the Tharsis plateau, Arbia Terra and Elysium Planitia regions of Mars. The low albedo regions (< 0.15) are mainly localized in Syrtis Major and Southern highlands and parts of Northern hemisphere. In general low albedo values are associated with darker surface on Mars having volcanic rock basalt on surface. Higher albedo values represents surface covered by Dust. The area shown in blue colour indicates the presence of basaltic composition while red indicates the dust covered regions of Mars.

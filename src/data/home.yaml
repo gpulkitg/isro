@@ -31,7 +31,7 @@
   counters:
     - count: 110
       text: "Spacecraft Missions"
-    - count: 78
+    - count: 80
       text: "Launch Missions"
     - count: 10
       text: "Student Satellites"
@@ -44,35 +44,39 @@
   cardSection:
     - title: "Commemoration of 150th Birth Anniversary of Mahatma Gandhiji"
       image: "../images/home/omp_0271_1.jpg"
-      slug: "/commemoration-of-150th-birth-anniversary-of-mahatma-gandhiji"
+      link: "/commemoration-of-150th-birth-anniversary-of-mahatma-gandhiji"
 
     # - title: "Prof. Satish Dhawan Birth Centenary Programme at ISRO HQ"
     #   image: "../images/home/satish-dhawan-logo-1.jpg"
-    #   slug: "/prof-satish-dhawan-birth-centenary-programme-isro-hq"
+    #   link: "/prof-satish-dhawan-birth-centenary-programme-isro-hq"
 
-    - title: "Valedictory Function of Dr. Vikram Sarabhai Centenary Programme"
-      image: "../images/home/vikram_centenary_sticker.png"
-      slug: "/valedictory-function-of-dr-vikram-sarabhai-centenary-programme"
+    # - title: "Valedictory Function of Dr. Vikram Sarabhai Centenary Programme"
+    #   image: "../images/home/vikram_centenary_sticker.png"
+    #   link: "/valedictory-function-of-dr-vikram-sarabhai-centenary-programme"
+    - title: "Space Applications"
+      image: "../images/home/world_meteorological_org.jpg"
+      link: "/applications"
+
 
     - title: "Capacity Building"
       image: "../images/home/cbpo_logo_revised_0.png"
-      slug: "/capacity-building"
+      link: "/capacity-building"
 
     - title: "Disaster Management - Moonsoon Floods in India"
       image: "../images/home/dumdum.jpg"
-      slug: "/disaster-management-support/monsoon-floods-india-–-satellite-data-impact-assessment"
+      link: "/disaster-management-support/monsoon-floods-india-–-satellite-data-impact-assessment"
 
     - title: "NaVIC"
-      image: "../images/home/navic.png"
-      slug: "/navic"
+      image: "../images/home/Indian-GPS-NAVIC.jpg"
+      link: "/irnss-programme"
 
     - title: "Cloud Cover Over India"
       image: "../images/home/cloud_cover_india.jpg"
-      slug: "https://mosdac.gov.in/gallery/index.html?=&prod=3DIMG_%2A_L1C_ASIA_MER_BIMG.jpg"
+      link: "https://mosdac.gov.in/gallery/index.html?=&prod=3DIMG_%2A_L1C_ASIA_MER_BIMG.jpg"
 
 
   sotw:
     title: "Super flares in Nascent Sun - Evidence from Meteorites!"
     image: "../images/home/storyoftheweek_0419.png"
     description: "Scientists at Physical Research Laboratory, Ahmedabad working in collaboration with University of Heidelberg, Germany,have recently reported Giant flares from the embryonic Sun. The super-flare has been calculated to be about a million times stronger in intensity compared to the highest X-class flare observed from the modern Sun."
-    slug: "/super-flares-nascent-sun-evidence-meteorites"
+    link: "/super-flares-nascent-sun-evidence-meteorites"

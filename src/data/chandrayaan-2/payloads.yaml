@@ -1,0 +1,118 @@
+- cover:
+    title: "Chandrayaan 2"
+    image: "../../images/missions/chandrayaan-2/ch2.jpg"
+
+  title: "All Payloads"
+
+  sections:
+    - title: "Terrain Mapping Camera 2 (TMC 2)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        TMC 2 is a miniature version of the Terrain Mapping Camera used onboard the Chandrayaan 1 mission. Its primary objective is mapping the lunar surface in the panchromatic spectral band (0.5-0.8 microns) with a high spatial resolution of 5 m and a swath of 20 km from 100 km lunar polar orbit. The data collected by TMC 2 will give us clues about the Moon's evolution and help us prepare 3D maps of the lunar surface.
+
+
+    - title: "Chandrayaan 2 Large Area Soft X-ray Spectrometer (CLASS)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        CLASS measures the Moon's X-ray Fluorescence (XRF) spectra to examine the presence of major elements such as Magnesium, Aluminium, Silicon, Calcium, Titanium, Iron, and Sodium. The XRF technique will detect these elements by measuring the characteristic X-rays they emit when excited by the Sun's rays.
+
+
+    - title: "Solar X-ray Monitor (XSM)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        XSM observes the X-rays emitted by the Sun and its corona, measures the intensity of solar radiation in these rays, and supports CLASS. The primary objective of this payload is to provide solar X-ray spectrum in the energy range of 1-15 keV. XSM will provide high-energy resolution and high-cadence measurements (full spectrum every second) of solar X-ray spectra as input for analysis of data from CLASS.
+
+
+    - title: "Orbiter High Resolution Camera (OHRC)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        OHRC provides high-resolution images of the landing site — ensuring the Lander's safe touchdown by detecting any craters or boulders prior to separation. The images it captures, taken from two different look angles, serve dual purposes. Firstly, they are used to generate DEMs (Digital Elevation Models) of the landing site. Secondly, they are used for scientific research, post-lander separation. OHRC's images will be captured over the course of two orbits, covering an area of 12 km x 3 km with a ground resolution of 0.32 m.
+
+
+    - title: "Imaging IR Spectrometer (IIRS)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        IRS has two primary objectives:
+          - Global mineralogical and volatile mapping of the Moon in the spectral range of ~0.8-5.0 µm for the first time, at the high resolution of ~20 nm
+          - Complete characterisation of water/hydroxyl feature near 3.0 µm for the first time at high spatial (~80 m) and spectral (~20 nm) resolutions
+
+        IIRS will also measure the solar radiation reflected off the Moon's surface in 256 contiguous spectral bands from 100 km lunar orbit.
+
+
+    - title: "Dual Frequency Synthetic Aperture Radar (DFSAR)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        The dual frequency (L and S) SAR will provide enhanced capabilities compared to Chandrayaan 1's S-band miniSAR in areas such as:
+          - L-band for greater depth of penetration (About 5m — twice that of S-band)
+          - Circular and full polarimetry — with a range of resolution options (2-75 m) and incident angles (9°-35°) — for understanding scattering properties of permanently shadowed regions
+
+        The main scientific objectives of this payload are:
+          - High-resolution lunar mapping in the polar regions
+          - Quantitative estimation of water-ice in the polar regions
+          - Estimation of regolith thickness and its distribution
+
+
+    - title: "Chandrayaan 2 Atmospheric Compositional Explorer 2 (CHACE 2)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        CHACE 2 will continue the CHACE experiment carried out by Chandrayaan 1. It is a Quadrupole Mass Spectrometer (QMA) capable of scanning the lunar neutral exosphere in the mass range of 1 to 300 amu with the mass resolution of ~0.5 amu. CHACE 2's primary objective is to carry out an in-situ study of the composition and distribution of the lunar neutral exosphere and its variability.
+
+
+    - title: "Dual Frequency Radio Science (DFRS) experiment"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        To study the temporal evolution of electron density in the Lunar ionosphere. Two coherent signals at X (8496 MHz), and S (2240 MHz) band are transmitted simultaneously from satellite, and received at ground based deep station network receivers.
+
+
+    - title: "Radio Anatomy of Moon bound Hypersensitive ionosphere and Atmosphere (RAMBHA)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        The lunar ionosphere is a highly dynamic plasma environment. Langmuir probes, such as RAMBHA, have proven to be an effective diagnostic tool to gain information in such conditions. Its primary objective is to measure factors such as:
+          - Ambient electron density/temperature near the lunar surface
+          - Temporal evolution of lunar plasma density for the first time near the surface under varying solar conditions
+
+
+    - title: "Chandra's Surface Thermo-physical Experiment (ChaSTE)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        ChaSTE measures the vertical temperature gradient and thermal conductivity of the lunar surface. It consists of a thermal probe (sensors and a heater) that is inserted into the lunar regolith down to a depth of ~10 cm. ChaSTE operates in two modes:
+          - Passive mode operation in which continuous in-situ measurements of temperature at different depths are carried out
+          - Active mode operation in which temperature variations in a set period of time, and the regolith's thermal conductivity under contact, are estimated
+
+
+    - title: "Instrument for Lunar Seismic Activity (ILSA)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        ILSA is a triple axis, MEMS-based seismometer that can detect minute ground displacement, velocity, or acceleration caused by lunar quakes. Its primary objective is to characterise the seismicity around the landing site. ILSA has been designed to identify acceleration as low as 100 ng /√Hz with a dynamic range of ±0.5 g and a bandwidth of 40 Hz. The dynamic range is met by using two sensors — a coarse-range sensor and a fine-range sensor.
+
+
+    - title: "Alpha Particle X-ray Spectrometer (APXS)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        APXS' primary objective is to determine the elemental composition of the Moon's surface near the landing site. It achieves this through X-ray fluorescence spectroscopy technique, where X-ray or alpha particles are used to excite the surface. APXS uses radioactive Curium (244) metal that emits high-energy, alpha particles — as well as X-rays — enabling both X-ray emission spectroscopy and X-ray fluorescence spectroscopy. Through these techniques, APXS can detect all major rock-forming elements such as Sodium, Magnesium, Aluminium, Silica, Calcium, Titanium, Iron, and some trace elements such as Strontium, Yttrium and Zirconium.
+
+
+    - title: "Laser Induced Breakdown Spectroscope (LIBS)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        LIBS' prime objective is to identify and determine the abundance of elements near the landing site. It does this by firing high-powered laser pulses at various locations and analysing the radiation emitted by the decaying plasma.
+
+
+    - title: "Laser Retroreflector Array (LRA)"
+      # image: ""
+      caption: ""
+      text: !markdown |
+        To understand the dynamics of Earth's Moon system and also derive clues on the Lunar interior.

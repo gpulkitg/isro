@@ -1,0 +1,31 @@
+slug: "/missions/astrosat/large-area-x-ray-proportional-counters-laxpc"
+
+cover:
+  title: "AstroSat"
+  image: "../../images/media/astrosat-gallery/apom_oct18.jpg"
+
+title: "Large Area X-ray Proportional Counters (LAXPC)"
+
+sections:
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/laxpc11.jpg"
+        caption: ""
+    text: !markdown |
+      The LAXPC comprises three large area proportional counters to carry out timing and broad band spectroscopy over the energy band of 3-80 keV X-rays for variable astrophysical sources. Proportional counters are made of large enclosures filled with gas and two electrodes held at a potential difference. The entry of a X-ray photon is  marked by its  absorption in the gas  with the creation of photoelectrons. This then triggers further multiplication due to the potential difference by ionising the gas atoms and producing further electrons. This results in a charge pulse  between the electrodes that is detected,  converted to voltage, amplified and measured.   The amplitude of the pulse is therefore proportional to number of electrons and ions produced and   can be used to derive the energy of the original X-ray photon from the celestial source.   The number of  such events gives the count rate detected  and  therefore  the strength or brightness of the celestial source. With these two, one  can measure the flux  and continuum spectrum of the source.
+
+      LAXPC has three co-aligned proportional counters with a total  effective area of about 8000 cm2 at 5-30 keV. The inert gas mixture contains predominantly  Xenon  and  a small percentage of Methane at a pressure of 1520 torr (~2 atmospheres). Most of the gas is inert to avoid both absorption of  electrons as well as chemical reactions with detector components.  A small amount of methane is added to absorb photons produced during the ionisation of Xenon atoms by the X-ray. The field of view of each proportional counter is 1 degree, and this is determined by a mechanical collimator placed on the detector.
+
+
+  - title: ""
+    images:
+      - image: "../../images/missions/astrosat/laxpc_2.png"
+        caption: "Comparison of effective area of LAXPC with international X-ray missions"
+    text: !markdown |
+      The special feature of the LAXPC instrument is its ability to measure X-ray spectra at very short time scales. Not only can these spectral measurements be made over periods as short as few milliseconds if the source is bright enough, up to few hundreds of seconds, but these spectra can extend over a large range of energies viz. 3-80 keV. The LAXPC can even look at how the brightness of a celestial source varies over tens of microseconds! Hence, this is the perfect instrument to study a wide variety of celestial objects that undergo sudden outbursts.
+
+      The Rossi X-ray Timing Explorer (RXTE) was a X-ray telescope launched by NASA. The LAXPC of AstroSat will be more sensitive than RXTE's Proportional Counter Array at high energies (> 25 keV). Due to its large collecting area, the LAXPC is also expected to be a superior instrument for precise timing measurements.
+
+      The geometric area and mass of LAXPC are 10,800 cm2 and 415.5 kg.
+
+      Tata Institute of Fundamental Research (TIFR), Mumbai has developed this payload.
