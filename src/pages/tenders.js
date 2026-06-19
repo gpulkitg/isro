@@ -83,26 +83,24 @@ export default function Tenders({ data }) {
       <Container>
 
         <Form className="mb-2">
-          <Form.Row className="d-flex justify-content-center">
+          <Row className="d-flex justify-content-center g-2">
 
             <Form.Group as={Col} controlId="selectCentre" md>
               <Form.Label>विज्ञापनकर्ता / Advertiser</Form.Label>
-              <Form.Control
-                as="select"
+              <Form.Select
                 onChange={(e) => setSelectedAdvertiser(e.target.value)}
                 name="centre"
                 value={selectedAdvertiser}
-                custom
                 >
                 { advertisers.map( (advertiser, ind) => (
                   <option value={ind} key={ind}>{advertiser}</option>
                 ))}
-              </Form.Control>
+              </Form.Select>
             </Form.Group>
 
-          </Form.Row>
+          </Row>
 
-          <Form.Row className="d-flex justify-content-center">
+          <Row className="d-flex justify-content-center g-2">
 
             <Form.Group as={Col} controlId="selectCentre" md>
               <Form.Label>निविदा प्रारंभ दिनांक / Tender Start Date</Form.Label>
@@ -113,7 +111,7 @@ export default function Tenders({ data }) {
               />
             </Form.Group>
 
-          </Form.Row>
+          </Row>
         </Form>
 
 

@@ -69,7 +69,7 @@ export default function ContactPage({ data }) {
     <Layout>
       <SEO title="Contact" />
 
-      <div className="w-100" className="cover-img-wrapper">
+      <div className="w-100 cover-img-wrapper">
         <Img
           fluid={data.cover.childImageSharp.fluid}
           className="h-100 w-100"
@@ -96,23 +96,21 @@ export default function ContactPage({ data }) {
 
               <Form.Group controlId="formSelect">
                 <Form.Label>Select Department</Form.Label>
-                <Form.Control
-                  as="select"
+                <Form.Select
                   onChange={(e) => setSelectedDept(e.target.value)}
                   name="dept"
                   value={selectedDept}
                   required
-                  custom
                 >
                   {/* <option value="-1"></option> */}
                   { data.deptData.edges.map(({ node }, ind) => (
                     <option value={ind} key={`option_${ind}`}>{node.title}</option>
                   ))}
-                </Form.Control>
+                </Form.Select>
               </Form.Group>
 
 
-              <Form.Row>
+              <Row className="g-2">
                 <Form.Group as={Col} controlId="formFirstName" lg>
                   <Form.Label>First Name</Form.Label>
                   <Form.Control
@@ -139,7 +137,7 @@ export default function ContactPage({ data }) {
                   </Form.Control.Feedback>
                 </Form.Group>
 
-              </Form.Row>
+              </Row>
 
               <Form.Group controlId="formEmail">
                 <Form.Label>Your Email Address</Form.Label>

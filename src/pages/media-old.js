@@ -231,7 +231,7 @@ export default function MediaPage({ data }) {
         <Container>
 
           <Form className="mb-2">
-            <Form.Row>
+            <Row className="g-2">
 
               <Form.Group as={Col} controlId="formSearch" md={8}>
                 <Form.Label>Search galleries</Form.Label>
@@ -246,20 +246,18 @@ export default function MediaPage({ data }) {
 
               <Form.Group as={Col} controlId="formSelect" md={4}>
                 <Form.Label>Gallery Type</Form.Label>
-                <Form.Control
-                  as="select"
+                <Form.Select
                   onChange={(e) => setGalleryType(e.target.value)}
                   name="galleryType"
                   value={galleryType}
-                  custom
                   >
                   { galleryTypes.map( (type, ind) => (
                     <option value={ind} key={ind}>{type}</option>
                   ))}
-                </Form.Control>
+                </Form.Select>
               </Form.Group>
 
-            </Form.Row>
+            </Row>
           </Form>
 
 

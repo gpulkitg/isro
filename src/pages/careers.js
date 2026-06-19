@@ -123,7 +123,7 @@ export default function Careers({ data }) {
       <Container>
 
         <Form className="mb-2">
-          <Form.Row className="d-flex justify-content-center">
+          <Row className="d-flex justify-content-center g-2">
 
             {/* <Form.Group as={Col} controlId="formSearch" md={4}>
               <Form.Label>Search posts</Form.Label>
@@ -137,37 +137,33 @@ export default function Careers({ data }) {
 
             <Form.Group as={Col} controlId="selectCentre" md>
               <Form.Label>Select Centre</Form.Label>
-              <Form.Control
-                as="select"
+              <Form.Select
                 onChange={(e) => setSelectedCentre(e.target.value)}
                 name="centre"
                 value={selectedCentre}
-                custom
                 >
                 { centres.map( (centre, ind) => (
                   <option value={ind} key={ind}>{centre}</option>
                 ))}
-              </Form.Control>
+              </Form.Select>
             </Form.Group>
 
             <Form.Group as={Col} controlId="selectLocation" md>
               <Form.Label>Select Location</Form.Label>
-              <Form.Control
-                as="select"
+              <Form.Select
                 onChange={(e) => setSelectedLocation(e.target.value)}
                 name="location"
                 value={selectedLocation}
-                custom
                 >
                 { locations.map( (location, ind) => (
                   <option value={ind} key={ind}>{location}</option>
                 ))}
-              </Form.Control>
+              </Form.Select>
             </Form.Group>
 
 
-          </Form.Row>
-          <Form.Row className="d-flex justify-content-center">
+          </Row>
+          <Row className="d-flex justify-content-center g-2">
             <Form.Group as={Col} md className="text-center my-auto py-1">
               <a href="liveregister.isro.gov.in/LRC">Live Register for Ph.D and PG Candidates</a>
               {/* <Form.Label>Ph.D and PG Candidates</Form.Label> */}
@@ -175,7 +171,7 @@ export default function Careers({ data }) {
                 <h6></h6>
               </Form.Text> */}
             </Form.Group>
-          </Form.Row>
+          </Row>
         </Form>
 
         <div className="mb-2">

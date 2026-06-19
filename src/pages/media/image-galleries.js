@@ -78,7 +78,7 @@ export default function MediaPage({ data }) {
 
 
         <Form className="mb-2">
-          <Form.Row>
+          <Row className="g-2">
 
             <Form.Group as={Col} controlId="formSearch">
               {/* <Form.Label>Search galleries</Form.Label> */}
@@ -91,7 +91,7 @@ export default function MediaPage({ data }) {
               />
             </Form.Group>
 
-          </Form.Row>
+          </Row>
         </Form>
 
 

@@ -107,7 +107,7 @@ export default function Updates({ data }) {
 
       <SEO title="Updates" />
 
-      <div className="w-100" className="cover-img-wrapper">
+      <div className="w-100 cover-img-wrapper">
         <Img
           fluid={data.cover.childImageSharp.fluid}
           alt={data.cover.name}
@@ -124,7 +124,7 @@ export default function Updates({ data }) {
       <Container>
 
         <Form className="mb-2">
-          <Form.Row className="d-flex justify-content-center">
+          <Row className="d-flex justify-content-center g-2">
             <Form.Group as={Col} controlId="formSearch" md={8}>
               <Form.Control
                 placeholder="Type to search"
@@ -136,19 +136,17 @@ export default function Updates({ data }) {
 
             <Form.Group as={Col} controlId="formSelect" md={4}>
               {/* <Form.Label>Gallery Type</Form.Label> */}
-              <Form.Control
-                as="select"
+              <Form.Select
                 onChange={(e) => setDisplayYear(e.target.value)}
                 name="displayYear"
                 value={displayYear}
-                custom
                 >
                 { displayYears.map( (year, ind) => (
                   <option value={year} key={year}>{year}</option>
                 ))}
-              </Form.Control>
+              </Form.Select>
             </Form.Group>
-          </Form.Row>
+          </Row>
         </Form>
 
 
