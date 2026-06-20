@@ -1,66 +1,35 @@
 {
   "name": "isro",
-  "private": true,
-  "description": "Indian Space Research Organization, Government of India",
   "version": "0.1.0",
-  "author": "Pulkit Gupta",
-  "dependencies": {
-    "gatsby": "^4.7.2",
-    "gatsby-plugin-gatsby-cloud": "^4.7.0",
-    "gatsby-plugin-image": "^2.7.0",
-    "gatsby-plugin-manifest": "^4.7.0",
-    "gatsby-plugin-offline": "^5.7.0",
-    "gatsby-plugin-react-helmet": "^5.7.0",
-    "gatsby-plugin-sharp": "^4.7.0",
-    "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-transformer-sharp": "^4.7.0",
-
-    "gatsby-background-image": "^1.6.0",
-    "gatsby-image": "^3.11.0",
-    "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sass": "^5.7.0",
-    "gatsby-plugin-scroll-reveal": "^0.0.7",
-    "gatsby-transformer-yaml-full": "^4.0.3",
-    "gatsby-yaml-full-markdown": "^4.0.3",
-
-    "node-sass": "^6.0.1",
-    "prop-types": "^15.8.0",
-
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0",
-
-    "bootstrap": "^5.1.3",
-    "react-bootstrap": "^2.1.2",
-    "react-bootstrap-icons": "^1.7.2",
-    "react-countup": "^6.1.1",
-    "react-datepicker": "^4.6.0",
-    "react-event-timeline": "^1.6.3",
-    "react-images": "^1.2.0-beta.7",
-    "react-photo-gallery": "^8.0.0",
-    "react-visibility-sensor": "^5.1.1"
-},
-  "devDependencies": {
-    "prettier": "^2.5.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "js-yaml": "^4.2.0",
+    "marked": "^18.0.5",
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-bootstrap": "^2.10.10",
+    "react-bootstrap-icons": "^1.11.6",
+    "react-dom": "19.2.4"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "sass": "^1.101.0",
+    "sharp": "^0.35.2",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9.0"
   }
 }
