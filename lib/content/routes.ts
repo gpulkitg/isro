@@ -10,3 +10,8 @@ export function isValidRoute(href: string | undefined | null): boolean {
   if (p.length > 1 && p.endsWith("/")) p = p.slice(0, -1);
   return valid.has(p) || valid.has(p + "/");
 }
+
+/** Every generated route path (e.g. "/", "/about", ...). Used by the sitemap. */
+export function getAllRoutes(): string[] {
+  return routes as string[];
+}

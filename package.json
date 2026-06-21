@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "bootstrap": "^5.3.8",
     "js-yaml": "^4.2.0",
     "marked": "^18.0.5",
@@ -29,6 +31,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "png-to-ico": "^3.0.1",
     "sass": "^1.101.0",
     "sharp": "^0.35.2",
     "typescript": "^5"
