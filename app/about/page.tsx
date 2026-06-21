@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { loadYaml } from "@/lib/content/yaml";
+import { isValidRoute } from "@/lib/content/routes";
 import MediaImage from "@/components/media-image";
 import Separator from "@/components/separator";
 
@@ -31,6 +32,9 @@ function LinkItem({ link, text }: { link: string; text: string }) {
         {inner}
       </a>
     );
+  }
+  if (!isValidRoute(link)) {
+    return <span className={`${className} text-muted`}>{inner}</span>;
   }
   return (
     <Link href={link} className={className}>

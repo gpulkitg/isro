@@ -3,6 +3,7 @@ import Separator from "@/components/separator";
 import MediaImage from "@/components/media-image";
 import TableVersatile from "@/components/table-versatile";
 import LinkVersatile from "@/components/link-versatile";
+import { isValidRoute } from "@/lib/content/routes";
 import { assetUrl } from "@/lib/content/assets";
 import {
   getShowcaseLaunches,
@@ -254,7 +255,7 @@ export default function LaunchersShowcaseTemplate({
                   <tr key={`${node.launcherName}_${i}`}>
                     <td>{launches.length - i}</td>
                     <td>
-                      {node.launcherLink ? (
+                      {node.launcherLink && isValidRoute(node.launcherLink) ? (
                         <Link href={node.launcherLink} className="no-underline">
                           {node.launcherName}
                         </Link>
@@ -266,7 +267,7 @@ export default function LaunchersShowcaseTemplate({
                     <td>{node.launcherType}</td>
                     <td>{node.orbitType}</td>
                     <td>
-                      {node.spacecraftLink ? (
+                      {node.spacecraftLink && isValidRoute(node.spacecraftLink) ? (
                         <Link href={node.spacecraftLink} className="no-underline">
                           {node.spacecraftName}
                         </Link>
