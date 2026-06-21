@@ -13,6 +13,7 @@ import AutonomousBodies from "@/components/templates/autonomous-bodies";
 import SpacecraftTypes from "@/components/templates/spacecraft-types";
 import LaunchersShowcaseTemplate from "@/components/templates/launchers-showcase";
 import MissionsShowcase from "@/components/templates/missions-showcase";
+import ImageGalleryTemplate from "@/components/templates/image-gallery";
 
 import {
   getAllSpacecraftPages,
@@ -37,6 +38,7 @@ import { getAutonomousBody, getAllAutonomousBodies } from "@/lib/content/collect
 import { getSpacecraftType, getAllSpacecraftTypes, getMasterListBySpacecraftType } from "@/lib/content/collections/spacecraft-types";
 import { getLaunchersShowcase, getAllLaunchersShowcase } from "@/lib/content/collections/launchers-showcase";
 import { getMissionsShowcase, getAllMissionsShowcase, getMissionsShowcaseRelated } from "@/lib/content/collections/missions-showcase";
+import { getImageGallery, getAllImageGalleries } from "@/lib/content/collections/galleries";
 
 export const dynamicParams = false;
 
@@ -104,6 +106,7 @@ function resolve(path: string): Resolved | null {
   { const it = getSpacecraftType(path); if (it) return { title: it.title, element: <SpacecraftTypes item={it} missions={getMasterListBySpacecraftType(it.spacecraftType)} allTypes={getAllSpacecraftTypes()} /> }; }
   { const it = getLaunchersShowcase(path); if (it) return { title: it.seo?.title ?? "ISRO Launchers", element: <LaunchersShowcaseTemplate page={it} /> }; }
   { const it = getMissionsShowcase(path); if (it) return { title: it.seo?.title ?? "ISRO", element: <MissionsShowcase page={it} related={getMissionsShowcaseRelated(it.tag)} /> }; }
+  { const it = getImageGallery(path); if (it) return { title: it.title, element: <ImageGalleryTemplate gallery={it} /> }; }
 
   return null;
 }
@@ -122,6 +125,7 @@ export function generateStaticParams(): { slug: string[] }[] {
     ...getAllSpacecraftTypes(),
     ...getAllLaunchersShowcase(),
     ...getAllMissionsShowcase(),
+    ...getAllImageGalleries(),
   ];
   const seen = new Set<string>();
   const params: { slug: string[] }[] = [];
