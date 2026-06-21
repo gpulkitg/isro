@@ -42,3 +42,8 @@ next-env.d.ts
 
 # legacy gatsby cache (removed in cleanup phase)
 .cache/
+
+# media served from Cloudflare R2 (kept locally for manifest regen, not committed)
+/src/images/
+/src/videos/
+/src/docs/
