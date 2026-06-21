@@ -4,4 +4,4 @@
  * (no code change needed — just set the env var in Vercel + .env.local).
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://isro-orpin.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://isro-me.vercel.app";
