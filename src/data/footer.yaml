@@ -1,7 +1,5 @@
 
 - navbarLinks:
-    - text: "Timeline"
-      link: "/timeline"
     - text: "FAQ"
       link: "/faq"
     - text: "Careers"

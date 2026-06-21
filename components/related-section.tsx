@@ -1,6 +1,7 @@
 import { ChevronRight } from "react-bootstrap-icons";
 import Separator from "./separator";
 import { assetUrl } from "@/lib/content/assets";
+import { isValidRoute } from "@/lib/content/routes";
 import type {
   OtherLink,
   DocLink,
@@ -26,13 +27,28 @@ function RelatedItem({
   external?: boolean;
   children: React.ReactNode;
 }) {
-  const target = external ? { target: "_blank", rel: "noreferrer" } : {};
-  return (
-    <a href={href} className="list-group-item list-group-item-action" {...target}>
+  const content = (
+    <>
       {children}
       <ChevronRight style={{ float: "right" }} />
-    </a>
+    </>
   );
+  if (external) {
+    return (
+      <a href={href} className="list-group-item list-group-item-action" target="_blank" rel="noreferrer">
+        {content}
+      </a>
+    );
+  }
+  if (isValidRoute(href)) {
+    return (
+      <a href={href} className="list-group-item list-group-item-action">
+        {content}
+      </a>
+    );
+  }
+  // dead internal link → non-clickable
+  return <span className="list-group-item text-muted">{content}</span>;
 }
 
 export default function RelatedSection({

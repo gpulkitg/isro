@@ -12,7 +12,7 @@ jumbotronImg:
     subtitle: "Breathtaking pictures by Mars Color Camera"
     description: ""
     button: "SEE MORE"
-    link: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+    link: "/media/pictures-mars-colour-camera-mcc-onboard-indias-mars-orbiter"
     horizontalPosition: "left"
     verticalPosition: "bottom"
     textAlignment: "left"
@@ -62,7 +62,7 @@ cardSection:
 
 
 gallery:
-  link: "/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter"
+  link: "/media/pictures-mars-colour-camera-mcc-onboard-indias-mars-orbiter"
   photos:
     - image: "../../images/media/pictures-mars-colour-camera-mcc-onboard-india’s-mars-orbiter/26decmcc.png"
       # width: 8

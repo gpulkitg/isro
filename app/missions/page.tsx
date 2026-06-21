@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { isValidRoute } from "@/lib/content/routes";
 import { loadYaml } from "@/lib/content/yaml";
 import { getMasterList } from "@/lib/content";
 import MediaImage from "@/components/media-image";
@@ -76,6 +77,9 @@ function CtaButton({ link, label }: { link?: string; label?: string }) {
       </a>
     );
   }
+  if (!isValidRoute(href)) {
+    return <span className={className} aria-disabled="true">{label}</span>;
+  }
   return (
     <Link href={href} className={className}>
       {label}
@@ -98,6 +102,9 @@ function ListItem({ link, text }: LinkContent) {
         {inner}
       </a>
     );
+  }
+  if (!isValidRoute(link)) {
+    return <span className={`${className} text-muted`}>{inner}</span>;
   }
   return (
     <Link href={link} className={className}>

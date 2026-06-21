@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { isValidRoute } from "@/lib/content/routes";
 import Separator from "@/components/separator";
 import { getMasterList } from "@/lib/content";
 
@@ -52,7 +53,7 @@ export default function LaunchesSDSCPage() {
                 <tr key={`${node.launcherLink}-${ind}`}>
                   <td>{totalCount - ind}</td>
                   <td>
-                    {node.launcherLink ? (
+                    {node.launcherLink && isValidRoute(node.launcherLink) ? (
                       <Link href={node.launcherLink} className="no-underline">
                         {node.launcherName}
                       </Link>
@@ -63,7 +64,7 @@ export default function LaunchesSDSCPage() {
                   <td>{formatDate(node.launchDate)}</td>
                   <td>{node.launcherType}</td>
                   <td>
-                    {node.spacecraftLink ? (
+                    {node.spacecraftLink && isValidRoute(node.spacecraftLink) ? (
                       <Link href={node.spacecraftLink} className="no-underline">
                         {node.spacecraftName}
                       </Link>

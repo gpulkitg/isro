@@ -4,17 +4,9 @@
 
 
   carouselSection:
-    - title: "The launch of GISAT-1 onboard GSLV-F10, planned for March 05, 2020, is postponed."
-      image: "../images/media/gslv-f10-gisat-1-gallery/gslv_f10_gisat_1_1.jpg"
-      slug: "/launcher/gslv-f10-gisat-1"
-
     - title: "The Young Scientist Programme(YUVIKA), scheduled to be held during May 11-22, 2020, has been cancelled in the wake of COVID 19 pandemic."
       image: "../images/home/yuvika_2020_cancelled.png"
       slug: "/"
-
-    - title: "India’s communication satellite GSAT-30 successfully launched"
-      image: "../images/media/gsat-30-gallery/image6.jpg"
-      slug: "/spacecraft/gsat-30"
 
     - title: "PSLV-C48 successfully launches RISAT-2BR1 and nine commercial satellites from Satish Dhawan Space Centre SHAR, Sriharikota"
       image: "../images/media/pslv-c48-gallery/image7.jpg"
@@ -42,10 +34,6 @@
 
 
   cardSection:
-    - title: "Commemoration of 150th Birth Anniversary of Mahatma Gandhiji"
-      image: "../images/home/omp_0271_1.jpg"
-      link: "/commemoration-of-150th-birth-anniversary-of-mahatma-gandhiji"
-
     # - title: "Prof. Satish Dhawan Birth Centenary Programme at ISRO HQ"
     #   image: "../images/home/satish-dhawan-logo-1.jpg"
     #   link: "/prof-satish-dhawan-birth-centenary-programme-isro-hq"
@@ -53,18 +41,13 @@
     # - title: "Valedictory Function of Dr. Vikram Sarabhai Centenary Programme"
     #   image: "../images/home/vikram_centenary_sticker.png"
     #   link: "/valedictory-function-of-dr-vikram-sarabhai-centenary-programme"
-    - title: "Space Applications"
-      image: "../images/home/world_meteorological_org.jpg"
-      link: "/applications"
-
-
     - title: "Capacity Building"
       image: "../images/home/cbpo_logo_revised_0.png"
       link: "/capacity-building"
 
     - title: "Disaster Management - Moonsoon Floods in India"
       image: "../images/home/dumdum.jpg"
-      link: "/disaster-management-support/monsoon-floods-india-–-satellite-data-impact-assessment"
+      link: "/disaster-management-support/monsoon-floods-india-satellite-data-impact-assessment"
 
     - title: "NaVIC"
       image: "../images/home/Indian-GPS-NAVIC.jpg"
