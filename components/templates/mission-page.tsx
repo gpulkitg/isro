@@ -3,54 +3,69 @@ import MediaImage from "../media-image";
 import TableVersatile from "../table-versatile";
 import RelatedSection from "../related-section";
 import type {
-  SpacecraftPage,
-  MasterListItem,
+  PageSection,
+  OtherLink,
+  DocLink,
   ImageGallery,
   VideoGallery,
   Update,
-  OtherLink,
 } from "@/lib/content/types";
 
-type Props = {
-  page: SpacecraftPage;
-  master?: MasterListItem;
-  galleriesImage: ImageGallery[];
-  galleriesVideo: VideoGallery[];
-  updates: Update[];
+// Shared template for master-list-backed pages (spacecraft + launchers):
+// a heading + launch date, markdown/image/table sections, and a Related block.
+export type MissionPageProps = {
+  heading?: string;
+  launchDate?: string; // ISO date string
+  sections: PageSection[];
+  otherLinks?: OtherLink[];
+  docs?: DocLink[];
+  galleriesImage?: ImageGallery[];
+  galleriesVideo?: VideoGallery[];
+  updates?: Update[];
 };
 
 function formatDate(iso?: string): string {
   if (!iso) return "";
   const d = new Date(iso);
+  // Format in UTC so the calendar date is stable across server/build timezones.
   return Number.isNaN(d.getTime())
     ? iso
-    : d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+    : d.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        timeZone: "UTC",
+      });
 }
 
-export default function SpacecraftPageView({
-  page,
-  master,
+export default function MissionPage({
+  heading,
+  launchDate,
+  sections,
+  otherLinks,
+  docs,
   galleriesImage,
   galleriesVideo,
   updates,
-}: Props) {
-  const launchDate = formatDate(master?.launchDate);
-
-  const otherLinks: OtherLink[] = [];
-  if (master?.launcherLink) {
-    otherLinks.push({ link: master.launcherLink, text: master.launcherName });
-  }
-  if (master?.otherLinks) otherLinks.push(...master.otherLinks);
+}: MissionPageProps) {
+  const date = formatDate(launchDate);
+  const hasRelated = Boolean(
+    otherLinks?.length ||
+      docs?.length ||
+      galleriesImage?.length ||
+      galleriesVideo?.length ||
+      updates?.length,
+  );
 
   return (
     <>
       <Separator />
       <div className="container">
-        {launchDate && <h5 className="text-muted mb-2">{launchDate}</h5>}
-        {master?.spacecraftName && <h2 className="mb-2">{master.spacecraftName}</h2>}
+        {date && <h5 className="text-muted mb-2">{date}</h5>}
+        {heading && <h2 className="mb-2">{heading}</h2>}
         <div className="mb-2" style={{ borderBottom: "1px solid gray" }} />
 
-        {page.sections.map((section, i) => (
+        {sections.map((section, i) => (
           <div key={i}>
             {section.title && (
               <h5 className="mb-2">
@@ -73,7 +88,7 @@ export default function SpacecraftPageView({
                   <figure className="figure w-100 mb-2">
                     <MediaImage
                       src={section.image}
-                      alt={section.caption || master?.spacecraftName || "ISRO"}
+                      alt={section.caption || heading || "ISRO"}
                       className="figure-img img-fluid"
                       style={{
                         maxHeight: "400px",
@@ -107,13 +122,15 @@ export default function SpacecraftPageView({
         ))}
       </div>
 
-      <RelatedSection
-        otherLinks={otherLinks}
-        docs={master?.docs}
-        galleriesImage={galleriesImage}
-        galleriesVideo={galleriesVideo}
-        updates={updates}
-      />
+      {hasRelated && (
+        <RelatedSection
+          otherLinks={otherLinks}
+          docs={docs}
+          galleriesImage={galleriesImage}
+          galleriesVideo={galleriesVideo}
+          updates={updates}
+        />
+      )}
     </>
   );
 }

@@ -2,6 +2,7 @@ import { loadYaml, listYamlFiles } from "./yaml";
 import type {
   Home,
   SpacecraftPage,
+  LauncherPage,
   MasterListItem,
   Update,
   ImageGallery,
@@ -26,6 +27,12 @@ export function getMasterItemBySpacecraft(
   return getMasterList().find((m) => m.spacecraftLink === spacecraftLink);
 }
 
+export function getMasterItemByLauncher(
+  launcherLink: string,
+): MasterListItem | undefined {
+  return getMasterList().find((m) => m.launcherLink === launcherLink);
+}
+
 // ---- spacecraft-pages ----
 export function getAllSpacecraftPages(): SpacecraftPage[] {
   return listYamlFiles("spacecraft-pages").map((f) =>
@@ -35,6 +42,17 @@ export function getAllSpacecraftPages(): SpacecraftPage[] {
 
 export function getSpacecraftPage(slug: string): SpacecraftPage | undefined {
   return getAllSpacecraftPages().find((p) => p.slug === slug);
+}
+
+// ---- launcher-pages (same shape as spacecraft-pages) ----
+export function getAllLauncherPages(): LauncherPage[] {
+  return listYamlFiles("launcher-pages").map((f) =>
+    loadYaml<LauncherPage>(`launcher-pages/${f}`),
+  );
+}
+
+export function getLauncherPage(slug: string): LauncherPage | undefined {
+  return getAllLauncherPages().find((p) => p.slug === slug);
 }
 
 // ---- related data, filtered by tag (matches the Gatsby template queries) ----

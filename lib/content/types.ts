@@ -62,12 +62,13 @@ export interface PageSection {
   table?: SectionTable;
 }
 
-// ---- spacecraft-pages/*.yaml ----
+// ---- spacecraft-pages/*.yaml + launcher-pages/*.yaml (same shape) ----
 export interface SpacecraftPage {
   slug: string;
   tag?: string;
   sections: PageSection[];
 }
+export type LauncherPage = SpacecraftPage;
 
 // ---- master-list.yaml ----
 export interface DocLink {
