@@ -8,12 +8,12 @@ export default function AstrosatPageTemplate({ page }: { page: AstrosatPage }) {
 
   return (
     <>
-      <div className="cover-img-wrapper w-100 position-relative">
+      <div className="jumbotron-container w-100">
         <MediaImage
           src={cover.image}
           alt={cover.title}
-          className="w-100 h-100 animate-appear-fast"
-          style={{ opacity: 0.5, width: "100%", height: "auto", objectFit: "cover" }}
+          className="animate-appear-fast"
+          style={{ opacity: 0.5, objectFit: "cover" }}
           sizes="100vw"
           priority
         />

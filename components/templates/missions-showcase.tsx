@@ -35,23 +35,19 @@ function textAlign(alignment?: string): string {
 
 function Jumbotron({ item }: { item: ShowcaseJumbotron }) {
   return (
-    <div
-      className="position-relative w-100 text-white"
-      style={{ minHeight: "70vh", overflow: "hidden" }}
-    >
+    <div className="jumbotron-container text-white">
       <MediaImage
         src={item.image}
         alt={item.title || "ISRO"}
-        className="position-absolute top-0 start-0 w-100 h-100"
-        style={{ objectFit: "cover", opacity: 0.7, zIndex: 0 }}
+        style={{ objectFit: "cover", opacity: 0.7 }}
         sizes="100vw"
         priority
       />
       <div
-        className={`position-relative d-flex flex-column ${alignItems(
+        className={`d-flex flex-column ${alignItems(
           item.verticalPosition,
         )} ${justifyContent(item.horizontalPosition)}`}
-        style={{ minHeight: "70vh", zIndex: 1 }}
+        style={{ minHeight: "100svh" }}
       >
         <div className={`p-3 ${textAlign(item.textAlignment)}`} style={{ maxWidth: "640px" }}>
           {item.title && <h1 className="mb-2">{item.title}</h1>}

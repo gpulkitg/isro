@@ -51,25 +51,15 @@ export default function LaunchersShowcaseTemplate({
     <>
       {/* Hero image jumbotron(s) */}
       {jumbotronImg?.map((item, i) => (
-        <div
-          key={`jumbotronImg_${i}`}
-          className="position-relative text-white"
-          style={{ minHeight: "60vh", overflow: "hidden" }}
-        >
-          <div
-            className="position-absolute top-0 start-0 w-100 h-100"
-            style={{ opacity: 0.7 }}
-          >
-            <MediaImage
-              src={item.image}
-              alt={item.title || "ISRO launcher"}
-              className="w-100 h-100"
-              style={{ objectFit: "cover" }}
-              sizes="100vw"
-              priority={i === 0}
-            />
-          </div>
-          <div className="container position-relative d-flex flex-column justify-content-center text-center py-5" style={{ minHeight: "60vh" }}>
+        <div key={`jumbotronImg_${i}`} className="jumbotron-container text-white">
+          <MediaImage
+            src={item.image}
+            alt={item.title || "ISRO launcher"}
+            style={{ objectFit: "cover", opacity: 0.7 }}
+            sizes="100vw"
+            priority={i === 0}
+          />
+          <div className="container d-flex flex-column justify-content-center text-center py-5" style={{ minHeight: "100svh" }}>
             {item.title && <h1 className="display-4">{item.title}</h1>}
             {item.subtitle && <h2>{item.subtitle}</h2>}
             {item.description && <p className="lead">{item.description}</p>}
@@ -196,9 +186,8 @@ export default function LaunchersShowcaseTemplate({
       {/* Hero video jumbotron */}
       {jumbotronVideo && (jumbotronVideo.title || jumbotronVideo.video) && (
         <div
-          className="position-relative text-white"
+          className="jumbotron-container text-white"
           style={{
-            minHeight: "60vh",
             backgroundImage: jumbotronVideo.poster
               ? `url(${assetUrl(jumbotronVideo.poster)})`
               : undefined,
@@ -206,7 +195,7 @@ export default function LaunchersShowcaseTemplate({
             backgroundPosition: "center",
           }}
         >
-          <div className="container d-flex flex-column justify-content-center text-center py-5" style={{ minHeight: "60vh" }}>
+          <div className="container d-flex flex-column justify-content-center text-center py-5" style={{ minHeight: "100svh" }}>
             {jumbotronVideo.title && (
               <h1 className="mb-2 display-4">{jumbotronVideo.title}</h1>
             )}

@@ -88,7 +88,7 @@ export default function SpacecraftPage() {
             }}
           />
           <div className="container position-relative lead">
-            <div className="row justify-content-center" style={{ minHeight: "60vh" }}>
+            <div className="row justify-content-center vh-100">
               <div className="col-lg-6 col-md-8 d-flex flex-column justify-content-center text-center py-4">
                 <h1 className="display-4">{item.title}</h1>
                 {item.subtitle ? <h2>{item.subtitle}</h2> : null}
@@ -143,7 +143,10 @@ export default function SpacecraftPage() {
                 src={item.image}
                 alt={item.title}
                 className="w-100"
-                style={{ objectFit: (item.objectFit as "cover" | "contain") ?? "cover" }}
+                style={{
+                  objectFit: (item.objectFit as "cover" | "contain") ?? "cover",
+                  maxHeight: "70vh",
+                }}
               />
             </div>
             <div

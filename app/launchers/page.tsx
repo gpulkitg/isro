@@ -90,18 +90,11 @@ export default function LaunchersPage() {
     <>
       {/* Hero (static equivalent of the JumbotronImg: image + overlaid copy). */}
       {hero?.image && (
-        <div className="position-relative w-100 mb-2">
+        <div className="jumbotron-container w-100">
           <MediaImage
             src={hero.image}
             alt={hero.title || "Launchers"}
-            className="w-100"
-            style={{
-              opacity: 0.6,
-              objectFit: "cover",
-              maxHeight: "500px",
-              width: "100%",
-              height: "auto",
-            }}
+            style={{ opacity: 0.6, objectFit: "cover" }}
             sizes="100vw"
             priority
           />
