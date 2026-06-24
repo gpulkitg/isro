@@ -184,17 +184,28 @@ export default function LaunchersShowcaseTemplate({
       ))}
 
       {/* Hero video jumbotron */}
-      {jumbotronVideo && (jumbotronVideo.title || jumbotronVideo.video) && (
-        <div
-          className="jumbotron-container text-white"
-          style={{
-            backgroundImage: jumbotronVideo.poster
-              ? `url(${assetUrl(jumbotronVideo.poster)})`
-              : undefined,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+      {jumbotronVideo && (jumbotronVideo.videoClip || jumbotronVideo.title || jumbotronVideo.video) && (
+        <div className="jumbotron-container text-white">
+          {jumbotronVideo.videoClip ? (
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              aria-hidden="true"
+              poster={jumbotronVideo.poster ? assetUrl(jumbotronVideo.poster) : undefined}
+            >
+              <source src={assetUrl(jumbotronVideo.videoClip)} type="video/mp4" />
+            </video>
+          ) : jumbotronVideo.poster ? (
+            <MediaImage
+              src={jumbotronVideo.poster}
+              alt={jumbotronVideo.title || "ISRO launch"}
+              style={{ objectFit: "cover" }}
+              sizes="100vw"
+            />
+          ) : null}
           <div className="container d-flex flex-column justify-content-center text-center py-5" style={{ minHeight: "100svh" }}>
             {jumbotronVideo.title && (
               <h1 className="mb-2 display-4">{jumbotronVideo.title}</h1>

@@ -17,6 +17,7 @@ const assetOrigin = assetBase ? new URL(assetBase).origin : "";
 const csp = [
   "default-src 'self'",
   `img-src 'self' data: ${assetOrigin}`.trim(),
+  `media-src 'self' ${assetOrigin}`.trim(),
   "style-src 'self' 'unsafe-inline'",
   "script-src 'self' 'unsafe-inline'",
   `connect-src 'self' ${assetOrigin} https://*.vercel-insights.com`.trim(),
