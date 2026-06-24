@@ -361,6 +361,25 @@
 
 
 //================
+// Fixed-background (parallax) section
+//================
+.fix-bg {
+  min-height: 100vh;
+  min-height: 100svh;        // fill the viewport
+  display: flex;
+  align-items: center;       // center the stats block vertically
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;   // parallax
+
+  @include media-breakpoint-down("lg") {
+    background-attachment: scroll; // iOS/mobile ignore fixed attachment
+  }
+}
+
+
+//================
 // Cards
 //================
 

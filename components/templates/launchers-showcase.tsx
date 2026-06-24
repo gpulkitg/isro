@@ -77,20 +77,15 @@ export default function LaunchersShowcaseTemplate({
       {/* Fixed-background stats banner */}
       {fixBgSection && (
         <div
-          className="text-white"
-          style={{
-            backgroundImage: `url(${assetUrl(fixBgSection.image)})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundAttachment: "fixed",
-          }}
+          className="text-white fix-bg"
+          style={{ backgroundImage: `url(${assetUrl(fixBgSection.image)})` }}
         >
           <div className="container-fluid py-5">
             <div className="row">
               {fixBgSection.contents.map((content, i) => (
                 <div
                   key={`fixBgSection_${i}`}
-                  className="col-md d-flex flex-column justify-content-start text-center py-2"
+                  className="col-md d-flex flex-column justify-content-center text-center py-2"
                 >
                   <h1>{content.title}</h1>
                   {content.subtitles?.map((s, j) => (
