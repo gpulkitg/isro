@@ -16,16 +16,18 @@ export type MissionsShowcaseProps = {
   related: MissionShowcaseRelated;
 };
 
-// Map the YAML position strings onto flexbox utility classes.
-function alignItems(vertical?: string): string {
-  if (vertical === "top") return "align-items-start";
-  if (vertical === "bottom") return "align-items-end";
-  return "align-items-center";
+// Map the YAML position strings onto flexbox utility classes. The hero text sits
+// in a flex-COLUMN, so horizontal placement is align-items (cross axis) and
+// vertical placement is justify-content (main axis).
+function horizontalAlign(horizontal?: string): string {
+  if (horizontal === "center") return "align-items-center";
+  if (horizontal === "right") return "align-items-end";
+  return "align-items-start"; // "left" / default
 }
-function justifyContent(horizontal?: string): string {
-  if (horizontal === "left") return "justify-content-start";
-  if (horizontal === "right") return "justify-content-end";
-  return "justify-content-center";
+function verticalJustify(vertical?: string): string {
+  if (vertical === "center") return "justify-content-center";
+  if (vertical === "bottom") return "justify-content-end";
+  return "justify-content-start"; // "top" / default
 }
 function textAlign(alignment?: string): string {
   if (alignment === "right") return "text-end";
@@ -44,9 +46,9 @@ function Jumbotron({ item }: { item: ShowcaseJumbotron }) {
         priority
       />
       <div
-        className={`d-flex flex-column ${alignItems(
+        className={`container d-flex flex-column ${verticalJustify(
           item.verticalPosition,
-        )} ${justifyContent(item.horizontalPosition)}`}
+        )} ${horizontalAlign(item.horizontalPosition)}`}
         style={{ minHeight: "100svh" }}
       >
         <div className={`p-3 ${textAlign(item.textAlignment)}`} style={{ maxWidth: "640px" }}>
