@@ -4,13 +4,13 @@
 
 
   carouselSection:
-    - title: "The Young Scientist Programme(YUVIKA), scheduled to be held during May 11-22, 2020, has been cancelled in the wake of COVID 19 pandemic."
-      image: "../images/home/yuvika_2020_cancelled.png"
-      slug: "/"
-
     - title: "PSLV-C48 successfully launches RISAT-2BR1 and nine commercial satellites from Satish Dhawan Space Centre SHAR, Sriharikota"
       image: "../images/media/pslv-c48-gallery/image7.jpg"
       slug: "/launcher/pslv-c48-risat-2br1"
+
+    - title: "The Young Scientist Programme(YUVIKA), scheduled to be held during May 11-22, 2020, has been cancelled in the wake of COVID 19 pandemic."
+      image: "../images/home/yuvika_2020_cancelled.png"
+      slug: "/"
 
 
   textContent:
